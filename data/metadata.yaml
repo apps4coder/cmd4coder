@@ -1,6 +1,6 @@
-version: "1.1.0"
+version: "1.2.0"
 updated_at: "2026-01-07"
-description: "cmd4coder 命令行工具大全数据文件"
+description: "cmd4coder 命令行工具大全数据文件 - 新增监控和IaC工具全量命令"
 
 categories:
   os_ubuntu:
@@ -159,6 +159,12 @@ categories:
     description: "Kubernetes开发与调试工具"
     parent: ""
     order: 53
+  container_k8s_mlops:
+    id: container_k8s_mlops
+    name: "容器编排/K8s机器学习运维"
+    description: "Kubernetes MLOps工具（KServe、Kubeflow）"
+    parent: ""
+    order: 54
   database_mysql:
     id: database_mysql
     name: "数据库工具/MySQL工具"
@@ -235,6 +241,7 @@ data_files:
   - "container/k8s-utilities.yaml"
   - "container/k8s-cloud.yaml"
   - "container/k8s-dev.yaml"
+  - "container/k8s-mlops.yaml"
   - "database/mysql.yaml"
   - "database/redis.yaml"
   - "database/postgresql.yaml"

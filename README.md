@@ -1,6 +1,6 @@
 # cmd4coder - 命令行工具大全
 
-![Version](https://img.shields.io/badge/version-1.1.0-blue)
+![Version](https://img.shields.io/badge/version-1.2.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Go Version](https://img.shields.io/badge/go-%3E%3D1.21-blue)
 ![Test Coverage](https://img.shields.io/badge/coverage-75%25-green)
@@ -12,7 +12,7 @@ cmd4coder 是一个面向运维工程师和开发者的命令行工具大全，�
 
 ### ✨ 核心特性
 
-- 📚 **全面的命令清单**: 涵盖 Linux、编程语言工具链、诊断工具、网络工具、Kubernetes生态系统等32+分类，350+精选命令
+- 📚 **全面的命令清单**: 涵盖 Linux、编程语言工具链、诊断工具、网络工具、Kubernetes生态系统等32+分类，420+精选命令
 - 🔍 **强大的搜索功能**: 支持模糊搜索、关键词匹配和智能排序，4级优先级匹配算法
 - ⚡ **快速查询**: 本地化存储，无需网络，毫秒级响应，LRU缓存优化
 - 📝 **详细的命令说明**: 包含用法、选项、示例、注意事项和风险提示
@@ -132,11 +132,11 @@ go run ./cmd/cli -d ./data
 - ✅ Kubernetes 命令 (kubectl) (16个)
 - ✅ K8s 集群管理 (kubeadm, kubelet, etcdctl) (12个)
 - ✅ K8s 容器运行时 (crictl, ctr, containerd) (9个)
-- ✅ K8s 监控日志 (prometheus, grafana, loki, fluentd) (11个)
+- ✅ K8s 监控日志 (prometheus, grafana, opentelemetry, loki, fluentd) (28个)
 - ✅ K8s 网络插件 (calicoctl, cilium) (7个)
 - ✅ K8s 存储管理 (helm) (8个)
 - ✅ K8s CI/CD (argocd, flux, tekton) (11个)
-- ✅ K8s 配置管理 (ansible, terraform) (7个)
+- ✅ K8s 配置管理 (ansible, terraform) (27个)
 - ✅ K8s 备份恢复 (velero, restic) (8个)
 - ✅ K8s 安全工具 (trivy, kube-bench, falco) (7个)
 - ✅ K8s 辅助工具 (k9s, kubectx, kubens, stern, popeye) (5个)
@@ -157,7 +157,7 @@ go run ./cmd/cli -d ./data
 - ✅ Gradle (10个)
 - ✅ Make (7个)
 
-**总计**: 350+个精选命令，其中Kubernetes生态工具128条
+**总计**: 420+个精选命令，其中Kubernetes生态工具165条
 
 ## 🏗️ 项目架构
 

@@ -188,6 +188,7 @@ commands:
       - "linux"
       - "darwin"
       - "windows"
+    install_required: true
     usage:
       - "terraform output [flags]"
     options:
@@ -209,3 +210,503 @@ commands:
         description: "May contain sensitive data like passwords"
     install_method: "Download from https://www.terraform.io/downloads"
     version_check: "terraform version"
+
+  - name: "terraform validate"
+    description: "Validate Terraform configuration syntax"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "terraform validate [flags]"
+    options:
+      - flag: "-json"
+        description: "Output validation result in JSON"
+    examples:
+      - command: "terraform validate"
+        description: "Validate current directory configuration"
+      - command: "terraform validate -json"
+        description: "Validate and output JSON result"
+      - command: "terraform validate -no-color"
+        description: "Validate without color output"
+    risks:
+      - level: "low"
+        description: "Read-only validation; no infrastructure changes"
+    install_method: "Download from https://www.terraform.io/downloads"
+    version_check: "terraform version"
+
+  - name: "terraform fmt"
+    description: "Format Terraform configuration files"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "terraform fmt [flags]"
+    options:
+      - flag: "-recursive"
+        description: "Format files in subdirectories"
+      - flag: "-check"
+        description: "Check if files are formatted"
+      - flag: "-diff"
+        description: "Display formatting changes"
+    examples:
+      - command: "terraform fmt"
+        description: "Format files in current directory"
+      - command: "terraform fmt -recursive"
+        description: "Format all files recursively"
+      - command: "terraform fmt -check"
+        description: "Check if formatting needed"
+    risks:
+      - level: "low"
+        description: "Only formats code; no functional changes"
+    install_method: "Download from https://www.terraform.io/downloads"
+    version_check: "terraform version"
+
+  - name: "terraform state list"
+    description: "List resources in Terraform state"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "terraform state list [options]"
+    examples:
+      - command: "terraform state list"
+        description: "List all resources in state"
+      - command: "terraform state list 'kubernetes_namespace.*'"
+        description: "List resources matching pattern"
+      - command: "terraform state list -id=eks-cluster"
+        description: "List resource by ID"
+    risks:
+      - level: "low"
+        description: "Read-only operation; lists state resources"
+    install_method: "Download from https://www.terraform.io/downloads"
+    version_check: "terraform version"
+
+  - name: "terraform state show"
+    description: "Show detailed resource state"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "terraform state show [address]"
+    examples:
+      - command: "terraform state show kubernetes_deployment.app"
+        description: "Show deployment resource state"
+      - command: "terraform state show 'module.eks.aws_eks_cluster.main'"
+        description: "Show module resource state"
+      - command: "terraform state show -no-color kubernetes_service.api"
+        description: "Show service state without colors"
+    risks:
+      - level: "low"
+        description: "Read-only; displays resource details"
+    install_method: "Download from https://www.terraform.io/downloads"
+    version_check: "terraform version"
+
+  - name: "terraform state rm"
+    description: "Remove resource from Terraform state"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "terraform state rm [address]"
+    examples:
+      - command: "terraform state rm kubernetes_namespace.test"
+        description: "Remove namespace from state"
+      - command: "terraform state rm 'module.eks.aws_eks_cluster.main'"
+        description: "Remove module resource from state"
+      - command: "terraform state rm -dry-run kubernetes_deployment.app"
+        description: "Preview removal without executing"
+    risks:
+      - level: "high"
+        description: "Removes from state; resource remains in infrastructure"
+      - level: "high"
+        description: "Backup state before removal"
+    install_method: "Download from https://www.terraform.io/downloads"
+    version_check: "terraform version"
+
+  - name: "terraform workspace list"
+    description: "List Terraform workspaces"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "terraform workspace list"
+    examples:
+      - command: "terraform workspace list"
+        description: "List all workspaces"
+      - command: "terraform workspace list | grep production"
+        description: "Filter production workspaces"
+      - command: "terraform workspace show"
+        description: "Show current workspace"
+    risks:
+      - level: "low"
+        description: "Read-only operation; lists workspaces"
+    install_method: "Download from https://www.terraform.io/downloads"
+    version_check: "terraform version"
+
+  - name: "terraform workspace new"
+    description: "Create new Terraform workspace"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "terraform workspace new [name]"
+    examples:
+      - command: "terraform workspace new production"
+        description: "Create production workspace"
+      - command: "terraform workspace new staging"
+        description: "Create staging workspace"
+      - command: "terraform workspace new -state=path/to/state dev"
+        description: "Create workspace with state path"
+    risks:
+      - level: "medium"
+        description: "Creates new isolated state"
+    install_method: "Download from https://www.terraform.io/downloads"
+    version_check: "terraform version"
+
+  - name: "terraform workspace select"
+    description: "Switch to different Terraform workspace"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "terraform workspace select [name]"
+    examples:
+      - command: "terraform workspace select production"
+        description: "Switch to production workspace"
+      - command: "terraform workspace select default"
+        description: "Switch to default workspace"
+      - command: "terraform workspace select staging"
+        description: "Switch to staging workspace"
+    risks:
+      - level: "medium"
+        description: "Changes active workspace; affects state"
+    install_method: "Download from https://www.terraform.io/downloads"
+    version_check: "terraform version"
+
+  - name: "terraform import"
+    description: "Import existing infrastructure into Terraform state"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "terraform import [address] [id]"
+    examples:
+      - command: "terraform import kubernetes_namespace.example default"
+        description: "Import namespace into state"
+      - command: "terraform import aws_eks_cluster.main my-cluster"
+        description: "Import EKS cluster"
+      - command: "terraform import -var-file=production.tfvars kubernetes_deployment.app app-deployment"
+        description: "Import with variables"
+    risks:
+      - level: "medium"
+        description: "Adds existing resource to state"
+      - level: "medium"
+        description: "Ensure resource configuration matches before import"
+    install_method: "Download from https://www.terraform.io/downloads"
+    version_check: "terraform version"
+
+  - name: "terraform taint"
+    description: "Mark resource for recreation on next apply"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "terraform taint [address]"
+    examples:
+      - command: "terraform taint kubernetes_deployment.app"
+        description: "Taint deployment for recreation"
+      - command: "terraform taint module.eks.aws_eks_node_group.main"
+        description: "Taint node group"
+      - command: "terraform taint -allow-missing kubernetes_service.api"
+        description: "Taint even if resource missing"
+    risks:
+      - level: "medium"
+        description: "Forces resource recreation on next apply"
+      - level: "high"
+        description: "May cause service disruption"
+    install_method: "Download from https://www.terraform.io/downloads"
+    version_check: "terraform version"
+
+  - name: "terraform refresh"
+    description: "Update Terraform state with real infrastructure"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "terraform refresh [flags]"
+    examples:
+      - command: "terraform refresh"
+        description: "Refresh state from infrastructure"
+      - command: "terraform refresh -var-file=production.tfvars"
+        description: "Refresh with variables"
+      - command: "terraform refresh -target=kubernetes_deployment.app"
+        description: "Refresh specific resource"
+    risks:
+      - level: "medium"
+        description: "Updates state file with current infrastructure"
+      - level: "low"
+        description: "Detects configuration drift"
+    install_method: "Download from https://www.terraform.io/downloads"
+    version_check: "terraform version"
+
+  # Ansible Commands
+  - name: "ansible"
+    description: "Execute ad-hoc commands on hosts"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "ansible [hosts] [options]"
+    options:
+      - flag: "-m"
+        description: "Module to execute"
+      - flag: "-a"
+        description: "Module arguments"
+      - flag: "-i"
+        description: "Inventory file"
+    examples:
+      - command: "ansible all -m ping"
+        description: "Ping all hosts"
+      - command: "ansible webservers -m command -a 'uptime'"
+        description: "Check uptime on web servers"
+      - command: "ansible k8s-nodes -i inventory.yml -m shell -a 'kubectl get nodes'"
+        description: "Execute kubectl on Kubernetes nodes"
+    risks:
+      - level: "medium"
+        description: "Executes commands on remote hosts"
+    install_method: "pip install ansible"
+    version_check: "ansible --version"
+
+  - name: "ansible-galaxy install"
+    description: "Install Ansible roles from Galaxy or Git"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "ansible-galaxy install [role-name]"
+    options:
+      - flag: "-r"
+        description: "Install from requirements file"
+      - flag: "-p"
+        description: "Installation path"
+    examples:
+      - command: "ansible-galaxy install geerlingguy.docker"
+        description: "Install Docker role"
+      - command: "ansible-galaxy install -r requirements.yml"
+        description: "Install roles from requirements"
+      - command: "ansible-galaxy install kubernetes-sigs.kubespray"
+        description: "Install Kubespray role"
+    risks:
+      - level: "low"
+        description: "Downloads roles; no system changes"
+    install_method: "pip install ansible"
+    version_check: "ansible-galaxy --version"
+
+  - name: "ansible-vault encrypt"
+    description: "Encrypt Ansible files with vault"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "ansible-vault encrypt [file]"
+    examples:
+      - command: "ansible-vault encrypt secrets.yml"
+        description: "Encrypt secrets file"
+      - command: "ansible-vault encrypt vars/production.yml"
+        description: "Encrypt production variables"
+      - command: "ansible-vault encrypt --vault-id prod@prompt secrets.yml"
+        description: "Encrypt with specific vault ID"
+    risks:
+      - level: "medium"
+        description: "Encrypts sensitive data; keep vault password safe"
+    install_method: "pip install ansible"
+    version_check: "ansible-vault --version"
+
+  - name: "ansible-vault decrypt"
+    description: "Decrypt Ansible vault files"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "ansible-vault decrypt [file]"
+    examples:
+      - command: "ansible-vault decrypt secrets.yml"
+        description: "Decrypt secrets file"
+      - command: "ansible-vault decrypt --output=plain.yml secrets.yml"
+        description: "Decrypt to different file"
+      - command: "ansible-vault decrypt --vault-password-file=.vault_pass secrets.yml"
+        description: "Decrypt with password file"
+    risks:
+      - level: "medium"
+        description: "Exposes encrypted data"
+      - level: "high"
+        description: "Ensure decrypted files are secured"
+    install_method: "pip install ansible"
+    version_check: "ansible-vault --version"
+
+  - name: "ansible-inventory --list"
+    description: "Display Ansible inventory information"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "ansible-inventory [options]"
+    examples:
+      - command: "ansible-inventory --list"
+        description: "List all inventory hosts"
+      - command: "ansible-inventory --graph"
+        description: "Display inventory as graph"
+      - command: "ansible-inventory -i inventory.yml --list"
+        description: "List from specific inventory"
+    risks:
+      - level: "low"
+        description: "Read-only inventory display"
+    install_method: "pip install ansible"
+    version_check: "ansible-inventory --version"
+
+  - name: "ansible-config dump"
+    description: "Show Ansible configuration"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "ansible-config dump"
+    examples:
+      - command: "ansible-config dump"
+        description: "Show current configuration"
+      - command: "ansible-config list"
+        description: "List all config options"
+      - command: "ansible-config dump --only-changed"
+        description: "Show only changed settings"
+    risks:
+      - level: "low"
+        description: "Read-only configuration display"
+    install_method: "pip install ansible"
+    version_check: "ansible-config --version"
+
+  - name: "ansible-doc"
+    description: "Display Ansible module documentation"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "ansible-doc [module-name]"
+    examples:
+      - command: "ansible-doc k8s"
+        description: "Show Kubernetes module docs"
+      - command: "ansible-doc -l | grep k8s"
+        description: "List Kubernetes-related modules"
+      - command: "ansible-doc -t connection ssh"
+        description: "Show SSH connection plugin docs"
+    risks:
+      - level: "low"
+        description: "Documentation display only"
+    install_method: "pip install ansible"
+    version_check: "ansible-doc --version"
+
+  - name: "ansible-pull"
+    description: "Pull and execute Ansible playbooks from VCS"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "ansible-pull [options]"
+    options:
+      - flag: "-U"
+        description: "Repository URL"
+      - flag: "-d"
+        description: "Destination directory"
+    examples:
+      - command: "ansible-pull -U https://github.com/user/playbooks.git"
+        description: "Pull and run playbooks from Git"
+      - command: "ansible-pull -U https://github.com/user/k8s-config.git -i localhost, local.yml"
+        description: "Pull Kubernetes config and apply"
+      - command: "ansible-pull -U https://github.com/user/playbooks.git --check"
+        description: "Pull and check without applying"
+    risks:
+      - level: "medium"
+        description: "Pulls and executes remote playbooks"
+      - level: "high"
+        description: "Ensure repository is trusted"
+    install_method: "pip install ansible"
+    version_check: "ansible-pull --version"
+
+  - name: "ansible-console"
+    description: "Interactive Ansible console"
+    category: "Kubernetes Config Management"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    install_required: true
+    usage:
+      - "ansible-console [hosts]"
+    examples:
+      - command: "ansible-console"
+        description: "Start interactive console"
+      - command: "ansible-console k8s-masters"
+        description: "Console for Kubernetes masters"
+      - command: "ansible-console -i inventory.yml webservers"
+        description: "Console for web servers"
+    risks:
+      - level: "medium"
+        description: "Interactive command execution on hosts"
+    install_method: "pip install ansible"
+    version_check: "ansible-console --version"

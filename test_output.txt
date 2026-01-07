@@ -1,0 +1,31 @@
+﻿=== RUN   TestCommandServiceIntegration
+    integration_test.go:25: 鍒涘缓鍛戒护鏈嶅姟澶辫触: failed to load data file '..\data\container\k8s-backup.yaml': yaml: unmarshal errors:
+          line 220: mapping key "category" already defined at line 1
+          line 221: mapping key "description" already defined at line 2
+          line 222: mapping key "commands" already defined at line 3
+--- FAIL: TestCommandServiceIntegration (0.03s)
+=== RUN   TestConfigServiceIntegration
+=== RUN   TestConfigServiceIntegration/GetConfig
+=== RUN   TestConfigServiceIntegration/UserData
+=== RUN   TestConfigServiceIntegration/History
+--- PASS: TestConfigServiceIntegration (0.05s)
+    --- PASS: TestConfigServiceIntegration/GetConfig (0.00s)
+    --- PASS: TestConfigServiceIntegration/UserData (0.00s)
+    --- PASS: TestConfigServiceIntegration/History (0.01s)
+=== RUN   TestDataLoadingPerformance
+=== RUN   TestDataLoadingPerformance/StartupTime
+    integration_test.go:331: 鍒涘缓鏈嶅姟澶辫触: failed to load data file '..\data\container\k8s-backup.yaml': yaml: unmarshal errors:
+          line 220: mapping key "category" already defined at line 1
+          line 221: mapping key "description" already defined at line 2
+          line 222: mapping key "commands" already defined at line 3
+--- FAIL: TestDataLoadingPerformance (0.02s)
+    --- FAIL: TestDataLoadingPerformance/StartupTime (0.02s)
+=== RUN   TestSearchPerformance
+    integration_test.go:354: 鍒涘缓鏈嶅姟澶辫触: failed to load data file '..\data\container\k8s-security.yaml': yaml: unmarshal errors:
+          line 193: mapping key "category" already defined at line 1
+          line 194: mapping key "description" already defined at line 2
+          line 195: mapping key "commands" already defined at line 3
+--- FAIL: TestSearchPerformance (0.02s)
+FAIL
+FAIL	github.com/cmd4coder/cmd4coder/test	0.591s
+FAIL

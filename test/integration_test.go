@@ -122,6 +122,106 @@ func TestCommandServiceIntegration(t *testing.T) {
 			}
 		}
 	})
+
+	// 测试新增监控工具命令
+	t.Run("SearchMonitoringTools", func(t *testing.T) {
+		// 测试Prometheus命令搜索
+		proResults := cmdService.SearchCommands("prometheus")
+		if len(proResults) == 0 {
+			t.Error("搜索'prometheus'应该有结果")
+		}
+		t.Logf("搜索'prometheus'找到 %d 个命令", len(proResults))
+
+		// 测试Terraform命令搜索
+		terraformResults := cmdService.SearchCommands("terraform")
+		if len(terraformResults) == 0 {
+			t.Error("搜索'terraform'应该有结果")
+		}
+		t.Logf("搜索'terraform'找到 %d 个命令", len(terraformResults))
+
+		// 测试OpenTelemetry命令搜索
+		otelResults := cmdService.SearchCommands("otel")
+		if len(otelResults) == 0 {
+			t.Error("搜索'otel'应该有结果")
+		}
+		t.Logf("搜索'otel'找到 %d 个命令", len(otelResults))
+
+		// 测试Ansible命令搜索
+		ansibleResults := cmdService.SearchCommands("ansible")
+		if len(ansibleResults) == 0 {
+			t.Error("搜索'ansible'应该有结果")
+		}
+		t.Logf("搜索'ansible'找到 %d 个命令", len(ansibleResults))
+	})
+
+	// 测试关键命令风险级别
+	t.Run("VerifyCriticalCommandRisks", func(t *testing.T) {
+		// 验证terraform apply的Critical风险
+		cmd, err := cmdService.GetCommand("terraform apply")
+		if err == nil {
+			risk := cmd.GetHighestRisk()
+			if risk != model.RiskLevelCritical {
+				t.Errorf("terraform apply应该是Critical风险，实际是 %s", risk)
+			}
+		}
+
+		// 验证terraform destroy的Critical风险
+		cmd, err = cmdService.GetCommand("terraform destroy")
+		if err == nil {
+			risk := cmd.GetHighestRisk()
+			if risk != model.RiskLevelCritical {
+				t.Errorf("terraform destroy应该是Critical风险，实际是 %s", risk)
+			}
+		}
+	})
+
+	// 测试命令示例完整性
+	t.Run("VerifyCommandExamples", func(t *testing.T) {
+		// 抽查关键命令的示例数量
+		testCommands := []string{
+			"prometheus",
+			"otelcol",
+			"terraform apply",
+			"ansible-vault encrypt",
+		}
+
+		for _, cmdName := range testCommands {
+			cmd, err := cmdService.GetCommand(cmdName)
+			if err != nil {
+				continue // 命令可能不存在
+			}
+
+			if len(cmd.Examples) < 3 {
+				t.Errorf("命令 %s 的示例数量不足: %d (期望至少3个)", cmdName, len(cmd.Examples))
+			}
+		}
+	})
+
+	// 测试分类命令数量
+	t.Run("VerifyCategoryCommandCount", func(t *testing.T) {
+		// 测试Kubernetes Monitoring & Logging分类
+		monitorCommands := cmdService.ListCommandsByCategory("Kubernetes Monitoring & Logging")
+		if len(monitorCommands) < 25 {
+			t.Errorf("Kubernetes Monitoring & Logging分类命令数量不足: %d (期望至少25个)", len(monitorCommands))
+		}
+		t.Logf("Kubernetes Monitoring & Logging分类有 %d 个命令", len(monitorCommands))
+
+		// 测试Kubernetes Config Management分类
+		configCommands := cmdService.ListCommandsByCategory("Kubernetes Config Management")
+		if len(configCommands) < 20 {
+			t.Errorf("Kubernetes Config Management分类命令数量不足: %d (期望至少20个)", len(configCommands))
+		}
+		t.Logf("Kubernetes Config Management分类有 %d 个命令", len(configCommands))
+	})
+
+	// 测试总命令数量
+	t.Run("VerifyTotalCommandCount", func(t *testing.T) {
+		commands := cmdService.GetAllCommands()
+		if len(commands) < 420 {
+			t.Errorf("总命令数量不足: %d (期望至少420个)", len(commands))
+		}
+		t.Logf("总命令数: %d", len(commands))
+	})
 }
 
 // TestConfigServiceIntegration 配置服务集成测试
