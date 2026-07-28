@@ -1,0 +1,89 @@
+---
+title: "influxd 生产环境最佳实践"
+cmd_name: "influxd"
+cmd_category: "数据库工具/扩展命令"
+source_page: "[[influxd]]"
+domain: "database"
+risk_level: "medium"
+platforms: ["linux", "darwin"]
+tags: ["database", "risk-medium", "linux", "darwin"]
+created: "2026-07-28"
+source_file: "database/more.yaml"
+---
+
+# influxd — 生产环境最佳实践
+
+> InfluxDB 数据库服务守护进程
+
+| 属性 | 值 |
+|------|------|
+| 风险等级 | 🟡 中风险 |
+| 领域 | `database` |
+| 平台 | `linux`, `darwin` |
+| 安装 | 参考 https://docs.influxdata.com/influxdb/latest/install/ |
+
+---
+
+## 生产环境配置
+
+- 生产数据库开启 TLS 加密传输
+- 配置自动备份策略并定期验证恢复流程
+
+## 安全加固
+
+- **MEDIUM**: influxd 会监听网络端口，请配置认证和防火墙
+- 数据库连接强制使用 TLS 加密
+- 定期轮换数据库凭据，使用 Vault 动态 Secret
+
+## 性能调优
+
+- 连接池配置：最小连接数 ≥ 应用实例数，最大连接数根据数据库 max_connections 合理设置
+- 大表操作（ALTER、DELETE）使用分批执行或在线 DDL 工具
+
+## 监控与告警
+
+- 监控连接数、慢查询数、复制延迟、磁盘使用率
+- 配置告警：连接池耗尽、主从延迟 > 5s、磁盘使用率 > 80%
+
+## 常见反模式与避坑
+
+- ❌ 在生产库直接执行未经审核的 DDL（应走 schema migration 流程）
+- ❌ 使用 root/superuser 连接应用（应创建最小权限的应用专用账号）
+- ❌ 关闭 binlog/WAL 提升性能（牺牲恢复能力）
+
+## 高可用与灾备
+
+- 配置自动故障转移（RDS Multi-AZ / Patroni / Redis Sentinel）
+- 定期执行备份恢复演练，验证 RTO/RPO 是否满足 SLA
+- 备份存储跨区域复制，防止区域级故障
+
+## 生产示例
+
+**前台启动 InfluxDB**:
+```bash
+influxd
+```
+
+## 参考链接
+
+- (无外部参考)
+
+## 关联命令最佳实践
+
+- [[bp-influx|influx]]
+- telegraf
+
+---
+
+## 运维 Checklist
+
+- [ ] 命令风险等级：🟡 中风险
+- [ ] 已在 staging 环境验证命令效果
+- [ ] 已确认操作范围不会影响其他服务
+- [ ] 已确认备份/快照是最新的
+- [ ] 已配置监控告警
+- [ ] 执行结果已记录到变更管理系统
+
+---
+
+[[influxd|命令详情]] | [[best-practices-MOC|最佳实践总索引]]

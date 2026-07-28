@@ -1,9 +1,9 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-07-01T14:44:05.248362",
+  "updated_at": "2026-07-28T15:04:02.020395",
   "sources": [
     {
-      "file": "data/database/more.yaml",
+      "file": "tools/cmd/data/database/more.yaml",
       "commands_generated": [
         "sqlplus",
         "sqlcmd",
@@ -24,10 +24,10 @@
       "mocs_generated": [
         "数据库工具/扩展命令"
       ],
-      "timestamp": "2026-07-01T14:44:03.127222"
+      "timestamp": "2026-07-28T15:03:59.016569"
     },
     {
-      "file": "data/database/extra.yaml",
+      "file": "tools/cmd/data/database/extra.yaml",
       "commands_generated": [
         "mongorestore",
         "mongoimport",
@@ -45,10 +45,10 @@
       "mocs_generated": [
         "数据库工具/扩展工具"
       ],
-      "timestamp": "2026-07-01T14:44:03.148002"
+      "timestamp": "2026-07-28T15:03:59.048105"
     },
     {
-      "file": "data/database/mysql.yaml",
+      "file": "tools/cmd/data/database/mysql.yaml",
       "commands_generated": [
         "mysql",
         "mysqldump",
@@ -62,10 +62,10 @@
       "mocs_generated": [
         "数据库工具/MySQL工具"
       ],
-      "timestamp": "2026-07-01T14:44:03.165155"
+      "timestamp": "2026-07-28T15:03:59.068029"
     },
     {
-      "file": "data/database/timeseries.yaml",
+      "file": "tools/cmd/data/database/timeseries.yaml",
       "commands_generated": [
         "influx",
         "clickhouse-client"
@@ -73,10 +73,10 @@
       "mocs_generated": [
         "数据库工具/时序与OLAP"
       ],
-      "timestamp": "2026-07-01T14:44:03.169916"
+      "timestamp": "2026-07-28T15:03:59.072687"
     },
     {
-      "file": "data/database/nosql.yaml",
+      "file": "tools/cmd/data/database/nosql.yaml",
       "commands_generated": [
         "mongosh",
         "mongodump",
@@ -88,10 +88,22 @@
       "mocs_generated": [
         "数据库工具/NoSQL"
       ],
-      "timestamp": "2026-07-01T14:44:03.182058"
+      "timestamp": "2026-07-28T15:03:59.085179"
     },
     {
-      "file": "data/database/postgresql.yaml",
+      "file": "tools/cmd/data/database/operations.yaml",
+      "commands_generated": [
+        "redis-cli (advanced)",
+        "mysql (tuning)",
+        "psql (operations)"
+      ],
+      "mocs_generated": [
+        "数据库工具/运维操作"
+      ],
+      "timestamp": "2026-07-28T15:03:59.097004"
+    },
+    {
+      "file": "tools/cmd/data/database/postgresql.yaml",
       "commands_generated": [
         "psql",
         "pg_dump",
@@ -107,10 +119,10 @@
       "mocs_generated": [
         "数据库工具/PostgreSQL工具"
       ],
-      "timestamp": "2026-07-01T14:44:03.201434"
+      "timestamp": "2026-07-28T15:03:59.120936"
     },
     {
-      "file": "data/database/redis.yaml",
+      "file": "tools/cmd/data/database/redis.yaml",
       "commands_generated": [
         "redis-cli",
         "redis-server",
@@ -127,10 +139,10 @@
       "mocs_generated": [
         "数据库工具/Redis工具"
       ],
-      "timestamp": "2026-07-01T14:44:03.221486"
+      "timestamp": "2026-07-28T15:03:59.142774"
     },
     {
-      "file": "data/hardware/ipmi.yaml",
+      "file": "tools/cmd/data/hardware/ipmi.yaml",
       "commands_generated": [
         "ipmitool",
         "ipmicfg",
@@ -139,10 +151,10 @@
       "mocs_generated": [
         "硬件/远程带外管理"
       ],
-      "timestamp": "2026-07-01T14:44:03.228305"
+      "timestamp": "2026-07-28T15:03:59.153986"
     },
     {
-      "file": "data/hardware/embedded.yaml",
+      "file": "tools/cmd/data/hardware/embedded.yaml",
       "commands_generated": [
         "esptool",
         "avrdude",
@@ -160,10 +172,10 @@
       "mocs_generated": [
         "硬件/嵌入式与IoT"
       ],
-      "timestamp": "2026-07-01T14:44:03.248719"
+      "timestamp": "2026-07-28T15:03:59.179209"
     },
     {
-      "file": "data/hardware/firmware.yaml",
+      "file": "tools/cmd/data/hardware/firmware.yaml",
       "commands_generated": [
         "fwupd",
         "efibootmgr",
@@ -176,10 +188,10 @@
       "mocs_generated": [
         "硬件/固件与UEFI"
       ],
-      "timestamp": "2026-07-01T14:44:03.260912"
+      "timestamp": "2026-07-28T15:03:59.192521"
     },
     {
-      "file": "data/hardware/sensors.yaml",
+      "file": "tools/cmd/data/hardware/sensors.yaml",
       "commands_generated": [
         "sensors",
         "sensors-detect",
@@ -191,10 +203,10 @@
       "mocs_generated": [
         "硬件/传感器与电源"
       ],
-      "timestamp": "2026-07-01T14:44:03.270173"
+      "timestamp": "2026-07-28T15:03:59.203418"
     },
     {
-      "file": "data/hardware/info.yaml",
+      "file": "tools/cmd/data/hardware/info.yaml",
       "commands_generated": [
         "lshw",
         "inxi",
@@ -207,10 +219,10 @@
       "mocs_generated": [
         "硬件/系统信息"
       ],
-      "timestamp": "2026-07-01T14:44:03.281210"
+      "timestamp": "2026-07-28T15:03:59.221484"
     },
     {
-      "file": "data/hardware/network.yaml",
+      "file": "tools/cmd/data/hardware/network.yaml",
       "commands_generated": [
         "ethtool",
         "iw",
@@ -221,10 +233,10 @@
       "mocs_generated": [
         "硬件/网络硬件"
       ],
-      "timestamp": "2026-07-01T14:44:03.290705"
+      "timestamp": "2026-07-28T15:03:59.231279"
     },
     {
-      "file": "data/hardware/perf.yaml",
+      "file": "tools/cmd/data/hardware/perf.yaml",
       "commands_generated": [
         "perf",
         "turbostat",
@@ -241,10 +253,10 @@
       "mocs_generated": [
         "硬件/性能与调度"
       ],
-      "timestamp": "2026-07-01T14:44:03.313819"
+      "timestamp": "2026-07-28T15:03:59.252385"
     },
     {
-      "file": "data/hardware/storage.yaml",
+      "file": "tools/cmd/data/hardware/storage.yaml",
       "commands_generated": [
         "smartctl",
         "nvme",
@@ -258,10 +270,10 @@
       "mocs_generated": [
         "硬件/存储与RAID"
       ],
-      "timestamp": "2026-07-01T14:44:03.328949"
+      "timestamp": "2026-07-28T15:03:59.277101"
     },
     {
-      "file": "data/hardware/gpu.yaml",
+      "file": "tools/cmd/data/hardware/gpu.yaml",
       "commands_generated": [
         "nvidia-smi",
         "rocm-smi",
@@ -272,10 +284,56 @@
       "mocs_generated": [
         "硬件/GPU与加速器"
       ],
-      "timestamp": "2026-07-01T14:44:03.336669"
+      "timestamp": "2026-07-28T15:03:59.286682"
     },
     {
-      "file": "data/shell/bash.yaml",
+      "file": "tools/cmd/data/shell/tmux.yaml",
+      "commands_generated": [
+        "tmux split-window",
+        "tmux new-window",
+        "screen",
+        "tmux send-keys",
+        "byobu"
+      ],
+      "mocs_generated": [
+        "Shell脚本/终端复用"
+      ],
+      "timestamp": "2026-07-28T15:03:59.297930"
+    },
+    {
+      "file": "tools/cmd/data/shell/text-processing.yaml",
+      "commands_generated": [
+        "parallel",
+        "cut",
+        "sort",
+        "uniq",
+        "diff"
+      ],
+      "mocs_generated": [
+        "Shell脚本/文本处理"
+      ],
+      "timestamp": "2026-07-28T15:03:59.310368"
+    },
+    {
+      "file": "tools/cmd/data/shell/modern-tools.yaml",
+      "commands_generated": [
+        "fzf",
+        "rg",
+        "fd",
+        "bat",
+        "http",
+        "eza",
+        "zoxide",
+        "direnv",
+        "mise"
+      ],
+      "mocs_generated": [
+        "Shell脚本/现代工具"
+      ],
+      "timestamp": "2026-07-28T15:03:59.335989"
+    },
+    {
+      "file": "tools/cmd/data/shell/bash.yaml",
       "commands_generated": [
         "bash",
         "shellcheck",
@@ -286,10 +344,10 @@
       "mocs_generated": [
         "Shell脚本/Bash工具"
       ],
-      "timestamp": "2026-07-01T14:44:03.346275"
+      "timestamp": "2026-07-28T15:03:59.345259"
     },
     {
-      "file": "data/diagnostic/arthas.yaml",
+      "file": "tools/cmd/data/diagnostic/arthas.yaml",
       "commands_generated": [
         "arthas",
         "dashboard",
@@ -307,10 +365,10 @@
       "mocs_generated": [
         "诊断工具/Java诊断"
       ],
-      "timestamp": "2026-07-01T14:44:03.360555"
+      "timestamp": "2026-07-28T15:03:59.361662"
     },
     {
-      "file": "data/diagnostic/more.yaml",
+      "file": "tools/cmd/data/diagnostic/more.yaml",
       "commands_generated": [
         "strace",
         "ltrace",
@@ -321,10 +379,10 @@
       "mocs_generated": [
         "系统诊断/扩展工具"
       ],
-      "timestamp": "2026-07-01T14:44:03.368359"
+      "timestamp": "2026-07-28T15:03:59.377647"
     },
     {
-      "file": "data/diagnostic/tsar.yaml",
+      "file": "tools/cmd/data/diagnostic/tsar.yaml",
       "commands_generated": [
         "tsar",
         "tsar --check",
@@ -340,10 +398,23 @@
       "mocs_generated": [
         "诊断工具/系统诊断"
       ],
-      "timestamp": "2026-07-01T14:44:03.380901"
+      "timestamp": "2026-07-28T15:03:59.392635"
     },
     {
-      "file": "data/network/infra.yaml",
+      "file": "tools/cmd/data/diagnostic/profiling.yaml",
+      "commands_generated": [
+        "perf script",
+        "py-spy",
+        "async-profiler",
+        "flamegraph"
+      ],
+      "mocs_generated": [
+        "诊断工具/性能分析"
+      ],
+      "timestamp": "2026-07-28T15:03:59.401429"
+    },
+    {
+      "file": "tools/cmd/data/network/infra.yaml",
       "commands_generated": [
         "nginx",
         "haproxy",
@@ -363,10 +434,10 @@
       "mocs_generated": [
         "网络工具/基础设施"
       ],
-      "timestamp": "2026-07-01T14:44:03.404191"
+      "timestamp": "2026-07-28T15:03:59.430578"
     },
     {
-      "file": "data/network/http.yaml",
+      "file": "tools/cmd/data/network/http.yaml",
       "commands_generated": [
         "wget",
         "httpie",
@@ -377,10 +448,10 @@
       "mocs_generated": [
         "网络工具/HTTP工具"
       ],
-      "timestamp": "2026-07-01T14:44:03.412842"
+      "timestamp": "2026-07-28T15:03:59.440312"
     },
     {
-      "file": "data/network/security.yaml",
+      "file": "tools/cmd/data/network/security.yaml",
       "commands_generated": [
         "nmap",
         "masscan",
@@ -393,10 +464,10 @@
       "mocs_generated": [
         "网络工具/网络安全"
       ],
-      "timestamp": "2026-07-01T14:44:03.424512"
+      "timestamp": "2026-07-28T15:03:59.453099"
     },
     {
-      "file": "data/network/dns.yaml",
+      "file": "tools/cmd/data/network/dns.yaml",
       "commands_generated": [
         "dig",
         "nslookup",
@@ -405,10 +476,24 @@
       "mocs_generated": [
         "网络工具/DNS工具"
       ],
-      "timestamp": "2026-07-01T14:44:03.431135"
+      "timestamp": "2026-07-28T15:03:59.458933"
     },
     {
-      "file": "data/network/diagnostic.yaml",
+      "file": "tools/cmd/data/network/service-mesh.yaml",
+      "commands_generated": [
+        "istioctl",
+        "istioctl dashboard",
+        "istioctl experimental",
+        "linkerd viz",
+        "linkerd diagnostics"
+      ],
+      "mocs_generated": [
+        "网络工具/服务网格"
+      ],
+      "timestamp": "2026-07-28T15:03:59.468099"
+    },
+    {
+      "file": "tools/cmd/data/network/diagnostic.yaml",
       "commands_generated": [
         "ping",
         "netstat",
@@ -420,10 +505,10 @@
       "mocs_generated": [
         "网络工具/网络诊断"
       ],
-      "timestamp": "2026-07-01T14:44:03.441405"
+      "timestamp": "2026-07-28T15:03:59.481895"
     },
     {
-      "file": "data/network/tools-extra.yaml",
+      "file": "tools/cmd/data/network/tools-extra.yaml",
       "commands_generated": [
         "tshark",
         "termshark",
@@ -444,10 +529,10 @@
       "mocs_generated": [
         "网络工具/扩展工具"
       ],
-      "timestamp": "2026-07-01T14:44:03.468831"
+      "timestamp": "2026-07-28T15:03:59.511621"
     },
     {
-      "file": "data/network/performance.yaml",
+      "file": "tools/cmd/data/network/performance.yaml",
       "commands_generated": [
         "wrk",
         "wrk2",
@@ -460,10 +545,24 @@
       "mocs_generated": [
         "网络工具/性能压测"
       ],
-      "timestamp": "2026-07-01T14:44:03.486189"
+      "timestamp": "2026-07-28T15:03:59.526448"
     },
     {
-      "file": "data/cicd/more.yaml",
+      "file": "tools/cmd/data/network/security-tools.yaml",
+      "commands_generated": [
+        "trivy",
+        "syft",
+        "opa",
+        "conftest",
+        "age"
+      ],
+      "mocs_generated": [
+        "网络工具/安全扫描"
+      ],
+      "timestamp": "2026-07-28T15:03:59.541924"
+    },
+    {
+      "file": "tools/cmd/data/cicd/more.yaml",
       "commands_generated": [
         "jenkins-cli",
         "gitlab-runner",
@@ -473,10 +572,10 @@
       "mocs_generated": [
         "CI/CD/扩展工具"
       ],
-      "timestamp": "2026-07-01T14:44:03.494429"
+      "timestamp": "2026-07-28T15:03:59.550209"
     },
     {
-      "file": "data/cicd/github-actions.yaml",
+      "file": "tools/cmd/data/cicd/github-actions.yaml",
       "commands_generated": [
         "gh workflow",
         "gh run",
@@ -487,10 +586,46 @@
       "mocs_generated": [
         "CI-CD/GitHub Actions"
       ],
-      "timestamp": "2026-07-01T14:44:03.504984"
+      "timestamp": "2026-07-28T15:03:59.559925"
     },
     {
-      "file": "data/lang/more.yaml",
+      "file": "tools/cmd/data/cicd/platforms.yaml",
+      "commands_generated": [
+        "glab",
+        "glab ci",
+        "glab mr",
+        "tkn",
+        "tkn start",
+        "dagger",
+        "goreleaser",
+        "buildkite-agent",
+        "drone"
+      ],
+      "mocs_generated": [
+        "CI-CD/平台工具"
+      ],
+      "timestamp": "2026-07-28T15:03:59.578169"
+    },
+    {
+      "file": "tools/cmd/data/cicd/gitops.yaml",
+      "commands_generated": [
+        "argocd",
+        "argocd create",
+        "argocd app rollback",
+        "flux",
+        "flux create source",
+        "flux create kustomization",
+        "flux reconcile",
+        "flux delete",
+        "flux logs"
+      ],
+      "mocs_generated": [
+        "CI-CD/GitOps"
+      ],
+      "timestamp": "2026-07-28T15:03:59.601522"
+    },
+    {
+      "file": "tools/cmd/data/lang/more.yaml",
       "commands_generated": [
         "php",
         "ruby",
@@ -505,10 +640,10 @@
       "mocs_generated": [
         "编程语言/扩展工具链"
       ],
-      "timestamp": "2026-07-01T14:44:03.520424"
+      "timestamp": "2026-07-28T15:03:59.620164"
     },
     {
-      "file": "data/lang/java.yaml",
+      "file": "tools/cmd/data/lang/java.yaml",
       "commands_generated": [
         "java",
         "javac",
@@ -524,10 +659,26 @@
       "mocs_generated": [
         "编程语言/Java工具链"
       ],
-      "timestamp": "2026-07-01T14:44:03.541804"
+      "timestamp": "2026-07-28T15:03:59.647891"
     },
     {
-      "file": "data/lang/go.yaml",
+      "file": "tools/cmd/data/lang/go-tooling.yaml",
+      "commands_generated": [
+        "golangci-lint",
+        "staticcheck",
+        "dlv",
+        "go tool pprof",
+        "gopls",
+        "go generate",
+        "mockgen"
+      ],
+      "mocs_generated": [
+        "编程语言/Go工具链扩展"
+      ],
+      "timestamp": "2026-07-28T15:03:59.664205"
+    },
+    {
+      "file": "tools/cmd/data/lang/go.yaml",
       "commands_generated": [
         "go build",
         "go run",
@@ -541,10 +692,10 @@
       "mocs_generated": [
         "编程语言/Go工具链"
       ],
-      "timestamp": "2026-07-01T14:44:03.555856"
+      "timestamp": "2026-07-28T15:03:59.678739"
     },
     {
-      "file": "data/lang/rust.yaml",
+      "file": "tools/cmd/data/lang/rust.yaml",
       "commands_generated": [
         "rustup",
         "cargo",
@@ -555,10 +706,24 @@
       "mocs_generated": [
         "编程语言/Rust工具链"
       ],
-      "timestamp": "2026-07-01T14:44:03.566226"
+      "timestamp": "2026-07-28T15:03:59.689311"
     },
     {
-      "file": "data/lang/python.yaml",
+      "file": "tools/cmd/data/lang/python-tooling.yaml",
+      "commands_generated": [
+        "ruff",
+        "black",
+        "mypy",
+        "tox",
+        "bandit"
+      ],
+      "mocs_generated": [
+        "编程语言/Python工具链扩展"
+      ],
+      "timestamp": "2026-07-28T15:03:59.700015"
+    },
+    {
+      "file": "tools/cmd/data/lang/python.yaml",
       "commands_generated": [
         "python",
         "pip",
@@ -569,10 +734,10 @@
       "mocs_generated": [
         "编程语言/Python工具链"
       ],
-      "timestamp": "2026-07-01T14:44:03.577620"
+      "timestamp": "2026-07-28T15:03:59.708499"
     },
     {
-      "file": "data/lang/nodejs.yaml",
+      "file": "tools/cmd/data/lang/nodejs.yaml",
       "commands_generated": [
         "node",
         "npm install",
@@ -588,10 +753,10 @@
       "mocs_generated": [
         "编程语言/Node.js工具链"
       ],
-      "timestamp": "2026-07-01T14:44:03.594235"
+      "timestamp": "2026-07-28T15:03:59.725789"
     },
     {
-      "file": "data/vcs/svn.yaml",
+      "file": "tools/cmd/data/vcs/svn.yaml",
       "commands_generated": [
         "svn checkout",
         "svn update",
@@ -611,10 +776,29 @@
       "mocs_generated": [
         "版本控制/SVN命令"
       ],
-      "timestamp": "2026-07-01T14:44:03.619564"
+      "timestamp": "2026-07-28T15:03:59.749592"
     },
     {
-      "file": "data/vcs/git.yaml",
+      "file": "tools/cmd/data/vcs/git-advanced.yaml",
+      "commands_generated": [
+        "git bisect",
+        "git worktree",
+        "git reflog",
+        "git stash",
+        "git cherry-pick",
+        "git submodule",
+        "git lfs",
+        "gh pr",
+        "gh issue",
+        "gh release"
+      ],
+      "mocs_generated": [
+        "版本控制/Git高级操作"
+      ],
+      "timestamp": "2026-07-28T15:03:59.783797"
+    },
+    {
+      "file": "tools/cmd/data/vcs/git.yaml",
       "commands_generated": [
         "git clone",
         "git init",
@@ -637,65 +821,73 @@
       "mocs_generated": [
         "版本控制/Git命令"
       ],
-      "timestamp": "2026-07-01T14:44:03.647951"
+      "timestamp": "2026-07-28T15:03:59.819124"
     },
     {
-      "file": "data/ai/model-interpretability.yaml",
+      "file": "tools/cmd/data/ai/model-interpretability.yaml",
       "commands_generated": [
         "shap",
         "lime",
         "captum",
         "token-heatmap",
-        "attention-rollout"
+        "attention-rollout",
+        "interpretml"
       ],
       "mocs_generated": [
         "AI基础设施/模型可解释性"
       ],
-      "timestamp": "2026-07-01T14:44:03.658977"
+      "timestamp": "2026-07-28T15:03:59.853281"
     },
     {
-      "file": "data/ai/multimodal.yaml",
+      "file": "tools/cmd/data/ai/multimodal.yaml",
       "commands_generated": [
         "comfyui",
         "whisper",
         "faster-whisper",
         "llava",
         "clip",
-        "stable-diffusion-cli"
+        "stable-diffusion-cli",
+        "sam2",
+        "qwen-vl"
       ],
       "mocs_generated": [
         "AI基础设施/多模态"
       ],
-      "timestamp": "2026-07-01T14:44:03.671706"
+      "timestamp": "2026-07-28T15:03:59.871395"
     },
     {
-      "file": "data/ai/ai-gateway.yaml",
+      "file": "tools/cmd/data/ai/ai-gateway.yaml",
       "commands_generated": [
         "helicone",
         "portkey",
         "openrouter",
         "promptfoo",
         "keywords-ai",
-        "kong-ai-gateway"
+        "kong-ai-gateway",
+        "requesty",
+        "cloudflare-ai-gateway"
       ],
       "mocs_generated": [
         "AI基础设施/AI网关"
       ],
-      "timestamp": "2026-07-01T14:44:03.683681"
+      "timestamp": "2026-07-28T15:03:59.887617"
     },
     {
-      "file": "data/ai/mlops.yaml",
+      "file": "tools/cmd/data/ai/mlops.yaml",
       "commands_generated": [
         "kfp",
-        "mlflow"
+        "mlflow",
+        "prefect",
+        "dagster",
+        "kedro"
       ],
       "mocs_generated": [
         "AI基础设施/MLOps平台"
       ],
-      "timestamp": "2026-07-01T14:44:03.688976"
+      "timestamp": "2026-07-28T15:03:59.906070"
     },
     {
-      "file": "data/ai/harness-engineering.yaml",
+      "file": "tools/cmd/data/ai/harness-engineering.yaml",
       "commands_generated": [
         "swe-bench",
         "humaneval",
@@ -722,10 +914,10 @@
       "mocs_generated": [
         "AI基础设施/Harness工程"
       ],
-      "timestamp": "2026-07-01T14:44:03.726710"
+      "timestamp": "2026-07-28T15:03:59.949751"
     },
     {
-      "file": "data/ai/more.yaml",
+      "file": "tools/cmd/data/ai/more.yaml",
       "commands_generated": [
         "openai",
         "anthropic",
@@ -741,24 +933,26 @@
       "mocs_generated": [
         "AI基础设施/扩展命令"
       ],
-      "timestamp": "2026-07-01T14:44:03.743820"
+      "timestamp": "2026-07-28T15:03:59.980026"
     },
     {
-      "file": "data/ai/ai-coding.yaml",
+      "file": "tools/cmd/data/ai/ai-coding.yaml",
       "commands_generated": [
         "aider",
         "openhands",
         "swe-agent",
         "continue-dev",
-        "codeium"
+        "codeium",
+        "cline",
+        "goose"
       ],
       "mocs_generated": [
         "AI基础设施/AI编程"
       ],
-      "timestamp": "2026-07-01T14:44:03.754968"
+      "timestamp": "2026-07-28T15:03:59.994894"
     },
     {
-      "file": "data/ai/model-serving.yaml",
+      "file": "tools/cmd/data/ai/model-serving.yaml",
       "commands_generated": [
         "bentoml",
         "tritonserver",
@@ -768,10 +962,10 @@
       "mocs_generated": [
         "AI基础设施/模型服务"
       ],
-      "timestamp": "2026-07-01T14:44:03.766623"
+      "timestamp": "2026-07-28T15:04:00.005519"
     },
     {
-      "file": "data/ai/llm-training.yaml",
+      "file": "tools/cmd/data/ai/llm-training.yaml",
       "commands_generated": [
         "deepspeed",
         "accelerate",
@@ -804,39 +998,44 @@
       "mocs_generated": [
         "AI基础设施/大模型训练"
       ],
-      "timestamp": "2026-07-01T14:44:03.826754"
+      "timestamp": "2026-07-28T15:04:00.078990"
     },
     {
-      "file": "data/ai/ai-safety.yaml",
+      "file": "tools/cmd/data/ai/ai-safety.yaml",
       "commands_generated": [
         "garak",
         "modelscan",
         "llm-guard",
         "inspect-ai",
-        "neuralsecure"
+        "neuralsecure",
+        "pyrit",
+        "rebuff",
+        "nemo-guardrails"
       ],
       "mocs_generated": [
         "AI基础设施/AI安全"
       ],
-      "timestamp": "2026-07-01T14:44:03.835575"
+      "timestamp": "2026-07-28T15:04:00.106681"
     },
     {
-      "file": "data/ai/ai-compiler.yaml",
+      "file": "tools/cmd/data/ai/ai-compiler.yaml",
       "commands_generated": [
         "tvmc",
         "iree-compile",
         "mlir-opt",
         "trtexec",
         "onnx-optimizer",
-        "xla_compile"
+        "xla_compile",
+        "torch-compile",
+        "olive"
       ],
       "mocs_generated": [
         "AI基础设施/AI编译器"
       ],
-      "timestamp": "2026-07-01T14:44:03.846270"
+      "timestamp": "2026-07-28T15:04:00.124363"
     },
     {
-      "file": "data/ai/agent-engineering.yaml",
+      "file": "tools/cmd/data/ai/agent-engineering.yaml",
       "commands_generated": [
         "langchain",
         "langgraph",
@@ -860,24 +1059,30 @@
       "mocs_generated": [
         "AI基础设施/Agent工程"
       ],
-      "timestamp": "2026-07-01T14:44:03.879140"
+      "timestamp": "2026-07-28T15:04:00.179749"
     },
     {
-      "file": "data/ai/rag-infra.yaml",
+      "file": "tools/cmd/data/ai/rag-infra.yaml",
       "commands_generated": [
         "unstructured",
         "llamaparse",
         "docling",
         "marker",
-        "pymupdf"
+        "pymupdf",
+        "ragas",
+        "sentence-transformers",
+        "fastembed",
+        "rerankers",
+        "chonkie",
+        "mineru"
       ],
       "mocs_generated": [
         "AI基础设施/RAG基础设施"
       ],
-      "timestamp": "2026-07-01T14:44:03.888709"
+      "timestamp": "2026-07-28T15:04:00.204876"
     },
     {
-      "file": "data/ai/ai-applications.yaml",
+      "file": "tools/cmd/data/ai/ai-applications.yaml",
       "commands_generated": [
         "promptflow",
         "n8n",
@@ -890,10 +1095,10 @@
       "mocs_generated": [
         "AI基础设施/AI应用"
       ],
-      "timestamp": "2026-07-01T14:44:03.910890"
+      "timestamp": "2026-07-28T15:04:00.233045"
     },
     {
-      "file": "data/ai/data-labeling.yaml",
+      "file": "tools/cmd/data/ai/data-labeling.yaml",
       "commands_generated": [
         "datasets-cli",
         "webdataset",
@@ -912,23 +1117,25 @@
       "mocs_generated": [
         "AI基础设施/数据与标注"
       ],
-      "timestamp": "2026-07-01T14:44:03.943006"
+      "timestamp": "2026-07-28T15:04:00.263948"
     },
     {
-      "file": "data/ai/federated-learning.yaml",
+      "file": "tools/cmd/data/ai/federated-learning.yaml",
       "commands_generated": [
         "flower",
         "opacus",
         "pyvertical",
-        "crypten"
+        "crypten",
+        "nvflare",
+        "fedml"
       ],
       "mocs_generated": [
         "AI基础设施/联邦学习"
       ],
-      "timestamp": "2026-07-01T14:44:03.952860"
+      "timestamp": "2026-07-28T15:04:00.298173"
     },
     {
-      "file": "data/ai/model-architecture.yaml",
+      "file": "tools/cmd/data/ai/model-architecture.yaml",
       "commands_generated": [
         "transformers-cli",
         "bertviz",
@@ -943,23 +1150,24 @@
       "mocs_generated": [
         "AI基础设施/模型架构"
       ],
-      "timestamp": "2026-07-01T14:44:03.973559"
+      "timestamp": "2026-07-28T15:04:00.336846"
     },
     {
-      "file": "data/ai/edge-ai.yaml",
+      "file": "tools/cmd/data/ai/edge-ai.yaml",
       "commands_generated": [
         "tflite",
         "executorch",
         "mediapipe",
-        "paddle-lite"
+        "paddle-lite",
+        "ncnn"
       ],
       "mocs_generated": [
         "AI基础设施/边缘AI"
       ],
-      "timestamp": "2026-07-01T14:44:03.983227"
+      "timestamp": "2026-07-28T15:04:00.353106"
     },
     {
-      "file": "data/ai/ml-frameworks.yaml",
+      "file": "tools/cmd/data/ai/ml-frameworks.yaml",
       "commands_generated": [
         "torchrun",
         "tensorboard",
@@ -968,10 +1176,10 @@
       "mocs_generated": [
         "AI基础设施/ML框架"
       ],
-      "timestamp": "2026-07-01T14:44:03.989931"
+      "timestamp": "2026-07-28T15:04:00.374455"
     },
     {
-      "file": "data/ai/llm-extra.yaml",
+      "file": "tools/cmd/data/ai/llm-extra.yaml",
       "commands_generated": [
         "open-webui",
         "anything-llm",
@@ -982,10 +1190,10 @@
       "mocs_generated": [
         "AI基础设施/扩展工具"
       ],
-      "timestamp": "2026-07-01T14:44:04.000216"
+      "timestamp": "2026-07-28T15:04:00.386424"
     },
     {
-      "file": "data/ai/llm-inference.yaml",
+      "file": "tools/cmd/data/ai/llm-inference.yaml",
       "commands_generated": [
         "vllm",
         "sglang",
@@ -1018,10 +1226,10 @@
       "mocs_generated": [
         "AI基础设施/大模型推理"
       ],
-      "timestamp": "2026-07-01T14:44:04.065248"
+      "timestamp": "2026-07-28T15:04:00.461107"
     },
     {
-      "file": "data/ai/vector-db.yaml",
+      "file": "tools/cmd/data/ai/vector-db.yaml",
       "commands_generated": [
         "chroma",
         "milvus-cli",
@@ -1043,10 +1251,10 @@
       "mocs_generated": [
         "AI基础设施/向量数据库"
       ],
-      "timestamp": "2026-07-01T14:44:04.104894"
+      "timestamp": "2026-07-28T15:04:00.507272"
     },
     {
-      "file": "data/ai/model-hub.yaml",
+      "file": "tools/cmd/data/ai/model-hub.yaml",
       "commands_generated": [
         "huggingface-cli",
         "modelscope",
@@ -1068,10 +1276,10 @@
       "mocs_generated": [
         "AI基础设施/模型生态"
       ],
-      "timestamp": "2026-07-01T14:44:04.142124"
+      "timestamp": "2026-07-28T15:04:00.548727"
     },
     {
-      "file": "data/ai/monitoring.yaml",
+      "file": "tools/cmd/data/ai/monitoring.yaml",
       "commands_generated": [
         "wandb",
         "neptune",
@@ -1093,10 +1301,10 @@
       "mocs_generated": [
         "AI基础设施/监控与评估"
       ],
-      "timestamp": "2026-07-01T14:44:04.175680"
+      "timestamp": "2026-07-28T15:04:00.591581"
     },
     {
-      "file": "data/cloud/aws-cli.yaml",
+      "file": "tools/cmd/data/cloud/aws-cli.yaml",
       "commands_generated": [
         "aws",
         "aws configure",
@@ -1108,10 +1316,10 @@
       "mocs_generated": [
         "云平台/AWS CLI"
       ],
-      "timestamp": "2026-07-01T14:44:04.190232"
+      "timestamp": "2026-07-28T15:04:00.608720"
     },
     {
-      "file": "data/cloud/more.yaml",
+      "file": "tools/cmd/data/cloud/more.yaml",
       "commands_generated": [
         "gcloud",
         "az",
@@ -1122,30 +1330,80 @@
       "mocs_generated": [
         "云平台/多云CLI"
       ],
-      "timestamp": "2026-07-01T14:44:04.200866"
+      "timestamp": "2026-07-28T15:04:00.624021"
     },
     {
-      "file": "data/cloud/terraform.yaml",
+      "file": "tools/cmd/data/cloud/config-mgmt.yaml",
+      "commands_generated": [
+        "ansible playbook",
+        "ansible-galaxy",
+        "vault operator",
+        "packer",
+        "terraform state"
+      ],
+      "mocs_generated": [
+        "云平台/配置管理"
+      ],
+      "timestamp": "2026-07-28T15:04:00.635953"
+    },
+    {
+      "file": "tools/cmd/data/cloud/gcloud.yaml",
+      "commands_generated": [
+        "gcloud auth",
+        "gcloud compute",
+        "gcloud container",
+        "gcloud storage",
+        "gcloud run",
+        "gcloud builds",
+        "gcloud iam",
+        "gcloud sql",
+        "gcloud functions"
+      ],
+      "mocs_generated": [
+        "云平台/GCP CLI"
+      ],
+      "timestamp": "2026-07-28T15:04:00.665859"
+    },
+    {
+      "file": "tools/cmd/data/cloud/terraform.yaml",
       "commands_generated": [
         "terraform"
       ],
       "mocs_generated": [
         "云平台/Terraform"
       ],
-      "timestamp": "2026-07-01T14:44:04.204763"
+      "timestamp": "2026-07-28T15:04:00.669088"
     },
     {
-      "file": "data/cloud/pulumi.yaml",
+      "file": "tools/cmd/data/cloud/azure.yaml",
+      "commands_generated": [
+        "az group",
+        "az vm",
+        "az aks",
+        "az storage",
+        "az webapp",
+        "az functionapp",
+        "az network",
+        "az keyvault",
+        "az bicep"
+      ],
+      "mocs_generated": [
+        "云平台/Azure CLI"
+      ],
+      "timestamp": "2026-07-28T15:04:00.694840"
+    },
+    {
+      "file": "tools/cmd/data/cloud/pulumi.yaml",
       "commands_generated": [
         "pulumi"
       ],
       "mocs_generated": [
         "云平台/Pulumi"
       ],
-      "timestamp": "2026-07-01T14:44:04.207920"
+      "timestamp": "2026-07-28T15:04:00.698110"
     },
     {
-      "file": "data/os/centos.yaml",
+      "file": "tools/cmd/data/os/centos.yaml",
       "commands_generated": [
         "yum update",
         "yum install",
@@ -1167,10 +1425,10 @@
       "mocs_generated": [
         "操作系统/CentOS系统命令"
       ],
-      "timestamp": "2026-07-01T14:44:04.235431"
+      "timestamp": "2026-07-28T15:04:00.728173"
     },
     {
-      "file": "data/os/common.yaml",
+      "file": "tools/cmd/data/os/common.yaml",
       "commands_generated": [
         "ls",
         "grep",
@@ -1220,10 +1478,10 @@
       "mocs_generated": [
         "操作系统/通用Linux命令"
       ],
-      "timestamp": "2026-07-01T14:44:04.332455"
+      "timestamp": "2026-07-28T15:04:00.838240"
     },
     {
-      "file": "data/os/linux-extra.yaml",
+      "file": "tools/cmd/data/os/linux-extra.yaml",
       "commands_generated": [
         "mkdir",
         "touch",
@@ -1265,10 +1523,10 @@
       "mocs_generated": [
         "操作系统/Linux扩展命令"
       ],
-      "timestamp": "2026-07-01T14:44:04.396239"
+      "timestamp": "2026-07-28T15:04:00.919334"
     },
     {
-      "file": "data/os/ubuntu.yaml",
+      "file": "tools/cmd/data/os/ubuntu.yaml",
       "commands_generated": [
         "apt update",
         "apt upgrade",
@@ -1294,10 +1552,26 @@
       "mocs_generated": [
         "操作系统/Ubuntu系统命令"
       ],
-      "timestamp": "2026-07-01T14:44:04.431814"
+      "timestamp": "2026-07-28T15:04:00.956908"
     },
     {
-      "file": "data/os/linux-core.yaml",
+      "file": "tools/cmd/data/os/systemd.yaml",
+      "commands_generated": [
+        "systemctl",
+        "systemctl cat",
+        "systemctl edit",
+        "systemd-analyze",
+        "systemd-run",
+        "systemctl timer",
+        "loginctl"
+      ],
+      "mocs_generated": [
+        "操作系统/Systemd服务管理"
+      ],
+      "timestamp": "2026-07-28T15:04:00.971301"
+    },
+    {
+      "file": "tools/cmd/data/os/linux-core.yaml",
       "commands_generated": [
         "ip",
         "iptables",
@@ -1340,10 +1614,10 @@
       "mocs_generated": [
         "操作系统/Linux核心"
       ],
-      "timestamp": "2026-07-01T14:44:04.499283"
+      "timestamp": "2026-07-28T15:04:01.065310"
     },
     {
-      "file": "data/bigdata/query-engines.yaml",
+      "file": "tools/cmd/data/bigdata/query-engines.yaml",
       "commands_generated": [
         "hive",
         "beeline",
@@ -1354,10 +1628,10 @@
       "mocs_generated": [
         "大数据/查询引擎"
       ],
-      "timestamp": "2026-07-01T14:44:04.510204"
+      "timestamp": "2026-07-28T15:04:01.083490"
     },
     {
-      "file": "data/bigdata/flink.yaml",
+      "file": "tools/cmd/data/bigdata/flink.yaml",
       "commands_generated": [
         "flink",
         "sql-client.sh"
@@ -1365,20 +1639,20 @@
       "mocs_generated": [
         "大数据/Flink流计算"
       ],
-      "timestamp": "2026-07-01T14:44:04.515089"
+      "timestamp": "2026-07-28T15:04:01.087818"
     },
     {
-      "file": "data/bigdata/kafka.yaml",
+      "file": "tools/cmd/data/bigdata/kafka.yaml",
       "commands_generated": [
         "kafka"
       ],
       "mocs_generated": [
         "容器编排/消息队列"
       ],
-      "timestamp": "2026-07-01T14:44:04.517610"
+      "timestamp": "2026-07-28T15:04:01.090181"
     },
     {
-      "file": "data/bigdata/more.yaml",
+      "file": "tools/cmd/data/bigdata/more.yaml",
       "commands_generated": [
         "zkCli.sh",
         "hbase hbck",
@@ -1400,10 +1674,10 @@
       "mocs_generated": [
         "大数据/扩展命令"
       ],
-      "timestamp": "2026-07-01T14:44:04.548255"
+      "timestamp": "2026-07-28T15:04:01.119540"
     },
     {
-      "file": "data/bigdata/spark.yaml",
+      "file": "tools/cmd/data/bigdata/spark.yaml",
       "commands_generated": [
         "spark-submit",
         "spark-shell",
@@ -1413,10 +1687,10 @@
       "mocs_generated": [
         "大数据/Spark计算"
       ],
-      "timestamp": "2026-07-01T14:44:04.556369"
+      "timestamp": "2026-07-28T15:04:01.127383"
     },
     {
-      "file": "data/bigdata/extra.yaml",
+      "file": "tools/cmd/data/bigdata/extra.yaml",
       "commands_generated": [
         "mapred",
         "hbase shell",
@@ -1432,10 +1706,10 @@
       "mocs_generated": [
         "大数据/扩展工具"
       ],
-      "timestamp": "2026-07-01T14:44:04.576655"
+      "timestamp": "2026-07-28T15:04:01.155070"
     },
     {
-      "file": "data/bigdata/kafka-cli.yaml",
+      "file": "tools/cmd/data/bigdata/kafka-cli.yaml",
       "commands_generated": [
         "kafka-topics.sh",
         "kafka-console-producer",
@@ -1446,10 +1720,35 @@
       "mocs_generated": [
         "大数据/Kafka工具"
       ],
-      "timestamp": "2026-07-01T14:44:04.587716"
+      "timestamp": "2026-07-28T15:04:01.170990"
     },
     {
-      "file": "data/bigdata/hadoop.yaml",
+      "file": "tools/cmd/data/bigdata/orchestration.yaml",
+      "commands_generated": [
+        "airflow dags",
+        "dbt debug",
+        "trino-cli"
+      ],
+      "mocs_generated": [
+        "大数据/调度与转换"
+      ],
+      "timestamp": "2026-07-28T15:04:01.177991"
+    },
+    {
+      "file": "tools/cmd/data/bigdata/streaming.yaml",
+      "commands_generated": [
+        "kafka-topics",
+        "kafka-consumer-groups",
+        "flink sql-client",
+        "yarn (Hadoop)"
+      ],
+      "mocs_generated": [
+        "大数据/流处理"
+      ],
+      "timestamp": "2026-07-28T15:04:01.187982"
+    },
+    {
+      "file": "tools/cmd/data/bigdata/hadoop.yaml",
       "commands_generated": [
         "hadoop",
         "hdfs",
@@ -1458,10 +1757,10 @@
       "mocs_generated": [
         "大数据/Hadoop生态"
       ],
-      "timestamp": "2026-07-01T14:44:04.594056"
+      "timestamp": "2026-07-28T15:04:01.193520"
     },
     {
-      "file": "data/bigdata/etl.yaml",
+      "file": "tools/cmd/data/bigdata/etl.yaml",
       "commands_generated": [
         "airflow",
         "dbt",
@@ -1472,10 +1771,10 @@
       "mocs_generated": [
         "大数据/数据集成与ETL"
       ],
-      "timestamp": "2026-07-01T14:44:04.604319"
+      "timestamp": "2026-07-28T15:04:01.213670"
     },
     {
-      "file": "data/bigdata/data-lake.yaml",
+      "file": "tools/cmd/data/bigdata/data-lake.yaml",
       "commands_generated": [
         "delta",
         "iceberg",
@@ -1484,10 +1783,10 @@
       "mocs_generated": [
         "大数据/数据湖"
       ],
-      "timestamp": "2026-07-01T14:44:04.610127"
+      "timestamp": "2026-07-28T15:04:01.220067"
     },
     {
-      "file": "data/build-tools/make.yaml",
+      "file": "tools/cmd/data/build-tools/make.yaml",
       "commands_generated": [
         "make",
         "cmake",
@@ -1496,10 +1795,24 @@
       "mocs_generated": [
         "构建工具/Make"
       ],
-      "timestamp": "2026-07-01T14:44:04.616797"
+      "timestamp": "2026-07-28T15:04:01.225999"
     },
     {
-      "file": "data/build-tools/maven.yaml",
+      "file": "tools/cmd/data/build-tools/cmake.yaml",
+      "commands_generated": [
+        "ninja",
+        "ctest",
+        "conan",
+        "bazel",
+        "just"
+      ],
+      "mocs_generated": [
+        "构建工具/CMake"
+      ],
+      "timestamp": "2026-07-28T15:04:01.236438"
+    },
+    {
+      "file": "tools/cmd/data/build-tools/maven.yaml",
       "commands_generated": [
         "mvn",
         "mvn dependency",
@@ -1509,10 +1822,25 @@
       "mocs_generated": [
         "构建工具/Maven"
       ],
-      "timestamp": "2026-07-01T14:44:04.623940"
+      "timestamp": "2026-07-28T15:04:01.242732"
     },
     {
-      "file": "data/build-tools/gradle.yaml",
+      "file": "tools/cmd/data/build-tools/pkg-mgmt.yaml",
+      "commands_generated": [
+        "uv",
+        "uv python",
+        "poetry",
+        "pnpm",
+        "bun",
+        "npm"
+      ],
+      "mocs_generated": [
+        "构建工具/包管理"
+      ],
+      "timestamp": "2026-07-28T15:04:01.255900"
+    },
+    {
+      "file": "tools/cmd/data/build-tools/gradle.yaml",
       "commands_generated": [
         "gradle",
         "gradle init",
@@ -1521,10 +1849,21 @@
       "mocs_generated": [
         "构建工具/Gradle"
       ],
-      "timestamp": "2026-07-01T14:44:04.630552"
+      "timestamp": "2026-07-28T15:04:01.261539"
     },
     {
-      "file": "data/container/docker/container-alternatives.yaml",
+      "file": "tools/cmd/data/container/docker/docker-advanced.yaml",
+      "commands_generated": [
+        "docker compose",
+        "docker build (multi-stage)"
+      ],
+      "mocs_generated": [
+        "容器编排/Docker高级"
+      ],
+      "timestamp": "2026-07-28T15:04:01.270979"
+    },
+    {
+      "file": "tools/cmd/data/container/docker/container-alternatives.yaml",
       "commands_generated": [
         "podman",
         "buildah",
@@ -1534,10 +1873,10 @@
       "mocs_generated": [
         "容器编排/容器替代方案"
       ],
-      "timestamp": "2026-07-01T14:44:04.638520"
+      "timestamp": "2026-07-28T15:04:01.280112"
     },
     {
-      "file": "data/container/docker/docker.yaml",
+      "file": "tools/cmd/data/container/docker/docker.yaml",
       "commands_generated": [
         "docker run",
         "docker ps",
@@ -1559,10 +1898,10 @@
       "mocs_generated": [
         "容器编排/Docker命令"
       ],
-      "timestamp": "2026-07-01T14:44:04.666533"
+      "timestamp": "2026-07-28T15:04:01.308052"
     },
     {
-      "file": "data/container/k8s/k8s-network.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-network.yaml",
       "commands_generated": [
         "calicoctl get nodes",
         "calicoctl get networkpolicies",
@@ -1587,10 +1926,10 @@
       "mocs_generated": [
         "容器编排/K8s网络插件"
       ],
-      "timestamp": "2026-07-01T14:44:04.701774"
+      "timestamp": "2026-07-28T15:04:01.361129"
     },
     {
-      "file": "data/container/k8s/k8s-backup.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-backup.yaml",
       "commands_generated": [
         "velero backup create",
         "velero backup list",
@@ -1604,10 +1943,10 @@
       "mocs_generated": [
         "容器编排/K8s备份恢复"
       ],
-      "timestamp": "2026-07-01T14:44:04.718649"
+      "timestamp": "2026-07-28T15:04:01.377784"
     },
     {
-      "file": "data/container/k8s/k8s-cluster.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-cluster.yaml",
       "commands_generated": [
         "kubeadm init",
         "kubeadm join",
@@ -1627,10 +1966,10 @@
       "mocs_generated": [
         "容器编排/K8s集群管理"
       ],
-      "timestamp": "2026-07-01T14:44:04.748369"
+      "timestamp": "2026-07-28T15:04:01.408676"
     },
     {
-      "file": "data/container/k8s/kubernetes.yaml",
+      "file": "tools/cmd/data/container/k8s/kubernetes.yaml",
       "commands_generated": [
         "kubectl get",
         "kubectl describe",
@@ -1653,10 +1992,10 @@
       "mocs_generated": [
         "容器编排/Kubernetes命令"
       ],
-      "timestamp": "2026-07-01T14:44:04.789223"
+      "timestamp": "2026-07-28T15:04:01.458489"
     },
     {
-      "file": "data/container/k8s/k8s-config.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-config.yaml",
       "commands_generated": [
         "ansible-playbook",
         "ansible all -m ping",
@@ -1689,10 +2028,10 @@
       "mocs_generated": [
         "容器编排/K8s配置管理"
       ],
-      "timestamp": "2026-07-01T14:44:04.841211"
+      "timestamp": "2026-07-28T15:04:01.515195"
     },
     {
-      "file": "data/container/k8s/k8s-security.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-security.yaml",
       "commands_generated": [
         "trivy image",
         "trivy fs",
@@ -1718,10 +2057,10 @@
       "mocs_generated": [
         "容器编排/K8s安全工具"
       ],
-      "timestamp": "2026-07-01T14:44:04.883088"
+      "timestamp": "2026-07-28T15:04:01.558433"
     },
     {
-      "file": "data/container/k8s/k8s-dev.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-dev.yaml",
       "commands_generated": [
         "skaffold dev",
         "skaffold run",
@@ -1735,10 +2074,10 @@
       "mocs_generated": [
         "容器编排/K8s开发调试"
       ],
-      "timestamp": "2026-07-01T14:44:04.898568"
+      "timestamp": "2026-07-28T15:04:01.574115"
     },
     {
-      "file": "data/container/k8s/k8s-cicd.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-cicd.yaml",
       "commands_generated": [
         "argocd login",
         "argocd app create",
@@ -1755,10 +2094,10 @@
       "mocs_generated": [
         "容器编排/K8s持续集成"
       ],
-      "timestamp": "2026-07-01T14:44:04.923552"
+      "timestamp": "2026-07-28T15:04:01.602888"
     },
     {
-      "file": "data/container/k8s/k8s-monitor.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-monitor.yaml",
       "commands_generated": [
         "prometheus",
         "promtool check config",
@@ -1803,10 +2142,10 @@
       "mocs_generated": [
         "容器编排/K8s监控日志"
       ],
-      "timestamp": "2026-07-01T14:44:04.992700"
+      "timestamp": "2026-07-28T15:04:01.681291"
     },
     {
-      "file": "data/container/k8s/k8s-troubleshooting.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-troubleshooting.yaml",
       "commands_generated": [
         "kubectl describe pod",
         "kubectl get events",
@@ -1822,10 +2161,10 @@
       "mocs_generated": [
         "容器编排/K8s故障排查"
       ],
-      "timestamp": "2026-07-01T14:44:05.007488"
+      "timestamp": "2026-07-28T15:04:01.700461"
     },
     {
-      "file": "data/container/k8s/k8s-devtools.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-devtools.yaml",
       "commands_generated": [
         "kustomize",
         "helmfile",
@@ -1834,10 +2173,10 @@
       "mocs_generated": [
         "容器编排/K8s开发工具"
       ],
-      "timestamp": "2026-07-01T14:44:05.012884"
+      "timestamp": "2026-07-28T15:04:01.708118"
     },
     {
-      "file": "data/container/k8s/k8s-security-extra.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-security-extra.yaml",
       "commands_generated": [
         "kubescape",
         "kube-hunter",
@@ -1848,10 +2187,10 @@
       "mocs_generated": [
         "容器编排/K8s安全扩展"
       ],
-      "timestamp": "2026-07-01T14:44:05.021577"
+      "timestamp": "2026-07-28T15:04:01.725322"
     },
     {
-      "file": "data/container/k8s/k8s-helm-enhanced.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-helm-enhanced.yaml",
       "commands_generated": [
         "helm repo add",
         "helm repo update",
@@ -1876,10 +2215,10 @@
       "mocs_generated": [
         "容器编排/K8s Helm包管理"
       ],
-      "timestamp": "2026-07-01T14:44:05.058092"
+      "timestamp": "2026-07-28T15:04:01.773781"
     },
     {
-      "file": "data/container/k8s/k8s-mlops.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-mlops.yaml",
       "commands_generated": [
         "kubectl apply -f inferenceservice.yaml",
         "kubectl get inferenceservices",
@@ -1903,10 +2242,10 @@
       "mocs_generated": [
         "容器编排/K8s机器学习运维"
       ],
-      "timestamp": "2026-07-01T14:44:05.084734"
+      "timestamp": "2026-07-28T15:04:01.814603"
     },
     {
-      "file": "data/container/k8s/k8s-storage-management.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-storage-management.yaml",
       "commands_generated": [
         "kubectl get pv",
         "kubectl get pvc",
@@ -1928,10 +2267,10 @@
       "mocs_generated": [
         "容器编排/K8s存储增强"
       ],
-      "timestamp": "2026-07-01T14:44:05.108654"
+      "timestamp": "2026-07-28T15:04:01.840835"
     },
     {
-      "file": "data/container/k8s/local-k8s.yaml",
+      "file": "tools/cmd/data/container/k8s/local-k8s.yaml",
       "commands_generated": [
         "kind",
         "minikube",
@@ -1940,10 +2279,10 @@
       "mocs_generated": [
         "容器编排/本地K8s"
       ],
-      "timestamp": "2026-07-01T14:44:05.113869"
+      "timestamp": "2026-07-28T15:04:01.847373"
     },
     {
-      "file": "data/container/k8s/k8s-runtime.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-runtime.yaml",
       "commands_generated": [
         "crictl images",
         "crictl pods",
@@ -1958,10 +2297,10 @@
       "mocs_generated": [
         "容器编排/K8s容器运行时"
       ],
-      "timestamp": "2026-07-01T14:44:05.128294"
+      "timestamp": "2026-07-28T15:04:01.869939"
     },
     {
-      "file": "data/container/k8s/k8s-cloud.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-cloud.yaml",
       "commands_generated": [
         "eksctl create cluster",
         "eksctl get cluster",
@@ -1976,10 +2315,10 @@
       "mocs_generated": [
         "容器编排/K8s云平台工具"
       ],
-      "timestamp": "2026-07-01T14:44:05.146809"
+      "timestamp": "2026-07-28T15:04:01.888738"
     },
     {
-      "file": "data/container/k8s/k8s-utilities.yaml",
+      "file": "tools/cmd/data/container/k8s/k8s-utilities.yaml",
       "commands_generated": [
         "k9s",
         "kubectx",
@@ -1993,10 +2332,10 @@
       "mocs_generated": [
         "容器编排/K8s辅助工具"
       ],
-      "timestamp": "2026-07-01T14:44:05.159724"
+      "timestamp": "2026-07-28T15:04:01.904135"
     },
     {
-      "file": "data/container/cloudnative/cloudnative-more.yaml",
+      "file": "tools/cmd/data/container/cloudnative/cloudnative-more.yaml",
       "commands_generated": [
         "containerd",
         "ctr",
@@ -2028,10 +2367,10 @@
       "mocs_generated": [
         "容器编排/云原生扩展二"
       ],
-      "timestamp": "2026-07-01T14:44:05.202134"
+      "timestamp": "2026-07-28T15:04:01.959829"
     },
     {
-      "file": "data/container/cloudnative/cloudnative-extra.yaml",
+      "file": "tools/cmd/data/container/cloudnative/cloudnative-extra.yaml",
       "commands_generated": [
         "vault",
         "consul",
@@ -2066,7 +2405,9 @@
       "mocs_generated": [
         "容器编排/云原生扩展"
       ],
-      "timestamp": "2026-07-01T14:44:05.247151"
+      "timestamp": "2026-07-28T15:04:02.018821"
     }
-  ]
+  ],
+  "best_practices_count": 1262,
+  "best_practices_generated": "2026-07-28"
 }

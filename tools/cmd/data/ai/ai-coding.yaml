@@ -171,3 +171,76 @@ commands:
     description: "代码补全工具风险较低"
   references:
   - "https://codeium.com/"
+
+- name: cline
+  category: "AI基础设施/AI编程"
+  install_required: true
+  install_method: "code --install-extension saoudrizwan.claude-dev"
+  description: "Cline (前Claude Dev) VS Code自主编程Agent，可读写文件、执行命令、调用MCP工具，逐步征求确认"
+  usage:
+  - "code --install-extension saoudrizwan.claude-dev"
+  options:
+  - flag: "Plan/Act模式"
+    description: "先规划后执行的双模式切换"
+  - flag: "MCP服务器"
+    description: "通过Model Context Protocol扩展工具"
+  - flag: "Checkpoints"
+    description: "每步快照，支持回滚文件变更"
+  examples:
+  - command: "code --install-extension saoudrizwan.claude-dev"
+    description: "安装Cline扩展"
+  - command: "在侧边栏输入任务，选择Plan模式先生成方案"
+    description: "以规划优先方式执行多文件任务"
+  platforms:
+  - "linux"
+  - "darwin"
+  - "windows"
+  related_commands:
+  - "aider"
+  - "continue-dev"
+  - "goose"
+  risks:
+  - level: high
+    description: "可自主执行shell命令与写文件，需开启命令确认，避免在生产仓库直接auto-approve"
+  - level: medium
+    description: "通过MCP连接第三方工具时，代码与上下文会发送至外部LLM，敏感仓库需评估数据外泄与合规风险"
+  references:
+  - "https://github.com/cline/cline"
+
+- name: goose
+  category: "AI基础设施/AI编程"
+  install_required: true
+  install_method: "curl -fsSL https://github.com/block/goose/releases/download/stable/download_cli.sh | bash"
+  description: "Goose (Block开源) 本地命令行AI Agent，可自主完成编码/调试/重构，支持多LLM与MCP扩展"
+  usage:
+  - "goose [COMMAND] [OPTIONS]"
+  options:
+  - flag: "session"
+    description: "启动或恢复交互会话"
+  - flag: "run"
+    description: "非交互式执行一个任务指令"
+  - flag: "configure"
+    description: "配置LLM provider与扩展"
+  - flag: "--with-extension"
+    description: "临时启用指定MCP扩展"
+  examples:
+  - command: "goose configure"
+    description: "交互式配置model provider与API密钥"
+  - command: "goose session"
+    description: "启动一个交互式编码会话"
+  - command: "goose run -t 'add unit tests for utils.py'"
+    description: "非交互式执行单一编码任务"
+  platforms:
+  - "linux"
+  - "darwin"
+  related_commands:
+  - "aider"
+  - "cline"
+  - "openhands"
+  risks:
+  - level: high
+    description: "Agent可执行本地命令与修改文件，建议在隔离目录或容器中运行"
+  - level: medium
+    description: "非交互式 goose run 会自动批准操作，误用可能删改重要文件，生产环境须限制工作目录与权限"
+  references:
+  - "https://block.github.io/goose/"

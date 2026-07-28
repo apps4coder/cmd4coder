@@ -791,6 +791,12 @@
     "domain_cn": "Linux扩展命令",
     "source_yaml": "os/linux-extra.yaml"
   },
+  "chonkie": {
+    "category": "AI基础设施/RAG基础设施",
+    "cmd_name": "chonkie",
+    "domain_cn": "RAG基础设施",
+    "source_yaml": "ai/rag-infra.yaml"
+  },
   "chown": {
     "category": "操作系统/Linux扩展命令",
     "cmd_name": "chown",
@@ -857,6 +863,12 @@
     "domain_cn": "时序与OLAP",
     "source_yaml": "database/timeseries.yaml"
   },
+  "cline": {
+    "category": "AI基础设施/AI编程",
+    "cmd_name": "cline",
+    "domain_cn": "AI编程",
+    "source_yaml": "ai/ai-coding.yaml"
+  },
   "clinfo": {
     "category": "硬件/GPU与加速器",
     "cmd_name": "clinfo",
@@ -868,6 +880,12 @@
     "cmd_name": "clip",
     "domain_cn": "多模态",
     "source_yaml": "ai/multimodal.yaml"
+  },
+  "cloudflare-ai-gateway": {
+    "category": "AI基础设施/AI网关",
+    "cmd_name": "cloudflare-ai-gateway",
+    "domain_cn": "AI网关",
+    "source_yaml": "ai/ai-gateway.yaml"
   },
   "clusterctl": {
     "category": "容器编排/云原生扩展",
@@ -1132,6 +1150,12 @@
     "cmd_name": "dagger",
     "domain_cn": "平台工具",
     "source_yaml": "cicd/platforms.yaml"
+  },
+  "dagster": {
+    "category": "AI基础设施/MLOps平台",
+    "cmd_name": "dagster",
+    "domain_cn": "MLOps平台",
+    "source_yaml": "ai/mlops.yaml"
   },
   "dapr": {
     "category": "容器编排/云原生扩展二",
@@ -1673,6 +1697,12 @@
     "domain_cn": "K8s安全工具",
     "source_yaml": "container/k8s/k8s-security.yaml"
   },
+  "fastembed": {
+    "category": "AI基础设施/RAG基础设施",
+    "cmd_name": "fastembed",
+    "domain_cn": "RAG基础设施",
+    "source_yaml": "ai/rag-infra.yaml"
+  },
   "faster-whisper": {
     "category": "AI基础设施/多模态",
     "cmd_name": "faster-whisper",
@@ -1696,6 +1726,12 @@
     "cmd_name": "feast",
     "domain_cn": "数据与标注",
     "source_yaml": "ai/data-labeling.yaml"
+  },
+  "fedml": {
+    "category": "AI基础设施/联邦学习",
+    "cmd_name": "fedml",
+    "domain_cn": "联邦学习",
+    "source_yaml": "ai/federated-learning.yaml"
   },
   "fgrep": {
     "category": "操作系统/通用Linux命令",
@@ -2291,6 +2327,12 @@
     "domain_cn": "Go工具链扩展",
     "source_yaml": "lang/go-tooling.yaml"
   },
+  "goose": {
+    "category": "AI基础设施/AI编程",
+    "cmd_name": "goose",
+    "domain_cn": "AI编程",
+    "source_yaml": "ai/ai-coding.yaml"
+  },
   "gopls": {
     "category": "编程语言/Go工具链扩展",
     "cmd_name": "gopls",
@@ -2801,6 +2843,12 @@
     "domain_cn": "GPU与加速器",
     "source_yaml": "hardware/gpu.yaml"
   },
+  "interpretml": {
+    "category": "AI基础设施/模型可解释性",
+    "cmd_name": "interpretml",
+    "domain_cn": "模型可解释性",
+    "source_yaml": "ai/model-interpretability.yaml"
+  },
   "inxi": {
     "category": "硬件/系统信息",
     "cmd_name": "inxi",
@@ -3142,6 +3190,12 @@
     "cmd_name": "kata-runtime",
     "domain_cn": "云原生扩展二",
     "source_yaml": "container/cloudnative/cloudnative-more.yaml"
+  },
+  "kedro": {
+    "category": "AI基础设施/MLOps平台",
+    "cmd_name": "kedro",
+    "domain_cn": "MLOps平台",
+    "source_yaml": "ai/mlops.yaml"
   },
   "keptn": {
     "category": "容器编排/云原生扩展二",
@@ -4343,6 +4397,12 @@
     "domain_cn": "向量数据库",
     "source_yaml": "ai/vector-db.yaml"
   },
+  "mineru": {
+    "category": "AI基础设施/RAG基础设施",
+    "cmd_name": "mineru",
+    "domain_cn": "RAG基础设施",
+    "source_yaml": "ai/rag-infra.yaml"
+  },
   "minicom": {
     "category": "硬件/嵌入式与IoT",
     "cmd_name": "minicom",
@@ -4661,6 +4721,18 @@
     "domain_cn": "网络安全",
     "source_yaml": "network/security.yaml"
   },
+  "ncnn": {
+    "category": "AI基础设施/边缘AI",
+    "cmd_name": "ncnn",
+    "domain_cn": "边缘AI",
+    "source_yaml": "ai/edge-ai.yaml"
+  },
+  "nemo-guardrails": {
+    "category": "AI基础设施/AI安全",
+    "cmd_name": "nemo-guardrails",
+    "domain_cn": "AI安全",
+    "source_yaml": "ai/ai-safety.yaml"
+  },
   "neo4j-admin": {
     "category": "数据库工具/扩展工具",
     "cmd_name": "neo4j-admin",
@@ -4877,6 +4949,12 @@
     "domain_cn": "系统信息",
     "source_yaml": "hardware/info.yaml"
   },
+  "nvflare": {
+    "category": "AI基础设施/联邦学习",
+    "cmd_name": "nvflare",
+    "domain_cn": "联邦学习",
+    "source_yaml": "ai/federated-learning.yaml"
+  },
   "nvidia-smi": {
     "category": "硬件/GPU与加速器",
     "cmd_name": "nvidia-smi",
@@ -4906,6 +4984,12 @@
     "cmd_name": "okteto",
     "domain_cn": "云原生扩展二",
     "source_yaml": "container/cloudnative/cloudnative-more.yaml"
+  },
+  "olive": {
+    "category": "AI基础设施/AI编译器",
+    "cmd_name": "olive",
+    "domain_cn": "AI编译器",
+    "source_yaml": "ai/ai-compiler.yaml"
   },
   "ollama": {
     "category": "AI基础设施/大模型推理",
@@ -5261,6 +5345,12 @@
     "domain_cn": "Agent工程",
     "source_yaml": "ai/agent-engineering.yaml"
   },
+  "prefect": {
+    "category": "AI基础设施/MLOps平台",
+    "cmd_name": "prefect",
+    "domain_cn": "MLOps平台",
+    "source_yaml": "ai/mlops.yaml"
+  },
   "prefix-caching": {
     "category": "AI基础设施/大模型推理",
     "cmd_name": "prefix-caching",
@@ -5411,6 +5501,12 @@
     "domain_cn": "RAG基础设施",
     "source_yaml": "ai/rag-infra.yaml"
   },
+  "pyrit": {
+    "category": "AI基础设施/AI安全",
+    "cmd_name": "pyrit",
+    "domain_cn": "AI安全",
+    "source_yaml": "ai/ai-safety.yaml"
+  },
   "pyspark": {
     "category": "大数据/Spark计算",
     "cmd_name": "pyspark",
@@ -5447,6 +5543,12 @@
     "domain_cn": "向量数据库",
     "source_yaml": "ai/vector-db.yaml"
   },
+  "qwen-vl": {
+    "category": "AI基础设施/多模态",
+    "cmd_name": "qwen-vl",
+    "domain_cn": "多模态",
+    "source_yaml": "ai/multimodal.yaml"
+  },
   "rabbitmqctl": {
     "category": "大数据/扩展命令",
     "cmd_name": "rabbitmqctl",
@@ -5459,6 +5561,12 @@
     "domain_cn": "GPU与加速器",
     "source_yaml": "hardware/gpu.yaml"
   },
+  "ragas": {
+    "category": "AI基础设施/RAG基础设施",
+    "cmd_name": "ragas",
+    "domain_cn": "RAG基础设施",
+    "source_yaml": "ai/rag-infra.yaml"
+  },
   "raspi-gpio": {
     "category": "硬件/嵌入式与IoT",
     "cmd_name": "raspi-gpio",
@@ -5470,6 +5578,12 @@
     "cmd_name": "ray-serve",
     "domain_cn": "大模型推理",
     "source_yaml": "ai/llm-inference.yaml"
+  },
+  "rebuff": {
+    "category": "AI基础设施/AI安全",
+    "cmd_name": "rebuff",
+    "domain_cn": "AI安全",
+    "source_yaml": "ai/ai-safety.yaml"
   },
   "red-teaming": {
     "category": "AI基础设施/Harness工程",
@@ -5578,6 +5692,18 @@
     "cmd_name": "replicate",
     "domain_cn": "大模型推理",
     "source_yaml": "ai/llm-inference.yaml"
+  },
+  "requesty": {
+    "category": "AI基础设施/AI网关",
+    "cmd_name": "requesty",
+    "domain_cn": "AI网关",
+    "source_yaml": "ai/ai-gateway.yaml"
+  },
+  "rerankers": {
+    "category": "AI基础设施/RAG基础设施",
+    "cmd_name": "rerankers",
+    "domain_cn": "RAG基础设施",
+    "source_yaml": "ai/rag-infra.yaml"
   },
   "resolvectl": {
     "category": "操作系统/Linux核心",
@@ -5741,6 +5867,12 @@
     "domain_cn": "Harness工程",
     "source_yaml": "ai/harness-engineering.yaml"
   },
+  "sam2": {
+    "category": "AI基础设施/多模态",
+    "cmd_name": "sam2",
+    "domain_cn": "多模态",
+    "source_yaml": "ai/multimodal.yaml"
+  },
   "sbt": {
     "category": "编程语言/扩展工具链",
     "cmd_name": "sbt",
@@ -5800,6 +5932,12 @@
     "cmd_name": "sensors-detect",
     "domain_cn": "传感器与电源",
     "source_yaml": "hardware/sensors.yaml"
+  },
+  "sentence-transformers": {
+    "category": "AI基础设施/RAG基础设施",
+    "cmd_name": "sentence-transformers",
+    "domain_cn": "RAG基础设施",
+    "source_yaml": "ai/rag-infra.yaml"
   },
   "sestatus": {
     "category": "操作系统/CentOS系统命令",
@@ -6724,6 +6862,12 @@
     "cmd_name": "tool-bench",
     "domain_cn": "Harness工程",
     "source_yaml": "ai/harness-engineering.yaml"
+  },
+  "torch-compile": {
+    "category": "AI基础设施/AI编译器",
+    "cmd_name": "torch-compile",
+    "domain_cn": "AI编译器",
+    "source_yaml": "ai/ai-compiler.yaml"
   },
   "torch-titan": {
     "category": "AI基础设施/大模型训练",

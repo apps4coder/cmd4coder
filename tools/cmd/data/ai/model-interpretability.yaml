@@ -164,3 +164,37 @@ commands:
         description: "可视化工具安全"
     references:
       - "https://github.com/jacobgil/vit-explain"
+
+  - name: interpretml
+    category: "AI基础设施/模型可解释性"
+    install_required: true
+    install_method: "pip install interpret"
+    description: "InterpretML (微软开源) 统一可解释性工具包，提供玻璃盒模型(EBM)与黑盒模型事后解释"
+    usage:
+      - "python explain.py (使用interpret库)"
+    options:
+      - flag: "ExplainableBoostingClassifier"
+        description: "可解释提升机玻璃盒模型"
+      - flag: "show"
+        description: "启动交互式解释仪表板"
+      - flag: "explain_global"
+        description: "全局特征重要性解释"
+      - flag: "explain_local"
+        description: "单样本局部解释"
+    examples:
+      - command: "python -c \"from interpret.glassbox import ExplainableBoostingClassifier; ebm = ExplainableBoostingClassifier().fit(X, y)\""
+        description: "训练可解释EBM玻璃盒模型"
+      - command: "python -c \"from interpret import show; show(ebm.explain_global())\""
+        description: "启动交互式全局解释仪表板"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    related_commands:
+      - "shap"
+      - "lime"
+    risks:
+      - level: low
+        description: "可视化仪表板默认监听本地端口，生产环境避免暴露"
+    references:
+      - "https://interpret.ml/"

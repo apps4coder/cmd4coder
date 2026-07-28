@@ -165,3 +165,205 @@ commands:
     description: "本地处理安全"
   references:
   - "https://github.com/pymupdf/PyMuPDF"
+
+- name: ragas
+  category: "AI基础设施/RAG基础设施"
+  install_required: true
+  install_method: "pip install ragas"
+  description: "Ragas RAG评估框架，量化faithfulness/answer_relevancy/context_precision等核心指标"
+  usage:
+  - "python evaluate.py (使用ragas库)"
+  options:
+  - flag: "evaluate"
+    description: "对数据集执行多指标评估"
+  - flag: "faithfulness"
+    description: "忠实度：答案是否忠于检索上下文"
+  - flag: "answer_relevancy"
+    description: "答案与问题的相关性"
+  - flag: "context_precision"
+    description: "检索上下文的精确度"
+  - flag: "TestsetGenerator"
+    description: "从文档自动合成评估测试集"
+  examples:
+  - command: "python -c \"from ragas import evaluate; from ragas.metrics import faithfulness, answer_relevancy; result = evaluate(dataset, metrics=[faithfulness, answer_relevancy])\""
+    description: "评估RAG管道的忠实度与答案相关性"
+  - command: "python -c \"from ragas.testset import TestsetGenerator; testset = TestsetGenerator.from_langchain(llm).generate_with_langchain_docs(docs, testset_size=50)\""
+    description: "从文档集自动生成50条评估样本"
+  platforms:
+  - "linux"
+  - "darwin"
+  - "windows"
+  related_commands:
+  - "unstructured"
+  - "sentence-transformers"
+  risks:
+  - level: medium
+    description: "评估依赖LLM作为judge，大数据集会产生可观API费用"
+  references:
+  - "https://docs.ragas.io/"
+
+- name: sentence-transformers
+  category: "AI基础设施/RAG基础设施"
+  install_required: true
+  install_method: "pip install sentence-transformers"
+  description: "Sentence-Transformers 文本向量化事实标准库，支持embedding、rerank与对比学习微调"
+  usage:
+  - "python embed.py (使用sentence_transformers库)"
+  options:
+  - flag: "SentenceTransformer"
+    description: "加载embedding模型"
+  - flag: "CrossEncoder"
+    description: "加载交叉编码器用于精排"
+  - flag: "encode"
+    description: "批量编码文本为向量 (batch_size, normalize_embeddings)"
+  - flag: "similarity"
+    description: "计算向量相似度矩阵"
+  examples:
+  - command: "python -c \"from sentence_transformers import SentenceTransformer; model = SentenceTransformer('BAAI/bge-m3'); emb = model.encode(['你好世界'], normalize_embeddings=True)\""
+    description: "用BGE-M3生成归一化embedding"
+  - command: "python -c \"from sentence_transformers import CrossEncoder; ce = CrossEncoder('BAAI/bge-reranker-v2-m3'); scores = ce.predict([('query', 'doc1'), ('query', 'doc2')])\""
+    description: "用BGE reranker对候选文档精排打分"
+  platforms:
+  - "linux"
+  - "darwin"
+  - "windows"
+  related_commands:
+  - "fastembed"
+  - "rerankers"
+  risks:
+  - level: low
+    description: "首次运行自动从HuggingFace下载模型，离线环境需预置缓存"
+  references:
+  - "https://www.sbert.net/"
+
+- name: fastembed
+  category: "AI基础设施/RAG基础设施"
+  install_required: true
+  install_method: "pip install fastembed"
+  description: "FastEmbed (Qdrant开源) 轻量级ONNX embedding库，无PyTorch依赖，CPU推理快5-10倍"
+  usage:
+  - "python embed.py (使用fastembed库)"
+  options:
+  - flag: "TextEmbedding"
+    description: "稠密向量模型"
+  - flag: "SparseTextEmbedding"
+    description: "稀疏向量模型 (BM42/SPLADE)"
+  - flag: "LateInteractionTextEmbedding"
+    description: "ColBERT延迟交互模型"
+  examples:
+  - command: "python -c \"from fastembed import TextEmbedding; model = TextEmbedding('BAAI/bge-small-en-v1.5'); embs = list(model.embed(['hello world']))\""
+    description: "CPU上快速生成稠密向量"
+  - command: "python -c \"from fastembed import SparseTextEmbedding; model = SparseTextEmbedding('Qdrant/bm42-all-minilm-l6-v2-attentions'); embs = list(model.embed(['hello world']))\""
+    description: "生成BM42稀疏向量用于混合检索"
+  platforms:
+  - "linux"
+  - "darwin"
+  - "windows"
+  related_commands:
+  - "sentence-transformers"
+  risks:
+  - level: low
+    description: "仅支持已转换为ONNX的模型列表，自定义模型需自行转换"
+  references:
+  - "https://qdrant.github.io/fastembed/"
+
+- name: rerankers
+  category: "AI基础设施/RAG基础设施"
+  install_required: true
+  install_method: "pip install rerankers[all]"
+  description: "Rerankers 统一重排接口库，一套API切换CrossEncoder/ColBERT/Cohere/Jina等精排后端"
+  usage:
+  - "python rerank.py (使用rerankers库)"
+  options:
+  - flag: "Reranker"
+    description: "统一入口，按模型名自动选择后端"
+  - flag: "rank"
+    description: "对query+docs执行重排"
+  - flag: "model_type"
+    description: "显式指定后端 (cross-encoder, colbert, api)"
+  examples:
+  - command: "python -c \"from rerankers import Reranker; r = Reranker('BAAI/bge-reranker-v2-m3'); results = r.rank(query='什么是RAG', docs=docs)\""
+    description: "本地CrossEncoder重排检索结果"
+  - command: "python -c \"from rerankers import Reranker; r = Reranker('cohere', api_key='...'); results = r.rank(query=q, docs=docs)\""
+    description: "切换到Cohere API后端，代码无需改动"
+  platforms:
+  - "linux"
+  - "darwin"
+  - "windows"
+  related_commands:
+  - "sentence-transformers"
+  - "ragas"
+  risks:
+  - level: low
+    description: "API后端会将文档内容发送至第三方服务，敏感数据需用本地后端"
+  references:
+  - "https://github.com/AnswerDotAI/rerankers"
+
+- name: chonkie
+  category: "AI基础设施/RAG基础设施"
+  install_required: true
+  install_method: "pip install chonkie"
+  description: "Chonkie 轻量高性能文本分块库，支持token/sentence/semantic/late等多种chunking策略"
+  usage:
+  - "python chunk.py (使用chonkie库)"
+  options:
+  - flag: "TokenChunker"
+    description: "按token数定长分块"
+  - flag: "SentenceChunker"
+    description: "按句子边界分块"
+  - flag: "SemanticChunker"
+    description: "按语义相似度自适应分块"
+  - flag: "RecursiveChunker"
+    description: "按层级分隔符递归分块"
+  examples:
+  - command: "python -c \"from chonkie import RecursiveChunker; chunker = RecursiveChunker(chunk_size=512); chunks = chunker('long text...')\""
+    description: "递归分块，每块最大512 token"
+  - command: "python -c \"from chonkie import SemanticChunker; chunker = SemanticChunker(embedding_model='minishlab/potion-base-8M', threshold=0.5); chunks = chunker(text)\""
+    description: "语义分块，相似度阈值0.5处断开"
+  platforms:
+  - "linux"
+  - "darwin"
+  - "windows"
+  related_commands:
+  - "unstructured"
+  - "fastembed"
+  risks:
+  - level: low
+    description: "只读处理，无副作用"
+  references:
+  - "https://github.com/chonkie-inc/chonkie"
+
+- name: mineru
+  category: "AI基础设施/RAG基础设施"
+  install_required: true
+  install_method: "pip install mineru[core]"
+  description: "MinerU (OpenDataLab开源) PDF深度解析CLI，基于版面分析+公式识别，中文文档效果突出"
+  usage:
+  - "mineru -p <input.pdf> -o <output_dir> [OPTIONS]"
+  options:
+  - flag: "-p, --path"
+    description: "输入PDF/图片路径"
+  - flag: "-o, --output"
+    description: "输出目录"
+  - flag: "-m, --method"
+    description: "解析方法 (auto, txt, ocr)"
+  - flag: "-l, --lang"
+    description: "指定文档语言提升OCR精度 (ch, en)"
+  examples:
+  - command: "mineru -p paper.pdf -o ./output -m auto"
+    description: "自动判断文本层/OCR解析论文为Markdown"
+  - command: "mineru -p scan.pdf -o ./output -m ocr -l ch"
+    description: "对中文扫描件强制OCR解析"
+  platforms:
+  - "linux"
+  - "darwin"
+  - "windows"
+  related_commands:
+  - "marker"
+  - "docling"
+  - "unstructured"
+  risks:
+  - level: medium
+    description: "首次运行下载模型权重约数GB，GPU模式需正确配置CUDA"
+  references:
+  - "https://github.com/opendatalab/MinerU"

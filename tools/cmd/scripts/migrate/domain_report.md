@@ -1,9 +1,9 @@
 # 领域映射报告（阶段 0 产物，请抽查）
 
-- 命令总数：**1235**
+- 命令总数：**1259**
 - 领域数：**120**
 - slug 冲突：**3**
-- 跳过的 YAML 文件：**1**
+- 跳过的 YAML 文件：**0**
 
 ## 各领域命令数（降序）
 
@@ -41,6 +41,7 @@
 | 数据与标注 | 13 |
 | Java诊断 | 12 |
 | 嵌入式与IoT | 12 |
+| RAG基础设施 | 11 |
 | K8s持续集成 | 11 |
 | Redis工具 | 11 |
 | 性能与调度 | 11 |
@@ -59,6 +60,10 @@
 | K8s容器运行时 | 9 |
 | 扩展工具链 | 9 |
 | 现代工具 | 9 |
+| AI编译器 | 8 |
+| AI网关 | 8 |
+| AI安全 | 8 |
+| 多模态 | 8 |
 | K8s备份恢复 | 8 |
 | K8s开发调试 | 8 |
 | K8s辅助工具 | 8 |
@@ -66,24 +71,22 @@
 | 存储与RAID | 8 |
 | Go工具链 | 8 |
 | AI应用 | 7 |
+| AI编程 | 7 |
 | 固件与UEFI | 7 |
 | 系统信息 | 7 |
 | Go工具链扩展 | 7 |
 | 性能压测 | 7 |
 | 网络安全 | 7 |
 | Systemd服务管理 | 7 |
-| AI编译器 | 6 |
-| AI网关 | 6 |
-| 多模态 | 6 |
+| 联邦学习 | 6 |
+| 模型可解释性 | 6 |
 | 包管理 | 6 |
 | AWS CLI | 6 |
 | NoSQL | 6 |
 | 传感器与电源 | 6 |
 | 网络诊断 | 6 |
-| AI编程 | 5 |
-| AI安全 | 5 |
-| 模型可解释性 | 5 |
-| RAG基础设施 | 5 |
+| 边缘AI | 5 |
+| MLOps平台 | 5 |
 | 数据集成与ETL | 5 |
 | Kafka工具 | 5 |
 | 查询引擎 | 5 |
@@ -103,8 +106,6 @@
 | Bash工具 | 5 |
 | 文本处理 | 5 |
 | 终端复用 | 5 |
-| 边缘AI | 4 |
-| 联邦学习 | 4 |
 | 模型服务 | 4 |
 | Spark计算 | 4 |
 | 流处理 | 4 |
@@ -122,7 +123,6 @@
 | 运维操作 | 3 |
 | 远程带外管理 | 3 |
 | DNS工具 | 3 |
-| MLOps平台 | 2 |
 | Flink流计算 | 2 |
 | Docker高级 | 2 |
 | 时序与OLAP | 2 |
@@ -137,11 +137,6 @@
 | ansible-playbook | ansible playbook / ansible-playbook |
 | docker-compose | docker compose / docker-compose |
 | git-lfs | git lfs / git-lfs |
-
-## 跳过的文件
-
-- `shell/text-processing 2.yaml` — YAML 解析失败: mapping values are not allowed here
-  in "/Users/allengaller/Documents/GitHub/standup-coder/cmd-database/tools/cmd/data/shell/text-processing 2.yaml", line 129, column 20
 
 ## 抽查样本（代表命令）
 

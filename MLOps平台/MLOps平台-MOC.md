@@ -17,10 +17,13 @@
 
 ## 命令列表
 
+- 🟡 [[dagster]] — Dagster 数据编排平台CLI，以软件定义资产(SDA)组织ML管道，内置数据血缘
+- 🟡 [[kedro]] — Kedro (麦肯锡QuantumBlack开源) 数据科学工程化框架，Data Catalog+Pipeline约定驱动项目结构
 - 🟡 [[kfp]] — Kubeflow Pipelines (KFP) 命令行客户端
 - 🟡 [[mlflow]] — MLflow 命令行客户端，用于模型全生命周期管理
+- 🟡 [[prefect]] — Prefect 现代化工作流编排CLI，Python原生Flow定义，支持动态DAG与混合执行
 
 ## 统计
 
-- 总命令数: 2
+- 总命令数: 5
 - 维度: MLOps平台

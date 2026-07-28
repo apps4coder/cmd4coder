@@ -135,3 +135,65 @@ commands:
     description: MPC计算开销大，通信成本高
   references:
   - https://github.com/facebookresearch/CrypTen
+
+- name: nvflare
+  category: "AI基础设施/联邦学习"
+  install_required: true
+  install_method: "pip install nvflare"
+  description: "NVIDIA FLARE 企业级联邦学习SDK，支持横/纵向联邦、安全聚合与医疗/金融场景部署"
+  usage:
+  - "nvflare [COMMAND] [OPTIONS]"
+  options:
+  - flag: "simulator"
+    description: "本地模拟多客户端联邦训练"
+  - flag: "provision"
+    description: "生成客户端/服务端启动包与证书"
+  - flag: "job submit"
+    description: "向联邦系统提交训练job"
+  examples:
+  - command: "nvflare simulator -w /tmp/nvflare -n 2 -t 2 job_folder"
+    description: "模拟2客户端联邦训练"
+  - command: "nvflare provision -p project.yml"
+    description: "根据项目配置生成部署包与TLS证书"
+  platforms:
+  - "linux"
+  - "darwin"
+  related_commands:
+  - "flower"
+  - "opacus"
+  risks:
+  - level: medium
+    description: "跨机构部署需正确分发证书，证书泄露会破坏联邦信任链"
+  references:
+  - "https://nvflare.readthedocs.io/"
+
+- name: fedml
+  category: "AI基础设施/联邦学习"
+  install_required: true
+  install_method: "pip install fedml"
+  description: "FedML 跨设备联邦学习平台，支持端-边-云协同、多种拓扑与异构训练"
+  usage:
+  - "fedml [COMMAND] [OPTIONS]"
+  options:
+  - flag: "login"
+    description: "登录FedML平台"
+  - flag: "launch"
+    description: "启动联邦训练作业"
+  - flag: "run"
+    description: "本地/集群运行训练脚本"
+  examples:
+  - command: "fedml login <api_key>"
+    description: "登录平台并绑定设备"
+  - command: "fedml launch job.yaml"
+    description: "根据配置启动联邦训练job"
+  platforms:
+  - "linux"
+  - "darwin"
+  related_commands:
+  - "flower"
+  - "nvflare"
+  risks:
+  - level: low
+    description: "使用托管平台时训练元数据上传至SaaS，需评估数据合规"
+  references:
+  - "https://doc.fedml.ai/"

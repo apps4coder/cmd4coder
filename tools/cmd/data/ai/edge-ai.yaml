@@ -132,3 +132,34 @@ commands:
         description: "模型转换安全"
     references:
       - "https://paddle-lite.readthedocs.io/"
+
+  - name: ncnn
+    category: "AI基础设施/边缘AI"
+    install_required: true
+    install_method: "git clone https://github.com/Tencent/ncnn && cmake构建"
+    description: "ncnn (腾讯开源) 面向手机端的高性能神经网络推理框架，无第三方依赖，ARM NEON深度优化"
+    usage:
+      - "onnx2ncnn model.onnx model.param model.bin"
+    options:
+      - flag: "onnx2ncnn"
+        description: "将ONNX模型转为ncnn格式"
+      - flag: "ncnnoptimize"
+        description: "图优化与fp16压缩"
+      - flag: "ncnn2int8"
+        description: "INT8量化工具"
+    examples:
+      - command: "onnx2ncnn model.onnx model.param model.bin"
+        description: "将ONNX模型转换为ncnn格式"
+      - command: "ncnnoptimize model.param model.bin opt.param opt.bin 65536"
+        description: "对模型执行图优化并转fp16"
+    platforms:
+      - "linux"
+      - "darwin"
+    related_commands:
+      - "tflite"
+      - "paddle-lite"
+    risks:
+      - level: low
+        description: "INT8量化后需在目标机型上验证精度与延迟"
+    references:
+      - "https://github.com/Tencent/ncnn"

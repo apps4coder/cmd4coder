@@ -205,3 +205,65 @@ commands:
     description: "注意生成内容的合规性"
   references:
   - "https://github.com/Stability-AI/stablediffusion"
+
+- name: sam2
+  category: "AI基础设施/多模态"
+  install_required: true
+  install_method: "pip install git+https://github.com/facebookresearch/sam2.git"
+  description: "SAM 2 (Meta) 图像与视频通用分割模型，支持提示式分割与视频对象追踪"
+  usage:
+  - "python segment.py (使用sam2库)"
+  options:
+  - flag: "SAM2ImagePredictor"
+    description: "图像分割预测器"
+  - flag: "SAM2VideoPredictor"
+    description: "视频分割与追踪预测器"
+  - flag: "build_sam2"
+    description: "加载指定规格模型权重"
+  examples:
+  - command: "python -c \"from sam2.sam2_image_predictor import SAM2ImagePredictor; p = SAM2ImagePredictor.from_pretrained('facebook/sam2-hiera-large')\""
+    description: "加载SAM2图像分割模型"
+  - command: "python -c \"from sam2.build_sam import build_sam2_video_predictor; predictor = build_sam2_video_predictor(cfg, ckpt); state = predictor.init_state('video/')\""
+    description: "初始化视频分割器进行对象追踪"
+  platforms:
+  - "linux"
+  - "darwin"
+  related_commands:
+  - "clip"
+  - "comfyui"
+  risks:
+  - level: low
+    description: "模型权重较大，视频推理需GPU支持"
+  references:
+  - "https://github.com/facebookresearch/sam2"
+
+- name: qwen-vl
+  category: "AI基础设施/多模态"
+  install_required: true
+  install_method: "pip install transformers qwen-vl-utils"
+  description: "Qwen-VL (阿里巴巴) 开源视觉语言模型，支持图像/视频理解、OCR与多图对话"
+  usage:
+  - "python vl_infer.py (使用transformers加载Qwen-VL)"
+  options:
+  - flag: "Qwen2VLForConditionalGeneration"
+    description: "多模态生成模型类"
+  - flag: "process_vision_info"
+    description: "预处理图像/视频输入"
+  - flag: "min_pixels/max_pixels"
+    description: "控制图像分辨率以平衡显存与精度"
+  examples:
+  - command: "python -c \"from transformers import Qwen2VLForConditionalGeneration; m = Qwen2VLForConditionalGeneration.from_pretrained('Qwen/Qwen2-VL-7B-Instruct')\""
+    description: "加载Qwen2-VL-7B多模态模型"
+  - command: "python -c \"from qwen_vl_utils import process_vision_info; image_inputs, video_inputs = process_vision_info(messages)\""
+    description: "预处理图像/视频输入以构造多模态prompt"
+  platforms:
+  - "linux"
+  - "darwin"
+  related_commands:
+  - "llava"
+  - "clip"
+  risks:
+  - level: low
+    description: "高分辨率图像会显著增加显存占用，需调优pixels参数"
+  references:
+  - "https://github.com/QwenLM/Qwen2-VL"

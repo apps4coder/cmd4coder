@@ -197,3 +197,65 @@ commands:
     description: "企业级网关需正确配置安全策略"
   references:
   - "https://konghq.com/products/kong-ai-gateway"
+
+- name: requesty
+  category: "AI基础设施/AI网关"
+  install_required: false
+  install_method: "无需安装，修改base_url接入"
+  description: "Requesty 统一LLM路由网关，提供智能回退、成本优化与治理看板，兼容OpenAI SDK"
+  usage:
+  - "将 base_url 指向 https://router.requesty.ai/v1"
+  options:
+  - flag: "base_url"
+    description: "将OpenAI客户端base_url指向网关"
+  - flag: "routing policy"
+    description: "配置模型回退与负载均衡策略"
+  examples:
+  - command: "export OPENAI_BASE_URL=https://router.requesty.ai/v1"
+    description: "一行环境变量接入网关"
+  - command: "curl https://router.requesty.ai/v1/chat/completions -H 'Authorization: Bearer $REQUESTY_KEY' -d '{\"model\":\"openai/gpt-4o\",\"messages\":[]}'"
+    description: "通过网关发起带回退策略的请求"
+  platforms:
+  - "linux"
+  - "darwin"
+  - "windows"
+  related_commands:
+  - "openrouter"
+  - "litellm"
+  risks:
+  - level: low
+    description: "请求经第三方网关中转，敏感数据需评估合规与日志留存策略"
+  references:
+  - "https://requesty.ai/"
+
+- name: cloudflare-ai-gateway
+  category: "AI基础设施/AI网关"
+  install_required: false
+  install_method: "通过Cloudflare Dashboard或wrangler配置"
+  description: "Cloudflare AI Gateway 边缘LLM网关，提供缓存、限速、重试与分析，无需改代码仅改端点"
+  usage:
+  - "将provider端点改为 https://gateway.ai.cloudflare.com/v1/<account>/<gateway>/<provider>"
+  options:
+  - flag: "caching"
+    description: "开启响应缓存降低重复调用成本"
+  - flag: "rate limiting"
+    description: "按频率限制保护后端"
+  - flag: "fallback"
+    description: "provider不可用时自动回退"
+  examples:
+  - command: "curl https://gateway.ai.cloudflare.com/v1/<acct>/<gw>/openai/chat/completions"
+    description: "通过网关代理OpenAI请求"
+  - command: "curl https://gateway.ai.cloudflare.com/v1/<acct>/<gw>/openai/chat/completions -H 'cf-aig-cache-ttl: 3600'"
+    description: "为请求设置缓存TTL降低重复调用成本"
+  platforms:
+  - "linux"
+  - "darwin"
+  - "windows"
+  related_commands:
+  - "helicone"
+  - "litellm"
+  risks:
+  - level: low
+    description: "缓存命中时不调用后端，需注意敏感/个性化响应不宜缓存"
+  references:
+  - "https://developers.cloudflare.com/ai-gateway/"

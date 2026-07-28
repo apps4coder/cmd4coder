@@ -66,3 +66,116 @@ commands:
         description: "会修改本地环境或依赖"
     references:
       - "https://mlflow.org/docs/latest/cli.html"
+
+  - name: prefect
+    category: "AI基础设施/MLOps平台"
+    install_required: true
+    install_method: "pip install prefect"
+    description: "Prefect 现代化工作流编排CLI，Python原生Flow定义，支持动态DAG与混合执行"
+    usage:
+      - "prefect [COMMAND] [OPTIONS]"
+    options:
+      - flag: "deploy"
+        description: "部署Flow到工作池"
+      - flag: "worker start"
+        description: "启动Worker拉取并执行任务"
+      - flag: "server start"
+        description: "启动本地Orion服务端"
+      - flag: "deployment run"
+        description: "触发指定deployment运行"
+      - flag: "cloud login"
+        description: "登录Prefect Cloud"
+    examples:
+      - command: "prefect server start"
+        description: "启动本地服务端与UI (默认127.0.0.1:4200)"
+      - command: "prefect deploy ./train.py:train_flow -n nightly-train -p gpu-pool"
+        description: "将训练Flow部署到gpu-pool工作池"
+      - command: "prefect worker start -p gpu-pool"
+        description: "启动Worker监听gpu-pool队列"
+      - command: "prefect deployment run 'train-flow/nightly-train'"
+        description: "手动触发一次部署运行"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    related_commands:
+      - "airflow"
+      - "dagster"
+      - "metaflow"
+    risks:
+      - level: low
+        description: "Cloud模式下Flow元数据上传至SaaS，需评估数据合规"
+    references:
+      - "https://docs.prefect.io/latest/api-ref/cli/"
+
+  - name: dagster
+    category: "AI基础设施/MLOps平台"
+    install_required: true
+    install_method: "pip install dagster dagster-webserver"
+    description: "Dagster 数据编排平台CLI，以软件定义资产(SDA)组织ML管道，内置数据血缘"
+    usage:
+      - "dagster [COMMAND] [OPTIONS]"
+    options:
+      - flag: "dev"
+        description: "启动本地开发环境 (webserver + daemon)"
+      - flag: "asset materialize"
+        description: "物化指定资产"
+      - flag: "job launch"
+        description: "启动Job运行"
+      - flag: "instance info"
+        description: "查看实例配置信息"
+    examples:
+      - command: "dagster dev -f pipeline.py"
+        description: "加载pipeline定义并启动本地UI (localhost:3000)"
+      - command: "dagster asset materialize -f pipeline.py --select embeddings_table"
+        description: "物化embeddings_table资产及其依赖"
+      - command: "dagster job launch -j train_job -c run_config.yaml"
+        description: "按配置文件启动训练Job"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    related_commands:
+      - "airflow"
+      - "prefect"
+    risks:
+      - level: low
+        description: "dev 模式无认证，生产需部署dagster-webserver并配置RBAC"
+    references:
+      - "https://docs.dagster.io/_apidocs/cli"
+
+  - name: kedro
+    category: "AI基础设施/MLOps平台"
+    install_required: true
+    install_method: "pip install kedro"
+    description: "Kedro (麦肯锡QuantumBlack开源) 数据科学工程化框架，Data Catalog+Pipeline约定驱动项目结构"
+    usage:
+      - "kedro [COMMAND] [OPTIONS]"
+    options:
+      - flag: "new"
+        description: "从模板创建新项目"
+      - flag: "run"
+        description: "运行Pipeline (--pipeline, --nodes, --tags过滤)"
+      - flag: "viz"
+        description: "启动可视化Web UI (需kedro-viz)"
+      - flag: "catalog"
+        description: "管理Data Catalog数据集"
+    examples:
+      - command: "kedro new --starter=spaceflights-pandas"
+        description: "用官方starter创建示例项目"
+      - command: "kedro run --pipeline=training --env=prod"
+        description: "以prod环境配置运行training管道"
+      - command: "kedro viz run"
+        description: "打开管道血缘可视化界面"
+    platforms:
+      - "linux"
+      - "darwin"
+      - "windows"
+    related_commands:
+      - "zenml"
+      - "mlflow"
+    risks:
+      - level: low
+        description: "--env 切换环境配置，误用prod环境可能覆盖生产数据集"
+    references:
+      - "https://docs.kedro.org/en/stable/development/commands_reference.html"

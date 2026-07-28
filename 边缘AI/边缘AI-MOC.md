@@ -19,10 +19,11 @@
 
 - 🟡 [[executorch]] — ExecuTorch PyTorch移动端运行时，支持iOS/Android/嵌入式，端到端推理优化
 - 🟡 [[mediapipe]] — Google MediaPipe端侧ML流水线，支持人脸检测、姿态估计、手势识别、文本分类
+- 🟡 [[ncnn]] — ncnn (腾讯开源) 面向手机端的高性能神经网络推理框架，无第三方依赖，ARM NEON深度优化
 - 🟡 [[paddle-lite]] — Paddle Lite百度端侧推理框架，支持ARM Cortex-M到服务器GPU，极致轻量
 - 🟡 [[tflite]] — TensorFlow Lite移动端和嵌入式推理框架，支持Android/iOS/ARM/Raspberry Pi
 
 ## 统计
 
-- 总命令数: 4
+- 总命令数: 5
 - 维度: 边缘AI

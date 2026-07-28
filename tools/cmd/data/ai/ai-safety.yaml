@@ -166,3 +166,98 @@ commands:
     description: "攻击测试需在隔离环境执行"
   references:
   - "https://github.com/protectai/neuralsecure"
+
+- name: pyrit
+  category: "AI基础设施/AI安全"
+  install_required: true
+  install_method: "pip install pyrit"
+  description: "PyRIT (微软开源) 生成式AI红队自动化框架，编排多轮攻击、评分与风险证据收集"
+  usage:
+  - "python redteam.py (使用pyrit库)"
+  options:
+  - flag: "PromptSendingOrchestrator"
+    description: "批量发送攻击prompt的编排器"
+  - flag: "RedTeamingOrchestrator"
+    description: "多轮自适应红队对话"
+  - flag: "SelfAskTrueFalseScorer"
+    description: "基于LLM的攻击成功与否评分器"
+  examples:
+  - command: "python -c \"from pyrit.orchestrator import RedTeamingOrchestrator; ...\""
+    description: "启动多轮自适应红队攻击目标模型"
+  - command: "python -c \"from pyrit.orchestrator import PromptSendingOrchestrator; orch.send_prompts_async(prompts)\""
+    description: "批量发送攻击prompt并收集结果"
+  platforms:
+  - "linux"
+  - "darwin"
+  - "windows"
+  related_commands:
+  - "garak"
+  - "rebuff"
+  risks:
+  - level: high
+    description: "生成真实攻击载荷，仅限授权红队测试，禁止用于未授权系统"
+  - level: medium
+    description: "攻击编排器会调用目标LLM API产生费用，大规模红队测试前应设置速率与调用上限"
+  references:
+  - "https://github.com/Azure/PyRIT"
+
+- name: rebuff
+  category: "AI基础设施/AI安全"
+  install_required: true
+  install_method: "pip install rebuff"
+  description: "Rebuff 提示注入检测库，多层防御（启发式+LLM+向量库+金丝雀）拦截恶意prompt"
+  usage:
+  - "python guard.py (使用rebuff库)"
+  options:
+  - flag: "detect_injection"
+    description: "检测输入是否包含注入攻击"
+  - flag: "add_canary_word"
+    description: "注入金丝雀词检测提示泄露"
+  examples:
+  - command: "python -c \"from rebuff import Rebuff; rb = Rebuff(api_token='...'); result = rb.detect_injection('ignore previous instructions')\""
+    description: "检测典型越狱提示"
+  - command: "python -c \"from rebuff import Rebuff; rb = Rebuff(api_token='...'); buffed = rb.add_canary_word(prompt); # 在输出中检测金丝雀词是否泄露\""
+    description: "使用金丝雀词机制检测提示泄露"
+  platforms:
+  - "linux"
+  - "darwin"
+  - "windows"
+  related_commands:
+  - "llm-guard"
+  - "garak"
+  risks:
+  - level: low
+    description: "检测为概率性，不能作为唯一防线，需与输出过滤配合"
+  references:
+  - "https://github.com/protectai/rebuff"
+
+- name: nemo-guardrails
+  category: "AI基础设施/AI安全"
+  install_required: true
+  install_method: "pip install nemoguardrails"
+  description: "NVIDIA NeMo Guardrails 可编程护栏框架，用Colang定义对话边界、事实性与安全策略"
+  usage:
+  - "nemoguardrails [COMMAND] [OPTIONS]"
+  options:
+  - flag: "chat"
+    description: "启动带护栏的交互式对话"
+  - flag: "server"
+    description: "启动护栏API服务端"
+  - flag: "--config"
+    description: "指定护栏配置目录 (rails + Colang)"
+  examples:
+  - command: "nemoguardrails server --config ./config"
+    description: "基于配置目录启动护栏服务"
+  - command: "nemoguardrails chat --config ./config"
+    description: "本地测试护栏拦截效果"
+  platforms:
+  - "linux"
+  - "darwin"
+  related_commands:
+  - "llm-guard"
+  - "rebuff"
+  risks:
+  - level: medium
+    description: "Colang规则误配可能过度拦截正常请求或放行恶意输入"
+  references:
+  - "https://github.com/NVIDIA/NeMo-Guardrails"

@@ -196,3 +196,67 @@ commands:
         description: "JIT编译首次运行较慢"
     references:
       - "https://www.tensorflow.org/xla"
+
+  - name: torch-compile
+    category: "AI基础设施/AI编译器"
+    install_required: false
+    install_method: "PyTorch 2.0+ 内置 (pip install torch)"
+    description: "torch.compile PyTorch原生JIT编译器，基于TorchDynamo+Inductor自动图捕获与算子融合，一行提速"
+    usage:
+      - "model = torch.compile(model, mode='...', backend='inductor')"
+    options:
+      - flag: "mode"
+        description: "编译模式 (default, reduce-overhead, max-autotune)"
+      - flag: "backend"
+        description: "后端 (inductor, cudagraphs, onnxrt, tensorrt)"
+      - flag: "fullgraph"
+        description: "强制全图捕获，禁止graph break"
+      - flag: "dynamic"
+        description: "支持动态shape避免重复编译"
+    examples:
+      - command: "python -c \"import torch; m = torch.compile(model, mode='max-autotune')\""
+        description: "以最大自动调优模式编译模型"
+      - command: "python -c \"import torch; m = torch.compile(model, mode='reduce-overhead')\""
+        description: "小批量推理降低Python开销（启用CUDA Graphs）"
+    platforms:
+      - "linux"
+      - "darwin"
+    related_commands:
+      - "onnx-optimizer"
+      - "tvmc"
+    risks:
+      - level: low
+        description: "首次编译耗时较长；频繁变化的shape会触发重编译拖慢速度"
+    references:
+      - "https://pytorch.org/docs/stable/generated/torch.compile.html"
+
+  - name: olive
+    category: "AI基础设施/AI编译器"
+    install_required: true
+    install_method: "pip install olive-ai"
+    description: "Olive (微软开源) 硬件感知模型优化工具链，自动搜索量化/转换/图优化组合，产出ONNX"
+    usage:
+      - "olive run --config <config.json>"
+    options:
+      - flag: "run"
+        description: "执行优化工作流"
+      - flag: "--config"
+        description: "指定优化pass与目标硬件配置"
+      - flag: "auto-opt"
+        description: "自动优化模式，无需手写配置"
+    examples:
+      - command: "olive auto-opt -m meta-llama/Llama-3.2-1B -o ./optimized --device gpu"
+        description: "自动为GPU优化并导出Llama模型"
+      - command: "olive run --config quantize_config.json"
+        description: "按配置执行量化+转换流水线"
+    platforms:
+      - "linux"
+      - "windows"
+    related_commands:
+      - "onnx-optimizer"
+      - "trtexec"
+    risks:
+      - level: medium
+        description: "自动搜索耗时且占用大量显存，量化后需验证精度损失"
+    references:
+      - "https://microsoft.github.io/Olive/"

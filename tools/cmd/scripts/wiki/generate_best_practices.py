@@ -21,7 +21,7 @@ from datetime import date
 import yaml
 
 # ── paths ────────────────────────────────────────────────────────
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[4]  # 脚本在 tools/cmd/scripts/wiki/，parents[4]=repo root
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"  # YAML 源已随 CLI 收敛到 tools/cmd/data
 WIKI_DIR = ROOT / "llm-wiki"
 BP_DIR = WIKI_DIR / "best-practices"
