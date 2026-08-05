@@ -80,6 +80,10 @@ docker build --no-cache --pull -t myapp:v1 .
 
 > ⚠️ **LOW**: 构建操作风险低
 
+## 最佳实践
+
+[[bp-docker-build-multi-stage|docker build (multi-stage) 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Docker高级-MOC|容器编排/Docker高级]]

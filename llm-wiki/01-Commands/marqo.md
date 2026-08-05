@@ -78,6 +78,10 @@ python -c "import marqo; mq = marqo.Client(url='http://localhost:8882'); mq.crea
 
 - [https://www.marqo.ai/](https://www.marqo.ai/)
 
+## 最佳实践
+
+[[bp-marqo|marqo 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

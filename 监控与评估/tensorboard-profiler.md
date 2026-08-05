@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/monitoring.yaml"
+  "source_file": "tools/cmd/data/ai/monitoring.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ tensorboard --logdir=logs/profiler --port 6006
 
 ## 关联命令
 
-- [[tensorboard]]
-- [[deepspeed]]
+- [[tensorboard|tensorboard]]
+- [[deepspeed|deepspeed]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ tensorboard --logdir=logs/profiler --port 6006
 ## 参考链接
 
 - [https://www.tensorflow.org/tensorboard/tensorboard_profiling_keras](https://www.tensorflow.org/tensorboard/tensorboard_profiling_keras)
+
+## 最佳实践
+
+[[bp-tensorboard-profiler|tensorboard-profiler 生产环境最佳实践]]
 
 ## 所属维度
 

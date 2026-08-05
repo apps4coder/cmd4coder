@@ -61,6 +61,10 @@ svn add --force .
 
 > ⚠️ **LOW**: Only schedules for addition; not committed until svn commit
 
+## 最佳实践
+
+[[bp-svn-add|svn add 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Version Control-MOC|Version Control]]

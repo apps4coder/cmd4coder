@@ -78,6 +78,10 @@ python extract.py --schema schema.json --input documents/
 
 - [https://github.com/jxnl/instructor](https://github.com/jxnl/instructor)
 
+## 最佳实践
+
+[[bp-instructor|instructor 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

@@ -71,6 +71,10 @@ yarn application -kill application_12345_0001
 
 > ⚠️ **MEDIUM**: 终止生产环境应用可能影响业务，请先确认应用状态
 
+## 最佳实践
+
+[[bp-yarn|yarn 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Hadoop生态-MOC|大数据/Hadoop生态]]

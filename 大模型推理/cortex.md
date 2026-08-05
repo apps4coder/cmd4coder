@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ cortex pull mistral
 
 ## 关联命令
 
-- [[ollama]]
-- [[llamacpp]]
+- [[ollama|ollama]]
+- [[llamacpp|llama.cpp]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ cortex pull mistral
 ## 参考链接
 
 - [https://cortex.so/](https://cortex.so/)
+
+## 最佳实践
+
+[[bp-cortex|cortex 生产环境最佳实践]]
 
 ## 所属维度
 

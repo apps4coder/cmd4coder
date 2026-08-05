@@ -77,6 +77,10 @@ composer train.py --algorithms BlurPool SAM LabelSmoothing
 
 - [https://www.mosaicml.com/](https://www.mosaicml.com/)
 
+## 最佳实践
+
+[[bp-composer|composer 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

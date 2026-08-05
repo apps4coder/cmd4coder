@@ -72,6 +72,10 @@ okteto context use https://okteto.example.com
 
 > ⚠️ **MEDIUM**: okteto up 会同步本地代码到集群，请确认忽略文件
 
+## 最佳实践
+
+[[bp-okteto|okteto 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

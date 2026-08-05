@@ -88,6 +88,10 @@ az deployment group what-if --resource-group my-rg --template-file main.bicep
 
 > ⚠️ **HIGH**: 部署可能创建/修改/删除资源，建议先用 what-if 预览
 
+## 最佳实践
+
+[[bp-az-bicep|az bicep 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Azure CLI-MOC|云平台/Azure CLI]]

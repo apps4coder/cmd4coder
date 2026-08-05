@@ -53,6 +53,10 @@ sudo apt update -qq
 
 > ⚠️ **LOW**: Requires sudo; updates package index only
 
+## 最佳实践
+
+[[bp-apt-update|apt update 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

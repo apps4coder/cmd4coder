@@ -63,6 +63,10 @@ sudo renice -n 10 -u alice
 
 > ⚠️ **MEDIUM**: 调整关键系统进程优先级可能影响稳定性，请谨慎
 
+## 最佳实践
+
+[[bp-renice|renice 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux扩展命令-MOC|操作系统/Linux扩展命令]]

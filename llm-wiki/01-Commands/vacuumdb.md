@@ -77,6 +77,12 @@ vacuumdb -a
 
 > ⚠️ **MEDIUM**: Full vacuum locks tables; may impact performance
 
+> ⚠️ **LOW**: Regular vacuum is safe but may take time
+
+## 最佳实践
+
+[[bp-vacuumdb|vacuumdb 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

@@ -71,6 +71,10 @@ jmap -dump:format=b,file=heap.bin 12345
 
 > ⚠️ **MEDIUM**: 堆转储操作会暂停应用，建议在低峰期执行
 
+## 最佳实践
+
+[[bp-jmap|jmap 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Java工具链-MOC|编程语言/Java工具链]]

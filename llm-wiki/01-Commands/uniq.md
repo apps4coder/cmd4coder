@@ -75,6 +75,10 @@ sort file.txt | uniq -u
 
 > ⚠️ **LOW**: 只读操作，无风险
 
+## 最佳实践
+
+[[bp-uniq|uniq 生产环境最佳实践]]
+
 ## 所属维度
 
 [[文本处理-MOC|Shell脚本/文本处理]]

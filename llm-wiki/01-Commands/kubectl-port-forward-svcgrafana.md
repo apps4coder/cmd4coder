@@ -55,6 +55,10 @@ kubectl port-forward svc/kube-prometheus-stack-grafana 3000:80 -n monitoring
 
 > ⚠️ **MEDIUM**: Exposes dashboard interface; may contain sensitive data
 
+## 最佳实践
+
+[[bp-kubectl-port-forward-svc-grafana|kubectl port-forward svc/grafana 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

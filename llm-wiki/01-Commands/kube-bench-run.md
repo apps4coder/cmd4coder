@@ -74,6 +74,10 @@ kube-bench run --json
 
 > ⚠️ **LOW**: Read-only assessment; checks configuration only
 
+## 最佳实践
+
+[[bp-kube-bench-run|kube-bench run 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

@@ -70,6 +70,10 @@ kn service list
 
 > ⚠️ **MEDIUM**: kn service delete 会删除 Serverless 服务，请确认
 
+## 最佳实践
+
+[[bp-kn|kn 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/multimodal.yaml"
+  "source_file": "tools/cmd/data/ai/multimodal.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python -m llava.serve.controller --host 0.0.0.0 --port 10000
 
 ## 关联命令
 
-- [[clip]]
-- [[transformers-pipeline]]
+- [[clip|clip]]
+- [[transformers-pipeline|transformers-pipeline]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python -m llava.serve.controller --host 0.0.0.0 --port 10000
 ## 参考链接
 
 - [https://github.com/haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA)
+
+## 最佳实践
+
+[[bp-llava|llava 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -73,6 +73,10 @@ spark-submit --master yarn --deploy-mode cluster myapp.py
 
 > ⚠️ **MEDIUM**: 提交到共享集群时请注意资源占用，避免耗尽队列资源
 
+## 最佳实践
+
+[[bp-spark-submit|spark-submit 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Spark计算-MOC|大数据/Spark计算]]

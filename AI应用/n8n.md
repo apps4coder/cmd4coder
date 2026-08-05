@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-applications.yaml"
+  "source_file": "tools/cmd/data/ai/ai-applications.yaml"
 }
 ---
 
@@ -74,8 +74,8 @@ n8n execute --file workflow.json
 
 ## 关联命令
 
-- [[dify]]
-- [[flowise]]
+- [[dify|dify]]
+- [[flowise|flowise]]
 
 ## 风险提示
 
@@ -84,6 +84,10 @@ n8n execute --file workflow.json
 ## 参考链接
 
 - [https://n8n.io/](https://n8n.io/)
+
+## 最佳实践
+
+[[bp-n8n|n8n 生产环境最佳实践]]
 
 ## 所属维度
 

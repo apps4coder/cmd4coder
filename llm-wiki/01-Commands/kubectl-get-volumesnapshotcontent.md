@@ -56,6 +56,10 @@ kubectl describe volumesnapshotcontent snapcontent-12345
 
 > ⚠️ **LOW**: Read-only operation; shows actual snapshots
 
+## 最佳实践
+
+[[bp-kubectl-get-volumesnapshotcontent|kubectl get volumesnapshotcontent 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Storage Management-MOC|Kubernetes Storage Management]]

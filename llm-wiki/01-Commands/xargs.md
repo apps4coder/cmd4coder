@@ -64,6 +64,12 @@ cat urls.txt | xargs -n 1 -P 4 curl -O
 
 > ⚠️ **HIGH**: xargs 执行 rm 等命令是批量操作，建议先用 xargs echo 预览
 
+> ⚠️ **HIGH**: 操作前请确认参数、目标路径和影响范围，建议在隔离或测试环境中先行验证。
+
+## 最佳实践
+
+[[bp-xargs|xargs 生产环境最佳实践]]
+
 ## 所属维度
 
 [[通用Linux命令-MOC|操作系统/通用Linux命令]]

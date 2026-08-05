@@ -25,7 +25,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -76,8 +76,8 @@ llamafactory-cli api --model_dir ./merged --template llama3
 
 ## 关联命令
 
-- [[unsloth]]
-- [[axolotl]]
+- [[unsloth|unsloth]]
+- [[axolotl|axolotl]]
 
 ## 风险提示
 
@@ -86,6 +86,10 @@ llamafactory-cli api --model_dir ./merged --template llama3
 ## 参考链接
 
 - [https://github.com/hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
+
+## 最佳实践
+
+[[bp-llama-factory|llama-factory 生产环境最佳实践]]
 
 ## 所属维度
 

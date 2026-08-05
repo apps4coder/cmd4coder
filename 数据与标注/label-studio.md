@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/data-labeling.yaml"
+  "source_file": "tools/cmd/data/ai/data-labeling.yaml"
 }
 ---
 
@@ -74,8 +74,8 @@ label-studio init my_project --template image_classification
 
 ## 关联命令
 
-- [[argilla]]
-- [[cleanlab]]
+- [[argilla|argilla]]
+- [[cleanlab|cleanlab]]
 
 ## 风险提示
 
@@ -84,6 +84,10 @@ label-studio init my_project --template image_classification
 ## 参考链接
 
 - [https://labelstud.io/](https://labelstud.io/)
+
+## 最佳实践
+
+[[bp-label-studio|label-studio 生产环境最佳实践]]
 
 ## 所属维度
 

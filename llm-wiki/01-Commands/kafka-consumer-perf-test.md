@@ -71,6 +71,10 @@ kafka-consumer-perf-test.sh --topic test --messages 10000
 
 > ⚠️ **MEDIUM**: 消费压测可能影响同一 consumer group 的正式消费者
 
+## 最佳实践
+
+[[bp-kafka-consumer-perf-test|kafka-consumer-perf-test 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|大数据/扩展工具]]

@@ -89,6 +89,10 @@ tmux rename-window -t dev "build"
 
 > ⚠️ **LOW**: 关闭窗口终止其中所有进程
 
+## 最佳实践
+
+[[bp-tmux-new-window|tmux new-window 生产环境最佳实践]]
+
 ## 所属维度
 
 [[终端复用-MOC|Shell脚本/终端复用]]

@@ -59,6 +59,10 @@ dnsmasq --no-daemon --log-queries
 
 > ⚠️ **MEDIUM**: dnsmasq 作为 DNS/DHCP 服务，错误配置会导致网络解析异常
 
+## 最佳实践
+
+[[bp-dnsmasq|dnsmasq 生产环境最佳实践]]
+
 ## 所属维度
 
 [[基础设施-MOC|网络工具/基础设施]]

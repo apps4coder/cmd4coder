@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/vector-db.yaml"
+  "source_file": "tools/cmd/data/ai/vector-db.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ vespa query 'select * from sources * where {targetHits:10}nearestNeighbor(embedd
 
 ## 关联命令
 
-- [[milvus-cli]]
-- [[qdrant]]
+- [[milvus-cli|milvus-cli]]
+- [[qdrant|qdrant]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ vespa query 'select * from sources * where {targetHits:10}nearestNeighbor(embedd
 ## 参考链接
 
 - [https://vespa.ai/](https://vespa.ai/)
+
+## 最佳实践
+
+[[bp-vespa-cli|vespa-cli 生产环境最佳实践]]
 
 ## 所属维度
 

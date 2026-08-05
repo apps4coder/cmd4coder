@@ -67,6 +67,10 @@ cilium status -o json
 
 > ⚠️ **LOW**: Read-only status check; no operational impact
 
+## 最佳实践
+
+[[bp-cilium-status|cilium status 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Networking-MOC|Kubernetes Networking]]

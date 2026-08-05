@@ -75,6 +75,12 @@ helm uninstall nginx --no-hooks
 
 > ⚠️ **CRITICAL**: Removes all resources managed by release; causes service downtime
 
+> ⚠️ **HIGH**: Backup data before uninstalling stateful applications
+
+## 最佳实践
+
+[[bp-helm-uninstall|helm uninstall 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

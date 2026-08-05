@@ -73,6 +73,10 @@ git switch -c new-feature
 
 > ⚠️ **LOW**: 只读查询类 Git 操作，风险较低，但仍需确认仓库与分支。
 
+## 最佳实践
+
+[[bp-git-switch|git switch 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Git命令-MOC|版本控制/Git命令]]

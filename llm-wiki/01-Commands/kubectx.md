@@ -68,6 +68,12 @@ kubectx staging
 
 > ⚠️ **HIGH**: Switching contexts changes target cluster; verify before executing commands
 
+> ⚠️ **MEDIUM**: Accidental switch to production can cause issues
+
+## 最佳实践
+
+[[bp-kubectx|kubectx 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Utilities-MOC|Kubernetes Utilities]]

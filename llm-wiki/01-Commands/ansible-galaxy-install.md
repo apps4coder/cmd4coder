@@ -69,6 +69,10 @@ ansible-galaxy install kubernetes-sigs.kubespray
 
 > ⚠️ **LOW**: Downloads roles; no system changes
 
+## 最佳实践
+
+[[bp-ansible-galaxy-install|ansible-galaxy install 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

@@ -7,7 +7,7 @@ domain: "ai-infra"
 risk_level: "low"
 platforms: ["linux", "darwin", "windows"]
 tags: ["ai-infra", "risk-low", "linux", "darwin", "windows"]
-created: "2026-06-06"
+created: "2026-07-28"
 source_file: "ai/vector-db.yaml"
 ---
 
@@ -57,9 +57,9 @@ source_file: "ai/vector-db.yaml"
 
 ## 生产示例
 
-**单节点启动(开发)**:
+**查看集群健康状态**:
 ```bash
-docker run -p 9200:9200 -e discovery.type=single-node -e xpack.security.enabled=false elasticsearch:8.12.0
+curl http://localhost:9200/_cluster/health
 ```
 
 ## 参考链接

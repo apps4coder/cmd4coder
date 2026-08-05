@@ -88,6 +88,10 @@ vllm serve TheBloke/Llama-2-70B-AWQ --quantization awq --gpu-memory-utilization 
 
 - [https://docs.vllm.ai/](https://docs.vllm.ai/)
 
+## 最佳实践
+
+[[bp-vllm|vllm 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

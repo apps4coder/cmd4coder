@@ -76,6 +76,10 @@ python bigbench/evaluate_task.py --task simple_arithmetic --models gpt-4 --max_e
 
 - [https://github.com/google/BIG-bench](https://github.com/google/BIG-bench)
 
+## 最佳实践
+
+[[bp-big-bench|big-bench 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Harness工程-MOC|AI基础设施/Harness工程]]

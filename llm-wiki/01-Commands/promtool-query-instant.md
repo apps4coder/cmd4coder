@@ -61,6 +61,10 @@ promtool query instant http://localhost:9090 'node_memory_MemAvailable_bytes'
 
 > ⚠️ **LOW**: Read-only query operation
 
+## 最佳实践
+
+[[bp-promtool-query-instant|promtool query instant 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

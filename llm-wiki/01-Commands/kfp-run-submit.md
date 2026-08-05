@@ -65,6 +65,10 @@ kfp run submit -e prod -p training-pipeline -r daily-train
 
 > ⚠️ **MEDIUM**: Creates pipeline run; consumes cluster resources
 
+## 最佳实践
+
+[[bp-kfp-run-submit|kfp run submit 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes MLOps-MOC|Kubernetes MLOps]]

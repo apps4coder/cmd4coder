@@ -55,6 +55,10 @@ kubectl apply -n kserve-test -f pytorch-model.yaml
 
 > ⚠️ **MEDIUM**: Deploys model serving resources to cluster
 
+## 最佳实践
+
+[[bp-kubectl-apply-f-inferenceservice-yaml|kubectl apply -f inferenceservice.yaml 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes MLOps-MOC|Kubernetes MLOps]]

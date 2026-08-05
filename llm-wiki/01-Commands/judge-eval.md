@@ -76,6 +76,10 @@ python evaluate_judge.py --judge_model all --bias_type position,length
 
 - [https://github.com/hemingkx/LLM-as-Judge](https://github.com/hemingkx/LLM-as-Judge)
 
+## 最佳实践
+
+[[bp-judge-eval|judge-eval 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Harness工程-MOC|AI基础设施/Harness工程]]

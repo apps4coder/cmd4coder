@@ -72,6 +72,10 @@ keptn trigger delivery --project=myproj --service=mysvc --image=myimage:v2
 
 > ⚠️ **MEDIUM**: Keptn 编排会影响部署和 SLO 评估，请确认配置
 
+## 最佳实践
+
+[[bp-keptn|keptn 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

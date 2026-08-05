@@ -77,6 +77,10 @@ python -c "import fitz; doc = fitz.open('file.pdf'); pix = doc[0].get_pixmap(); 
 
 - [https://github.com/pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
+## 最佳实践
+
+[[bp-pymupdf|pymupdf 生产环境最佳实践]]
+
 ## 所属维度
 
 [[RAG基础设施-MOC|AI基础设施/RAG基础设施]]

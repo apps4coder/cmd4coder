@@ -67,6 +67,10 @@ trivy config --format json helm-chart/
 
 > ⚠️ **LOW**: Read-only scanning; no file modifications
 
+## 最佳实践
+
+[[bp-trivy-config|trivy config 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

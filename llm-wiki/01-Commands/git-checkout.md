@@ -79,6 +79,10 @@ git checkout -- file.txt
 
 > ⚠️ **MEDIUM**: 恢复文件会丢失未提交的更改
 
+## 最佳实践
+
+[[bp-git-checkout|git checkout 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Git命令-MOC|版本控制/Git命令]]

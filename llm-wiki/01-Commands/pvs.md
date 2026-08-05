@@ -63,6 +63,10 @@ sudo pvs -o pv_name,vg_name,pv_size
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 最佳实践
+
+[[bp-pvs|pvs 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux核心-MOC|操作系统/Linux核心]]

@@ -71,6 +71,10 @@ dfu-util -a 0 -D firmware.dfu
 
 > ⚠️ **MEDIUM**: 固件更新失败可能使设备无法启动
 
+## 最佳实践
+
+[[bp-dfu-util|dfu-util 生产环境最佳实践]]
+
 ## 所属维度
 
 [[嵌入式与IoT-MOC|硬件/嵌入式与IoT]]

@@ -79,6 +79,10 @@ tensorboard --logdir=logs/profiler --port 6006
 
 - [https://www.tensorflow.org/tensorboard/tensorboard_profiling_keras](https://www.tensorflow.org/tensorboard/tensorboard_profiling_keras)
 
+## 最佳实践
+
+[[bp-tensorboard-profiler|tensorboard-profiler 生产环境最佳实践]]
+
 ## 所属维度
 
 [[监控与评估-MOC|AI基础设施/监控与评估]]

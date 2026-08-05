@@ -69,6 +69,10 @@ fluent-bit -c fluent-bit.conf -v
 
 > ⚠️ **MEDIUM**: Incorrect config may cause log loss
 
+## 最佳实践
+
+[[bp-fluent-bit-c|fluent-bit -c 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

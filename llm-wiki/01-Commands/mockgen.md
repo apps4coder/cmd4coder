@@ -78,6 +78,10 @@ mockgen -source=handler.go -destination=mock_handler.go -mock_names=Handler=Mock
 
 > ⚠️ **LOW**: 代码生成操作，无风险
 
+## 最佳实践
+
+[[bp-mockgen|mockgen 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Go工具链扩展-MOC|编程语言/Go工具链扩展]]

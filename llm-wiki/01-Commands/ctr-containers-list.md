@@ -65,6 +65,10 @@ ctr containers list -q
 
 > ⚠️ **LOW**: Read-only operation; lists containers only
 
+## 最佳实践
+
+[[bp-ctr-containers-list|ctr containers list 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Container Runtime-MOC|Kubernetes Container Runtime]]

@@ -79,6 +79,10 @@ python -c "from captum.attr import LayerConductance; lc = LayerConductance(model
 
 - [https://captum.ai/](https://captum.ai/)
 
+## 最佳实践
+
+[[bp-captum|captum 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型可解释性-MOC|AI基础设施/模型可解释性]]

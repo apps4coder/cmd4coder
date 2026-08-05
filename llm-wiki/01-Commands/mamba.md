@@ -75,6 +75,10 @@ python train_mamba.py --d_model 768 --d_state 16 --seq_len 8192
 
 - [https://github.com/state-spaces/mamba](https://github.com/state-spaces/mamba)
 
+## 最佳实践
+
+[[bp-mamba|mamba 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型架构-MOC|AI基础设施/模型架构]]

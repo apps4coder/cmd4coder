@@ -73,9 +73,15 @@ python evaluation.py --model claude-3-5-sonnet --scenario self_repair --release_
 
 > ⚠️ **HIGH**: 执行代码需在隔离环境
 
+> ⚠️ **HIGH**: 执行模型或 Agent 生成的代码存在安全风险，请在隔离环境（如容器/沙箱）中运行。
+
 ## 参考链接
 
 - [https://livecodebench.github.io/](https://livecodebench.github.io/)
+
+## 最佳实践
+
+[[bp-livecodebench|livecodebench 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -70,6 +70,10 @@ echo 'ls /' | zkCli.sh -server localhost:2181
 
 > ⚠️ **MEDIUM**: 删除 ZooKeeper 节点会影响依赖服务，请确认
 
+## 最佳实践
+
+[[bp-zkcli-sh|zkCli.sh 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|大数据/扩展命令]]

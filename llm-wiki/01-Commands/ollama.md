@@ -90,6 +90,10 @@ ollama create my-model -f Modelfile
 
 - [https://ollama.com/](https://ollama.com/)
 
+## 最佳实践
+
+[[bp-ollama|ollama 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

@@ -77,6 +77,10 @@ python gen_judgment.py --bench-name mt_bench --judge-model gpt-4-turbo
 
 - [https://github.com/lm-sys/FastChat](https://github.com/lm-sys/FastChat)
 
+## 最佳实践
+
+[[bp-mt-bench|mt-bench 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Harness工程-MOC|AI基础设施/Harness工程]]

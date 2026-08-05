@@ -82,6 +82,10 @@ python -c "import phoenix as px; px.launch_app()"
 
 - [https://github.com/Arize-ai/phoenix](https://github.com/Arize-ai/phoenix)
 
+## 最佳实践
+
+[[bp-phoenix|phoenix 生产环境最佳实践]]
+
 ## 所属维度
 
 [[监控与评估-MOC|AI基础设施/监控与评估]]

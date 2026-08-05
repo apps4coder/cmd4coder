@@ -77,6 +77,10 @@ python -c "from bertviz import model_view; model_view(attention, tokens)"
 
 - [https://github.com/jessevig/bertviz](https://github.com/jessevig/bertviz)
 
+## 最佳实践
+
+[[bp-bertviz|bertviz 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型架构-MOC|AI基础设施/模型架构]]

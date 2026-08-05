@@ -78,6 +78,10 @@ python -c "tbl.search([0.1,0.2]).limit(10).to_pandas()"
 
 - [https://lancedb.github.io/lancedb/](https://lancedb.github.io/lancedb/)
 
+## 最佳实践
+
+[[bp-lancedb|lancedb 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

@@ -86,6 +86,10 @@ milvus_cli search -c my_collection -v '[0.1,0.2,...]' -k 10
 
 - [https://milvus.io/](https://milvus.io/)
 
+## 最佳实践
+
+[[bp-milvus-cli|milvus-cli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

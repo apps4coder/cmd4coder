@@ -77,6 +77,10 @@ python -c "import opik; opik.configure(use_local=True)"
 
 - [https://www.comet.com/site/products/opik/](https://www.comet.com/site/products/opik/)
 
+## 最佳实践
+
+[[bp-opik|opik 生产环境最佳实践]]
+
 ## 所属维度
 
 [[监控与评估-MOC|AI基础设施/监控与评估]]

@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-extra.yaml"
+  "source_file": "tools/cmd/data/ai/llm-extra.yaml"
 }
 ---
 
@@ -64,8 +64,20 @@ perplexity --model sonar-pro --stream 'Explain Kubernetes'
 
 ## 关联命令
 
-- [[groq]]
-- [[openai-function-calling]]
+- [[groq|groq]]
+- [[openai-function-calling|openai-function-calling]]
+
+## 风险提示
+
+> ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
+
+## 参考链接
+
+- [https://docs.perplexity.ai/](https://docs.perplexity.ai/)
+
+## 最佳实践
+
+[[bp-perplexity|perplexity 生产环境最佳实践]]
 
 ## 所属维度
 

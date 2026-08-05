@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/multimodal.yaml"
+  "source_file": "tools/cmd/data/ai/multimodal.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python main.py --lowvram --disable-xformers
 
 ## 关联命令
 
-- [[stable-diffusion-cli]]
-- [[clip]]
+- [[stable-diffusion-cli|stable-diffusion-cli]]
+- [[clip|clip]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python main.py --lowvram --disable-xformers
 ## 参考链接
 
 - [https://github.com/comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)
+
+## 最佳实践
+
+[[bp-comfyui|comfyui 生产环境最佳实践]]
 
 ## 所属维度
 

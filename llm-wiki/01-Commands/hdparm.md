@@ -65,6 +65,10 @@ sudo hdparm -tT /dev/sda
 
 > ⚠️ **MEDIUM**: 设置电源管理或安全擦除参数可能影响硬盘寿命或数据
 
+## 最佳实践
+
+[[bp-hdparm|hdparm 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux核心-MOC|操作系统/Linux核心]]

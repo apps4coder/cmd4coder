@@ -73,6 +73,10 @@ esptool.py --port /dev/ttyUSB0 write_flash 0x0 firmware.bin
 
 > ⚠️ **MEDIUM**: 擦除/烧写 Flash 会清空设备，请确认端口和地址
 
+## 最佳实践
+
+[[bp-esptool|esptool 生产环境最佳实践]]
+
 ## 所属维度
 
 [[嵌入式与IoT-MOC|硬件/嵌入式与IoT]]

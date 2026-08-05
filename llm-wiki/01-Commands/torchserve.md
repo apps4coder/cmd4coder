@@ -84,6 +84,10 @@ torchserve --stop
 
 - [https://pytorch.org/serve/](https://pytorch.org/serve/)
 
+## 最佳实践
+
+[[bp-torchserve|torchserve 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型服务-MOC|AI基础设施/模型服务]]

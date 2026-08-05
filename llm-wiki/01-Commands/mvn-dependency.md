@@ -63,6 +63,10 @@ mvn dependency:tree -DoutputFile=deps.txt
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 最佳实践
+
+[[bp-mvn-dependency|mvn dependency 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Maven-MOC|构建工具/Maven]]

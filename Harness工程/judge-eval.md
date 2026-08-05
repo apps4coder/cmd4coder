@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/harness-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/harness-engineering.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python evaluate_judge.py --judge_model all --bias_type position,length
 
 ## 关联命令
 
-- [[prometheus-eval]]
-- [[mt-bench]]
+- [[prometheus-eval|prometheus-eval]]
+- [[mt-bench|mt-bench]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python evaluate_judge.py --judge_model all --bias_type position,length
 ## 参考链接
 
 - [https://github.com/hemingkx/LLM-as-Judge](https://github.com/hemingkx/LLM-as-Judge)
+
+## 最佳实践
+
+[[bp-judge-eval|judge-eval 生产环境最佳实践]]
 
 ## 所属维度
 

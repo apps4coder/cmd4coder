@@ -74,6 +74,10 @@ pip install flash-attn --no-build-isolation
 
 - [https://github.com/Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)
 
+## 最佳实践
+
+[[bp-flash-attn|flash-attn 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

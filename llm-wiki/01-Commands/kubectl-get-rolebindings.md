@@ -68,6 +68,10 @@ kubectl describe rolebinding dev-team-rb -n development
 
 > ⚠️ **LOW**: Read-only operation; shows access assignments
 
+## 最佳实践
+
+[[bp-kubectl-get-rolebindings|kubectl get rolebindings 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

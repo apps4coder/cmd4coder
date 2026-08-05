@@ -15,7 +15,7 @@
     "advanced",
     "linux"
   ],
-  "cmd_risk_level": "high",
+  "cmd_risk_level": "critical",
   "created": "2026-05-31",
   "source_file": "tools/cmd/data/container/k8s/k8s-network.yaml"
 }
@@ -60,6 +60,12 @@ calicoctl delete -f policy.yaml
 ## 风险提示
 
 > ⚠️ **HIGH**: Removing policy may expose services to unauthorized access
+
+> ⚠️ **CRITICAL**: Deleting critical policies affects security posture
+
+## 最佳实践
+
+[[bp-calicoctl-delete-networkpolicy|calicoctl delete networkpolicy 生产环境最佳实践]]
 
 ## 所属维度
 

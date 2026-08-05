@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/vector-db.yaml"
+  "source_file": "tools/cmd/data/ai/vector-db.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python -c "tbl.search([0.1,0.2]).limit(10).to_pandas()"
 
 ## 关联命令
 
-- [[chroma]]
-- [[qdrant]]
+- [[chroma|chroma]]
+- [[qdrant|qdrant]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python -c "tbl.search([0.1,0.2]).limit(10).to_pandas()"
 ## 参考链接
 
 - [https://lancedb.github.io/lancedb/](https://lancedb.github.io/lancedb/)
+
+## 最佳实践
+
+[[bp-lancedb|lancedb 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -63,6 +63,10 @@ kubectl describe endpointslice myapp-endpointslice -n production
 
 > ⚠️ **LOW**: Read-only operation; shows service topology
 
+## 最佳实践
+
+[[bp-kubectl-get-endpointslices|kubectl get endpointslices 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Networking-MOC|Kubernetes Networking]]

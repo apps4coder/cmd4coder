@@ -71,6 +71,10 @@ sudo ethtool -s eth0 speed 1000 duplex full
 
 > ⚠️ **MEDIUM**: 修改网卡参数可能断开网络，远程操作时谨慎
 
+## 最佳实践
+
+[[bp-ethtool|ethtool 生产环境最佳实践]]
+
 ## 所属维度
 
 [[网络硬件-MOC|硬件/网络硬件]]

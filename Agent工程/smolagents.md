@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "high",
   "created": "2026-05-31",
-  "source_file": "data/ai/agent-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/agent-engineering.yaml"
 }
 ---
 
@@ -66,16 +66,22 @@ python agent.py --agent_type code --model_id Qwen/Qwen2.5-Coder-32B-Instruct
 
 ## 关联命令
 
-- [[langchain]]
-- [[autogen]]
+- [[langchain|langchain]]
+- [[autogen|autogen]]
 
 ## 风险提示
 
 > ⚠️ **HIGH**: CodeAgent执行代码需沙箱隔离
 
+> ⚠️ **HIGH**: Agent 可能执行代码或访问外部资源，请在隔离沙箱中运行并审查工具权限。
+
 ## 参考链接
 
 - [https://github.com/huggingface/smolagents](https://github.com/huggingface/smolagents)
+
+## 最佳实践
+
+[[bp-smolagents|smolagents 生产环境最佳实践]]
 
 ## 所属维度
 

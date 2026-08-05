@@ -64,6 +64,10 @@ sudo vpddecode
 
 > ⚠️ **LOW**: 只读解析 VPD 信息，风险较低。
 
+## 最佳实践
+
+[[bp-vpddecode|vpddecode 生产环境最佳实践]]
+
 ## 所属维度
 
 [[固件与UEFI-MOC|硬件/固件与UEFI]]

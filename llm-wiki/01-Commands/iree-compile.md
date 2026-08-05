@@ -77,6 +77,10 @@ iree-compile model.onnx --iree-hal-target-backends=vulkan-spirv --iree-input-typ
 
 - [https://iree.dev/](https://iree.dev/)
 
+## 最佳实践
+
+[[bp-iree-compile|iree-compile 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI编译器-MOC|AI基础设施/AI编译器]]

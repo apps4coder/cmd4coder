@@ -73,6 +73,10 @@ flux create kustomization infra --source=GitRepository/infra --path=./clusters/p
 
 > ⚠️ **MEDIUM**: prune=true 会自动删除 Git 中不存在的集群资源
 
+## 最佳实践
+
+[[bp-flux-create-kustomization|flux create kustomization 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GitOps-MOC|CI-CD/GitOps]]

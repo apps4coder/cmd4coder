@@ -73,6 +73,12 @@ kafka-reassign-partitions.sh --reassignment-json-file plan.json --execute
 
 > ⚠️ **HIGH**: 分区重分配会移动大量数据并影响性能，请先在低峰期验证
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-kafka-reassign-partitions-sh|kafka-reassign-partitions.sh 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|大数据/扩展命令]]

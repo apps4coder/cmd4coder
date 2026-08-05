@@ -68,6 +68,10 @@ kubectl api-resources --verbs=list,get
 
 > ⚠️ **LOW**: 只读 API 信息；帮助理解集群能力
 
+## 最佳实践
+
+[[bp-kubectl-api-resources|kubectl api-resources 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Troubleshooting-MOC|Kubernetes Troubleshooting]]

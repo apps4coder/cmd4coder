@@ -76,6 +76,10 @@ modelscope download --model damo/cv_resnet --local_dir ./models
 
 - [https://www.modelscope.cn/](https://www.modelscope.cn/)
 
+## 最佳实践
+
+[[bp-modelscope|modelscope 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型生态-MOC|AI基础设施/模型生态]]

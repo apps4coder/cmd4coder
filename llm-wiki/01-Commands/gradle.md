@@ -95,6 +95,10 @@ gradle bootRun
 
 > ⚠️ **MEDIUM**: 会修改本地环境或依赖
 
+## 最佳实践
+
+[[bp-gradle|gradle 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Gradle-MOC|构建工具/Gradle]]

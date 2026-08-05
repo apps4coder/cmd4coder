@@ -67,6 +67,10 @@ falco -M 60
 
 > ⚠️ **LOW**: Monitoring only; detects security events without blocking
 
+## 最佳实践
+
+[[bp-falco|falco 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

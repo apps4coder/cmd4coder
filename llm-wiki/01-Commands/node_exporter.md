@@ -67,6 +67,10 @@ node_exporter --collector.disable-defaults --collector.cpu --collector.meminfo
 
 > ⚠️ **LOW**: Exposes system metrics; ensure proper access control
 
+## 最佳实践
+
+[[bp-node-exporter|node_exporter 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

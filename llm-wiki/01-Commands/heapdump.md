@@ -55,6 +55,12 @@ heapdump --live /tmp/heap.hprof
 
 > ⚠️ **HIGH**: May pause application; large dump files
 
+> ⚠️ **HIGH**: 生成的诊断文件可能包含敏感信息，请注意存储位置与访问权限。
+
+## 最佳实践
+
+[[bp-heapdump|heapdump 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Java Diagnostic-MOC|Java Diagnostic]]

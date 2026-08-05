@@ -68,6 +68,10 @@ tkn pipeline list -n cicd
 
 > ⚠️ **LOW**: Read-only operation; lists pipelines only
 
+## 最佳实践
+
+[[bp-tkn-pipeline-list|tkn pipeline list 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CD-MOC|Kubernetes CI/CD]]

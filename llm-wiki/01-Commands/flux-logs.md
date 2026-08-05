@@ -76,6 +76,10 @@ flux logs --kind=HelmRelease --name=my-chart
 
 > ⚠️ **LOW**: 只读操作，无风险
 
+## 最佳实践
+
+[[bp-flux-logs|flux logs 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GitOps-MOC|CI-CD/GitOps]]

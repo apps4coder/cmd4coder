@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-serving.yaml"
+  "source_file": "tools/cmd/data/ai/model-serving.yaml"
 }
 ---
 
@@ -78,8 +78,8 @@ bentoml containerize my_service:latest -t my_service_image:1.0
 
 ## 关联命令
 
-- [[mlflow]]
-- [[torchrun]]
+- [[mlflow|mlflow]]
+- [[torchrun|torchrun]]
 
 ## 风险提示
 
@@ -88,6 +88,10 @@ bentoml containerize my_service:latest -t my_service_image:1.0
 ## 参考链接
 
 - [https://docs.bentoml.com/en/latest/reference/cli.html](https://docs.bentoml.com/en/latest/reference/cli.html)
+
+## 最佳实践
+
+[[bp-bentoml|bentoml 生产环境最佳实践]]
 
 ## 所属维度
 

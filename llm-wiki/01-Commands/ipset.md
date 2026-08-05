@@ -65,6 +65,10 @@ sudo ipset add blacklist 1.2.3.4
 
 > ⚠️ **MEDIUM**: 误删或误加 IP 会影响防火墙策略，请确认集合用途
 
+## 最佳实践
+
+[[bp-ipset|ipset 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux核心-MOC|操作系统/Linux核心]]

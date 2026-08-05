@@ -73,6 +73,12 @@ kafka-acls.sh --add --allow-principal User:alice --operation Read --topic mytopi
 
 > ⚠️ **HIGH**: 错误的 ACL 会导致服务无法访问或过度授权
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-kafka-acls-sh|kafka-acls.sh 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|大数据/扩展命令]]

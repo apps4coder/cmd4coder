@@ -78,6 +78,10 @@ cargo clippy --fix
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 最佳实践
+
+[[bp-cargo-clippy|cargo clippy 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Rust工具链-MOC|编程语言/Rust工具链]]

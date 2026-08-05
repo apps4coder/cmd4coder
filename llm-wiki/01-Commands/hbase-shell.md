@@ -70,6 +70,12 @@ echo 'list' | hbase shell -n
 
 > ⚠️ **HIGH**: drop、disable 表会丢失数据，执行前请确认
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-hbase-shell|hbase shell 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|大数据/扩展工具]]

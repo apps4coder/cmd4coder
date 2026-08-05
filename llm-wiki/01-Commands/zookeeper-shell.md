@@ -69,6 +69,10 @@ echo 'ls /' | zookeeper-shell localhost:2181
 
 > ⚠️ **MEDIUM**: 删除 ZooKeeper 节点可能影响 Kafka/HBase 等依赖服务
 
+## 最佳实践
+
+[[bp-zookeeper-shell|zookeeper-shell 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|大数据/扩展工具]]

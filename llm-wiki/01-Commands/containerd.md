@@ -69,6 +69,10 @@ sudo containerd -c /etc/containerd/config.toml
 
 > ⚠️ **MEDIUM**: containerd 是底层运行时，配置错误会导致容器无法启动
 
+## 最佳实践
+
+[[bp-containerd|containerd 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

@@ -70,6 +70,10 @@ raspi-gpio set 25 op dh
 
 > ⚠️ **MEDIUM**: 同样需要注意外设电平保护
 
+## 最佳实践
+
+[[bp-raspi-gpio|raspi-gpio 生产环境最佳实践]]
+
 ## 所属维度
 
 [[嵌入式与IoT-MOC|硬件/嵌入式与IoT]]

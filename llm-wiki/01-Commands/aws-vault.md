@@ -72,6 +72,10 @@ aws-vault exec myprofile -- aws s3 ls
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 最佳实践
+
+[[bp-aws-vault|aws-vault 生产环境最佳实践]]
+
 ## 所属维度
 
 [[多云CLI-MOC|云平台/多云CLI]]

@@ -77,6 +77,10 @@ python -c "import onnxoptimizer; passes = ['fuse_bn_into_conv', 'fuse_pad_into_c
 
 - [https://github.com/onnx/optimizer](https://github.com/onnx/optimizer)
 
+## 最佳实践
+
+[[bp-onnx-optimizer|onnx-optimizer 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI编译器-MOC|AI基础设施/AI编译器]]

@@ -76,6 +76,10 @@ python evaluate.py --api_spec swagger.json --test_cases tests.json --output resu
 
 - [https://github.com/AILab-CVC/APIBench](https://github.com/AILab-CVC/APIBench)
 
+## 最佳实践
+
+[[bp-api-bench|api-bench 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Harness工程-MOC|AI基础设施/Harness工程]]

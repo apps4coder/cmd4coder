@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python -c "from together import Together; c=Together(); r=c.chat.completions.cre
 
 ## 关联命令
 
-- [[groq]]
-- [[fireworks]]
+- [[groq|groq]]
+- [[fireworks|fireworks]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python -c "from together import Together; c=Together(); r=c.chat.completions.cre
 ## 参考链接
 
 - [https://www.together.ai/](https://www.together.ai/)
+
+## 最佳实践
+
+[[bp-together|together 生产环境最佳实践]]
 
 ## 所属维度
 

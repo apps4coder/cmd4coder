@@ -71,6 +71,10 @@ beeline -u jdbc:hive2://localhost:10000 -e "SHOW DATABASES"
 
 > ⚠️ **LOW**: 命令行传入密码会留在历史记录中，建议使用配置文件或环境变量
 
+## 最佳实践
+
+[[bp-beeline|beeline 生产环境最佳实践]]
+
 ## 所属维度
 
 [[查询引擎-MOC|大数据/查询引擎]]

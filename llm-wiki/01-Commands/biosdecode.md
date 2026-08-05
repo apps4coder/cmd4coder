@@ -63,6 +63,10 @@ sudo biosdecode
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 最佳实践
+
+[[bp-biosdecode|biosdecode 生产环境最佳实践]]
+
 ## 所属维度
 
 [[固件与UEFI-MOC|硬件/固件与UEFI]]

@@ -80,6 +80,10 @@ vault operator seal
 
 > ⚠️ **CRITICAL**: unseal key 丢失将导致数据永久不可访问，seal 会中断所有服务
 
+## 最佳实践
+
+[[bp-vault-operator|vault operator 生产环境最佳实践]]
+
 ## 所属维度
 
 [[配置管理-MOC|云平台/配置管理]]

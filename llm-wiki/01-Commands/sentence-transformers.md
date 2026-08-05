@@ -81,6 +81,10 @@ python -c "from sentence_transformers import CrossEncoder; ce = CrossEncoder('BA
 
 - [https://www.sbert.net/](https://www.sbert.net/)
 
+## 最佳实践
+
+[[bp-sentence-transformers|sentence-transformers 生产环境最佳实践]]
+
 ## 所属维度
 
 [[RAG基础设施-MOC|AI基础设施/RAG基础设施]]

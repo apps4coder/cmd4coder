@@ -68,6 +68,12 @@ kubeadm upgrade node
 
 > ⚠️ **CRITICAL**: Cluster upgrade may cause downtime; backup before upgrading
 
+> ⚠️ **HIGH**: Version skew policy must be respected; test in staging first
+
+## 最佳实践
+
+[[bp-kubeadm-upgrade|kubeadm upgrade 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cluster Management-MOC|Kubernetes Cluster Management]]

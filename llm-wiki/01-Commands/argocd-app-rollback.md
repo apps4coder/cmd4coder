@@ -74,6 +74,10 @@ argocd app rollback my-app 3 --prune
 
 > ⚠️ **HIGH**: 回滚影响生产部署，确认目标修订正确
 
+## 最佳实践
+
+[[bp-argocd-app-rollback|argocd app rollback 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GitOps-MOC|CI-CD/GitOps]]

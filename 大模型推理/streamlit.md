@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -74,8 +74,8 @@ streamlit run app.py --theme.base dark
 
 ## 关联命令
 
-- [[gradio]]
-- [[chainlit]]
+- [[gradio|gradio]]
+- [[chainlit|chainlit]]
 
 ## 风险提示
 
@@ -84,6 +84,10 @@ streamlit run app.py --theme.base dark
 ## 参考链接
 
 - [https://streamlit.io/](https://streamlit.io/)
+
+## 最佳实践
+
+[[bp-streamlit|streamlit 生产环境最佳实践]]
 
 ## 所属维度
 

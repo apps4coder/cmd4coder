@@ -78,6 +78,10 @@ trl dpo --model_name_or_path model-sft --dataset_name anthropic/hh-rlhf
 
 - [https://huggingface.co/docs/trl](https://huggingface.co/docs/trl)
 
+## 最佳实践
+
+[[bp-trl|trl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

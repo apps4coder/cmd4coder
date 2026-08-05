@@ -85,6 +85,10 @@ bandit -r --skip B101 src/
 
 > ⚠️ **LOW**: 只读扫描操作，无风险
 
+## 最佳实践
+
+[[bp-bandit|bandit 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Python工具链扩展-MOC|编程语言/Python工具链扩展]]

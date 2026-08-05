@@ -77,6 +77,10 @@ helm repo add secure-repo https://secure.example.com --ca-file ca.crt
 
 > ⚠️ **LOW**: Adds repository reference only; verify repository trustworthiness
 
+## 最佳实践
+
+[[bp-helm-repo-add|helm repo add 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

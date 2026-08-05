@@ -55,6 +55,10 @@ stack com.example.Service doSomething -n 5
 
 > ⚠️ **LOW**: Read-only stack trace; minimal impact
 
+## 最佳实践
+
+[[bp-stack|stack 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Java Diagnostic-MOC|Java Diagnostic]]

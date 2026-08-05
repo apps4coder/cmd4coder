@@ -71,6 +71,12 @@ sudo nvme smart-log /dev/nvme0
 
 > ⚠️ **HIGH**: format 会清除所有数据，请确认目标设备
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-nvme|nvme 生产环境最佳实践]]
+
 ## 所属维度
 
 [[存储与RAID-MOC|硬件/存储与RAID]]

@@ -78,6 +78,10 @@ python -c "import tensorflow as tf; tf.config.optimizer.set_jit(True)"
 
 - [https://www.tensorflow.org/xla](https://www.tensorflow.org/xla)
 
+## 最佳实践
+
+[[bp-xla-compile|xla_compile 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI编译器-MOC|AI基础设施/AI编译器]]

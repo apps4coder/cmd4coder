@@ -70,6 +70,10 @@ img tag myapp registry/myapp:v1
 
 > ⚠️ **MEDIUM**: img 以非 root 运行但仍在用户命名空间，注意缓存目录权限
 
+## 最佳实践
+
+[[bp-img|img 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

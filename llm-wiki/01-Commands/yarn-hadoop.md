@@ -89,6 +89,10 @@ yarn queue -status default
 
 > ⚠️ **HIGH**: -kill 终止运行中的计算任务
 
+## 最佳实践
+
+[[bp-yarn-hadoop|yarn (Hadoop) 生产环境最佳实践]]
+
 ## 所属维度
 
 [[流处理-MOC|大数据/流处理]]

@@ -85,6 +85,10 @@ az vm deallocate --resource-group my-rg --name my-vm
 
 > ⚠️ **HIGH**: VM 运行产生持续费用，delete 操作不可逆
 
+## 最佳实践
+
+[[bp-az-vm|az vm 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Azure CLI-MOC|云平台/Azure CLI]]

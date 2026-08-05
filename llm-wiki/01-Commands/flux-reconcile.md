@@ -81,6 +81,10 @@ flux reconcile kustomization --all
 
 > ⚠️ **MEDIUM**: 立即触发部署，绕过正常轮询节奏
 
+## 最佳实践
+
+[[bp-flux-reconcile|flux reconcile 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GitOps-MOC|CI-CD/GitOps]]

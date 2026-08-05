@@ -56,6 +56,10 @@ kubectl describe storagepool pool-ssd-fast
 
 > ⚠️ **LOW**: Read-only operation; shows storage pools
 
+## 最佳实践
+
+[[bp-kubectl-get-storagepools|kubectl get storagepools 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Storage Management-MOC|Kubernetes Storage Management]]

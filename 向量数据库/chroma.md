@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/vector-db.yaml"
+  "source_file": "tools/cmd/data/ai/vector-db.yaml"
 }
 ---
 
@@ -72,8 +72,8 @@ python -c "import chromadb; client = chromadb.PersistentClient(path='./db'); col
 
 ## 关联命令
 
-- [[qdrant]]
-- [[weaviate-cli]]
+- [[qdrant|qdrant]]
+- [[weaviate-cli|weaviate-cli]]
 
 ## 风险提示
 
@@ -82,6 +82,10 @@ python -c "import chromadb; client = chromadb.PersistentClient(path='./db'); col
 ## 参考链接
 
 - [https://www.trychroma.com/](https://www.trychroma.com/)
+
+## 最佳实践
+
+[[bp-chroma|chroma 生产环境最佳实践]]
 
 ## 所属维度
 

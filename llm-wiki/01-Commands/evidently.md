@@ -78,6 +78,10 @@ python monitor_model.py --reference ref_data.csv --current cur_data.csv --output
 
 - [https://evidentlyai.com/](https://evidentlyai.com/)
 
+## 最佳实践
+
+[[bp-evidently|evidently 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据与标注-MOC|AI基础设施/数据与标注]]

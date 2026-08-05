@@ -91,6 +91,10 @@ huggingface-cli scan-cache --verbose
 
 - [https://huggingface.co/docs/huggingface_hub](https://huggingface.co/docs/huggingface_hub)
 
+## 最佳实践
+
+[[bp-huggingface-cli|huggingface-cli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型生态-MOC|AI基础设施/模型生态]]

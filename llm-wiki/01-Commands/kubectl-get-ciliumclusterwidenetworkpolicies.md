@@ -55,6 +55,10 @@ kubectl describe ccnp deny-all-traffic
 
 > ⚠️ **LOW**: Read-only operation; shows cluster policies
 
+## 最佳实践
+
+[[bp-kubectl-get-ciliumclusterwidenetworkpolicies|kubectl get ciliumclusterwidenetworkpolicies 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Networking-MOC|Kubernetes Networking]]

@@ -62,6 +62,10 @@ kubectl get gateways -A
 
 > ⚠️ **LOW**: Read-only operation; shows gateway resources
 
+## 最佳实践
+
+[[bp-kubectl-get-gateways|kubectl get gateways 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Networking-MOC|Kubernetes Networking]]

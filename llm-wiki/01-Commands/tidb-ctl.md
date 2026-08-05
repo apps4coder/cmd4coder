@@ -71,6 +71,10 @@ tidb-ctl region -i 1
 
 > ⚠️ **MEDIUM**: 直接操作 TiDB 内部元数据可能导致不一致，请谨慎
 
+## 最佳实践
+
+[[bp-tidb-ctl|tidb-ctl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|数据库工具/扩展工具]]

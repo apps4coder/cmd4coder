@@ -53,6 +53,10 @@ sudo systemctl restart nginx.service
 
 > ⚠️ **MEDIUM**: Brief service interruption during restart
 
+## 最佳实践
+
+[[bp-systemctl-restart|systemctl restart 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

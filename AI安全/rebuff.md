@@ -77,6 +77,10 @@ python -c "from rebuff import Rebuff; rb = Rebuff(api_token='...'); buffed = rb.
 
 - [https://github.com/protectai/rebuff](https://github.com/protectai/rebuff)
 
+## 最佳实践
+
+[[bp-rebuff|rebuff 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI安全-MOC|AI基础设施/AI安全]]

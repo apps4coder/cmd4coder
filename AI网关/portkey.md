@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-gateway.yaml"
+  "source_file": "tools/cmd/data/ai/ai-gateway.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python app.py --cache_enabled --retry_count=3 --fallback_models=gpt-4,gpt-3.5-tu
 
 ## 关联命令
 
-- [[helicone]]
-- [[litellm-proxy]]
+- [[helicone|helicone]]
+- [[litellm-proxy|litellm-proxy]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python app.py --cache_enabled --retry_count=3 --fallback_models=gpt-4,gpt-3.5-tu
 ## 参考链接
 
 - [https://portkey.ai/](https://portkey.ai/)
+
+## 最佳实践
+
+[[bp-portkey|portkey 生产环境最佳实践]]
 
 ## 所属维度
 

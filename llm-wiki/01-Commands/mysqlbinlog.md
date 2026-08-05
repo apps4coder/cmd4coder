@@ -70,6 +70,12 @@ mysqlbinlog --database=mydb binlog.000001 | mysql -u root -p
 
 > ⚠️ **HIGH**: Replaying binary logs can modify database; use with caution
 
+> ⚠️ **MEDIUM**: Binary logs may contain sensitive data
+
+## 最佳实践
+
+[[bp-mysqlbinlog|mysqlbinlog 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

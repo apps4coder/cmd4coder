@@ -72,6 +72,10 @@ sudo perf record -g ./app && sudo perf report
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 最佳实践
+
+[[bp-perf|perf 生产环境最佳实践]]
+
 ## 所属维度
 
 [[性能与调度-MOC|硬件/性能与调度]]

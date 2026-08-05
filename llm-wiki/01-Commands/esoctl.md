@@ -70,6 +70,10 @@ kubectl externalsecrets get secretstores
 
 > ⚠️ **MEDIUM**: 错误的 SecretStore 会同步错误凭据，请确认 provider 配置
 
+## 最佳实践
+
+[[bp-esoctl|esoctl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

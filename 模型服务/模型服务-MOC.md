@@ -17,10 +17,10 @@
 
 ## 命令列表
 
-- 🟡 [[bentoml]] — BentoML 命令行客户端，用于模型打包和服务
-- 🟡 [[kserve]] — KServe Kubernetes原生模型服务平台，支持自动扩缩容、金丝雀发布、多框架运行时
-- 🟡 [[torchserve]] — PyTorch官方模型服务框架，支持模型打包、A/B测试、多模型服务、自定义处理器
-- 🔴 [[tritonserver]] — NVIDIA Triton推理服务器，支持TensorRT、ONNX、PyTorch、Python后端，多模型并行服务
+- 🟡 [[bentoml|bentoml]] — BentoML 命令行客户端，用于模型打包和服务
+- 🟡 [[kserve|kserve]] — KServe Kubernetes原生模型服务平台，支持自动扩缩容、金丝雀发布、多框架运行时
+- 🟡 [[torchserve|torchserve]] — PyTorch官方模型服务框架，支持模型打包、A/B测试、多模型服务、自定义处理器
+- 🔴 [[tritonserver|tritonserver]] — NVIDIA Triton推理服务器，支持TensorRT、ONNX、PyTorch、Python后端，多模型并行服务
 
 ## 统计
 

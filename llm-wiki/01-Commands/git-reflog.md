@@ -76,6 +76,10 @@ git reset --hard HEAD@{1}
 
 > ⚠️ **MEDIUM**: 配合 reset --hard 使用时会丢弃工作区变更
 
+## 最佳实践
+
+[[bp-git-reflog|git reflog 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Git高级操作-MOC|版本控制/Git高级操作]]

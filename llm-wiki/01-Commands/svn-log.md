@@ -75,6 +75,10 @@ svn log -v file.txt
 
 > ⚠️ **LOW**: Read-only operation; no risks
 
+## 最佳实践
+
+[[bp-svn-log|svn log 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Version Control-MOC|Version Control]]

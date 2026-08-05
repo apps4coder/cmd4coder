@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/data-labeling.yaml"
+  "source_file": "tools/cmd/data/ai/data-labeling.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python data_audit.py --dataset train.csv --model resnet50 --find_issues label ou
 
 ## 关联命令
 
-- [[label-studio]]
-- [[snorkel]]
+- [[label-studio|label-studio]]
+- [[snorkel|snorkel]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python data_audit.py --dataset train.csv --model resnet50 --find_issues label ou
 ## 参考链接
 
 - [https://cleanlab.ai/](https://cleanlab.ai/)
+
+## 最佳实践
+
+[[bp-cleanlab|cleanlab 生产环境最佳实践]]
 
 ## 所属维度
 

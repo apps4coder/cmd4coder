@@ -77,6 +77,10 @@ psql -c "CREATE TABLE items (id bigserial PRIMARY KEY, embedding vector(768)); C
 
 - [https://github.com/pgvector/pgvector](https://github.com/pgvector/pgvector)
 
+## 最佳实践
+
+[[bp-pgvector|pgvector 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

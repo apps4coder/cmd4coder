@@ -7,7 +7,7 @@ domain: "ai-infra"
 risk_level: "medium"
 platforms: ["linux"]
 tags: ["ai-infra", "risk-medium", "linux"]
-created: "2026-06-06"
+created: "2026-07-28"
 source_file: "ai/llm-training.yaml"
 ---
 

@@ -68,6 +68,10 @@ npm audit fix --force
 
 > ⚠️ **MEDIUM**: Auto-fix may introduce breaking changes
 
+## 最佳实践
+
+[[bp-npm-audit|npm audit 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Programming Language-MOC|Programming Language]]

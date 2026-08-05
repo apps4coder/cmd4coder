@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ python generate_synthetic.py --task instruction_following --model gpt-4 --num_sa
 
 ## 关联命令
 
-- [[dpo]]
-- [[grpo]]
+- [[dpo|dpo]]
+- [[grpo|grpo]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ python generate_synthetic.py --task instruction_following --model gpt-4 --num_sa
 ## 参考链接
 
 - [https://github.com/argilla-io/distilabel](https://github.com/argilla-io/distilabel)
+
+## 最佳实践
+
+[[bp-distilabel|distilabel 生产环境最佳实践]]
 
 ## 所属维度
 

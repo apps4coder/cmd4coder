@@ -69,6 +69,10 @@ istioctl proxy-config routes myapp-pod --name http.80
 
 > ⚠️ **LOW**: Read-only configuration inspection
 
+## 最佳实践
+
+[[bp-istioctl-proxy-config|istioctl proxy-config 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Networking-MOC|Kubernetes Networking]]

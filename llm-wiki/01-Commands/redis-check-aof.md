@@ -61,6 +61,12 @@ redis-check-aof --fix appendonly.aof
 
 > ⚠️ **HIGH**: Fixing may truncate corrupted data; backup file first
 
+> ⚠️ **MEDIUM**: Always stop Redis server before checking AOF
+
+## 最佳实践
+
+[[bp-redis-check-aof|redis-check-aof 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

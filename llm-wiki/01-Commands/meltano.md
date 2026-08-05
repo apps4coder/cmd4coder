@@ -73,6 +73,10 @@ meltano run tap-gitlab target-postgres dbt:run
 
 > ⚠️ **MEDIUM**: meltano run 会读写数据源和目标，请确认环境配置
 
+## 最佳实践
+
+[[bp-meltano|meltano 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|大数据/扩展命令]]

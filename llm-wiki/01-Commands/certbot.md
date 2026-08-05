@@ -71,6 +71,10 @@ sudo certbot renew --dry-run
 
 > ⚠️ **MEDIUM**: 生产环境 renew 前请先用 dry-run 验证
 
+## 最佳实践
+
+[[bp-certbot|certbot 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

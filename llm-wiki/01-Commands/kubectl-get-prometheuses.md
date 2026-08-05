@@ -69,6 +69,10 @@ kubectl get prometheuses kube-prometheus-stack-prometheus -n monitoring -o yaml
 
 > ⚠️ **LOW**: Read-only operation; requires Prometheus Operator
 
+## 最佳实践
+
+[[bp-kubectl-get-prometheuses|kubectl get prometheuses 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

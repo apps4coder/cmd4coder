@@ -59,6 +59,10 @@ sudo snap install vlc
 
 > ⚠️ **LOW**: Snaps are sandboxed; generally safe
 
+## 最佳实践
+
+[[bp-snap-install|snap install 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

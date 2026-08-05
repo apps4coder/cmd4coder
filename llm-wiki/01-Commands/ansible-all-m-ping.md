@@ -69,6 +69,10 @@ ansible k8s-masters -m shell -a 'kubectl get nodes'
 
 > ⚠️ **LOW**: Read-only connectivity test; no changes made
 
+## 最佳实践
+
+[[bp-ansible-all-m-ping|ansible all -m ping 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

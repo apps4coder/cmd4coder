@@ -71,6 +71,10 @@ kafka-topics.sh --create --topic mytopic --bootstrap-server localhost:9092
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 最佳实践
+
+[[bp-kafka|kafka 生产环境最佳实践]]
+
 ## 所属维度
 
 [[消息队列-MOC|容器编排/消息队列]]

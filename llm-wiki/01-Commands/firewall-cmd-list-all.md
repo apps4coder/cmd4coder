@@ -53,6 +53,10 @@ sudo firewall-cmd --zone=public --list-ports
 
 > ⚠️ **LOW**: Read-only operation; no risks
 
+## 最佳实践
+
+[[bp-firewall-cmd-list-all|firewall-cmd --list-all 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

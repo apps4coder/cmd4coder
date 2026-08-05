@@ -61,6 +61,10 @@ kubectl label nodes --all disktype=ssd
 
 > ⚠️ **LOW**: Labels affect scheduling but don't impact running pods
 
+## 最佳实践
+
+[[bp-kubectl-label-nodes|kubectl label nodes 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cluster Management-MOC|Kubernetes Cluster Management]]

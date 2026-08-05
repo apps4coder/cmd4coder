@@ -61,6 +61,10 @@ helm dependency build mychart
 
 > ⚠️ **LOW**: Manages local dependencies only
 
+## 最佳实践
+
+[[bp-helm-dependency|helm dependency 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

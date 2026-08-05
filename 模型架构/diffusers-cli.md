@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-architecture.yaml"
+  "source_file": "tools/cmd/data/ai/model-architecture.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python -c "from diffusers import StableDiffusionPipeline; pipe = StableDiffusion
 
 ## 关联命令
 
-- [[transformers-cli]]
-- [[comfyui]]
+- [[transformers-cli|transformers-cli]]
+- [[comfyui|comfyui]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python -c "from diffusers import StableDiffusionPipeline; pipe = StableDiffusion
 ## 参考链接
 
 - [https://huggingface.co/docs/diffusers](https://huggingface.co/docs/diffusers)
+
+## 最佳实践
+
+[[bp-diffusers-cli|diffusers-cli 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -81,6 +81,10 @@ buildkite-agent artifact download "dist/app" ./
 
 > ⚠️ **MEDIUM**: Agent 执行任意构建命令，确保安全隔离
 
+## 最佳实践
+
+[[bp-buildkite-agent|buildkite-agent 生产环境最佳实践]]
+
 ## 所属维度
 
 [[平台工具-MOC|CI-CD/平台工具]]

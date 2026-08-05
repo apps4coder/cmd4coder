@@ -63,6 +63,10 @@ gradle init --type java-application --dsl groovy
 
 > ⚠️ **MEDIUM**: 会修改本地环境或依赖
 
+## 最佳实践
+
+[[bp-gradle-init|gradle init 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Gradle-MOC|构建工具/Gradle]]

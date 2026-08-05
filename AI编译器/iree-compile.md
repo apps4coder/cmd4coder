@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-compiler.yaml"
+  "source_file": "tools/cmd/data/ai/ai-compiler.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ iree-compile model.onnx --iree-hal-target-backends=vulkan-spirv --iree-input-typ
 
 ## 关联命令
 
-- [[tvmc]]
-- [[mlir-opt]]
+- [[tvmc|tvmc]]
+- [[mlir-opt|mlir-opt]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ iree-compile model.onnx --iree-hal-target-backends=vulkan-spirv --iree-input-typ
 ## 参考链接
 
 - [https://iree.dev/](https://iree.dev/)
+
+## 最佳实践
+
+[[bp-iree-compile|iree-compile 生产环境最佳实践]]
 
 ## 所属维度
 

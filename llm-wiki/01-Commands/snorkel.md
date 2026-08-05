@@ -78,6 +78,10 @@ python -c "from snorkel.labeling import LabelModel; label_model = LabelModel(car
 
 - [https://www.snorkel.org/](https://www.snorkel.org/)
 
+## 最佳实践
+
+[[bp-snorkel|snorkel 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据与标注-MOC|AI基础设施/数据与标注]]

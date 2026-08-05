@@ -88,6 +88,10 @@ parallel --dry-run echo {} ::: a b c
 
 > ⚠️ **HIGH**: 并行执行放大操作影响，--dry-run 先预览
 
+## 最佳实践
+
+[[bp-parallel|parallel 生产环境最佳实践]]
+
 ## 所属维度
 
 [[文本处理-MOC|Shell脚本/文本处理]]

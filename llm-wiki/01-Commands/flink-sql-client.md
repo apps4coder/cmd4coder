@@ -75,6 +75,10 @@ sql-client.sh -i init.sql embedded
 
 > ⚠️ **MEDIUM**: SQL 操作可能创建/修改/删除表和作业
 
+## 最佳实践
+
+[[bp-flink-sql-client|flink sql-client 生产环境最佳实践]]
+
 ## 所属维度
 
 [[流处理-MOC|大数据/流处理]]

@@ -70,6 +70,10 @@ spark-shell --driver-memory 4g
 
 > ⚠️ **LOW**: 注意不要在共享集群上分配过大内存
 
+## 最佳实践
+
+[[bp-spark-shell|spark-shell 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Spark计算-MOC|大数据/Spark计算]]

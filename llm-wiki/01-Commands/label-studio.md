@@ -85,6 +85,10 @@ label-studio init my_project --template image_classification
 
 - [https://labelstud.io/](https://labelstud.io/)
 
+## 最佳实践
+
+[[bp-label-studio|label-studio 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据与标注-MOC|AI基础设施/数据与标注]]

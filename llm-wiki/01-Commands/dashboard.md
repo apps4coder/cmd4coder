@@ -55,6 +55,10 @@ dashboard -i 5000
 
 > ⚠️ **LOW**: Read-only monitoring; minimal impact
 
+## 最佳实践
+
+[[bp-dashboard|dashboard 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Java Diagnostic-MOC|Java Diagnostic]]

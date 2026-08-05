@@ -85,6 +85,10 @@ systemd-analyze plot > boot.svg
 
 > ⚠️ **LOW**: 只读分析操作
 
+## 最佳实践
+
+[[bp-systemd-analyze|systemd-analyze 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Systemd服务管理-MOC|操作系统/Systemd服务管理]]

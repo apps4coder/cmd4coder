@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/data-labeling.yaml"
+  "source_file": "tools/cmd/data/ai/data-labeling.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python upload_data.py --dataset sentiment_analysis --file labeled_data.json
 
 ## 关联命令
 
-- [[label-studio]]
-- [[cleanlab]]
+- [[label-studio|label-studio]]
+- [[cleanlab|cleanlab]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python upload_data.py --dataset sentiment_analysis --file labeled_data.json
 ## 参考链接
 
 - [https://argilla.io/](https://argilla.io/)
+
+## 最佳实践
+
+[[bp-argilla|argilla 生产环境最佳实践]]
 
 ## 所属维度
 

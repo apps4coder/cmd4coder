@@ -83,6 +83,10 @@ tvmc tune --target llvm model.onnx --trials 1000 -o tuning_records.json
 
 - [https://tvm.apache.org/docs/reference/microtvm/index.html](https://tvm.apache.org/docs/reference/microtvm/index.html)
 
+## 最佳实践
+
+[[bp-tvmc|tvmc 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI编译器-MOC|AI基础设施/AI编译器]]

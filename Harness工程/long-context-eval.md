@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/harness-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/harness-engineering.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python ruler_eval.py --model claude-3-opus --tasks retrieval,association --max_l
 
 ## 关联命令
 
-- [[lm-eval]]
-- [[inspect-ai]]
+- [[lm-eval|lm-eval]]
+- [[inspect-ai|inspect-ai]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python ruler_eval.py --model claude-3-opus --tasks retrieval,association --max_l
 ## 参考链接
 
 - [https://github.com/gkamradt/LLMTest_NeedleInAHaystack](https://github.com/gkamradt/LLMTest_NeedleInAHaystack)
+
+## 最佳实践
+
+[[bp-long-context-eval|long-context-eval 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -84,6 +84,10 @@ cat collapsed.txt | flamegraph.pl --title "My App" --width 1600 > out.svg
 
 > ⚠️ **LOW**: 离线数据处理，无风险
 
+## 最佳实践
+
+[[bp-flamegraph|flamegraph 生产环境最佳实践]]
+
 ## 所属维度
 
 [[性能分析-MOC|诊断工具/性能分析]]

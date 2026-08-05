@@ -72,6 +72,10 @@ avrdude -p m328p -c usbasp -U flash:w:firmware.hex:i
 
 > ⚠️ **MEDIUM**: 错误的熔丝位设置会锁死芯片
 
+## 最佳实践
+
+[[bp-avrdude|avrdude 生产环境最佳实践]]
+
 ## 所属维度
 
 [[嵌入式与IoT-MOC|硬件/嵌入式与IoT]]

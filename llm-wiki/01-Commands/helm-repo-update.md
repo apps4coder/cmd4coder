@@ -61,6 +61,10 @@ helm repo list
 
 > ⚠️ **LOW**: Updates local cache only; no cluster impact
 
+## 最佳实践
+
+[[bp-helm-repo-update|helm repo update 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

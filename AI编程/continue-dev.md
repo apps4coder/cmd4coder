@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-coding.yaml"
+  "source_file": "tools/cmd/data/ai/ai-coding.yaml"
 }
 ---
 
@@ -64,8 +64,8 @@ continue-dev --version
 
 ## 关联命令
 
-- [[aider]]
-- [[codeium]]
+- [[aider|aider]]
+- [[codeium|codeium]]
 
 ## 风险提示
 
@@ -74,6 +74,10 @@ continue-dev --version
 ## 参考链接
 
 - [https://www.continue.dev/](https://www.continue.dev/)
+
+## 最佳实践
+
+[[bp-continue-dev|continue-dev 生产环境最佳实践]]
 
 ## 所属维度
 

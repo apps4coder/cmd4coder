@@ -71,6 +71,10 @@ curl -X POST -H 'Content-Type: application/json' -d '{"file":"job.py"}' http://l
 
 > ⚠️ **MEDIUM**: REST 提交时请保护 Livy 服务端点，避免未授权访问
 
+## 最佳实践
+
+[[bp-livy-submit|livy-submit 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|大数据/扩展工具]]

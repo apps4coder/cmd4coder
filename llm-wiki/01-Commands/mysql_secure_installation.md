@@ -55,6 +55,10 @@ sudo mysql_secure_installation --defaults-file=/etc/mysql/my.cnf
 
 > ⚠️ **MEDIUM**: Changes security settings; may lock out users if misconfigured
 
+## 最佳实践
+
+[[bp-mysql-secure-installation|mysql_secure_installation 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

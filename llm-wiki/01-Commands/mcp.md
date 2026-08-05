@@ -70,6 +70,15 @@ uvx mcp-server-sqlite --db path/to/db.sqlite
 
 > ⚠️ **MEDIUM**: MCP 服务器可能拥有文件/网络访问权限，请审查权限并隔离运行
 
+## 参考链接
+
+- [https://modelcontextprotocol.io/](https://modelcontextprotocol.io/)
+- [https://github.com/modelcontextprotocol](https://github.com/modelcontextprotocol)
+
+## 最佳实践
+
+[[bp-mcp|mcp 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|AI基础设施/扩展工具]]

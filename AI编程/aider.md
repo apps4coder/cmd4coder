@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "high",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-coding.yaml"
+  "source_file": "tools/cmd/data/ai/ai-coding.yaml"
 }
 ---
 
@@ -72,16 +72,22 @@ aider --test-cmd 'pytest' --model claude-3-5-sonnet
 
 ## 关联命令
 
-- [[openhands]]
-- [[swe-agent]]
+- [[openhands|openhands]]
+- [[swe-agent|swe-agent]]
 
 ## 风险提示
 
 > ⚠️ **HIGH**: 自动修改代码需审查，防止破坏代码库
 
+> ⚠️ **HIGH**: AI 自动修改代码可能引入 Bug 或破坏构建，建议通过 Code Review 和 CI 后再合并。
+
 ## 参考链接
 
 - [https://github.com/paul-gauthier/aider](https://github.com/paul-gauthier/aider)
+
+## 最佳实践
+
+[[bp-aider|aider 生产环境最佳实践]]
 
 ## 所属维度
 

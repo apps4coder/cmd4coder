@@ -67,6 +67,10 @@ kubectl describe clusterrole cluster-admin
 
 > ⚠️ **LOW**: Read-only operation; shows cluster permissions
 
+## 最佳实践
+
+[[bp-kubectl-get-clusterroles|kubectl get clusterroles 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

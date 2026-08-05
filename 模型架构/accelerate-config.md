@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-architecture.yaml"
+  "source_file": "tools/cmd/data/ai/model-architecture.yaml"
 }
 ---
 
@@ -75,8 +75,8 @@ accelerate launch --config_file config.yaml train.py
 
 ## 关联命令
 
-- [[accelerate]]
-- [[deepspeed]]
+- [[accelerate|accelerate]]
+- [[deepspeed|deepspeed]]
 
 ## 风险提示
 
@@ -85,6 +85,10 @@ accelerate launch --config_file config.yaml train.py
 ## 参考链接
 
 - [https://huggingface.co/docs/accelerate](https://huggingface.co/docs/accelerate)
+
+## 最佳实践
+
+[[bp-accelerate-config|accelerate-config 生产环境最佳实践]]
 
 ## 所属维度
 

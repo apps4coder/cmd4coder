@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/vector-db.yaml"
+  "source_file": "tools/cmd/data/ai/vector-db.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ curl http://localhost:9200/_cluster/health
 
 ## 关联命令
 
-- [[opensearch]]
-- [[vespa-cli]]
+- [[opensearch|opensearch]]
+- [[vespa-cli|vespa-cli]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ curl http://localhost:9200/_cluster/health
 ## 参考链接
 
 - [https://www.elastic.co/](https://www.elastic.co/)
+
+## 最佳实践
+
+[[bp-elasticsearch|elasticsearch 生产环境最佳实践]]
 
 ## 所属维度
 

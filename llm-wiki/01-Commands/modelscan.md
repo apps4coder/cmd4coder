@@ -76,6 +76,10 @@ modelscan model.pkl --format json
 
 - [https://github.com/protectai/modelscan](https://github.com/protectai/modelscan)
 
+## 最佳实践
+
+[[bp-modelscan|modelscan 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI安全-MOC|AI基础设施/AI安全]]

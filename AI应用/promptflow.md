@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-applications.yaml"
+  "source_file": "tools/cmd/data/ai/ai-applications.yaml"
 }
 ---
 
@@ -74,8 +74,8 @@ pf run create --flow ./my_chatbot --data ./data.jsonl --column-mapping question=
 
 ## 关联命令
 
-- [[langchain]]
-- [[dify]]
+- [[langchain|langchain]]
+- [[dify|dify]]
 
 ## 风险提示
 
@@ -84,6 +84,10 @@ pf run create --flow ./my_chatbot --data ./data.jsonl --column-mapping question=
 ## 参考链接
 
 - [https://microsoft.github.io/promptflow/](https://microsoft.github.io/promptflow/)
+
+## 最佳实践
+
+[[bp-promptflow|promptflow 生产环境最佳实践]]
 
 ## 所属维度
 

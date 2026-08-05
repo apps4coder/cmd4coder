@@ -85,6 +85,10 @@ deepspeed train.py --deepspeed ds_config_zero3.json
 
 - [https://www.deepspeed.ai/](https://www.deepspeed.ai/)
 
+## 最佳实践
+
+[[bp-deepspeed|deepspeed 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

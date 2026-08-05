@@ -69,6 +69,10 @@ sudo sensors-detect --interactive
 
 > ⚠️ **MEDIUM**: 自动检测会加载内核模块，请确认系统兼容性
 
+## 最佳实践
+
+[[bp-sensors-detect|sensors-detect 生产环境最佳实践]]
+
 ## 所属维度
 
 [[传感器与电源-MOC|硬件/传感器与电源]]

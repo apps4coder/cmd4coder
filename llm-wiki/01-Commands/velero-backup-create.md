@@ -16,7 +16,7 @@
     "intermediate",
     "linux"
   ],
-  "cmd_risk_level": "low",
+  "cmd_risk_level": "medium",
   "created": "2026-05-31",
   "source_file": "tools/cmd/data/container/k8s/k8s-backup.yaml"
 }
@@ -76,6 +76,12 @@ velero backup create app-backup --selector app=nginx
 ## 风险提示
 
 > ⚠️ **LOW**: Read-only backup operation; no cluster modifications
+
+> ⚠️ **MEDIUM**: Large backups may impact cluster performance
+
+## 最佳实践
+
+[[bp-velero-backup-create|velero backup create 生产环境最佳实践]]
 
 ## 所属维度
 

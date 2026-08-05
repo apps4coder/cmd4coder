@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ replicate deploy --model=my-model
 
 ## 关联命令
 
-- [[modal]]
-- [[sky-pilot]]
+- [[modal|modal]]
+- [[sky-pilot|sky-pilot]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ replicate deploy --model=my-model
 ## 参考链接
 
 - [https://replicate.com/](https://replicate.com/)
+
+## 最佳实践
+
+[[bp-replicate|replicate 生产环境最佳实践]]
 
 ## 所属维度
 

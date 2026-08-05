@@ -80,6 +80,10 @@ flux create source git my-app --url=ssh://git@github.com/org/repo --branch=prod 
 
 > ⚠️ **LOW**: 仅创建源定义，不直接修改工作负载
 
+## 最佳实践
+
+[[bp-flux-create-source|flux create source 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GitOps-MOC|CI-CD/GitOps]]

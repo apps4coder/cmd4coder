@@ -83,6 +83,10 @@ python -c "from einops import repeat; y = repeat(x, 'b c -> b c h w', h=32, w=32
 
 - [https://github.com/arogozhnikov/einops](https://github.com/arogozhnikov/einops)
 
+## 最佳实践
+
+[[bp-einops|einops 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型架构-MOC|AI基础设施/模型架构]]

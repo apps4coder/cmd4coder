@@ -68,6 +68,10 @@ otelcol --config=config.yaml --set=receivers.otlp.protocols.grpc.endpoint=0.0.0.
 
 > ⚠️ **MEDIUM**: Incorrect config may lose telemetry data
 
+## 最佳实践
+
+[[bp-otelcol|otelcol 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

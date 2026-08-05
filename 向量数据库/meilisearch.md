@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/vector-db.yaml"
+  "source_file": "tools/cmd/data/ai/vector-db.yaml"
 }
 ---
 
@@ -66,9 +66,22 @@ curl -X POST 'http://localhost:7700/indexes/docs/search' -H 'Authorization: Bear
 
 ## 关联命令
 
-- [[elasticsearch]]
-- [[typesense]]
-- [[vespa-cli]]
+- [[elasticsearch|elasticsearch]]
+- [[typesense|typesense]]
+- [[vespa-cli|vespa-cli]]
+
+## 风险提示
+
+> ⚠️ **LOW**: 只读/信息查询类命令，风险较低，但仍需确认目标对象。
+
+## 参考链接
+
+- [https://www.meilisearch.com/docs](https://www.meilisearch.com/docs)
+- [https://github.com/meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
+
+## 最佳实践
+
+[[bp-meilisearch|meilisearch 生产环境最佳实践]]
 
 ## 所属维度
 

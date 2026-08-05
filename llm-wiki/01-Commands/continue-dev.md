@@ -75,6 +75,10 @@ continue-dev --version
 
 - [https://www.continue.dev/](https://www.continue.dev/)
 
+## 最佳实践
+
+[[bp-continue-dev|continue-dev 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI编程-MOC|AI基础设施/AI编程]]

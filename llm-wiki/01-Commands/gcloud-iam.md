@@ -81,6 +81,10 @@ gcloud iam service-accounts keys create key.json --iam-account=sa@project.iam.gs
 
 > ⚠️ **HIGH**: IAM 策略变更影响访问权限，密钥文件需妥善保管
 
+## 最佳实践
+
+[[bp-gcloud-iam|gcloud iam 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GCP CLI-MOC|云平台/GCP CLI]]

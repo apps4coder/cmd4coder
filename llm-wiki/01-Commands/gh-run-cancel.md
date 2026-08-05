@@ -67,6 +67,10 @@ gh run cancel --all
 
 > ⚠️ **MEDIUM**: 会中断正在运行的部署流程
 
+## 最佳实践
+
+[[bp-gh-run-cancel|gh run cancel 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GitHub Actions-MOC|CI-CD/GitHub Actions]]

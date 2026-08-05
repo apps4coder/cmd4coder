@@ -84,6 +84,10 @@ axolotl train config.yml --prepare-dataset
 
 - [https://github.com/axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl)
 
+## 最佳实践
+
+[[bp-axolotl|axolotl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

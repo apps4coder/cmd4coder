@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/data-labeling.yaml"
+  "source_file": "tools/cmd/data/ai/data-labeling.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python -c "from datasets import load_dataset; ds = load_dataset('c4', 'en', stre
 
 ## 关联命令
 
-- [[webdataset]]
-- [[img2dataset]]
+- [[webdataset|webdataset]]
+- [[img2dataset|img2dataset]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python -c "from datasets import load_dataset; ds = load_dataset('c4', 'en', stre
 ## 参考链接
 
 - [https://huggingface.co/docs/datasets](https://huggingface.co/docs/datasets)
+
+## 最佳实践
+
+[[bp-datasets-cli|datasets-cli 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -76,6 +76,10 @@ python -m swebench.harness.run_evaluation --predictions_path preds.json --swe_be
 
 - [https://www.swebench.com/](https://www.swebench.com/)
 
+## 最佳实践
+
+[[bp-swe-bench|swe-bench 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Harness工程-MOC|AI基础设施/Harness工程]]

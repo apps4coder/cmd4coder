@@ -76,6 +76,10 @@ python token_heatmap.py --model bert-base-uncased --text 'This movie is terrible
 
 - [https://github.com/cdpierse/transformers-interpret](https://github.com/cdpierse/transformers-interpret)
 
+## 最佳实践
+
+[[bp-token-heatmap|token-heatmap 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型可解释性-MOC|AI基础设施/模型可解释性]]

@@ -64,6 +64,12 @@ flux bootstrap github --owner=myorg --repository=fleet --path=clusters/productio
 
 > ⚠️ **HIGH**: Installs Flux components to cluster; modifies Git repository
 
+> ⚠️ **MEDIUM**: Requires Git write access; creates initial commit
+
+## 最佳实践
+
+[[bp-flux-bootstrap-git|flux bootstrap git 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CD-MOC|Kubernetes CI/CD]]

@@ -80,6 +80,10 @@ python agent.py --index ./index --tools slack,notion --workflow event_driven
 
 - [https://www.llamaindex.ai/](https://www.llamaindex.ai/)
 
+## 最佳实践
+
+[[bp-llama-index|llama-index 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

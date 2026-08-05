@@ -79,6 +79,10 @@ python build_index.py --dim 768 --index_type ivf --nlist 100 --gpu
 
 - [https://github.com/facebookresearch/faiss](https://github.com/facebookresearch/faiss)
 
+## 最佳实践
+
+[[bp-faiss-cli|faiss-cli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

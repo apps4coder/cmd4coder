@@ -73,9 +73,15 @@ csrun_wse --help
 
 > ⚠️ **HIGH**: 专用硬件平台，成本极高
 
+> ⚠️ **HIGH**: 大规模训练任务会占用大量计算资源，请确认集群配额、显存和成本预算。
+
 ## 参考链接
 
 - [https://www.cerebras.net/](https://www.cerebras.net/)
+
+## 最佳实践
+
+[[bp-cerebras|cerebras 生产环境最佳实践]]
 
 ## 所属维度
 

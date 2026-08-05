@@ -77,6 +77,10 @@ redis-cli FT.SEARCH my_idx '*=>[KNN 10 @embedding $vec]' PARAMS 2 vec '[0.1,...]
 
 - [https://redis.io/docs/stack/search/](https://redis.io/docs/stack/search/)
 
+## 最佳实践
+
+[[bp-redisearch|redisearch 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

@@ -68,6 +68,10 @@ svn ci -m 'Add feature'
 
 > ⚠️ **MEDIUM**: Permanently records changes to repository
 
+## 最佳实践
+
+[[bp-svn-commit|svn commit 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Version Control-MOC|Version Control]]

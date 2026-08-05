@@ -68,6 +68,10 @@ kubectl describe tfjob mnist-training
 
 > ⚠️ **LOW**: Read-only operation
 
+## 最佳实践
+
+[[bp-kubectl-get-tfjobs|kubectl get tfjobs 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes MLOps-MOC|Kubernetes MLOps]]

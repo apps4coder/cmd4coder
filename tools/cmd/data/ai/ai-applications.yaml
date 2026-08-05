@@ -226,7 +226,9 @@ commands:
   related_commands:
   - modal
   - sky-pilot
-  - vast.ai
   risks:
   - level: medium
     description: 会修改系统或应用状态，建议在测试环境验证后再应用于生产。
+  references:
+  - https://docs.runpod.io/
+  - https://github.com/runpod/runpodctl

@@ -71,6 +71,12 @@ sudo mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/sdb /dev/sdc
 
 > ⚠️ **CRITICAL**: 创建/停止 RAID 会擦除或暴露数据，请备份并确认设备
 
+> ⚠️ **CRITICAL**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-mdadm|mdadm 生产环境最佳实践]]
+
 ## 所属维度
 
 [[存储与RAID-MOC|硬件/存储与RAID]]

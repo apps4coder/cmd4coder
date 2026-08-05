@@ -71,6 +71,10 @@ numactl --cpunodebind=0 --membind=0 ./app
 
 > ⚠️ **MEDIUM**: 错误绑定会降低性能或导致 OOM，请了解 NUMA 拓扑
 
+## 最佳实践
+
+[[bp-numactl|numactl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[系统信息-MOC|硬件/系统信息]]

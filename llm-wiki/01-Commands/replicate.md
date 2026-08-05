@@ -77,6 +77,10 @@ replicate deploy --model=my-model
 
 - [https://replicate.com/](https://replicate.com/)
 
+## 最佳实践
+
+[[bp-replicate|replicate 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

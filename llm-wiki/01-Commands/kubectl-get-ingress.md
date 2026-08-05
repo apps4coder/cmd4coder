@@ -69,6 +69,10 @@ kubectl describe ingress myapp-ingress -n production
 
 > ⚠️ **LOW**: Read-only operation; shows routing rules
 
+## 最佳实践
+
+[[bp-kubectl-get-ingress|kubectl get ingress 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Networking-MOC|Kubernetes Networking]]

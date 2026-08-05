@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/monitoring.yaml"
+  "source_file": "tools/cmd/data/ai/monitoring.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python app.py --trace_llm --trace_vectorstore --trace_framework
 
 ## 关联命令
 
-- [[langsmith]]
-- [[phoenix]]
+- [[langsmith|langsmith]]
+- [[phoenix|phoenix]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python app.py --trace_llm --trace_vectorstore --trace_framework
 ## 参考链接
 
 - [https://langtrace.ai/](https://langtrace.ai/)
+
+## 最佳实践
+
+[[bp-langtrace|langtrace 生产环境最佳实践]]
 
 ## 所属维度
 

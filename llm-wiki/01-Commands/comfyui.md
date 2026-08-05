@@ -78,6 +78,10 @@ python main.py --lowvram --disable-xformers
 
 - [https://github.com/comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 
+## 最佳实践
+
+[[bp-comfyui|comfyui 生产环境最佳实践]]
+
 ## 所属维度
 
 [[多模态-MOC|AI基础设施/多模态]]

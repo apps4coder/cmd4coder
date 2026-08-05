@@ -76,6 +76,12 @@ kubectl config current-context
 
 > ⚠️ **HIGH**: Switching contexts can direct commands to different clusters (production/staging)
 
+> ⚠️ **MEDIUM**: Always verify current context before executing commands
+
+## 最佳实践
+
+[[bp-kubectl-config|kubectl config 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Container Orchestration-MOC|Container Orchestration]]

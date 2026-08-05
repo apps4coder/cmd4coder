@@ -79,6 +79,10 @@ inspect eval math_eval.py --model anthropic/claude-3-sonnet --epochs 3
 
 - [https://github.com/UKGovernmentBEIS/inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai)
 
+## 最佳实践
+
+[[bp-inspect-ai|inspect-ai 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI安全-MOC|AI基础设施/AI安全]]

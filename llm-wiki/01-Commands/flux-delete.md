@@ -75,6 +75,10 @@ flux delete helmrelease my-chart --silent
 
 > ⚠️ **HIGH**: 默认会删除关联的集群资源，--keep 可保留
 
+## 最佳实践
+
+[[bp-flux-delete|flux delete 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GitOps-MOC|CI-CD/GitOps]]

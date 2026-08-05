@@ -84,6 +84,10 @@ dagster job launch -j train_job -c run_config.yaml
 
 - [https://docs.dagster.io/_apidocs/cli](https://docs.dagster.io/_apidocs/cli)
 
+## 最佳实践
+
+[[bp-dagster|dagster 生产环境最佳实践]]
+
 ## 所属维度
 
 [[MLOps平台-MOC|AI基础设施/MLOps平台]]

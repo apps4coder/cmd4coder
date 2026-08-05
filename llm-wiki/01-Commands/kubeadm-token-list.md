@@ -53,6 +53,10 @@ kubeadm token create --print-join-command
 
 > ⚠️ **LOW**: Read-only operation; lists existing tokens
 
+## 最佳实践
+
+[[bp-kubeadm-token-list|kubeadm token list 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cluster Management-MOC|Kubernetes Cluster Management]]

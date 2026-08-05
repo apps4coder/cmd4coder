@@ -85,6 +85,10 @@ az webapp log tail --resource-group my-rg --name my-app
 
 > ⚠️ **MEDIUM**: 部署会中断当前运行的应用
 
+## 最佳实践
+
+[[bp-az-webapp|az webapp 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Azure CLI-MOC|云平台/Azure CLI]]

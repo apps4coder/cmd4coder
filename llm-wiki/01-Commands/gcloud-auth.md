@@ -85,6 +85,10 @@ gcloud auth application-default login
 
 > ⚠️ **HIGH**: 服务账号密钥文件需妥善保管，泄露可导致资源被滥用
 
+## 最佳实践
+
+[[bp-gcloud-auth|gcloud auth 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GCP CLI-MOC|云平台/GCP CLI]]

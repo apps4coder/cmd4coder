@@ -71,6 +71,10 @@ logstash -e 'input { stdin {} } output { stdout {} }'
 
 > ⚠️ **MEDIUM**: 错误的 grok/filter 会导致日志解析失败或数据丢失，请先用 -t 测试
 
+## 最佳实践
+
+[[bp-logstash|logstash 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|大数据/扩展工具]]

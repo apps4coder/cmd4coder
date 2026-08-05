@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-safety.yaml"
+  "source_file": "tools/cmd/data/ai/ai-safety.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ modelscan model.pkl --format json
 
 ## 关联命令
 
-- [[safetensors-convert]]
-- [[garak]]
+- [[safetensors-convert|safetensors-convert]]
+- [[garak|garak]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ modelscan model.pkl --format json
 ## 参考链接
 
 - [https://github.com/protectai/modelscan](https://github.com/protectai/modelscan)
+
+## 最佳实践
+
+[[bp-modelscan|modelscan 生产环境最佳实践]]
 
 ## 所属维度
 

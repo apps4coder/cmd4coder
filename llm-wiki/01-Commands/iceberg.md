@@ -69,6 +69,10 @@ iceberg snapshot --table catalog.db.table
 
 > ⚠️ **MEDIUM**: 修改表结构或合并快照可能影响查询计划，请先在测试表验证
 
+## 最佳实践
+
+[[bp-iceberg|iceberg 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据湖-MOC|大数据/数据湖]]

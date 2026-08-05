@@ -71,6 +71,12 @@ mongorestore --db mydb /backup/mongo/mydb
 
 > ⚠️ **HIGH**: --drop 会清空现有集合，恢复前请确认备份正确
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-mongorestore|mongorestore 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|数据库工具/扩展工具]]

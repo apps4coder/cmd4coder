@@ -70,6 +70,10 @@ git merge --no-ff feature
 
 > ⚠️ **MEDIUM**: 会改变仓库状态，请确认分支、提交范围及冲突处理后再执行。
 
+## 最佳实践
+
+[[bp-git-merge|git merge 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Git命令-MOC|版本控制/Git命令]]

@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ lm_eval --model vllm --model_args pretrained=Qwen/Qwen2-7B --tasks mmlu --batch_
 
 ## 关联命令
 
-- [[opencompass]]
-- [[alpaca-eval]]
+- [[opencompass|opencompass]]
+- [[alpaca-eval|alpaca-eval]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ lm_eval --model vllm --model_args pretrained=Qwen/Qwen2-7B --tasks mmlu --batch_
 ## 参考链接
 
 - [https://github.com/EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)
+
+## 最佳实践
+
+[[bp-lm-eval|lm-eval 生产环境最佳实践]]
 
 ## 所属维度
 

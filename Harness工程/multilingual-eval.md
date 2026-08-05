@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/harness-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/harness-engineering.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ lm_eval --model hf --model_args pretrained=Qwen/Qwen2-72B --tasks xcopa,xnli --d
 
 ## 关联命令
 
-- [[lm-eval]]
-- [[opencompass]]
+- [[lm-eval|lm-eval]]
+- [[opencompass|opencompass]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ lm_eval --model hf --model_args pretrained=Qwen/Qwen2-72B --tasks xcopa,xnli --d
 ## 参考链接
 
 - [https://github.com/EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)
+
+## 最佳实践
+
+[[bp-multilingual-eval|multilingual-eval 生产环境最佳实践]]
 
 ## 所属维度
 

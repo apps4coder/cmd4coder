@@ -96,6 +96,10 @@ gh run rerun 12345
 
 > ⚠️ **MEDIUM**: rerun 会消耗 Actions 配额
 
+## 最佳实践
+
+[[bp-gh-run|gh run 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GitHub Actions-MOC|CI-CD/GitHub Actions]]

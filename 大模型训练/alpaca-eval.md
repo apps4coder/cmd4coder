@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ alpaca_eval --model_outputs my_model.json --annotators_config=weighted_alpaca_ev
 
 ## 关联命令
 
-- [[lm-eval]]
-- [[opencompass]]
+- [[lm-eval|lm-eval]]
+- [[opencompass|opencompass]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ alpaca_eval --model_outputs my_model.json --annotators_config=weighted_alpaca_ev
 ## 参考链接
 
 - [https://github.com/tatsu-lab/alpaca_eval](https://github.com/tatsu-lab/alpaca_eval)
+
+## 最佳实践
+
+[[bp-alpaca-eval|alpaca-eval 生产环境最佳实践]]
 
 ## 所属维度
 

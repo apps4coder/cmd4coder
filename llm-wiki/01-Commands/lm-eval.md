@@ -78,6 +78,10 @@ lm_eval --model vllm --model_args pretrained=Qwen/Qwen2-7B --tasks mmlu --batch_
 
 - [https://github.com/EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)
 
+## 最佳实践
+
+[[bp-lm-eval|lm-eval 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

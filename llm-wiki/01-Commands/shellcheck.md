@@ -83,6 +83,10 @@ shellcheck -s bash script.sh
 
 > ⚠️ **LOW**: 只读/信息查询类命令，风险较低，但仍需确认目标对象。
 
+## 最佳实践
+
+[[bp-shellcheck|shellcheck 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Bash工具-MOC|Shell脚本/Bash工具]]

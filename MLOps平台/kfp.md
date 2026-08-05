@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/mlops.yaml"
+  "source_file": "tools/cmd/data/ai/mlops.yaml"
 }
 ---
 
@@ -64,7 +64,7 @@ kfp run submit -e my-experiment -p my-pipeline
 
 ## 关联命令
 
-- [[mlflow]]
+- [[mlflow|mlflow]]
 
 ## 风险提示
 
@@ -73,6 +73,10 @@ kfp run submit -e my-experiment -p my-pipeline
 ## 参考链接
 
 - [https://www.kubeflow.org/docs/components/pipelines/sdk/sdk-overview/](https://www.kubeflow.org/docs/components/pipelines/sdk/sdk-overview/)
+
+## 最佳实践
+
+[[bp-kfp|kfp 生产环境最佳实践]]
 
 ## 所属维度
 

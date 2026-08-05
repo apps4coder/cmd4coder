@@ -75,6 +75,12 @@ helm rollback nginx 2 --wait
 
 > ⚠️ **HIGH**: Reverts application to previous state; may cause service disruption
 
+> ⚠️ **MEDIUM**: Check history before rolling back
+
+## 最佳实践
+
+[[bp-helm-rollback|helm rollback 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

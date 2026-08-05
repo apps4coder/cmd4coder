@@ -62,6 +62,10 @@ kubectl annotate pods mypod description-
 
 > ⚠️ **LOW**: Annotations are metadata only; minimal risk
 
+## 最佳实践
+
+[[bp-kubectl-annotate|kubectl annotate 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Container Orchestration-MOC|Container Orchestration]]

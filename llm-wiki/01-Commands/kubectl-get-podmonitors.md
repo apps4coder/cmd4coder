@@ -62,6 +62,10 @@ kubectl describe podmonitor batch-jobs-monitor -n production
 
 > ⚠️ **LOW**: Read-only operation; shows pod monitoring configs
 
+## 最佳实践
+
+[[bp-kubectl-get-podmonitors|kubectl get podmonitors 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

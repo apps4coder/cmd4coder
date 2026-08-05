@@ -55,6 +55,10 @@ svn copy ^/trunk ^/tags/v1.0 -m 'Tag version 1.0'
 
 > ⚠️ **MEDIUM**: Creates permanent copy in repository
 
+## 最佳实践
+
+[[bp-svn-copy|svn copy 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Version Control-MOC|Version Control]]

@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-gateway.yaml"
+  "source_file": "tools/cmd/data/ai/ai-gateway.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python -c "from keywordsai import KeywordsAIClient; help(KeywordsAIClient.log_in
 
 ## 关联命令
 
-- [[helicone]]
-- [[portkey]]
+- [[helicone|helicone]]
+- [[portkey|portkey]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python -c "from keywordsai import KeywordsAIClient; help(KeywordsAIClient.log_in
 ## 参考链接
 
 - [https://www.keywordsai.co/](https://www.keywordsai.co/)
+
+## 最佳实践
+
+[[bp-keywords-ai|keywords-ai 生产环境最佳实践]]
 
 ## 所属维度
 

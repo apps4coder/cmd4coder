@@ -55,6 +55,12 @@ redis-cli MONITOR | head -n 20
 
 > ⚠️ **MEDIUM**: Can significantly impact performance on busy servers
 
+> ⚠️ **MEDIUM**: May expose sensitive data in commands
+
+## 最佳实践
+
+[[bp-redis-cli-monitor|redis-cli MONITOR 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

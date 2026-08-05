@@ -78,6 +78,10 @@ whisper audio.mp3 --model medium --task translate --output_format srt
 
 - [https://github.com/openai/whisper](https://github.com/openai/whisper)
 
+## 最佳实践
+
+[[bp-whisper|whisper 生产环境最佳实践]]
+
 ## 所属维度
 
 [[多模态-MOC|AI基础设施/多模态]]

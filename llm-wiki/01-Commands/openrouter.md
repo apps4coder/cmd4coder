@@ -80,6 +80,10 @@ curl https://openrouter.ai/api/v1/models | jq '.data[].id'
 
 - [https://openrouter.ai/](https://openrouter.ai/)
 
+## 最佳实践
+
+[[bp-openrouter|openrouter 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI网关-MOC|AI基础设施/AI网关]]

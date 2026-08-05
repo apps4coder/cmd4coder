@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-interpretability.yaml"
+  "source_file": "tools/cmd/data/ai/model-interpretability.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python rollout_viz.py --model vit-base --image cat.jpg --layer 11
 
 ## 关联命令
 
-- [[bertviz]]
-- [[token-heatmap]]
+- [[bertviz|bertviz]]
+- [[token-heatmap|token-heatmap]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python rollout_viz.py --model vit-base --image cat.jpg --layer 11
 ## 参考链接
 
 - [https://github.com/jacobgil/vit-explain](https://github.com/jacobgil/vit-explain)
+
+## 最佳实践
+
+[[bp-attention-rollout|attention-rollout 生产环境最佳实践]]
 
 ## 所属维度
 

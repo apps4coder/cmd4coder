@@ -76,6 +76,10 @@ python -c "from groq import Groq; g=Groq(); r=g.chat.completions.create(model='l
 
 - [https://groq.com/](https://groq.com/)
 
+## 最佳实践
+
+[[bp-groq|groq 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

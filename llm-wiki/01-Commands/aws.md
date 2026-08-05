@@ -86,6 +86,12 @@ aws --profile prod s3 cp file.txt s3://my-bucket/
 
 > ⚠️ **HIGH**: 误操作可能产生费用或删除重要资源，建议开启 MFA
 
+> ⚠️ **HIGH**: 云资源操作可能产生费用或删除数据，建议先确认区域、账号，并使用 --dry-run 验证。
+
+## 最佳实践
+
+[[bp-aws|aws 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AWS CLI-MOC|云平台/AWS CLI]]

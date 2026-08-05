@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-applications.yaml"
+  "source_file": "tools/cmd/data/ai/ai-applications.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python -c "from langchain import hub; hub.push('my-repo/my-prompt', prompt)"
 
 ## 关联命令
 
-- [[langchain]]
-- [[promptflow]]
+- [[langchain|langchain]]
+- [[promptflow|promptflow]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python -c "from langchain import hub; hub.push('my-repo/my-prompt', prompt)"
 ## 参考链接
 
 - [https://github.com/hwchase17/langchain-hub](https://github.com/hwchase17/langchain-hub)
+
+## 最佳实践
+
+[[bp-langchain-hub|langchain-hub 生产环境最佳实践]]
 
 ## 所属维度
 

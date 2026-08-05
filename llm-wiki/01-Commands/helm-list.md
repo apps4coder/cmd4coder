@@ -83,6 +83,10 @@ helm list --filter 'nginx'
 
 > ⚠️ **LOW**: Read-only operation; lists releases only
 
+## 最佳实践
+
+[[bp-helm-list|helm list 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

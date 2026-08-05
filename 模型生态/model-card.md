@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-hub.yaml"
+  "source_file": "tools/cmd/data/ai/model-hub.yaml"
 }
 ---
 
@@ -61,8 +61,8 @@ huggingface-cli upload my-model ./model README.md
 
 ## 关联命令
 
-- [[huggingface-cli]]
-- [[modelscope]]
+- [[huggingface-cli|huggingface-cli]]
+- [[modelscope|modelscope]]
 
 ## 风险提示
 
@@ -71,6 +71,10 @@ huggingface-cli upload my-model ./model README.md
 ## 参考链接
 
 - [https://huggingface.co/docs/hub/model-cards](https://huggingface.co/docs/hub/model-cards)
+
+## 最佳实践
+
+[[bp-model-card|model-card 生产环境最佳实践]]
 
 ## 所属维度
 

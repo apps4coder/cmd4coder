@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/agent-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/agent-engineering.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python agent.py --tools search,qa --document_store elasticsearch
 
 ## 关联命令
 
-- [[langchain]]
-- [[llama-index]]
+- [[langchain|langchain]]
+- [[llama-index|llama-index]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python agent.py --tools search,qa --document_store elasticsearch
 ## 参考链接
 
 - [https://haystack.deepset.ai/](https://haystack.deepset.ai/)
+
+## 最佳实践
+
+[[bp-haystack|haystack 生产环境最佳实践]]
 
 ## 所属维度
 

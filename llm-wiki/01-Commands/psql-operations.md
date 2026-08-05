@@ -89,6 +89,10 @@ psql -c "SELECT pg_size_pretty(pg_database_size('mydb'));"
 
 > ⚠️ **MEDIUM**: VACUUM FULL 锁表，pg_terminate_backend 终止连接
 
+## 最佳实践
+
+[[bp-psql-operations|psql (operations) 生产环境最佳实践]]
+
 ## 所属维度
 
 [[运维操作-MOC|数据库工具/运维操作]]

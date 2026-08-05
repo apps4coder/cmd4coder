@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-hub.yaml"
+  "source_file": "tools/cmd/data/ai/model-hub.yaml"
 }
 ---
 
@@ -64,8 +64,8 @@ python convert.py --src model.bin --dst model.safetensors
 
 ## 关联命令
 
-- [[huggingface-cli]]
-- [[optimum-cli]]
+- [[huggingface-cli|huggingface-cli]]
+- [[optimum-cli|optimum-cli]]
 
 ## 风险提示
 
@@ -74,6 +74,10 @@ python convert.py --src model.bin --dst model.safetensors
 ## 参考链接
 
 - [https://github.com/huggingface/safetensors](https://github.com/huggingface/safetensors)
+
+## 最佳实践
+
+[[bp-safetensors-convert|safetensors-convert 生产环境最佳实践]]
 
 ## 所属维度
 

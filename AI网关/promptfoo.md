@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-gateway.yaml"
+  "source_file": "tools/cmd/data/ai/ai-gateway.yaml"
 }
 ---
 
@@ -72,8 +72,8 @@ promptfoo eval --providers openai:gpt-4,anthropic:claude-3 --tests tests.csv
 
 ## 关联命令
 
-- [[langfuse]]
-- [[langsmith]]
+- [[langfuse|langfuse]]
+- [[langsmith|langsmith]]
 
 ## 风险提示
 
@@ -82,6 +82,10 @@ promptfoo eval --providers openai:gpt-4,anthropic:claude-3 --tests tests.csv
 ## 参考链接
 
 - [https://www.promptfoo.dev/](https://www.promptfoo.dev/)
+
+## 最佳实践
+
+[[bp-promptfoo|promptfoo 生产环境最佳实践]]
 
 ## 所属维度
 

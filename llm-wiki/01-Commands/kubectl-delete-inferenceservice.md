@@ -59,6 +59,12 @@ kubectl delete isvc -n staging --all
 
 > ⚠️ **HIGH**: Permanently deletes model serving resources
 
+> ⚠️ **HIGH**: 删除推理服务会中断线上流量，建议先完成流量切换或灰度验证。
+
+## 最佳实践
+
+[[bp-kubectl-delete-inferenceservice|kubectl delete inferenceservice 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes MLOps-MOC|Kubernetes MLOps]]

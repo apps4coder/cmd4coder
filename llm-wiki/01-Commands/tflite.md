@@ -82,6 +82,10 @@ python -c "import tflite_runtime.interpreter as tflite; interpreter = tflite.Int
 
 - [https://www.tensorflow.org/lite](https://www.tensorflow.org/lite)
 
+## 最佳实践
+
+[[bp-tflite|tflite 生产环境最佳实践]]
+
 ## 所属维度
 
 [[边缘AI-MOC|AI基础设施/边缘AI]]

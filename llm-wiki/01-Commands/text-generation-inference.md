@@ -79,6 +79,10 @@ docker run --gpus all -p 8080:80 ghcr.io/huggingface/text-generation-inference:l
 
 - [https://huggingface.co/docs/text-generation-inference](https://huggingface.co/docs/text-generation-inference)
 
+## 最佳实践
+
+[[bp-text-generation-inference|text-generation-inference 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

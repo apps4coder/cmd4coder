@@ -83,6 +83,10 @@ staticcheck -checks "inherit,-SA1019" ./...
 
 > ⚠️ **LOW**: 只读检查操作，无风险
 
+## 最佳实践
+
+[[bp-staticcheck|staticcheck 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Go工具链扩展-MOC|编程语言/Go工具链扩展]]

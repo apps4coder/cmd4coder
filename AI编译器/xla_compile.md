@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-compiler.yaml"
+  "source_file": "tools/cmd/data/ai/ai-compiler.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python -c "import tensorflow as tf; tf.config.optimizer.set_jit(True)"
 
 ## 关联命令
 
-- [[tvmc]]
-- [[trtexec]]
+- [[tvmc|tvmc]]
+- [[trtexec|trtexec]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python -c "import tensorflow as tf; tf.config.optimizer.set_jit(True)"
 ## 参考链接
 
 - [https://www.tensorflow.org/xla](https://www.tensorflow.org/xla)
+
+## 最佳实践
+
+[[bp-xla-compile|xla_compile 生产环境最佳实践]]
 
 ## 所属维度
 

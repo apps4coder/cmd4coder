@@ -68,6 +68,10 @@ kubectl describe pod myapp-pod --show-events=false
 
 > ⚠️ **LOW**: 只读操作；显示详细诊断信息
 
+## 最佳实践
+
+[[bp-kubectl-describe-pod|kubectl describe pod 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Troubleshooting-MOC|Kubernetes Troubleshooting]]

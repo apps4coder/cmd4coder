@@ -68,6 +68,12 @@ telepresence leave api
 
 > ⚠️ **CRITICAL**: Redirects production traffic to local machine
 
+> ⚠️ **HIGH**: Can cause service disruption if local process fails
+
+## 最佳实践
+
+[[bp-telepresence-intercept|telepresence intercept 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Development-MOC|Kubernetes Development]]

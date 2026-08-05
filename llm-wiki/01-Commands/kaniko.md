@@ -72,6 +72,10 @@ executor --dockerfile Dockerfile --context . --no-push
 
 > ⚠️ **MEDIUM**: kaniko 会访问 registry 凭据，请确保 Secret 安全
 
+## 最佳实践
+
+[[bp-kaniko|kaniko 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

@@ -66,6 +66,10 @@ tar -xzvf backup.tar.gz -C /tmp
 
 > ⚠️ **MEDIUM**: 解压到错误目录或覆盖现有文件会造成混乱，请确认目标路径
 
+## 最佳实践
+
+[[bp-tar|tar 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux扩展命令-MOC|操作系统/Linux扩展命令]]

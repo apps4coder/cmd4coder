@@ -82,6 +82,10 @@ cp -a /source/* /backup/
 
 - [https://man7.org/linux/man-pages/man1/cp.1.html](https://man7.org/linux/man-pages/man1/cp.1.html)
 
+## 最佳实践
+
+[[bp-cp|cp 生产环境最佳实践]]
+
 ## 所属维度
 
 [[通用Linux命令-MOC|操作系统/通用Linux命令]]

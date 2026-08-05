@@ -76,6 +76,10 @@ nemoguardrails chat --config ./config
 
 - [https://github.com/NVIDIA/NeMo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)
 
+## 最佳实践
+
+[[bp-nemo-guardrails|nemo-guardrails 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI安全-MOC|AI基础设施/AI安全]]

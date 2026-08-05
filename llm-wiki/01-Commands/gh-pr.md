@@ -91,6 +91,10 @@ gh pr review 42 --approve
 
 > ⚠️ **MEDIUM**: merge 操作不可逆，确认代码已审查
 
+## 最佳实践
+
+[[bp-gh-pr|gh pr 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Git高级操作-MOC|版本控制/Git高级操作]]

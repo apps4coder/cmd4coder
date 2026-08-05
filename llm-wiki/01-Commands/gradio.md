@@ -77,6 +77,10 @@ python -c "import gradio as gr; gr.Interface(fn=predict, inputs='text', outputs=
 
 - [https://www.gradio.app/](https://www.gradio.app/)
 
+## 最佳实践
+
+[[bp-gradio|gradio 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

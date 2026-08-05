@@ -75,6 +75,10 @@ kubectl auth can-i --as system:serviceaccount:default:my-sa get secrets
 
 > ⚠️ **LOW**: Read-only permission check; no operational changes
 
+## 最佳实践
+
+[[bp-kubectl-auth-can-i|kubectl auth can-i 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

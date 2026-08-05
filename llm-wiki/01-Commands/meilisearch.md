@@ -74,6 +74,15 @@ curl -X POST 'http://localhost:7700/indexes/docs/search' -H 'Authorization: Bear
 
 > ⚠️ **LOW**: 只读/信息查询类命令，风险较低，但仍需确认目标对象。
 
+## 参考链接
+
+- [https://www.meilisearch.com/docs](https://www.meilisearch.com/docs)
+- [https://github.com/meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
+
+## 最佳实践
+
+[[bp-meilisearch|meilisearch 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

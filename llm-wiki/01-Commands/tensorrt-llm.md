@@ -82,6 +82,10 @@ python run.py --engine_dir=./trt_engines --max_output_len=512
 
 - [https://github.com/NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
 
+## 最佳实践
+
+[[bp-tensorrt-llm|tensorrt-llm 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

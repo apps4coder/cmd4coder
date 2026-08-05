@@ -68,6 +68,10 @@ helm version --template '{{.Client.SemVer}}'
 
 > ⚠️ **LOW**: Version information only
 
+## 最佳实践
+
+[[bp-helm-version|helm version 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

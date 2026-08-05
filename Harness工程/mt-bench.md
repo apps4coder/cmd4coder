@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/harness-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/harness-engineering.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python gen_judgment.py --bench-name mt_bench --judge-model gpt-4-turbo
 
 ## 关联命令
 
-- [[arena]]
-- [[alpaca-eval]]
+- [[arena|arena]]
+- [[alpaca-eval|alpaca-eval]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python gen_judgment.py --bench-name mt_bench --judge-model gpt-4-turbo
 ## 参考链接
 
 - [https://github.com/lm-sys/FastChat](https://github.com/lm-sys/FastChat)
+
+## 最佳实践
+
+[[bp-mt-bench|mt-bench 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -84,6 +84,12 @@ aws s3 rm s3://my-bucket/ --recursive
 
 > ⚠️ **HIGH**: sync --delete 会删除目标端多余文件，操作不可逆
 
+> ⚠️ **HIGH**: 云资源操作可能产生费用或删除数据，建议先确认区域、账号，并使用 --dry-run 验证。
+
+## 最佳实践
+
+[[bp-aws-s3|aws s3 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AWS CLI-MOC|云平台/AWS CLI]]

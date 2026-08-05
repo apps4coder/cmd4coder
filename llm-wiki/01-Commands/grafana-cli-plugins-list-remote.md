@@ -61,6 +61,10 @@ grafana-cli plugins list-remote | grep panel
 
 > ⚠️ **LOW**: Read-only operation; lists available plugins
 
+## 最佳实践
+
+[[bp-grafana-cli-plugins-list-remote|grafana-cli plugins list-remote 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

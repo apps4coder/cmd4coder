@@ -91,6 +91,12 @@ redis-cli --bigkeys
 
 > ⚠️ **HIGH**: Direct database access; can modify or delete data
 
+> ⚠️ **MEDIUM**: Password visible in process list when using -a flag
+
+## 最佳实践
+
+[[bp-redis-cli|redis-cli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

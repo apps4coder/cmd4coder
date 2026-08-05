@@ -66,6 +66,12 @@ crictl exec <container-id> env
 
 > ⚠️ **HIGH**: Can execute arbitrary commands in running containers
 
+> ⚠️ **MEDIUM**: Changes are ephemeral but can affect running application
+
+## 最佳实践
+
+[[bp-crictl-exec|crictl exec 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Container Runtime-MOC|Kubernetes Container Runtime]]

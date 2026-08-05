@@ -83,6 +83,10 @@ gcloud compute instances delete my-vm --zone=us-central1-a
 
 > ⚠️ **HIGH**: delete 操作不可逆，创建实例会产生费用
 
+## 最佳实践
+
+[[bp-gcloud-compute|gcloud compute 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GCP CLI-MOC|云平台/GCP CLI]]

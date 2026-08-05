@@ -70,6 +70,10 @@ curl --unix-socket /tmp/firecracker.sock -X PUT http://localhost/mmds -d '{"late
 
 > ⚠️ **MEDIUM**: Firecracker 直接运行微虚拟机，需配置安全组和资源限制
 
+## 最佳实践
+
+[[bp-firecracker|firecracker 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

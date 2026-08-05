@@ -78,6 +78,10 @@ python agent.py --knowledge ./docs --memory sqlite --tools search,calculator
 
 - [https://docs.agno.com/](https://docs.agno.com/)
 
+## 最佳实践
+
+[[bp-agno|agno 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

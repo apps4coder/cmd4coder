@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-interpretability.yaml"
+  "source_file": "tools/cmd/data/ai/model-interpretability.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python -c "from lime.lime_text import LimeTextExplainer; explainer = LimeTextExp
 
 ## 关联命令
 
-- [[shap]]
-- [[captum]]
+- [[shap|shap]]
+- [[captum|captum]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python -c "from lime.lime_text import LimeTextExplainer; explainer = LimeTextExp
 ## 参考链接
 
 - [https://github.com/marcotcr/lime](https://github.com/marcotcr/lime)
+
+## 最佳实践
+
+[[bp-lime|lime 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-architecture.yaml"
+  "source_file": "tools/cmd/data/ai/model-architecture.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python profile.py --model llama-7b --seq_len 2048 --batch_size 1
 
 ## 关联命令
 
-- [[transformers-cli]]
-- [[deepspeed]]
+- [[transformers-cli|transformers-cli]]
+- [[deepspeed|deepspeed]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python profile.py --model llama-7b --seq_len 2048 --batch_size 1
 ## 参考链接
 
 - [https://github.com/MrYxJ/calculate-flops](https://github.com/MrYxJ/calculate-flops)
+
+## 最佳实践
+
+[[bp-calflops|calflops 生产环境最佳实践]]
 
 ## 所属维度
 

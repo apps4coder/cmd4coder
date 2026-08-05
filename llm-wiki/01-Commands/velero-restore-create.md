@@ -69,6 +69,12 @@ velero restore create --from-backup mybackup --namespace-mappings old-ns:new-ns
 
 > ⚠️ **CRITICAL**: Restores resources to cluster; may overwrite existing resources
 
+> ⚠️ **HIGH**: Test restore in non-production environment first
+
+## 最佳实践
+
+[[bp-velero-restore-create|velero restore create 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Backup  Recovery-MOC|Kubernetes Backup & Recovery]]

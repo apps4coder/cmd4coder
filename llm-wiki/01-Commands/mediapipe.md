@@ -78,6 +78,10 @@ python -c "import mediapipe as mp; pose = mp.solutions.pose.Pose(); results = po
 
 - [https://mediapipe.dev/](https://mediapipe.dev/)
 
+## 最佳实践
+
+[[bp-mediapipe|mediapipe 生产环境最佳实践]]
+
 ## 所属维度
 
 [[边缘AI-MOC|AI基础设施/边缘AI]]

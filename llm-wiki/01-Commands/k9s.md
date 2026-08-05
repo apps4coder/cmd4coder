@@ -16,7 +16,7 @@
     "intermediate",
     "linux"
   ],
-  "cmd_risk_level": "low",
+  "cmd_risk_level": "medium",
   "created": "2026-05-31",
   "source_file": "tools/cmd/data/container/k8s/k8s-utilities.yaml"
 }
@@ -75,6 +75,12 @@ k9s --readonly
 ## 风险提示
 
 > ⚠️ **LOW**: Interactive UI; risk depends on user actions
+
+> ⚠️ **MEDIUM**: Can execute dangerous operations if not careful
+
+## 最佳实践
+
+[[bp-k9s|k9s 生产环境最佳实践]]
 
 ## 所属维度
 

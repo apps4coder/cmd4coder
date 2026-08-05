@@ -68,6 +68,10 @@ skaffold build --file-output=images.json
 
 > ⚠️ **LOW**: Local build operation; no cluster deployment
 
+## 最佳实践
+
+[[bp-skaffold-build|skaffold build 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Development-MOC|Kubernetes Development]]

@@ -71,6 +71,10 @@ amass enum -d example.com -o subs.txt
 
 > ⚠️ **MEDIUM**: 主动枚举可能触发目标告警，请仅对授权域名执行
 
+## 最佳实践
+
+[[bp-amass|amass 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|网络工具/扩展工具]]

@@ -19,7 +19,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-extra.yaml"
+  "source_file": "tools/cmd/data/ai/llm-extra.yaml"
 }
 ---
 
@@ -62,12 +62,21 @@ docker pull mintplexlabs/anythingllm && docker run -d -p 3001:3001 mintplexlabs/
 
 ## 关联命令
 
-- [[ollama]]
-- [[docling]]
+- [[ollama|ollama]]
+- [[docling|docling]]
 
 ## 风险提示
 
 > ⚠️ **MEDIUM**: 上传文档可能包含敏感信息，请做好访问控制和数据隔离
+
+## 参考链接
+
+- [https://anythingllm.com/](https://anythingllm.com/)
+- [https://github.com/Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)
+
+## 最佳实践
+
+[[bp-anything-llm|anything-llm 生产环境最佳实践]]
 
 ## 所属维度
 

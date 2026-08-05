@@ -80,6 +80,10 @@ python dpo_train.py --model_name llama-3-8b --beta 0.1 --loss_type sigmoid --dat
 
 - [https://huggingface.co/docs/trl/dpo_trainer](https://huggingface.co/docs/trl/dpo_trainer)
 
+## 最佳实践
+
+[[bp-dpo|dpo 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

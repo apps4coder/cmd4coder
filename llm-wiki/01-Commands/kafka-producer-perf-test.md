@@ -72,6 +72,12 @@ kafka-producer-perf-test.sh --topic test --num-records 10000 --record-size 512
 
 > ⚠️ **HIGH**: 压测会写入大量数据到 Kafka，请确认 topic 配置和磁盘空间
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-kafka-producer-perf-test|kafka-producer-perf-test 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|大数据/扩展工具]]

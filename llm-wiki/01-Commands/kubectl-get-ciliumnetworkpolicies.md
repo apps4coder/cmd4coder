@@ -68,6 +68,10 @@ kubectl describe cnp app-policy -n production
 
 > ⚠️ **LOW**: Read-only operation; shows advanced policies
 
+## 最佳实践
+
+[[bp-kubectl-get-ciliumnetworkpolicies|kubectl get ciliumnetworkpolicies 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Networking-MOC|Kubernetes Networking]]

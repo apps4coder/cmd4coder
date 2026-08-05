@@ -79,6 +79,10 @@ python secure_inference.py --model model.pth --input data.csv --world_size 2
 
 - [https://github.com/facebookresearch/CrypTen](https://github.com/facebookresearch/CrypTen)
 
+## 最佳实践
+
+[[bp-crypten|crypten 生产环境最佳实践]]
+
 ## 所属维度
 
 [[联邦学习-MOC|AI基础设施/联邦学习]]

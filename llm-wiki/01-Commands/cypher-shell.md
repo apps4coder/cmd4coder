@@ -69,6 +69,10 @@ cypher-shell -u neo4j -p password -d mydb "MATCH (n) RETURN count(n)"
 
 > ⚠️ **MEDIUM**: MATCH ... DELETE 等写操作会修改图数据，执行前请确认查询影响范围
 
+## 最佳实践
+
+[[bp-cypher-shell|cypher-shell 生产环境最佳实践]]
+
 ## 所属维度
 
 [[NoSQL-MOC|数据库工具/NoSQL]]

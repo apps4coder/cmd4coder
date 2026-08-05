@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-applications.yaml"
+  "source_file": "tools/cmd/data/ai/ai-applications.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python kg_build.py --docs ./documents/ --schema schema.cypher
 
 ## 关联命令
 
-- [[langchain]]
-- [[llama-index]]
+- [[langchain|langchain]]
+- [[llama-index|llama-index]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python kg_build.py --docs ./documents/ --schema schema.cypher
 ## 参考链接
 
 - [https://neo4j.com/labs/genai-ecosystem/](https://neo4j.com/labs/genai-ecosystem/)
+
+## 最佳实践
+
+[[bp-neo4j-llm|neo4j-llm 生产环境最佳实践]]
 
 ## 所属维度
 

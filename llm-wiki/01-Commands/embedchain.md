@@ -79,6 +79,10 @@ python app.py --add youtube,notion,slack --query 'Summarize'
 
 - [https://docs.embedchain.ai/](https://docs.embedchain.ai/)
 
+## 最佳实践
+
+[[bp-embedchain|embedchain 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

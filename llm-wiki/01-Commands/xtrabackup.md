@@ -73,6 +73,10 @@ xtrabackup --prepare --target-dir=/backup/full
 
 > ⚠️ **MEDIUM**: prepare 会修改备份文件，请保留原始备份副本
 
+## 最佳实践
+
+[[bp-xtrabackup|xtrabackup 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|数据库工具/扩展命令]]

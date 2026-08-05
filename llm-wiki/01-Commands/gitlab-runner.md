@@ -70,6 +70,10 @@ gitlab-runner list
 
 > ⚠️ **MEDIUM**: register 需要 GitLab token，请勿泄露
 
+## 最佳实践
+
+[[bp-gitlab-runner|gitlab-runner 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|CI/CD/扩展工具]]

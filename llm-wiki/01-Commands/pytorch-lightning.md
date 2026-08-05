@@ -79,6 +79,10 @@ python train.py --devices=auto --strategy=deepspeed_stage_2
 
 - [https://lightning.ai/docs/pytorch/](https://lightning.ai/docs/pytorch/)
 
+## 最佳实践
+
+[[bp-pytorch-lightning|pytorch-lightning 生产环境最佳实践]]
+
 ## 所属维度
 
 [[ML框架-MOC|AI基础设施/ML框架]]

@@ -63,6 +63,10 @@ kubectl describe prometheusagent edge-monitor -n monitoring
 
 > ⚠️ **LOW**: Read-only operation; requires Prometheus Agent CRDs
 
+## 最佳实践
+
+[[bp-kubectl-get-prometheusagents|kubectl get prometheusagents 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

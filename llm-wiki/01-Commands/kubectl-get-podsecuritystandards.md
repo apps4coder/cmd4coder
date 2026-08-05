@@ -55,6 +55,10 @@ kubectl label namespace my-ns pod-security.kubernetes.io/enforce=restricted
 
 > ⚠️ **MEDIUM**: Changing enforce level may prevent pods from starting
 
+## 最佳实践
+
+[[bp-kubectl-get-podsecuritystandards|kubectl get podsecuritystandards 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

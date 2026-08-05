@@ -64,7 +64,8 @@ python -c "import outlines; model = outlines.models.transformers('gpt2')"
 
 ## 参考链接
 
-- (无外部参考)
+- [https://dottxt-ai.github.io/outlines/](https://dottxt-ai.github.io/outlines/)
+- [https://github.com/dottxt-ai/outlines](https://github.com/dottxt-ai/outlines)
 
 ## 关联命令最佳实践
 

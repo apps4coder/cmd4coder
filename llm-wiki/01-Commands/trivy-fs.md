@@ -68,6 +68,10 @@ trivy fs --severity CRITICAL /app
 
 > ⚠️ **LOW**: Read-only scanning; no file modifications
 
+## 最佳实践
+
+[[bp-trivy-fs|trivy fs 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

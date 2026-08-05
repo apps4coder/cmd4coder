@@ -84,6 +84,10 @@ python -c "import ctranslate2 as ct2; t = ct2.Translator('./m2m100_ct2'); print(
 
 - [https://github.com/OpenNMT/CTranslate2](https://github.com/OpenNMT/CTranslate2)
 
+## 最佳实践
+
+[[bp-ctranslate2|ctranslate2 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型生态-MOC|AI基础设施/模型生态]]

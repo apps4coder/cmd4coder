@@ -73,6 +73,10 @@ superset run -p 8088 --with-threads --reload --debugger
 
 > ⚠️ **MEDIUM**: 生产环境请关闭 debugger 和 reload，并配置认证
 
+## 最佳实践
+
+[[bp-superset|superset 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|大数据/扩展命令]]

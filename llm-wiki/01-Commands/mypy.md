@@ -85,6 +85,10 @@ mypy --show-error-codes --python-version 3.12 src/
 
 > ⚠️ **LOW**: 只读检查操作，无风险
 
+## 最佳实践
+
+[[bp-mypy|mypy 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Python工具链扩展-MOC|编程语言/Python工具链扩展]]

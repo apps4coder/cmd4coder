@@ -68,6 +68,10 @@ svn status -v
 
 > ⚠️ **LOW**: Read-only operation; no risks
 
+## 最佳实践
+
+[[bp-svn-status|svn status 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Version Control-MOC|Version Control]]

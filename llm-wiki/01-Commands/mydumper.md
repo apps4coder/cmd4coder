@@ -72,6 +72,10 @@ mydumper -B mydb --threads 4 -o /backup
 
 > ⚠️ **LOW**: 只读/信息查询类命令，风险较低，但仍需确认目标对象。
 
+## 最佳实践
+
+[[bp-mydumper|mydumper 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|数据库工具/扩展命令]]

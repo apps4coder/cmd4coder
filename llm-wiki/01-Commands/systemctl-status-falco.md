@@ -13,7 +13,7 @@
     "intermediate",
     "linux"
   ],
-  "cmd_risk_level": "low",
+  "cmd_risk_level": "medium",
   "created": "2026-05-31",
   "source_file": "tools/cmd/data/container/k8s/k8s-security.yaml"
 }
@@ -64,6 +64,12 @@ journalctl -u falco -f
 ## 风险提示
 
 > ⚠️ **LOW**: Read-only status check; no operational changes
+
+> ⚠️ **MEDIUM**: Restarting Falco causes brief monitoring gap
+
+## 最佳实践
+
+[[bp-systemctl-status-falco|systemctl status falco 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -79,6 +79,12 @@ mysqlcheck -u root -p --analyze mydb
 
 > ⚠️ **MEDIUM**: Repair operations may cause data loss if table is severely corrupted
 
+> ⚠️ **MEDIUM**: Optimize locks tables; may impact performance during operation
+
+## 最佳实践
+
+[[bp-mysqlcheck|mysqlcheck 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

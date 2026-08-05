@@ -78,6 +78,10 @@ docker exec typesense curl http://localhost:8108/health
 
 - [https://typesense.org/](https://typesense.org/)
 
+## 最佳实践
+
+[[bp-typesense|typesense 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

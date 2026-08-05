@@ -76,6 +76,10 @@ python inference.py --tool_root_dir data/toolenv/tools --model_path gpt-4 --top_
 
 - [https://github.com/OpenBMB/ToolBench](https://github.com/OpenBMB/ToolBench)
 
+## 最佳实践
+
+[[bp-tool-bench|tool-bench 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Harness工程-MOC|AI基础设施/Harness工程]]

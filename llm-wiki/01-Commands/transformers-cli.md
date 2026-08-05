@@ -78,6 +78,10 @@ transformers-cli download meta-llama/Llama-2-7b-hf
 
 - [https://huggingface.co/docs/transformers](https://huggingface.co/docs/transformers)
 
+## 最佳实践
+
+[[bp-transformers-cli|transformers-cli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型架构-MOC|AI基础设施/模型架构]]

@@ -69,6 +69,10 @@ oc new-project myproject
 
 > ⚠️ **MEDIUM**: oc 拥有 cluster-admin 能力时请谨慎使用
 
+## 最佳实践
+
+[[bp-oc|oc 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

@@ -59,6 +59,10 @@ java -jar arthas-boot.jar 12345
 
 > ⚠️ **MEDIUM**: Attaches to running JVM; may impact performance
 
+## 最佳实践
+
+[[bp-arthas|arthas 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Java Diagnostic-MOC|Java Diagnostic]]

@@ -87,6 +87,10 @@ kafka-topics.sh --bootstrap-server localhost:9092 --alter --topic orders --parti
 
 > ⚠️ **HIGH**: --delete 删除 Topic 数据不可逆，--alter 分区不可缩容
 
+## 最佳实践
+
+[[bp-kafka-topics|kafka-topics 生产环境最佳实践]]
+
 ## 所属维度
 
 [[流处理-MOC|大数据/流处理]]

@@ -89,6 +89,10 @@ llamafactory-cli api --model_name_or_path merged_model --template llama2
 
 - [https://github.com/hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
 
+## 最佳实践
+
+[[bp-llm-factory|llm-factory 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

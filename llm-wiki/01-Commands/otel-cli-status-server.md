@@ -62,6 +62,10 @@ otel-cli status server localhost:4317 --timeout 5s
 
 > ⚠️ **LOW**: Read-only status check
 
+## 最佳实践
+
+[[bp-otel-cli-status-server|otel-cli status server 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

@@ -67,6 +67,10 @@ argocd app list -o json
 
 > ⚠️ **LOW**: Read-only operation; lists applications only
 
+## 最佳实践
+
+[[bp-argocd-app-list|argocd app list 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CD-MOC|Kubernetes CI/CD]]

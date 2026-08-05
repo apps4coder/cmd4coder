@@ -72,6 +72,10 @@ flume-ng version
 
 > ⚠️ **MEDIUM**: 配置错误可能导致数据丢失或重复，请检查 channel 容量与 sink 可靠性
 
+## 最佳实践
+
+[[bp-flume-ng|flume-ng 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据集成与ETL-MOC|大数据/数据集成与ETL]]

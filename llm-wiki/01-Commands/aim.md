@@ -83,6 +83,10 @@ python train.py --use_aim --experiment bert-finetune
 
 - [https://aimstack.io/](https://aimstack.io/)
 
+## 最佳实践
+
+[[bp-aim|aim 生产环境最佳实践]]
+
 ## 所属维度
 
 [[监控与评估-MOC|AI基础设施/监控与评估]]

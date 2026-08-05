@@ -79,6 +79,12 @@ mysqldump -u root -p mydb table1 table2 > tables_backup.sql
 
 > ⚠️ **MEDIUM**: Large databases may take significant time and disk space
 
+> ⚠️ **LOW**: Read-only operation but may impact performance on busy servers
+
+## 最佳实践
+
+[[bp-mysqldump|mysqldump 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

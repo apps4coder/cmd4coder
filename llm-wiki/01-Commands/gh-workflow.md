@@ -90,6 +90,10 @@ gh workflow run ci.yml --ref feature-branch
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 最佳实践
+
+[[bp-gh-workflow|gh workflow 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GitHub Actions-MOC|CI-CD/GitHub Actions]]

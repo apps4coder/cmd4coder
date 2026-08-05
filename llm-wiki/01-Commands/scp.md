@@ -67,6 +67,10 @@ scp -r user@host:/data ./backup
 
 > ⚠️ **MEDIUM**: 覆盖目标文件不会提示，请确认目标路径
 
+## 最佳实践
+
+[[bp-scp|scp 生产环境最佳实践]]
+
 ## 所属维度
 
 [[通用Linux命令-MOC|操作系统/通用Linux命令]]

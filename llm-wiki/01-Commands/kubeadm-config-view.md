@@ -53,6 +53,10 @@ kubeadm config print init-defaults
 
 > ⚠️ **LOW**: Read-only operation; displays configuration only
 
+## 最佳实践
+
+[[bp-kubeadm-config-view|kubeadm config view 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cluster Management-MOC|Kubernetes Cluster Management]]

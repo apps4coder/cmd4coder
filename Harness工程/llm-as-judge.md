@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/harness-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/harness-engineering.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python judge.py --judge prometheus --reference human_labels --compute_agreement
 
 ## 关联命令
 
-- [[prometheus-eval]]
-- [[judge-eval]]
+- [[prometheus-eval|prometheus-eval]]
+- [[judge-eval|judge-eval]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python judge.py --judge prometheus --reference human_labels --compute_agreement
 ## 参考链接
 
 - [https://github.com/hemingkx/LLM-as-Judge](https://github.com/hemingkx/LLM-as-Judge)
+
+## 最佳实践
+
+[[bp-llm-as-judge|llm-as-judge 生产环境最佳实践]]
 
 ## 所属维度
 

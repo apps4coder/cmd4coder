@@ -65,6 +65,12 @@ sudo cryptsetup open /dev/sdb1 secret
 
 > ⚠️ **CRITICAL**: luksFormat 会擦除数据并加密，丢失密钥将导致数据永久不可恢复
 
+> ⚠️ **CRITICAL**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-cryptsetup|cryptsetup 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux核心-MOC|操作系统/Linux核心]]

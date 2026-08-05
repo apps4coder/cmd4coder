@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -74,8 +74,8 @@ sky show-gpus --cloud aws
 
 ## 关联命令
 
-- [[modal]]
-- [[vllm]]
+- [[modal|modal]]
+- [[vllm|vllm]]
 
 ## 风险提示
 
@@ -84,6 +84,10 @@ sky show-gpus --cloud aws
 ## 参考链接
 
 - [https://skypilot.readthedocs.io/](https://skypilot.readthedocs.io/)
+
+## 最佳实践
+
+[[bp-sky-pilot|sky-pilot 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -59,6 +59,10 @@ sudo ufw allow 80/tcp
 
 > ⚠️ **MEDIUM**: Opening ports may expose services to network
 
+## 最佳实践
+
+[[bp-ufw-allow|ufw allow 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

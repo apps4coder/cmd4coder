@@ -70,6 +70,10 @@ MB_DB_CONNECTION_URI='...' java -jar metabase.jar
 
 > ⚠️ **MEDIUM**: Metabase 会连接数据库，请使用只读账户并限制权限
 
+## 最佳实践
+
+[[bp-metabase|metabase 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|大数据/扩展命令]]

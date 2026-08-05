@@ -62,6 +62,10 @@ cmd --flag
 
 - [https://example.com](https://example.com)
 
+## 最佳实践
+
+[[bp-command-name|command-name 生产环境最佳实践]]
+
 ## 所属维度
 
 [[分类-MOC|维度/分类]]

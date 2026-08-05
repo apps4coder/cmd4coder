@@ -71,6 +71,10 @@ socat - UNIX-CONNECT:/var/run/docker.sock
 
 > ⚠️ **MEDIUM**: 端口转发会暴露内部服务，请确认访问控制和防火墙
 
+## 最佳实践
+
+[[bp-socat|socat 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|网络工具/扩展工具]]

@@ -55,6 +55,12 @@ svn merge -r 1234:1240 ^/trunk
 
 > ⚠️ **HIGH**: May cause conflicts; review changes before committing
 
+> ⚠️ **HIGH**: 涉及删除或回退的操作不可逆，建议先备份工作副本或确认提交范围。
+
+## 最佳实践
+
+[[bp-svn-merge|svn merge 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Version Control-MOC|Version Control]]

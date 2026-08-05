@@ -76,6 +76,10 @@ python evaluate.py --comparisons results.json --method bootstrap
 
 - [https://en.wikipedia.org/wiki/Elo_rating_system](https://en.wikipedia.org/wiki/Elo_rating_system)
 
+## 最佳实践
+
+[[bp-pair-wise-eval|pair-wise-eval 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Harness工程-MOC|AI基础设施/Harness工程]]

@@ -70,6 +70,10 @@ openocd -f interface/stlink.cfg -c 'program firmware.bin verify reset exit'
 
 > ⚠️ **MEDIUM**: 调试操作可读写内存，请确认目标设备
 
+## 最佳实践
+
+[[bp-openocd|openocd 生产环境最佳实践]]
+
 ## 所属维度
 
 [[嵌入式与IoT-MOC|硬件/嵌入式与IoT]]

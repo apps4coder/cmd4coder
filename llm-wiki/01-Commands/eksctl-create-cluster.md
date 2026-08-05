@@ -71,6 +71,12 @@ eksctl create cluster --name dev --region us-east-1 --nodes-min 1 --nodes-max 5
 
 > ⚠️ **CRITICAL**: Creates billable AWS resources; incurs costs
 
+> ⚠️ **HIGH**: Cluster creation takes 15-20 minutes
+
+## 最佳实践
+
+[[bp-eksctl-create-cluster|eksctl create cluster 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cloud Platforms-MOC|Kubernetes Cloud Platforms]]

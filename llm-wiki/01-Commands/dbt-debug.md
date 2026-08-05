@@ -80,6 +80,10 @@ dbt docs generate && dbt docs serve
 
 > ⚠️ **LOW**: 调试和查看操作无风险
 
+## 最佳实践
+
+[[bp-dbt-debug|dbt debug 生产环境最佳实践]]
+
 ## 所属维度
 
 [[调度与转换-MOC|大数据/调度与转换]]

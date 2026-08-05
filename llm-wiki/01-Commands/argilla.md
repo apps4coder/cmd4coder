@@ -77,6 +77,10 @@ python upload_data.py --dataset sentiment_analysis --file labeled_data.json
 
 - [https://argilla.io/](https://argilla.io/)
 
+## 最佳实践
+
+[[bp-argilla|argilla 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据与标注-MOC|AI基础设施/数据与标注]]

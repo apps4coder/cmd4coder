@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/edge-ai.yaml"
+  "source_file": "tools/cmd/data/ai/edge-ai.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python -c "import mediapipe as mp; pose = mp.solutions.pose.Pose(); results = po
 
 ## 关联命令
 
-- [[tflite]]
-- [[coremltools]]
+- [[tflite|tflite]]
+- [[coremltools|coremltools]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python -c "import mediapipe as mp; pose = mp.solutions.pose.Pose(); results = po
 ## 参考链接
 
 - [https://mediapipe.dev/](https://mediapipe.dev/)
+
+## 最佳实践
+
+[[bp-mediapipe|mediapipe 生产环境最佳实践]]
 
 ## 所属维度
 

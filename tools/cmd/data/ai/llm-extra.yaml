@@ -31,6 +31,9 @@ commands:
   risks:
   - level: medium
     description: WebUI 会暴露模型接口，请配置认证和网络访问控制
+  references:
+  - https://docs.openwebui.com/
+  - https://github.com/open-webui/open-webui
 - name: anything-llm
   category: AI基础设施/扩展工具
   install_required: true
@@ -59,6 +62,9 @@ commands:
   risks:
   - level: medium
     description: 上传文档可能包含敏感信息，请做好访问控制和数据隔离
+  references:
+  - https://anythingllm.com/
+  - https://github.com/Mintplex-Labs/anything-llm
 - name: mcp
   category: AI基础设施/扩展工具
   install_required: true
@@ -87,6 +93,9 @@ commands:
   risks:
   - level: medium
     description: MCP 服务器可能拥有文件/网络访问权限，请审查权限并隔离运行
+  references:
+  - https://modelcontextprotocol.io/
+  - https://github.com/modelcontextprotocol
 - name: perplexity
   category: AI基础设施/扩展工具
   install_required: true
@@ -115,6 +124,8 @@ commands:
   risks:
   - level: low
     description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://docs.perplexity.ai/
 - name: sweep
   category: AI基础设施/扩展工具
   install_required: true
@@ -145,3 +156,5 @@ commands:
     description: AI 自动修改代码可能引入 Bug，请严格审查生成的 PR 并通过 CI
   - level: high
     description: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+  references:
+  - https://github.com/sweepai/sweep

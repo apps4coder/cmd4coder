@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-safety.yaml"
+  "source_file": "tools/cmd/data/ai/ai-safety.yaml"
 }
 ---
 
@@ -69,8 +69,8 @@ python -c "from llm_guard import scan_prompt; result = scan_prompt('prompt', sca
 
 ## 关联命令
 
-- [[garak]]
-- [[safety-eval]]
+- [[garak|garak]]
+- [[safety-eval|safety-eval]]
 
 ## 风险提示
 
@@ -79,6 +79,10 @@ python -c "from llm_guard import scan_prompt; result = scan_prompt('prompt', sca
 ## 参考链接
 
 - [https://github.com/laiyer-ai/llm-guard](https://github.com/laiyer-ai/llm-guard)
+
+## 最佳实践
+
+[[bp-llm-guard|llm-guard 生产环境最佳实践]]
 
 ## 所属维度
 

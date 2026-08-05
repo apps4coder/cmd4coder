@@ -2,7 +2,7 @@
 
 - 命令总数：**1259**
 - 领域数：**120**
-- slug 冲突：**3**
+- slug 冲突：**2**
 - 跳过的 YAML 文件：**0**
 
 ## 各领域命令数（降序）
@@ -50,7 +50,6 @@
 | 系统诊断 | 10 |
 | Java工具链 | 10 |
 | Node.js工具链 | 10 |
-| Git高级操作 | 10 |
 | 模型架构 | 9 |
 | GitOps | 9 |
 | 平台工具 | 9 |
@@ -60,6 +59,7 @@
 | K8s容器运行时 | 9 |
 | 扩展工具链 | 9 |
 | 现代工具 | 9 |
+| Git高级操作 | 9 |
 | AI编译器 | 8 |
 | AI网关 | 8 |
 | AI安全 | 8 |
@@ -136,7 +136,6 @@
 |------|--------------|
 | ansible-playbook | ansible playbook / ansible-playbook |
 | docker-compose | docker compose / docker-compose |
-| git-lfs | git lfs / git-lfs |
 
 ## 抽查样本（代表命令）
 

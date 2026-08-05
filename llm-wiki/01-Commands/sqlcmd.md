@@ -68,6 +68,10 @@ sqlcmd -S localhost -i script.sql -o output.txt
 
 > ⚠️ **MEDIUM**: sqlcmd 可直接执行 DDL/DML，生产环境请确认脚本内容
 
+## 最佳实践
+
+[[bp-sqlcmd|sqlcmd 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|数据库工具/扩展命令]]

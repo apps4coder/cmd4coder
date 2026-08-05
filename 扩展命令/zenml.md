@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/more.yaml"
+  "source_file": "tools/cmd/data/ai/more.yaml"
 }
 ---
 
@@ -65,12 +65,21 @@ zenml stack set default
 
 ## 关联命令
 
-- [[mlflow]]
-- [[metaflow]]
+- [[mlflow|mlflow]]
+- [[metaflow|metaflow]]
 
 ## 风险提示
 
 > ⚠️ **MEDIUM**: zenml stack 涉及云凭据，请安全存储
+
+## 参考链接
+
+- [https://www.zenml.io/](https://www.zenml.io/)
+- [https://github.com/zenml-io/zenml](https://github.com/zenml-io/zenml)
+
+## 最佳实践
+
+[[bp-zenml|zenml 生产环境最佳实践]]
 
 ## 所属维度
 

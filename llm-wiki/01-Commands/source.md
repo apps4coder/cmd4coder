@@ -66,6 +66,10 @@ source env.sh && run_app
 
 > ⚠️ **MEDIUM**: 会修改当前 Shell 环境，可能影响后续命令
 
+## 最佳实践
+
+[[bp-source|source 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Bash工具-MOC|Shell脚本/Bash工具]]

@@ -55,6 +55,10 @@ redis-check-rdb --verbose dump.rdb
 
 > ⚠️ **LOW**: Read-only operation; safe to use
 
+## 最佳实践
+
+[[bp-redis-check-rdb|redis-check-rdb 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

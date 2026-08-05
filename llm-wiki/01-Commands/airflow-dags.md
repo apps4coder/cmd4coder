@@ -84,6 +84,10 @@ airflow dags state my_dag 2026-07-19T00:00:00
 
 > ⚠️ **MEDIUM**: pause 停止调度，backfill 批量执行
 
+## 最佳实践
+
+[[bp-airflow-dags|airflow dags 生产环境最佳实践]]
+
 ## 所属维度
 
 [[调度与转换-MOC|大数据/调度与转换]]

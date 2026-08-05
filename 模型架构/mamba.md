@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-architecture.yaml"
+  "source_file": "tools/cmd/data/ai/model-architecture.yaml"
 }
 ---
 
@@ -64,8 +64,8 @@ python train_mamba.py --d_model 768 --d_state 16 --seq_len 8192
 
 ## 关联命令
 
-- [[transformers-cli]]
-- [[calflops]]
+- [[transformers-cli|transformers-cli]]
+- [[calflops|calflops]]
 
 ## 风险提示
 
@@ -74,6 +74,10 @@ python train_mamba.py --d_model 768 --d_state 16 --seq_len 8192
 ## 参考链接
 
 - [https://github.com/state-spaces/mamba](https://github.com/state-spaces/mamba)
+
+## 最佳实践
+
+[[bp-mamba|mamba 生产环境最佳实践]]
 
 ## 所属维度
 

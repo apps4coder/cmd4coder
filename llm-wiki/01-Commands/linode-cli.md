@@ -72,6 +72,10 @@ linode-cli linodes create --region us-east --type g6-standard-2
 
 > ⚠️ **MEDIUM**: 创建实例会计费
 
+## 最佳实践
+
+[[bp-linode-cli|linode-cli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[多云CLI-MOC|云平台/多云CLI]]

@@ -55,6 +55,10 @@ kubectl uncordon node-1
 
 > ⚠️ **MEDIUM**: Prevents new pods from scheduling on node; existing pods continue running
 
+## 最佳实践
+
+[[bp-kubectl-cordon|kubectl cordon 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Container Orchestration-MOC|Container Orchestration]]

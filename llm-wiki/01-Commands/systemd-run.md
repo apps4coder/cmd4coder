@@ -81,6 +81,10 @@ systemd-run -p MemoryMax=256M --unit=limited-task python train.py
 
 > ⚠️ **MEDIUM**: 调度的命令会实际执行，注意权限
 
+## 最佳实践
+
+[[bp-systemd-run|systemd-run 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Systemd服务管理-MOC|操作系统/Systemd服务管理]]

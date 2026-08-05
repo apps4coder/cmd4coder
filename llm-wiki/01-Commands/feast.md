@@ -84,6 +84,10 @@ feast materialize 2024-01-01 2024-06-01
 
 - [https://feast.dev/](https://feast.dev/)
 
+## 最佳实践
+
+[[bp-feast|feast 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据与标注-MOC|AI基础设施/数据与标注]]

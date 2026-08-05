@@ -81,6 +81,10 @@ wandb agent my-workspace/my-project/sweep_id
 
 - [https://docs.wandb.ai/guides/sweeps](https://docs.wandb.ai/guides/sweeps)
 
+## 最佳实践
+
+[[bp-weights-biases-sweep|weights-biases-sweep 生产环境最佳实践]]
+
 ## 所属维度
 
 [[监控与评估-MOC|AI基础设施/监控与评估]]

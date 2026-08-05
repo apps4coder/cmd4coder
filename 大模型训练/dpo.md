@@ -25,7 +25,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -69,8 +69,8 @@ python dpo_train.py --model_name llama-3-8b --beta 0.1 --loss_type sigmoid --dat
 
 ## 关联命令
 
-- [[grpo]]
-- [[trl]]
+- [[grpo|grpo]]
+- [[trl|trl]]
 
 ## 风险提示
 
@@ -79,6 +79,10 @@ python dpo_train.py --model_name llama-3-8b --beta 0.1 --loss_type sigmoid --dat
 ## 参考链接
 
 - [https://huggingface.co/docs/trl/dpo_trainer](https://huggingface.co/docs/trl/dpo_trainer)
+
+## 最佳实践
+
+[[bp-dpo|dpo 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-hub.yaml"
+  "source_file": "tools/cmd/data/ai/model-hub.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ modelscope download --model damo/cv_resnet --local_dir ./models
 
 ## 关联命令
 
-- [[huggingface-cli]]
-- [[git-lfs]]
+- [[huggingface-cli|huggingface-cli]]
+- [[git-lfs|git-lfs]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ modelscope download --model damo/cv_resnet --local_dir ./models
 ## 参考链接
 
 - [https://www.modelscope.cn/](https://www.modelscope.cn/)
+
+## 最佳实践
+
+[[bp-modelscope|modelscope 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -83,6 +83,10 @@ python -c "import chromadb; client = chromadb.PersistentClient(path='./db'); col
 
 - [https://www.trychroma.com/](https://www.trychroma.com/)
 
+## 最佳实践
+
+[[bp-chroma|chroma 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

@@ -63,6 +63,12 @@ az aks delete --resource-group myRG --name myCluster --yes
 
 > ⚠️ **CRITICAL**: Permanently deletes cluster and all resources
 
+> ⚠️ **CRITICAL**: Cannot be undone; backup data before deleting
+
+## 最佳实践
+
+[[bp-az-aks-delete|az aks delete 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cloud Platforms-MOC|Kubernetes Cloud Platforms]]

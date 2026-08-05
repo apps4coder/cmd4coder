@@ -62,6 +62,10 @@ getent group developers
 
 > ⚠️ **MEDIUM**: 删除仍有成员用户的组可能导致权限问题
 
+## 最佳实践
+
+[[bp-groupdel|groupdel 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux扩展命令-MOC|操作系统/Linux扩展命令]]

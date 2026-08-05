@@ -79,6 +79,10 @@ git stash push -u
 
 > ⚠️ **MEDIUM**: stash drop/clear 删除暂存不可恢复
 
+## 最佳实践
+
+[[bp-git-stash|git stash 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Git高级操作-MOC|版本控制/Git高级操作]]

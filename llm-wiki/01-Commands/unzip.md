@@ -64,6 +64,10 @@ unzip -l archive.zip
 
 > ⚠️ **MEDIUM**: -o 会直接覆盖目标文件，建议先查看内容
 
+## 最佳实践
+
+[[bp-unzip|unzip 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux扩展命令-MOC|操作系统/Linux扩展命令]]

@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-hub.yaml"
+  "source_file": "tools/cmd/data/ai/model-hub.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ paddle2onnx --help
 
 ## 关联命令
 
-- [[tf2onnx]]
-- [[onnxruntime]]
+- [[tf2onnx|tf2onnx]]
+- [[onnxruntime|onnxruntime]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ paddle2onnx --help
 ## 参考链接
 
 - [https://github.com/PaddlePaddle/Paddle2ONNX](https://github.com/PaddlePaddle/Paddle2ONNX)
+
+## 最佳实践
+
+[[bp-paddle2onnx|paddle2onnx 生产环境最佳实践]]
 
 ## 所属维度
 

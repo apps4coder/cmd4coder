@@ -2,12 +2,12 @@
 title: "xla_compile 生产环境最佳实践"
 cmd_name: "xla_compile"
 cmd_category: "AI基础设施/AI编译器"
-source_page: "[[xla_compile]]"
+source_page: "[[xla-compile]]"
 domain: "ai-infra"
 risk_level: "low"
 platforms: ["linux", "darwin"]
 tags: ["ai-infra", "risk-low", "linux", "darwin"]
-created: "2026-06-06"
+created: "2026-07-28"
 source_file: "ai/ai-compiler.yaml"
 ---
 
@@ -84,4 +84,4 @@ TF_XLA_FLAGS='--tf_xla_auto_jit=2 --tf_xla_cpu_global_jit' python train.py
 
 ---
 
-[[xla_compile|命令详情]] | [[best-practices-MOC|最佳实践总索引]]
+[[xla-compile|命令详情]] | [[best-practices-MOC|最佳实践总索引]]

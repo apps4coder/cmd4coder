@@ -88,6 +88,10 @@ gcloud run services delete my-service
 
 > ⚠️ **MEDIUM**: --allow-unauthenticated 会公开服务，注意安全性
 
+## 最佳实践
+
+[[bp-gcloud-run|gcloud run 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GCP CLI-MOC|云平台/GCP CLI]]

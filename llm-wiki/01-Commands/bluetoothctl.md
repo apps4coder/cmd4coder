@@ -71,6 +71,10 @@ bluetoothctl pair 00:11:22:33:44:55
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 最佳实践
+
+[[bp-bluetoothctl|bluetoothctl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[网络硬件-MOC|硬件/网络硬件]]

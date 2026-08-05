@@ -65,6 +65,10 @@ traefik --providers.docker=true --api.insecure=true
 
 > ⚠️ **MEDIUM**: 错误的 TLS 或路由配置会导致证书或服务不可达
 
+## 最佳实践
+
+[[bp-traefik|traefik 生产环境最佳实践]]
+
 ## 所属维度
 
 [[基础设施-MOC|网络工具/基础设施]]

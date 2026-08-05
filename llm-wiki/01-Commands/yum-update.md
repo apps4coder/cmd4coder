@@ -59,6 +59,10 @@ sudo yum update -y
 
 > ⚠️ **MEDIUM**: May break compatibility; test in non-production first
 
+## 最佳实践
+
+[[bp-yum-update|yum update 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

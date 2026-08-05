@@ -93,6 +93,10 @@ systemctl mask firewalld
 
 > ⚠️ **MEDIUM**: stop/disable/mask 可能中断关键服务
 
+## 最佳实践
+
+[[bp-systemctl|systemctl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Systemd服务管理-MOC|操作系统/Systemd服务管理]]

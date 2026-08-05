@@ -79,6 +79,10 @@ python -c "import turbopuffer as tp; help(tp.Namespace.query)"
 
 - [https://turbopuffer.com/](https://turbopuffer.com/)
 
+## 最佳实践
+
+[[bp-turbopuffer|turbopuffer 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

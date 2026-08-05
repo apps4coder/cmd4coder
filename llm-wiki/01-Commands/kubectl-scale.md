@@ -68,6 +68,12 @@ kubectl scale statefulset mysql --replicas=5
 
 > ⚠️ **HIGH**: Scaling to 0 stops all instances; can cause service outage
 
+> ⚠️ **MEDIUM**: Rapid scaling may cause resource issues
+
+## 最佳实践
+
+[[bp-kubectl-scale|kubectl scale 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Container Orchestration-MOC|Container Orchestration]]

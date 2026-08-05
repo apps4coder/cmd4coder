@@ -77,6 +77,10 @@ python data_audit.py --dataset train.csv --model resnet50 --find_issues label ou
 
 - [https://cleanlab.ai/](https://cleanlab.ai/)
 
+## 最佳实践
+
+[[bp-cleanlab|cleanlab 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据与标注-MOC|AI基础设施/数据与标注]]

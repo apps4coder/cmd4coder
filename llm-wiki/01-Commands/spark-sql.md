@@ -70,6 +70,10 @@ spark-sql --database mydb
 
 > ⚠️ **MEDIUM**: 直接执行 SQL 可能扫描大量数据，建议先 LIMIT 验证
 
+## 最佳实践
+
+[[bp-spark-sql|spark-sql 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Spark计算-MOC|大数据/Spark计算]]

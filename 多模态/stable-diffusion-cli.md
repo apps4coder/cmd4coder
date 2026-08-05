@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/multimodal.yaml"
+  "source_file": "tools/cmd/data/ai/multimodal.yaml"
 }
 ---
 
@@ -69,8 +69,8 @@ python generate.py --prompt 'cyberpunk city' --lora ./lora_weights --seed 42
 
 ## 关联命令
 
-- [[comfyui]]
-- [[clip]]
+- [[comfyui|comfyui]]
+- [[clip|clip]]
 
 ## 风险提示
 
@@ -79,6 +79,10 @@ python generate.py --prompt 'cyberpunk city' --lora ./lora_weights --seed 42
 ## 参考链接
 
 - [https://github.com/Stability-AI/stablediffusion](https://github.com/Stability-AI/stablediffusion)
+
+## 最佳实践
+
+[[bp-stable-diffusion-cli|stable-diffusion-cli 生产环境最佳实践]]
 
 ## 所属维度
 

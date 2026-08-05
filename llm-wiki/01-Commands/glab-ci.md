@@ -88,6 +88,10 @@ glab ci trace
 
 > ⚠️ **LOW**: 查看操作无风险，retry 消耗 Runner 配额
 
+## 最佳实践
+
+[[bp-glab-ci|glab ci 生产环境最佳实践]]
+
 ## 所属维度
 
 [[平台工具-MOC|CI-CD/平台工具]]

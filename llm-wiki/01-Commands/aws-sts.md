@@ -70,6 +70,10 @@ aws sts assume-role --role-arn arn:aws:iam::123456789012:role/MyRole --role-sess
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 最佳实践
+
+[[bp-aws-sts|aws sts 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AWS CLI-MOC|云平台/AWS CLI]]

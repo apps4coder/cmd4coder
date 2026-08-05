@@ -62,6 +62,10 @@ kubectl describe resourcequota default -n production
 
 > ⚠️ **LOW**: 只读配额信息；帮助识别资源限制问题
 
+## 最佳实践
+
+[[bp-kubectl-get-resourcequota|kubectl get resourcequota 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Troubleshooting-MOC|Kubernetes Troubleshooting]]

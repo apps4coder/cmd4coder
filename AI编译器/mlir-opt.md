@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-compiler.yaml"
+  "source_file": "tools/cmd/data/ai/ai-compiler.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ mlir-opt input.mlir --pass-pipeline='builtin.module(func.func(convert-linalg-to-
 
 ## 关联命令
 
-- [[iree-compile]]
-- [[tvmc]]
+- [[iree-compile|iree-compile]]
+- [[tvmc|tvmc]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ mlir-opt input.mlir --pass-pipeline='builtin.module(func.func(convert-linalg-to-
 ## 参考链接
 
 - [https://mlir.llvm.org/](https://mlir.llvm.org/)
+
+## 最佳实践
+
+[[bp-mlir-opt|mlir-opt 生产环境最佳实践]]
 
 ## 所属维度
 

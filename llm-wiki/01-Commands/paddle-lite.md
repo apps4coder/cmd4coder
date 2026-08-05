@@ -80,6 +80,10 @@ paddle_lite_opt --model_file=model.pdmodel --param_file=model.pdiparams --optimi
 
 - [https://paddle-lite.readthedocs.io/](https://paddle-lite.readthedocs.io/)
 
+## 最佳实践
+
+[[bp-paddle-lite|paddle-lite 生产环境最佳实践]]
+
 ## 所属维度
 
 [[边缘AI-MOC|AI基础设施/边缘AI]]

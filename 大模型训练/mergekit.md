@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ cat merge_config.yaml | mergekit-yaml - ./output
 
 ## 关联命令
 
-- [[safetensors-convert]]
-- [[huggingface-cli]]
+- [[safetensors-convert|safetensors-convert]]
+- [[huggingface-cli|huggingface-cli]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ cat merge_config.yaml | mergekit-yaml - ./output
 ## 参考链接
 
 - [https://github.com/arcee-ai/mergekit](https://github.com/arcee-ai/mergekit)
+
+## 最佳实践
+
+[[bp-mergekit|mergekit 生产环境最佳实践]]
 
 ## 所属维度
 

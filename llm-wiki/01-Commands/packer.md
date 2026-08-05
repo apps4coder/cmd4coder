@@ -84,6 +84,10 @@ packer build -only=amazon-ebs template.pkr.hcl
 
 > ⚠️ **MEDIUM**: 构建过程会创建临时云资源（产生费用），-force 覆盖已有镜像
 
+## 最佳实践
+
+[[bp-packer|packer 生产环境最佳实践]]
+
 ## 所属维度
 
 [[配置管理-MOC|云平台/配置管理]]

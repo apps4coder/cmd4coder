@@ -56,6 +56,10 @@ kubectl describe volumeattachment csi-12345678
 
 > ⚠️ **LOW**: Read-only operation; shows volume mounting status
 
+## 最佳实践
+
+[[bp-kubectl-get-volumeattachments|kubectl get volumeattachments 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Storage Management-MOC|Kubernetes Storage Management]]

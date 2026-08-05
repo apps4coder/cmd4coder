@@ -78,6 +78,10 @@ litellm --model gpt-4 --port 8000
 
 - [https://docs.litellm.ai/docs/simple_proxy](https://docs.litellm.ai/docs/simple_proxy)
 
+## 最佳实践
+
+[[bp-litellm-proxy|litellm-proxy 生产环境最佳实践]]
+
 ## 所属维度
 
 [[监控与评估-MOC|AI基础设施/监控与评估]]

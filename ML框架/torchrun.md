@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ml-frameworks.yaml"
+  "source_file": "tools/cmd/data/ai/ml-frameworks.yaml"
 }
 ---
 
@@ -68,7 +68,7 @@ torchrun --nproc_per_node=2 --nnodes=1 train.py
 
 ## 关联命令
 
-- [[tensorboard]]
+- [[tensorboard|tensorboard]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ torchrun --nproc_per_node=2 --nnodes=1 train.py
 ## 参考链接
 
 - [https://pytorch.org/docs/stable/distributed.html#launch-utility](https://pytorch.org/docs/stable/distributed.html#launch-utility)
+
+## 最佳实践
+
+[[bp-torchrun|torchrun 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -61,6 +61,10 @@ terraform state list -id=eks-cluster
 
 > ⚠️ **LOW**: Read-only operation; lists state resources
 
+## 最佳实践
+
+[[bp-terraform-state-list|terraform state list 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

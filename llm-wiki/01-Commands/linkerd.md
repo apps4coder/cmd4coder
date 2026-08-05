@@ -71,6 +71,10 @@ linkerd inject deploy.yml | kubectl apply -f -
 
 > ⚠️ **MEDIUM**: 控制平面变更会影响流量治理，请在维护窗口执行
 
+## 最佳实践
+
+[[bp-linkerd|linkerd 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

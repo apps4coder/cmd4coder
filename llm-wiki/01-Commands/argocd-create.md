@@ -81,6 +81,10 @@ argocd app create my-app --repo https://github.com/org/repo --path helm/ --dest-
 
 > ⚠️ **MEDIUM**: automated + auto-prune 会自动删除 Git 中不存在的资源
 
+## 最佳实践
+
+[[bp-argocd-create|argocd create 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GitOps-MOC|CI-CD/GitOps]]

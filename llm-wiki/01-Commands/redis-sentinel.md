@@ -55,6 +55,12 @@ redis-sentinel sentinel.conf --sentinel
 
 > ⚠️ **HIGH**: Manages automatic failover; misconfiguration can cause data loss
 
+> ⚠️ **MEDIUM**: Requires proper quorum configuration
+
+## 最佳实践
+
+[[bp-redis-sentinel|redis-sentinel 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

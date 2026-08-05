@@ -62,6 +62,10 @@ kubectl describe thanosruler production-ruler -n monitoring
 
 > ⚠️ **LOW**: Read-only operation; requires Thanos deployment
 
+## 最佳实践
+
+[[bp-kubectl-get-thanosrulers|kubectl get thanosrulers 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

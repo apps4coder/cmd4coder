@@ -84,6 +84,10 @@ lmdeploy chat internlm/internlm2_5-7b-chat
 
 - [https://github.com/InternLM/lmdeploy](https://github.com/InternLM/lmdeploy)
 
+## 最佳实践
+
+[[bp-lmdeploy|lmdeploy 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/data-labeling.yaml"
+  "source_file": "tools/cmd/data/ai/data-labeling.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python -c "from snorkel.labeling import LabelModel; label_model = LabelModel(car
 
 ## 关联命令
 
-- [[cleanlab]]
-- [[label-studio]]
+- [[cleanlab|cleanlab]]
+- [[label-studio|label-studio]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python -c "from snorkel.labeling import LabelModel; label_model = LabelModel(car
 ## 参考链接
 
 - [https://www.snorkel.org/](https://www.snorkel.org/)
+
+## 最佳实践
+
+[[bp-snorkel|snorkel 生产环境最佳实践]]
 
 ## 所属维度
 

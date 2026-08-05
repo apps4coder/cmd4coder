@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/federated-learning.yaml"
+  "source_file": "tools/cmd/data/ai/federated-learning.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ python dp_train.py --epsilon 3.0 --delta 1e-5 --epochs 10
 
 ## 关联命令
 
-- [[flower]]
-- [[crypten]]
+- [[flower|flower]]
+- [[crypten|crypten]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ python dp_train.py --epsilon 3.0 --delta 1e-5 --epochs 10
 ## 参考链接
 
 - [https://opacus.ai/](https://opacus.ai/)
+
+## 最佳实践
+
+[[bp-opacus|opacus 生产环境最佳实践]]
 
 ## 所属维度
 

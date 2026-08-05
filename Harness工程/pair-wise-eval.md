@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/harness-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/harness-engineering.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python evaluate.py --comparisons results.json --method bootstrap
 
 ## 关联命令
 
-- [[arena]]
-- [[mt-bench]]
+- [[arena|arena]]
+- [[mt-bench|mt-bench]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python evaluate.py --comparisons results.json --method bootstrap
 ## 参考链接
 
 - [https://en.wikipedia.org/wiki/Elo_rating_system](https://en.wikipedia.org/wiki/Elo_rating_system)
+
+## 最佳实践
+
+[[bp-pair-wise-eval|pair-wise-eval 生产环境最佳实践]]
 
 ## 所属维度
 

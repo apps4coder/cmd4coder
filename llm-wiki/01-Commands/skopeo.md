@@ -69,6 +69,10 @@ skopeo copy docker://src/myapp:latest docker://dst/myapp:latest
 
 > ⚠️ **MEDIUM**: 复制镜像会覆盖目标 tag，请确认源和目标地址
 
+## 最佳实践
+
+[[bp-skopeo|skopeo 生产环境最佳实践]]
+
 ## 所属维度
 
 [[容器替代方案-MOC|容器编排/容器替代方案]]

@@ -78,6 +78,10 @@ python evaluate.py --dataset my-dataset --evaluator qa
 
 - [https://smith.langchain.com/](https://smith.langchain.com/)
 
+## 最佳实践
+
+[[bp-langsmith|langsmith 生产环境最佳实践]]
+
 ## 所属维度
 
 [[监控与评估-MOC|AI基础设施/监控与评估]]

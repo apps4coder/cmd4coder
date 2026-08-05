@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/monitoring.yaml"
+  "source_file": "tools/cmd/data/ai/monitoring.yaml"
 }
 ---
 
@@ -70,8 +70,8 @@ python app.py --langfuse_host http://localhost:3000 --public_key pk-xxx --secret
 
 ## 关联命令
 
-- [[langsmith]]
-- [[promptlayer]]
+- [[langsmith|langsmith]]
+- [[promptlayer|promptlayer]]
 
 ## 风险提示
 
@@ -80,6 +80,10 @@ python app.py --langfuse_host http://localhost:3000 --public_key pk-xxx --secret
 ## 参考链接
 
 - [https://langfuse.com/](https://langfuse.com/)
+
+## 最佳实践
+
+[[bp-langfuse|langfuse 生产环境最佳实践]]
 
 ## 所属维度
 

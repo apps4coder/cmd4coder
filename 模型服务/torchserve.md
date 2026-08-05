@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-serving.yaml"
+  "source_file": "tools/cmd/data/ai/model-serving.yaml"
 }
 ---
 
@@ -73,8 +73,8 @@ torchserve --stop
 
 ## 关联命令
 
-- [[bentoml]]
-- [[tritonserver]]
+- [[bentoml|bentoml]]
+- [[tritonserver|tritonserver]]
 
 ## 风险提示
 
@@ -83,6 +83,10 @@ torchserve --stop
 ## 参考链接
 
 - [https://pytorch.org/serve/](https://pytorch.org/serve/)
+
+## 最佳实践
+
+[[bp-torchserve|torchserve 生产环境最佳实践]]
 
 ## 所属维度
 

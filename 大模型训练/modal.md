@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ modal serve inference.py
 
 ## 关联命令
 
-- [[sky-pilot]]
-- [[runpod]]
+- [[sky-pilot|sky-pilot]]
+- [[runpod|runpod]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ modal serve inference.py
 ## 参考链接
 
 - [https://modal.com/](https://modal.com/)
+
+## 最佳实践
+
+[[bp-modal|modal 生产环境最佳实践]]
 
 ## 所属维度
 

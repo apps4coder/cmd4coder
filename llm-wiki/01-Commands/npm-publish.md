@@ -68,6 +68,12 @@ npm publish --tag beta
 
 > ⚠️ **HIGH**: Publishes package publicly; cannot be easily undone
 
+> ⚠️ **MEDIUM**: Ensure no sensitive data in published package
+
+## 最佳实践
+
+[[bp-npm-publish|npm publish 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Programming Language-MOC|Programming Language]]

@@ -82,6 +82,10 @@ az network public-ip create --resource-group my-rg --name my-ip
 
 > ⚠️ **HIGH**: NSG 规则配置错误可能导致服务不可达或安全暴露
 
+## 最佳实践
+
+[[bp-az-network|az network 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Azure CLI-MOC|云平台/Azure CLI]]

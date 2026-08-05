@@ -72,6 +72,12 @@ nuclei -u https://example.com -severity high,critical
 
 > ⚠️ **HIGH**: 漏洞扫描可能对目标服务造成压力，请仅对授权资产执行
 
+> ⚠️ **HIGH**: 安全工具可能产生攻击性流量，请仅在授权资产和可控环境中使用，并留存审计日志。
+
+## 最佳实践
+
+[[bp-nuclei|nuclei 生产环境最佳实践]]
+
 ## 所属维度
 
 [[网络安全-MOC|网络工具/网络安全]]

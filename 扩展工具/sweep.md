@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "high",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-extra.yaml"
+  "source_file": "tools/cmd/data/ai/llm-extra.yaml"
 }
 ---
 
@@ -64,12 +64,22 @@ sweep --issue 'Fix memory leak in worker' --repo myorg/myrepo
 
 ## 关联命令
 
-- [[swe-agent]]
-- [[aider]]
+- [[swe-agent|swe-agent]]
+- [[aider|aider]]
 
 ## 风险提示
 
 > ⚠️ **HIGH**: AI 自动修改代码可能引入 Bug，请严格审查生成的 PR 并通过 CI
+
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 参考链接
+
+- [https://github.com/sweepai/sweep](https://github.com/sweepai/sweep)
+
+## 最佳实践
+
+[[bp-sweep|sweep 生产环境最佳实践]]
 
 ## 所属维度
 

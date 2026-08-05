@@ -70,6 +70,10 @@ kubectl who-can delete secrets -n production
 
 > ⚠️ **LOW**: 只读查询 RBAC 权限，不会修改集群
 
+## 最佳实践
+
+[[bp-kubectl-who-can|kubectl-who-can 生产环境最佳实践]]
+
 ## 所属维度
 
 [[K8s辅助工具-MOC|容器编排/K8s辅助工具]]

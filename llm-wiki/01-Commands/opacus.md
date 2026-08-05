@@ -79,6 +79,10 @@ python dp_train.py --epsilon 3.0 --delta 1e-5 --epochs 10
 
 - [https://opacus.ai/](https://opacus.ai/)
 
+## 最佳实践
+
+[[bp-opacus|opacus 生产环境最佳实践]]
+
 ## 所属维度
 
 [[联邦学习-MOC|AI基础设施/联邦学习]]

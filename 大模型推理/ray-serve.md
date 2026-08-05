@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -70,8 +70,8 @@ serve deploy config.yaml
 
 ## 关联命令
 
-- [[vllm]]
-- [[tritonserver]]
+- [[vllm|vllm]]
+- [[tritonserver|tritonserver]]
 
 ## 风险提示
 
@@ -80,6 +80,10 @@ serve deploy config.yaml
 ## 参考链接
 
 - [https://docs.ray.io/en/latest/serve/index.html](https://docs.ray.io/en/latest/serve/index.html)
+
+## 最佳实践
+
+[[bp-ray-serve|ray-serve 生产环境最佳实践]]
 
 ## 所属维度
 

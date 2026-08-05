@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -63,8 +63,8 @@ python benchmark.py --enable-prefix-caching --shared-prompt 'You are a helpful a
 
 ## 关联命令
 
-- [[vllm]]
-- [[sglang]]
+- [[vllm|vllm]]
+- [[sglang|sglang]]
 
 ## 风险提示
 
@@ -73,6 +73,10 @@ python benchmark.py --enable-prefix-caching --shared-prompt 'You are a helpful a
 ## 参考链接
 
 - [https://docs.vllm.ai/en/latest/automatic_prefix_caching.html](https://docs.vllm.ai/en/latest/automatic_prefix_caching.html)
+
+## 最佳实践
+
+[[bp-prefix-caching|prefix-caching 生产环境最佳实践]]
 
 ## 所属维度
 

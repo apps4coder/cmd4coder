@@ -69,6 +69,12 @@ telepresence status
 
 > ⚠️ **MEDIUM**: Creates network proxy to cluster
 
+> ⚠️ **LOW**: Read-only connection by default
+
+## 最佳实践
+
+[[bp-telepresence-connect|telepresence connect 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Development-MOC|Kubernetes Development]]

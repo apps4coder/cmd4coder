@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -69,8 +69,8 @@ opencompass run --models llama3_8b qwen2_7b --datasets all
 
 ## 关联命令
 
-- [[lm-eval]]
-- [[alpaca-eval]]
+- [[lm-eval|lm-eval]]
+- [[alpaca-eval|alpaca-eval]]
 
 ## 风险提示
 
@@ -79,6 +79,10 @@ opencompass run --models llama3_8b qwen2_7b --datasets all
 ## 参考链接
 
 - [https://github.com/open-compass/opencompass](https://github.com/open-compass/opencompass)
+
+## 最佳实践
+
+[[bp-opencompass|opencompass 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -55,6 +55,10 @@ jad com.example.MyClass myMethod
 
 > ⚠️ **LOW**: Read-only decompilation; no risks
 
+## 最佳实践
+
+[[bp-jad|jad 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Java Diagnostic-MOC|Java Diagnostic]]

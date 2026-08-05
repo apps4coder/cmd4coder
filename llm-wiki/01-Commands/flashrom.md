@@ -71,6 +71,12 @@ flashrom -p internal -w new.rom
 
 > ⚠️ **CRITICAL**: 刷写 BIOS 失败可能导致主板变砖，请谨慎
 
+> ⚠️ **CRITICAL**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-flashrom|flashrom 生产环境最佳实践]]
+
 ## 所属维度
 
 [[固件与UEFI-MOC|硬件/固件与UEFI]]

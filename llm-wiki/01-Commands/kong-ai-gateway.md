@@ -77,6 +77,10 @@ curl http://localhost:8001/plugins -d name=ai-proxy -d config.route_type=llm/v1/
 
 - [https://konghq.com/products/kong-ai-gateway](https://konghq.com/products/kong-ai-gateway)
 
+## 最佳实践
+
+[[bp-kong-ai-gateway|kong-ai-gateway 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI网关-MOC|AI基础设施/AI网关]]

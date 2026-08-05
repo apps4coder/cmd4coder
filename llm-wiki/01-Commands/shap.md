@@ -80,6 +80,10 @@ python -c "import shap; explainer = shap.DeepExplainer(model, background); shap_
 
 - [https://shap.readthedocs.io/](https://shap.readthedocs.io/)
 
+## 最佳实践
+
+[[bp-shap|shap 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型可解释性-MOC|AI基础设施/模型可解释性]]

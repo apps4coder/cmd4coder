@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/vector-db.yaml"
+  "source_file": "tools/cmd/data/ai/vector-db.yaml"
 }
 ---
 
@@ -75,8 +75,8 @@ milvus_cli search -c my_collection -v '[0.1,0.2,...]' -k 10
 
 ## 关联命令
 
-- [[qdrant]]
-- [[chroma]]
+- [[qdrant|qdrant]]
+- [[chroma|chroma]]
 
 ## 风险提示
 
@@ -85,6 +85,10 @@ milvus_cli search -c my_collection -v '[0.1,0.2,...]' -k 10
 ## 参考链接
 
 - [https://milvus.io/](https://milvus.io/)
+
+## 最佳实践
+
+[[bp-milvus-cli|milvus-cli 生产环境最佳实践]]
 
 ## 所属维度
 

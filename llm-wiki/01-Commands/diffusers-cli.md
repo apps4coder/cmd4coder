@@ -76,6 +76,10 @@ python -c "from diffusers import StableDiffusionPipeline; pipe = StableDiffusion
 
 - [https://huggingface.co/docs/diffusers](https://huggingface.co/docs/diffusers)
 
+## 最佳实践
+
+[[bp-diffusers-cli|diffusers-cli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型架构-MOC|AI基础设施/模型架构]]

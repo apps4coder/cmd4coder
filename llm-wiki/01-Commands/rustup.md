@@ -85,6 +85,10 @@ rustup component add clippy rustfmt
 
 > ⚠️ **MEDIUM**: update 可能导致现有项目编译失败
 
+## 最佳实践
+
+[[bp-rustup|rustup 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Rust工具链-MOC|编程语言/Rust工具链]]

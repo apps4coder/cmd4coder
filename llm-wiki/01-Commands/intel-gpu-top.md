@@ -71,6 +71,10 @@ sudo intel-gpu-top -s 1000
 
 > ⚠️ **LOW**: 只读/信息查询类命令，风险较低，但仍需确认目标对象。
 
+## 最佳实践
+
+[[bp-intel-gpu-top|intel-gpu-top 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GPU与加速器-MOC|硬件/GPU与加速器]]

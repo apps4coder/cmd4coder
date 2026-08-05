@@ -78,6 +78,12 @@ mysql -h 192.168.1.100 -P 3306 -u user -p
 
 > ⚠️ **HIGH**: Direct database access; can modify or delete data
 
+> ⚠️ **MEDIUM**: Avoid using passwords in command line (visible in process list)
+
+## 最佳实践
+
+[[bp-mysql|mysql 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

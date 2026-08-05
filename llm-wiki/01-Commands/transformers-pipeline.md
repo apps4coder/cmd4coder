@@ -77,6 +77,10 @@ python -c "from transformers import pipeline; pipe = pipeline('sentiment-analysi
 
 - [https://huggingface.co/docs/transformers](https://huggingface.co/docs/transformers)
 
+## 最佳实践
+
+[[bp-transformers-pipeline|transformers-pipeline 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

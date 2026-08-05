@@ -77,6 +77,10 @@ python -c "from rerankers import Reranker; r = Reranker('cohere', api_key='...')
 
 - [https://github.com/AnswerDotAI/rerankers](https://github.com/AnswerDotAI/rerankers)
 
+## 最佳实践
+
+[[bp-rerankers|rerankers 生产环境最佳实践]]
+
 ## 所属维度
 
 [[RAG基础设施-MOC|AI基础设施/RAG基础设施]]

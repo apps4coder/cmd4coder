@@ -76,6 +76,10 @@ node --inspect app.js
 
 > ⚠️ **MEDIUM**: Running untrusted scripts can execute malicious code
 
+## 最佳实践
+
+[[bp-node|node 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Programming Language-MOC|Programming Language]]

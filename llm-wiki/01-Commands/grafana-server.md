@@ -68,6 +68,10 @@ grafana-server --homepath=/usr/share/grafana
 
 > ⚠️ **MEDIUM**: Ensure proper authentication configured
 
+## 最佳实践
+
+[[bp-grafana-server|grafana-server 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

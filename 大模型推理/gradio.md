@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python -c "import gradio as gr; gr.Interface(fn=predict, inputs='text', outputs=
 
 ## 关联命令
 
-- [[streamlit]]
-- [[chainlit]]
+- [[streamlit|streamlit]]
+- [[chainlit|chainlit]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python -c "import gradio as gr; gr.Interface(fn=predict, inputs='text', outputs=
 ## 参考链接
 
 - [https://www.gradio.app/](https://www.gradio.app/)
+
+## 最佳实践
+
+[[bp-gradio|gradio 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/monitoring.yaml"
+  "source_file": "tools/cmd/data/ai/monitoring.yaml"
 }
 ---
 
@@ -70,8 +70,8 @@ mlflow server --backend-store-uri postgresql://mlflow@localhost/mlflow --default
 
 ## 关联命令
 
-- [[wandb]]
-- [[neptune]]
+- [[wandb|wandb]]
+- [[neptune|neptune]]
 
 ## 风险提示
 
@@ -80,6 +80,10 @@ mlflow server --backend-store-uri postgresql://mlflow@localhost/mlflow --default
 ## 参考链接
 
 - [https://mlflow.org/docs/latest/tracking.html](https://mlflow.org/docs/latest/tracking.html)
+
+## 最佳实践
+
+[[bp-mlflow-tracking|mlflow-tracking 生产环境最佳实践]]
 
 ## 所属维度
 

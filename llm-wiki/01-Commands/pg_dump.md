@@ -78,6 +78,12 @@ pg_dump -t mytable mydb > table_backup.sql
 
 > ⚠️ **MEDIUM**: Large databases may take significant time and disk space
 
+> ⚠️ **LOW**: May impact performance on busy servers
+
+## 最佳实践
+
+[[bp-pg-dump|pg_dump 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

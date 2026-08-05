@@ -55,6 +55,10 @@ sm com.example.MyClass get*
 
 > ⚠️ **LOW**: Read-only method search; no risks
 
+## 最佳实践
+
+[[bp-sm|sm 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Java Diagnostic-MOC|Java Diagnostic]]

@@ -86,6 +86,10 @@ trivy image --format json -o report.json myapp:latest
 
 > ⚠️ **LOW**: 只读扫描操作，无风险
 
+## 最佳实践
+
+[[bp-trivy|trivy 生产环境最佳实践]]
+
 ## 所属维度
 
 [[安全扫描-MOC|网络工具/安全扫描]]

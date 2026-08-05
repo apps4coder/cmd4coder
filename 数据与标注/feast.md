@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/data-labeling.yaml"
+  "source_file": "tools/cmd/data/ai/data-labeling.yaml"
 }
 ---
 
@@ -73,8 +73,8 @@ feast materialize 2024-01-01 2024-06-01
 
 ## 关联命令
 
-- [[dvc]]
-- [[mlflow]]
+- [[dvc|dvc]]
+- [[mlflow|mlflow]]
 
 ## 风险提示
 
@@ -83,6 +83,10 @@ feast materialize 2024-01-01 2024-06-01
 ## 参考链接
 
 - [https://feast.dev/](https://feast.dev/)
+
+## 最佳实践
+
+[[bp-feast|feast 生产环境最佳实践]]
 
 ## 所属维度
 

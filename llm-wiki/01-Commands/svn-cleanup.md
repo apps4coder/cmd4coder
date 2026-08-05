@@ -55,6 +55,10 @@ svn cleanup /path/to/workingcopy
 
 > ⚠️ **LOW**: Safe maintenance operation
 
+## 最佳实践
+
+[[bp-svn-cleanup|svn cleanup 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Version Control-MOC|Version Control]]

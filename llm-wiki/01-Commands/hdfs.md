@@ -72,6 +72,12 @@ hdfs dfsadmin -report
 
 > ⚠️ **HIGH**: hdfs dfs -rm -r 为不可逆删除，建议在关键路径操作前备份
 
+> ⚠️ **HIGH**: 分布式作业可能占用大量集群资源，请确认队列配额并在业务低峰期执行。
+
+## 最佳实践
+
+[[bp-hdfs|hdfs 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Hadoop生态-MOC|大数据/Hadoop生态]]

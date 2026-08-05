@@ -61,6 +61,10 @@ terraform workspace select staging
 
 > ⚠️ **MEDIUM**: Changes active workspace; affects state
 
+## 最佳实践
+
+[[bp-terraform-workspace-select|terraform workspace select 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

@@ -78,6 +78,12 @@ redis-benchmark -h 192.168.1.100 -p 6379
 
 > ⚠️ **MEDIUM**: May impact server performance during benchmark
 
+> ⚠️ **LOW**: Creates test data that should be cleaned up
+
+## 最佳实践
+
+[[bp-redis-benchmark|redis-benchmark 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

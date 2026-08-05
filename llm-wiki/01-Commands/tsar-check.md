@@ -53,6 +53,10 @@ tsar --check --cpu --mem
 
 > ⚠️ **LOW**: Read-only check; no risks
 
+## 最佳实践
+
+[[bp-tsar-check|tsar --check 生产环境最佳实践]]
+
 ## 所属维度
 
 [[System Diagnostic-MOC|System Diagnostic]]

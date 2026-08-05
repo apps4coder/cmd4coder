@@ -69,6 +69,12 @@ kubectl exec mypod -c mycontainer -- env
 
 > ⚠️ **HIGH**: Can execute arbitrary commands in production containers
 
+> ⚠️ **MEDIUM**: Changes made are ephemeral but can affect running application
+
+## 最佳实践
+
+[[bp-kubectl-exec|kubectl exec 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Container Orchestration-MOC|Container Orchestration]]

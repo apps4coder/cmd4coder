@@ -65,6 +65,12 @@ sudo tc qdisc add dev eth0 root netem delay 100ms
 
 > ⚠️ **HIGH**: 流量控制会改变网络延迟和带宽，生产环境请谨慎
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-tc|tc 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux核心-MOC|操作系统/Linux核心]]

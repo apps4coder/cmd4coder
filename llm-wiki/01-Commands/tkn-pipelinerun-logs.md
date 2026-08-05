@@ -68,6 +68,10 @@ tkn pipelinerun logs -n cicd -f
 
 > ⚠️ **LOW**: Read-only operation; views logs only
 
+## 最佳实践
+
+[[bp-tkn-pipelinerun-logs|tkn pipelinerun logs 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CD-MOC|Kubernetes CI/CD]]

@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python export_onnx.py --model meta-llama/Llama-2-7b --output model.onnx
 
 ## 关联命令
 
-- [[optimum-cli]]
-- [[openvino]]
+- [[optimum-cli|optimum-cli]]
+- [[openvino|openvino]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python export_onnx.py --model meta-llama/Llama-2-7b --output model.onnx
 ## 参考链接
 
 - [https://onnxruntime.ai/](https://onnxruntime.ai/)
+
+## 最佳实践
+
+[[bp-onnxruntime|onnxruntime 生产环境最佳实践]]
 
 ## 所属维度
 

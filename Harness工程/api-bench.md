@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/harness-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/harness-engineering.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python evaluate.py --api_spec swagger.json --test_cases tests.json --output resu
 
 ## 关联命令
 
-- [[tool-bench]]
-- [[swe-bench]]
+- [[tool-bench|tool-bench]]
+- [[swe-bench|swe-bench]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python evaluate.py --api_spec swagger.json --test_cases tests.json --output resu
 ## 参考链接
 
 - [https://github.com/AILab-CVC/APIBench](https://github.com/AILab-CVC/APIBench)
+
+## 最佳实践
+
+[[bp-api-bench|api-bench 生产环境最佳实践]]
 
 ## 所属维度
 

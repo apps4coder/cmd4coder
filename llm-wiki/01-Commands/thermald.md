@@ -64,6 +64,10 @@ sudo systemctl start thermald
 
 > ⚠️ **MEDIUM**: thermald 会主动调节 CPU，配置错误可能导致降频
 
+## 最佳实践
+
+[[bp-thermald|thermald 生产环境最佳实践]]
+
 ## 所属维度
 
 [[传感器与电源-MOC|硬件/传感器与电源]]

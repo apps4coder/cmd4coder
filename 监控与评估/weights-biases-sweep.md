@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/monitoring.yaml"
+  "source_file": "tools/cmd/data/ai/monitoring.yaml"
 }
 ---
 
@@ -70,8 +70,8 @@ wandb agent my-workspace/my-project/sweep_id
 
 ## 关联命令
 
-- [[wandb]]
-- [[optimum-cli]]
+- [[wandb|wandb]]
+- [[optimum-cli|optimum-cli]]
 
 ## 风险提示
 
@@ -80,6 +80,10 @@ wandb agent my-workspace/my-project/sweep_id
 ## 参考链接
 
 - [https://docs.wandb.ai/guides/sweeps](https://docs.wandb.ai/guides/sweeps)
+
+## 最佳实践
+
+[[bp-weights-biases-sweep|weights-biases-sweep 生产环境最佳实践]]
 
 ## 所属维度
 

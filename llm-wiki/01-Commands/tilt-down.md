@@ -55,6 +55,10 @@ tilt down --delete-namespaces
 
 > ⚠️ **MEDIUM**: Deletes deployed resources from cluster
 
+## 最佳实践
+
+[[bp-tilt-down|tilt down 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Development-MOC|Kubernetes Development]]

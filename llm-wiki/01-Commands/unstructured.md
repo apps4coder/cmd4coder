@@ -77,6 +77,10 @@ python -c "from unstructured.partition.auto import partition; elements = partiti
 
 - [https://unstructured.io/](https://unstructured.io/)
 
+## 最佳实践
+
+[[bp-unstructured|unstructured 生产环境最佳实践]]
+
 ## 所属维度
 
 [[RAG基础设施-MOC|AI基础设施/RAG基础设施]]

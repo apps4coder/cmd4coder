@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/agent-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/agent-engineering.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python -c "from pydantic_ai import Agent; help(Agent.run_sync)"
 
 ## 关联命令
 
-- [[instructor]]
-- [[langchain]]
+- [[instructor|instructor]]
+- [[langchain|langchain]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python -c "from pydantic_ai import Agent; help(Agent.run_sync)"
 ## 参考链接
 
 - [https://ai.pydantic.dev/](https://ai.pydantic.dev/)
+
+## 最佳实践
+
+[[bp-pydantic-ai|pydantic-ai 生产环境最佳实践]]
 
 ## 所属维度
 

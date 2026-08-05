@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "high",
   "created": "2026-05-31",
-  "source_file": "data/ai/federated-learning.yaml"
+  "source_file": "tools/cmd/data/ai/federated-learning.yaml"
 }
 ---
 
@@ -66,16 +66,22 @@ python vfl_train.py --parties 2 --feature_split 10,20 --epochs 50
 
 ## 关联命令
 
-- [[flower]]
-- [[opacus]]
+- [[flower|flower]]
+- [[opacus|opacus]]
 
 ## 风险提示
 
 > ⚠️ **HIGH**: 垂直联邦存在特征对齐泄露风险，需安全求交(PSI)
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
 ## 参考链接
 
 - [https://github.com/Actionable-Business-Intelligence/pyvertical](https://github.com/Actionable-Business-Intelligence/pyvertical)
+
+## 最佳实践
+
+[[bp-pyvertical|pyvertical 生产环境最佳实践]]
 
 ## 所属维度
 

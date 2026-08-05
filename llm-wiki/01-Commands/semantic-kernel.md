@@ -77,6 +77,10 @@ python planner.py --planner HandlebarsPlanner --plugins search,math
 
 - [https://github.com/microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)
 
+## 最佳实践
+
+[[bp-semantic-kernel|semantic-kernel 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

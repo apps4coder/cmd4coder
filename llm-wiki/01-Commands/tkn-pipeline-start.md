@@ -69,6 +69,12 @@ tkn pipeline start build-pipeline --showlog
 
 > ⚠️ **HIGH**: Executes pipeline which may build and deploy applications
 
+> ⚠️ **MEDIUM**: Verify parameters before starting production pipelines
+
+## 最佳实践
+
+[[bp-tkn-pipeline-start|tkn pipeline start 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CD-MOC|Kubernetes CI/CD]]

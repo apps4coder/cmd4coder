@@ -70,6 +70,12 @@ curl http://localhost:8083/connectors/inventory-connector/status
 
 > ⚠️ **HIGH**: CDC 会读取数据库 binlog，可能影响主库性能并涉及敏感数据变更
 
+> ⚠️ **HIGH**: 数据集成作业涉及生产数据库或消息队列，请确认连接信息、权限和运行窗口。
+
+## 最佳实践
+
+[[bp-debezium|debezium 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据集成与ETL-MOC|大数据/数据集成与ETL]]

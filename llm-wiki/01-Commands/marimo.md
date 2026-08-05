@@ -78,6 +78,10 @@ marimo run notebook.py --port 8080
 
 - [https://marimo.io/](https://marimo.io/)
 
+## 最佳实践
+
+[[bp-marimo|marimo 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

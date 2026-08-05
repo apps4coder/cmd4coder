@@ -72,6 +72,10 @@ mongoexport --collection users --type=csv --fields=name,email --out users.csv
 
 > ⚠️ **MEDIUM**: 导出的文件可能包含敏感信息，请妥善保管存储位置
 
+## 最佳实践
+
+[[bp-mongoexport|mongoexport 生产环境最佳实践]]
+
 ## 所属维度
 
 [[NoSQL-MOC|数据库工具/NoSQL]]

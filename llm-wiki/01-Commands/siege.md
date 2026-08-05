@@ -62,6 +62,12 @@ siege -c 50 -r 100 http://example.com
 
 > ⚠️ **HIGH**: Load testing may overwhelm target server
 
+> ⚠️ **HIGH**: 对非自有系统进行压力测试可能违反安全策略，务必获得书面授权。
+
+## 最佳实践
+
+[[bp-siege|siege 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Network Tools-MOC|Network Tools]]

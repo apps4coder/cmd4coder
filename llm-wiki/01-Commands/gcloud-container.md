@@ -85,6 +85,10 @@ gcloud container clusters resize my-cluster --num-nodes=5
 
 > ⚠️ **HIGH**: 集群操作涉及费用，resize/delete 影响运行中的工作负载
 
+## 最佳实践
+
+[[bp-gcloud-container|gcloud container 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GCP CLI-MOC|云平台/GCP CLI]]

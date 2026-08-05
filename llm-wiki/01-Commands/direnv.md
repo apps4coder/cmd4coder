@@ -87,6 +87,10 @@ direnv status
 
 > ⚠️ **MEDIUM**: .envrc 可执行任意 shell 命令，仅 allow 可信目录
 
+## 最佳实践
+
+[[bp-direnv|direnv 生产环境最佳实践]]
+
 ## 所属维度
 
 [[现代工具-MOC|Shell脚本/现代工具]]

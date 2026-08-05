@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/harness-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/harness-engineering.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python evaluate.py --model prometheus-eval/prometheus-7b-v2.0 --data eval_set.js
 
 ## 关联命令
 
-- [[mt-bench]]
-- [[alpaca-eval]]
+- [[mt-bench|mt-bench]]
+- [[alpaca-eval|alpaca-eval]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python evaluate.py --model prometheus-eval/prometheus-7b-v2.0 --data eval_set.js
 ## 参考链接
 
 - [https://github.com/prometheus-eval/prometheus-eval](https://github.com/prometheus-eval/prometheus-eval)
+
+## 最佳实践
+
+[[bp-prometheus-eval|prometheus-eval 生产环境最佳实践]]
 
 ## 所属维度
 

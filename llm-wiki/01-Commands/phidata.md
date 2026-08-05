@@ -77,6 +77,10 @@ python assistant.py --storage postgres --model claude-3-sonnet
 
 - [https://docs.phidata.com/](https://docs.phidata.com/)
 
+## 最佳实践
+
+[[bp-phidata|phidata 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

@@ -62,6 +62,10 @@ kubectl describe httproute api-route -n production
 
 > ⚠️ **LOW**: Read-only operation; shows routing rules
 
+## 最佳实践
+
+[[bp-kubectl-get-httproutes|kubectl get httproutes 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Networking-MOC|Kubernetes Networking]]

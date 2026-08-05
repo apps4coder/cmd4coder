@@ -76,6 +76,10 @@ lm_eval --model hf --model_args pretrained=Qwen/Qwen2-72B --tasks xcopa,xnli --d
 
 - [https://github.com/EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)
 
+## 最佳实践
+
+[[bp-multilingual-eval|multilingual-eval 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Harness工程-MOC|AI基础设施/Harness工程]]

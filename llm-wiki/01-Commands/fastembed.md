@@ -76,6 +76,10 @@ python -c "from fastembed import SparseTextEmbedding; model = SparseTextEmbeddin
 
 - [https://qdrant.github.io/fastembed/](https://qdrant.github.io/fastembed/)
 
+## 最佳实践
+
+[[bp-fastembed|fastembed 生产环境最佳实践]]
+
 ## 所属维度
 
 [[RAG基础设施-MOC|AI基础设施/RAG基础设施]]

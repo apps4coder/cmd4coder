@@ -75,9 +75,15 @@ garak --model_type huggingface --model_name meta-llama/Llama-2-7b-chat-hf --prob
 
 > ⚠️ **HIGH**: 安全测试可能触发内容过滤器，需在隔离环境执行
 
+> ⚠️ **HIGH**: 安全测试可能触发告警或访问敏感内容，请在授权和可监控环境下执行。
+
 ## 参考链接
 
 - [https://github.com/leondz/garak](https://github.com/leondz/garak)
+
+## 最佳实践
+
+[[bp-garak|garak 生产环境最佳实践]]
 
 ## 所属维度
 

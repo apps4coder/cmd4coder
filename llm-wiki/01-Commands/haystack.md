@@ -78,6 +78,10 @@ python agent.py --tools search,qa --document_store elasticsearch
 
 - [https://haystack.deepset.ai/](https://haystack.deepset.ai/)
 
+## 最佳实践
+
+[[bp-haystack|haystack 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

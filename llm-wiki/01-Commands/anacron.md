@@ -64,6 +64,10 @@ sudo anacron -T
 
 > ⚠️ **MEDIUM**: anacron 任务会按系统启动时间补跑，脚本错误可能集中产生副作用
 
+## 最佳实践
+
+[[bp-anacron|anacron 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux核心-MOC|操作系统/Linux核心]]

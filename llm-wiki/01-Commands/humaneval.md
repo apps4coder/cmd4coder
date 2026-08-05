@@ -73,9 +73,15 @@ python generate.py --model gpt-4 --output samples.jsonl && evaluate_functional_c
 
 > ⚠️ **HIGH**: 执行模型生成的代码有风险，需在沙箱运行
 
+> ⚠️ **HIGH**: 执行模型或 Agent 生成的代码存在安全风险，请在隔离环境（如容器/沙箱）中运行。
+
 ## 参考链接
 
 - [https://github.com/openai/human-eval](https://github.com/openai/human-eval)
+
+## 最佳实践
+
+[[bp-humaneval|humaneval 生产环境最佳实践]]
 
 ## 所属维度
 

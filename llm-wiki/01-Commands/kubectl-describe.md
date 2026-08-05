@@ -67,6 +67,10 @@ kubectl describe service myservice -n production
 
 > ⚠️ **LOW**: Read-only operation; no risks
 
+## 最佳实践
+
+[[bp-kubectl-describe|kubectl describe 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Container Orchestration-MOC|Container Orchestration]]

@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/monitoring.yaml"
+  "source_file": "tools/cmd/data/ai/monitoring.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python train.py --use_neptune --api_token $NEPTUNE_API_TOKEN
 
 ## 关联命令
 
-- [[wandb]]
-- [[clearml]]
+- [[wandb|wandb]]
+- [[clearml|clearml]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python train.py --use_neptune --api_token $NEPTUNE_API_TOKEN
 ## 参考链接
 
 - [https://neptune.ai/](https://neptune.ai/)
+
+## 最佳实践
+
+[[bp-neptune|neptune 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -62,6 +62,10 @@ ansible-inventory -i inventory.yml --list
 
 > ⚠️ **LOW**: Read-only inventory display
 
+## 最佳实践
+
+[[bp-ansible-inventory-list|ansible-inventory --list 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

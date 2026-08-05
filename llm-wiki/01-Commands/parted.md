@@ -64,6 +64,12 @@ sudo parted /dev/sdb mklabel gpt
 
 > ⚠️ **CRITICAL**: 分区操作会清除数据，请确认目标磁盘并已备份
 
+> ⚠️ **CRITICAL**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-parted|parted 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux扩展命令-MOC|操作系统/Linux扩展命令]]

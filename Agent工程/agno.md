@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/agent-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/agent-engineering.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python agent.py --knowledge ./docs --memory sqlite --tools search,calculator
 
 ## 关联命令
 
-- [[langchain]]
-- [[crewai]]
+- [[langchain|langchain]]
+- [[crewai|crewai]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python agent.py --knowledge ./docs --memory sqlite --tools search,calculator
 ## 参考链接
 
 - [https://docs.agno.com/](https://docs.agno.com/)
+
+## 最佳实践
+
+[[bp-agno|agno 生产环境最佳实践]]
 
 ## 所属维度
 

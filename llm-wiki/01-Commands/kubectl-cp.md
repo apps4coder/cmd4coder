@@ -16,7 +16,7 @@
     "advanced",
     "linux"
   ],
-  "cmd_risk_level": "medium",
+  "cmd_risk_level": "high",
   "created": "2026-05-31",
   "source_file": "tools/cmd/data/container/k8s/k8s-storage-management.yaml"
 }
@@ -68,6 +68,12 @@ kubectl cp /backup/ mypod:/restore/ -n production
 ## 风险提示
 
 > ⚠️ **MEDIUM**: Transfers data between environments
+
+> ⚠️ **HIGH**: Large transfers may impact network performance
+
+## 最佳实践
+
+[[bp-kubectl-cp|kubectl cp 生产环境最佳实践]]
 
 ## 所属维度
 

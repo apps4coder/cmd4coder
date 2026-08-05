@@ -68,6 +68,10 @@ sql-client.sh -f queries.sql
 
 > ⚠️ **MEDIUM**: DDL/DML 操作会修改表和作业，请在测试环境先验证
 
+## 最佳实践
+
+[[bp-sql-client-sh|sql-client.sh 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Flink流计算-MOC|大数据/Flink流计算]]

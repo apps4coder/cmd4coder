@@ -71,6 +71,12 @@ az aks create --resource-group dev-rg --name dev-cluster --enable-addons monitor
 
 > ⚠️ **CRITICAL**: Creates billable Azure resources; incurs costs
 
+> ⚠️ **HIGH**: Cluster creation takes 10-15 minutes
+
+## 最佳实践
+
+[[bp-az-aks-create|az aks create 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cloud Platforms-MOC|Kubernetes Cloud Platforms]]

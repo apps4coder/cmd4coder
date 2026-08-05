@@ -71,6 +71,10 @@ docker restart -t 30 mycontainer
 
 > ⚠️ **MEDIUM**: 会改变容器生命周期或构建新镜像，请在测试环境验证参数后再用于生产。
 
+## 最佳实践
+
+[[bp-docker-restart|docker restart 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Docker命令-MOC|容器编排/Docker命令]]

@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python -c "from transformers import pipeline; pipe = pipeline('sentiment-analysi
 
 ## 关联命令
 
-- [[vllm]]
-- [[onnxruntime]]
+- [[vllm|vllm]]
+- [[onnxruntime|onnxruntime]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python -c "from transformers import pipeline; pipe = pipeline('sentiment-analysi
 ## 参考链接
 
 - [https://huggingface.co/docs/transformers](https://huggingface.co/docs/transformers)
+
+## 最佳实践
+
+[[bp-transformers-pipeline|transformers-pipeline 生产环境最佳实践]]
 
 ## 所属维度
 

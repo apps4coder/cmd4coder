@@ -53,6 +53,10 @@ sudo systemctl disable --now nginx
 
 > ⚠️ **LOW**: Service won't start on reboot
 
+## 最佳实践
+
+[[bp-systemctl-disable|systemctl disable 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

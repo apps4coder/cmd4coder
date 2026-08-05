@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/monitoring.yaml"
+  "source_file": "tools/cmd/data/ai/monitoring.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python evaluate.py --dataset my-dataset --evaluator qa
 
 ## 关联命令
 
-- [[langfuse]]
-- [[promptlayer]]
+- [[langfuse|langfuse]]
+- [[promptlayer|promptlayer]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python evaluate.py --dataset my-dataset --evaluator qa
 ## 参考链接
 
 - [https://smith.langchain.com/](https://smith.langchain.com/)
+
+## 最佳实践
+
+[[bp-langsmith|langsmith 生产环境最佳实践]]
 
 ## 所属维度
 

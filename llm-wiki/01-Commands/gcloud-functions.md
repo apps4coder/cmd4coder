@@ -88,6 +88,10 @@ gcloud functions delete hello
 
 > ⚠️ **MEDIUM**: 部署会更新生产函数，删除不可逆
 
+## 最佳实践
+
+[[bp-gcloud-functions|gcloud functions 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GCP CLI-MOC|云平台/GCP CLI]]

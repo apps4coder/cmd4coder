@@ -71,6 +71,10 @@ python -c 'print("Hello")'
 
 > ⚠️ **LOW**: 常规操作，无特殊风险
 
+## 最佳实践
+
+[[bp-python|python 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Python工具链-MOC|编程语言/Python工具链]]

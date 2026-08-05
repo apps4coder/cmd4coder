@@ -64,12 +64,13 @@ anthropic 'Explain transformers'
 
 ## 参考链接
 
-- (无外部参考)
+- [https://docs.anthropic.com/](https://docs.anthropic.com/)
+- [https://github.com/anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)
 
 ## 关联命令最佳实践
 
 - [[bp-openai|openai]]
-- claude
+- [[bp-litellm|litellm]]
 
 ---
 

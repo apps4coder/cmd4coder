@@ -84,6 +84,10 @@ black --target-version py312 .
 
 > ⚠️ **LOW**: 修改文件格式，建议配合 Git 使用
 
+## 最佳实践
+
+[[bp-black|black 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Python工具链扩展-MOC|编程语言/Python工具链扩展]]

@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-hub.yaml"
+  "source_file": "tools/cmd/data/ai/model-hub.yaml"
 }
 ---
 
@@ -72,8 +72,8 @@ git lfs ls-files --size
 
 ## 关联命令
 
-- [[huggingface-cli]]
-- [[safetensors-convert]]
+- [[huggingface-cli|huggingface-cli]]
+- [[safetensors-convert|safetensors-convert]]
 
 ## 风险提示
 
@@ -82,6 +82,10 @@ git lfs ls-files --size
 ## 参考链接
 
 - [https://git-lfs.com/](https://git-lfs.com/)
+
+## 最佳实践
+
+[[bp-git-lfs|git-lfs 生产环境最佳实践]]
 
 ## 所属维度
 

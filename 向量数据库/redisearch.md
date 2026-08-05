@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/vector-db.yaml"
+  "source_file": "tools/cmd/data/ai/vector-db.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ redis-cli FT.SEARCH my_idx '*=>[KNN 10 @embedding $vec]' PARAMS 2 vec '[0.1,...]
 
 ## 关联命令
 
-- [[pgvector]]
-- [[faiss-cli]]
+- [[pgvector|pgvector]]
+- [[faiss-cli|faiss-cli]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ redis-cli FT.SEARCH my_idx '*=>[KNN 10 @embedding $vec]' PARAMS 2 vec '[0.1,...]
 ## 参考链接
 
 - [https://redis.io/docs/stack/search/](https://redis.io/docs/stack/search/)
+
+## 最佳实践
+
+[[bp-redisearch|redisearch 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/harness-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/harness-engineering.yaml"
 }
 ---
 
@@ -57,8 +57,8 @@ curl https://chat.lmsys.org/api/leaderboard | jq .
 
 ## 关联命令
 
-- [[mt-bench]]
-- [[alpaca-eval]]
+- [[mt-bench|mt-bench]]
+- [[alpaca-eval|alpaca-eval]]
 
 ## 风险提示
 
@@ -67,6 +67,10 @@ curl https://chat.lmsys.org/api/leaderboard | jq .
 ## 参考链接
 
 - [https://chat.lmsys.org/](https://chat.lmsys.org/)
+
+## 最佳实践
+
+[[bp-arena|arena 生产环境最佳实践]]
 
 ## 所属维度
 

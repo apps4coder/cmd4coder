@@ -7,7 +7,7 @@ domain: "ai-infra"
 risk_level: "high"
 platforms: ["linux", "darwin", "windows"]
 tags: ["ai-infra", "risk-high", "linux", "darwin", "windows"]
-created: "2026-06-06"
+created: "2026-07-28"
 source_file: "ai/model-hub.yaml"
 ---
 
@@ -33,6 +33,7 @@ source_file: "ai/model-hub.yaml"
 
 - ⚠️ 此命令风险等级为 **HIGH**，生产环境使用前必须经过变更审批
 - **HIGH**: 剪枝可能显著降低模型精度，需充分评估
+- **HIGH**: 模型裁剪、量化或格式转换可能改变精度或兼容性，请在验证集上充分测试。
 - 模型服务 API 接入认证（JWT/API Key），禁止匿名访问
 - 输入数据做长度和格式校验，防止 Prompt 注入
 - 操作前务必在 staging 环境验证，制定回滚方案

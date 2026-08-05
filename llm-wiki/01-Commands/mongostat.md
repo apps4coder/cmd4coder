@@ -71,6 +71,10 @@ mongostat --discover
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 最佳实践
+
+[[bp-mongostat|mongostat 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|数据库工具/扩展工具]]

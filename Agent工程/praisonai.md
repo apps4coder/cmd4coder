@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/agent-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/agent-engineering.yaml"
 }
 ---
 
@@ -73,8 +73,8 @@ praisonai chat --agents agents.yaml
 
 ## 关联命令
 
-- [[crewai]]
-- [[autogen]]
+- [[crewai|crewai]]
+- [[autogen|autogen]]
 
 ## 风险提示
 
@@ -83,6 +83,10 @@ praisonai chat --agents agents.yaml
 ## 参考链接
 
 - [https://docs.praison.ai/](https://docs.praison.ai/)
+
+## 最佳实践
+
+[[bp-praisonai|praisonai 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -62,6 +62,10 @@ ansible-config dump --only-changed
 
 > ⚠️ **LOW**: Read-only configuration display
 
+## 最佳实践
+
+[[bp-ansible-config-dump|ansible-config dump 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

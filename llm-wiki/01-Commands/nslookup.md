@@ -57,6 +57,10 @@ nslookup example.com 8.8.8.8
 
 > ⚠️ **LOW**: 常规操作，无特殊风险
 
+## 最佳实践
+
+[[bp-nslookup|nslookup 生产环境最佳实践]]
+
 ## 所属维度
 
 [[DNS工具-MOC|网络工具/DNS工具]]

@@ -70,6 +70,12 @@ createuser -d developer
 
 > ⚠️ **HIGH**: Creating superuser grants full database control
 
+> ⚠️ **MEDIUM**: Ensure strong passwords for new users
+
+## 最佳实践
+
+[[bp-createuser|createuser 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

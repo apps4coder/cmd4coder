@@ -29,6 +29,9 @@ commands:
   risks:
   - level: low
     description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://github.com/openai/openai-python
+  - https://platform.openai.com/docs/
 - name: anthropic
   category: AI基础设施/扩展命令
   install_required: true
@@ -52,11 +55,14 @@ commands:
   - darwin
   related_commands:
   - openai
-  - claude
+  - litellm
   install_method: npm install -g @anthropic-ai/claude-cli 或参考官方
   risks:
   - level: low
     description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://docs.anthropic.com/
+  - https://github.com/anthropics/anthropic-sdk-python
 - name: cohere
   category: AI基础设施/扩展命令
   install_required: true
@@ -85,6 +91,9 @@ commands:
   risks:
   - level: low
     description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://docs.cohere.com/
+  - https://github.com/cohere-ai/cohere-python
 - name: mistral
   category: AI基础设施/扩展命令
   install_required: true
@@ -111,6 +120,9 @@ commands:
   risks:
   - level: low
     description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://docs.mistral.ai/
+  - https://github.com/mistralai/client-python
 - name: litellm
   category: AI基础设施/扩展命令
   install_required: true
@@ -139,6 +151,9 @@ commands:
   risks:
   - level: medium
     description: 代理会转发 API key，请配置访问控制和日志脱敏
+  references:
+  - https://docs.litellm.ai/
+  - https://github.com/BerriAI/litellm
 - name: metaflow
   category: AI基础设施/扩展命令
   install_required: true
@@ -169,6 +184,9 @@ commands:
   risks:
   - level: medium
     description: Metaflow 会访问云存储和计算资源，请确认配置
+  references:
+  - https://metaflow.org/
+  - https://github.com/Netflix/metaflow
 - name: zenml
   category: AI基础设施/扩展命令
   install_required: true
@@ -199,6 +217,9 @@ commands:
   risks:
   - level: medium
     description: zenml stack 涉及云凭据，请安全存储
+  references:
+  - https://www.zenml.io/
+  - https://github.com/zenml-io/zenml
 - name: flyte
   category: AI基础设施/扩展命令
   install_required: true
@@ -222,11 +243,14 @@ commands:
   - darwin
   related_commands:
   - airflow
-  - kubeflow
+  - kfp
   install_method: pip install flytekit
   risks:
   - level: medium
     description: register 会部署到 Flyte 集群，请确认版本和依赖
+  references:
+  - https://flyte.org/
+  - https://github.com/flyteorg/flyte
 - name: weave
   category: AI基础设施/扩展命令
   install_required: true
@@ -255,6 +279,9 @@ commands:
   risks:
   - level: low
     description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://weave-docs.wandb.ai/
+  - https://github.com/wandb/weave
 - name: comet
   category: AI基础设施/扩展命令
   install_required: true
@@ -285,3 +312,6 @@ commands:
   risks:
   - level: low
     description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://www.comet.com/docs/
+  - https://github.com/comet-ml

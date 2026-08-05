@@ -83,6 +83,10 @@ pulsar-client produce ml-events --messages '{"model":"v1","latency":120}'
 
 - [https://pulsar.apache.org/](https://pulsar.apache.org/)
 
+## 最佳实践
+
+[[bp-pulsar|pulsar 生产环境最佳实践]]
+
 ## 所属维度
 
 [[监控与评估-MOC|AI基础设施/监控与评估]]

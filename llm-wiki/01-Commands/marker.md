@@ -77,6 +77,10 @@ marker single paper.pdf ./output --langs English,Chinese
 
 - [https://github.com/VikParuchuri/marker](https://github.com/VikParuchuri/marker)
 
+## 最佳实践
+
+[[bp-marker|marker 生产环境最佳实践]]
+
 ## 所属维度
 
 [[RAG基础设施-MOC|AI基础设施/RAG基础设施]]

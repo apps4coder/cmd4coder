@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/more.yaml"
+  "source_file": "tools/cmd/data/ai/more.yaml"
 }
 ---
 
@@ -65,12 +65,21 @@ litellm --proxy --model gpt-4
 
 ## 关联命令
 
-- [[openai]]
-- [[groq]]
+- [[openai|openai]]
+- [[groq|groq]]
 
 ## 风险提示
 
 > ⚠️ **MEDIUM**: 代理会转发 API key，请配置访问控制和日志脱敏
+
+## 参考链接
+
+- [https://docs.litellm.ai/](https://docs.litellm.ai/)
+- [https://github.com/BerriAI/litellm](https://github.com/BerriAI/litellm)
+
+## 最佳实践
+
+[[bp-litellm|litellm 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -70,6 +70,10 @@ kata-runtime check
 
 > ⚠️ **MEDIUM**: Kata 使用 VM，需确认内核和虚拟化支持
 
+## 最佳实践
+
+[[bp-kata-runtime|kata-runtime 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

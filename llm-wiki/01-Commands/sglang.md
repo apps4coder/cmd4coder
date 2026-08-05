@@ -78,6 +78,10 @@ python -m sglang.launch_server --model-path Qwen/Qwen2-VL-7B-Instruct
 
 - [https://github.com/sgl-project/sglang](https://github.com/sgl-project/sglang)
 
+## 最佳实践
+
+[[bp-sglang|sglang 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

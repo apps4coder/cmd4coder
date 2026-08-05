@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-safety.yaml"
+  "source_file": "tools/cmd/data/ai/ai-safety.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python audit.py --model ./model.pt --tests adversarial --output report.json --ve
 
 ## 关联命令
 
-- [[modelscan]]
-- [[garak]]
+- [[modelscan|modelscan]]
+- [[garak|garak]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python audit.py --model ./model.pt --tests adversarial --output report.json --ve
 ## 参考链接
 
 - [https://github.com/protectai/neuralsecure](https://github.com/protectai/neuralsecure)
+
+## 最佳实践
+
+[[bp-neuralsecure|neuralsecure 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -65,6 +65,12 @@ sudo lvcreate -s -n snap -L 10G /dev/vg0/lv0
 
 > ⚠️ **HIGH**: 逻辑卷操作影响存储布局，请确认大小和卷组
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-lvcreate|lvcreate 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux核心-MOC|操作系统/Linux核心]]

@@ -71,6 +71,10 @@ kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic mytopic --ma
 
 > ⚠️ **LOW**: 消费生产 Topic 可能涉及敏感数据，请遵守数据合规要求
 
+## 最佳实践
+
+[[bp-kafka-console-consumer|kafka-console-consumer 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kafka工具-MOC|大数据/Kafka工具]]

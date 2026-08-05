@@ -78,6 +78,10 @@ python -m llava.serve.controller --host 0.0.0.0 --port 10000
 
 - [https://github.com/haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA)
 
+## 最佳实践
+
+[[bp-llava|llava 生产环境最佳实践]]
+
 ## 所属维度
 
 [[多模态-MOC|AI基础设施/多模态]]

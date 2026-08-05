@@ -88,6 +88,10 @@ Ctrl+b {
 
 > ⚠️ **LOW**: 关闭窗格会终止其中运行的进程
 
+## 最佳实践
+
+[[bp-tmux-split-window|tmux split-window 生产环境最佳实践]]
+
 ## 所属维度
 
 [[终端复用-MOC|Shell脚本/终端复用]]

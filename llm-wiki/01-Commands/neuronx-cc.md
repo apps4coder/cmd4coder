@@ -74,6 +74,10 @@ neuronx-cc --help
 
 - [https://aws.amazon.com/machine-learning/neuron/](https://aws.amazon.com/machine-learning/neuron/)
 
+## 最佳实践
+
+[[bp-neuronx-cc|neuronx-cc 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型生态-MOC|AI基础设施/模型生态]]

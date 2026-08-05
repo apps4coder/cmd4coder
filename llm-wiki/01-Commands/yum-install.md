@@ -59,6 +59,10 @@ sudo yum install vim git wget -y
 
 > ⚠️ **MEDIUM**: Installing from untrusted repositories may introduce security risks
 
+## 最佳实践
+
+[[bp-yum-install|yum install 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

@@ -80,6 +80,10 @@ python -c "from llm_guard import scan_prompt; result = scan_prompt('prompt', sca
 
 - [https://github.com/laiyer-ai/llm-guard](https://github.com/laiyer-ai/llm-guard)
 
+## 最佳实践
+
+[[bp-llm-guard|llm-guard 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI安全-MOC|AI基础设施/AI安全]]

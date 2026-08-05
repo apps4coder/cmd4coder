@@ -71,6 +71,15 @@ openai api models.list
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 参考链接
+
+- [https://github.com/openai/openai-python](https://github.com/openai/openai-python)
+- [https://platform.openai.com/docs/](https://platform.openai.com/docs/)
+
+## 最佳实践
+
+[[bp-openai|openai 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|AI基础设施/扩展命令]]

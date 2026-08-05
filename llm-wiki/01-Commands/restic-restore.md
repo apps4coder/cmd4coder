@@ -62,6 +62,12 @@ restic restore abc123 --repo s3:s3.amazonaws.com/bucket --target /restore
 
 > ⚠️ **HIGH**: Overwrites files in target directory
 
+> ⚠️ **MEDIUM**: Verify snapshot before restoring
+
+## 最佳实践
+
+[[bp-restic-restore|restic restore 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Backup  Recovery-MOC|Kubernetes Backup & Recovery]]

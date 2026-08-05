@@ -55,6 +55,10 @@ kubectl port-forward svc/kube-prometheus-stack-alertmanager 9093:9093 -n monitor
 
 > ⚠️ **MEDIUM**: Exposes alert management interface
 
+## 最佳实践
+
+[[bp-kubectl-port-forward-svc-alertmanager-operated|kubectl port-forward svc/alertmanager-operated 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

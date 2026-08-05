@@ -64,13 +64,13 @@ runpodctl config --apiKey YOUR_API_KEY
 
 ## 参考链接
 
-- (无外部参考)
+- [https://docs.runpod.io/](https://docs.runpod.io/)
+- [https://github.com/runpod/runpodctl](https://github.com/runpod/runpodctl)
 
 ## 关联命令最佳实践
 
 - [[bp-modal|modal]]
 - [[bp-sky-pilot|sky-pilot]]
-- vast.ai
 
 ---
 

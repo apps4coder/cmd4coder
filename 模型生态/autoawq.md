@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-hub.yaml"
+  "source_file": "tools/cmd/data/ai/model-hub.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python -c "from awq import AutoAWQForCausalLM; help(AutoAWQForCausalLM.from_quan
 
 ## 关联命令
 
-- [[auto-gptq]]
-- [[optimum-cli]]
+- [[auto-gptq|auto-gptq]]
+- [[optimum-cli|optimum-cli]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python -c "from awq import AutoAWQForCausalLM; help(AutoAWQForCausalLM.from_quan
 ## 参考链接
 
 - [https://github.com/casper-hansen/AutoAWQ](https://github.com/casper-hansen/AutoAWQ)
+
+## 最佳实践
+
+[[bp-autoawq|autoawq 生产环境最佳实践]]
 
 ## 所属维度
 

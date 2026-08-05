@@ -73,6 +73,12 @@ pulumi preview --diff
 
 > ⚠️ **HIGH**: pulumi up/destroy 会创建或删除真实云资源，请在确认变更范围后执行
 
+> ⚠️ **HIGH**: 基础设施变更会创建或销毁真实云资源，请在 preview 确认 diff 后再执行 up/destroy。
+
+## 最佳实践
+
+[[bp-pulumi|pulumi 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Pulumi-MOC|云平台/Pulumi]]

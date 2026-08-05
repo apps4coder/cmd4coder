@@ -69,6 +69,10 @@ helm history nginx --max 10
 
 > ⚠️ **LOW**: Read-only operation; shows revision history
 
+## 最佳实践
+
+[[bp-helm-history|helm history 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

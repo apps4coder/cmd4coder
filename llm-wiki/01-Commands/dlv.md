@@ -84,6 +84,10 @@ dlv exec ./bin/myapp -- --config prod.yaml
 
 > ⚠️ **LOW**: 调试操作，attach 会暂停目标进程
 
+## 最佳实践
+
+[[bp-dlv|dlv 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Go工具链扩展-MOC|编程语言/Go工具链扩展]]

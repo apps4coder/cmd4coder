@@ -69,6 +69,12 @@ kubeadm init --control-plane-endpoint=cluster-endpoint:6443
 
 > ⚠️ **CRITICAL**: Initializes new cluster; existing cluster data may be affected
 
+> ⚠️ **HIGH**: Requires careful network configuration; misconfig causes cluster failure
+
+## 最佳实践
+
+[[bp-kubeadm-init|kubeadm init 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cluster Management-MOC|Kubernetes Cluster Management]]

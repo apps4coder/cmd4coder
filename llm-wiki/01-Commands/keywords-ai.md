@@ -76,6 +76,10 @@ python -c "from keywordsai import KeywordsAIClient; help(KeywordsAIClient.log_in
 
 - [https://www.keywordsai.co/](https://www.keywordsai.co/)
 
+## 最佳实践
+
+[[bp-keywords-ai|keywords-ai 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI网关-MOC|AI基础设施/AI网关]]

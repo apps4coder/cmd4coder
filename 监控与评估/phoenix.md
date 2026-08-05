@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/monitoring.yaml"
+  "source_file": "tools/cmd/data/ai/monitoring.yaml"
 }
 ---
 
@@ -71,8 +71,8 @@ python -c "import phoenix as px; px.launch_app()"
 
 ## 关联命令
 
-- [[langfuse]]
-- [[arize]]
+- [[langfuse|langfuse]]
+- [[arize|arize]]
 
 ## 风险提示
 
@@ -81,6 +81,10 @@ python -c "import phoenix as px; px.launch_app()"
 ## 参考链接
 
 - [https://github.com/Arize-ai/phoenix](https://github.com/Arize-ai/phoenix)
+
+## 最佳实践
+
+[[bp-phoenix|phoenix 生产环境最佳实践]]
 
 ## 所属维度
 

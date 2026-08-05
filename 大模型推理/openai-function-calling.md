@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python function_calling.py --tools tools.json --conversation
 
 ## 关联命令
 
-- [[instructor]]
-- [[langchain]]
+- [[instructor|instructor]]
+- [[langchain|langchain]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python function_calling.py --tools tools.json --conversation
 ## 参考链接
 
 - [https://platform.openai.com/docs/guides/function-calling](https://platform.openai.com/docs/guides/function-calling)
+
+## 最佳实践
+
+[[bp-openai-function-calling|openai-function-calling 生产环境最佳实践]]
 
 ## 所属维度
 

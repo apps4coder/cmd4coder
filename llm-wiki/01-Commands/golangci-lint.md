@@ -85,6 +85,10 @@ golangci-lint run ./cmd/... ./internal/...
 
 > ⚠️ **LOW**: --fix 修改文件，建议配合 Git 使用
 
+## 最佳实践
+
+[[bp-golangci-lint|golangci-lint 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Go工具链扩展-MOC|编程语言/Go工具链扩展]]

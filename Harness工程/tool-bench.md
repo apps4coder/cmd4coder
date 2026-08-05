@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/harness-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/harness-engineering.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python inference.py --tool_root_dir data/toolenv/tools --model_path gpt-4 --top_
 
 ## 关联命令
 
-- [[api-bench]]
-- [[agent-bench]]
+- [[api-bench|api-bench]]
+- [[agent-bench|agent-bench]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python inference.py --tool_root_dir data/toolenv/tools --model_path gpt-4 --top_
 ## 参考链接
 
 - [https://github.com/OpenBMB/ToolBench](https://github.com/OpenBMB/ToolBench)
+
+## 最佳实践
+
+[[bp-tool-bench|tool-bench 生产环境最佳实践]]
 
 ## 所属维度
 

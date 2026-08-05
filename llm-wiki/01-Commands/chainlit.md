@@ -85,6 +85,10 @@ chainlit run app.py --host 0.0.0.0 --port 8000
 
 - [https://github.com/Chainlit/chainlit](https://github.com/Chainlit/chainlit)
 
+## 最佳实践
+
+[[bp-chainlit|chainlit 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ marimo run notebook.py --port 8080
 
 ## 关联命令
 
-- [[streamlit]]
-- [[gradio]]
+- [[streamlit|streamlit]]
+- [[gradio|gradio]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ marimo run notebook.py --port 8080
 ## 参考链接
 
 - [https://marimo.io/](https://marimo.io/)
+
+## 最佳实践
+
+[[bp-marimo|marimo 生产环境最佳实践]]
 
 ## 所属维度
 

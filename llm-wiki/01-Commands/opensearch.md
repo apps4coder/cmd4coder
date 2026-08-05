@@ -79,6 +79,10 @@ curl -X PUT localhost:9200/my-index -H 'Content-Type: application/json' -d '{"se
 
 - [https://opensearch.org/](https://opensearch.org/)
 
+## 最佳实践
+
+[[bp-opensearch|opensearch 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

@@ -55,6 +55,10 @@ kubectl api-versions | grep apps
 
 > ⚠️ **LOW**: 只读版本信息；无修改风险
 
+## 最佳实践
+
+[[bp-kubectl-api-versions|kubectl api-versions 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Troubleshooting-MOC|Kubernetes Troubleshooting]]

@@ -83,6 +83,10 @@ argocd version
 
 > ⚠️ **MEDIUM**: 应用操作影响 K8s 集群中的实际部署
 
+## 最佳实践
+
+[[bp-argocd|argocd 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GitOps-MOC|CI-CD/GitOps]]

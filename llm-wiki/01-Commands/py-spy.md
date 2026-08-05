@@ -85,6 +85,10 @@ py-spy record -o profile.svg -- python app.py
 
 > ⚠️ **LOW**: 采样式分析，对目标进程影响极小
 
+## 最佳实践
+
+[[bp-py-spy|py-spy 生产环境最佳实践]]
+
 ## 所属维度
 
 [[性能分析-MOC|诊断工具/性能分析]]

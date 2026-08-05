@@ -55,6 +55,10 @@ helm env | grep HELM_REPOSITORY_CACHE
 
 > ⚠️ **LOW**: Read-only environment information
 
+## 最佳实践
+
+[[bp-helm-env|helm env 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

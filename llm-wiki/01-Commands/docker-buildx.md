@@ -72,6 +72,10 @@ docker buildx ls
 
 > ⚠️ **MEDIUM**: 多平台构建和缓存导出可能产生大量临时文件
 
+## 最佳实践
+
+[[bp-docker-buildx|docker buildx 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

@@ -82,6 +82,10 @@ byobu-status
 
 > ⚠️ **LOW**: 基于 tmux/screen，风险同底层工具
 
+## 最佳实践
+
+[[bp-byobu|byobu 生产环境最佳实践]]
+
 ## 所属维度
 
 [[终端复用-MOC|Shell脚本/终端复用]]

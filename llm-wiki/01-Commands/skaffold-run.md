@@ -68,6 +68,12 @@ skaffold run --tail
 
 > ⚠️ **HIGH**: Deploys application to cluster
 
+> ⚠️ **MEDIUM**: Verify target namespace before running
+
+## 最佳实践
+
+[[bp-skaffold-run|skaffold run 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Development-MOC|Kubernetes Development]]

@@ -55,6 +55,12 @@ mvn clean package -DskipTests
 
 > ⚠️ **HIGH**: 会删除 target 目录及其所有内容，不可恢复
 
+> ⚠️ **HIGH**: 安装到系统目录可能影响其他项目，建议使用本地前缀或在隔离环境中执行。
+
+## 最佳实践
+
+[[bp-mvn-clean|mvn clean 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Maven-MOC|构建工具/Maven]]

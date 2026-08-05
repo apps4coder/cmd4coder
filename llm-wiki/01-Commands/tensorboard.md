@@ -75,6 +75,10 @@ tensorboard --logdir=runs --host=0.0.0.0 --port=6006
 
 - [https://www.tensorflow.org/tensorboard](https://www.tensorflow.org/tensorboard)
 
+## 最佳实践
+
+[[bp-tensorboard|tensorboard 生产环境最佳实践]]
+
 ## 所属维度
 
 [[ML框架-MOC|AI基础设施/ML框架]]

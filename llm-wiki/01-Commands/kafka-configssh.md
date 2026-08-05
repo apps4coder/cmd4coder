@@ -71,6 +71,12 @@ kafka-configs.sh --alter --add-config retention.ms=86400000 --entity-type topics
 
 > ⚠️ **HIGH**: 修改 topic/broker 配置会影响性能和数据保留策略，请评估影响
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-kafka-configs-sh|kafka-configs.sh 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|大数据/扩展工具]]

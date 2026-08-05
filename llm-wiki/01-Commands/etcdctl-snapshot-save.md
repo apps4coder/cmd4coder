@@ -13,7 +13,7 @@
     "intermediate",
     "linux"
   ],
-  "cmd_risk_level": "low",
+  "cmd_risk_level": "medium",
   "created": "2026-05-31",
   "source_file": "tools/cmd/data/container/k8s/k8s-cluster.yaml"
 }
@@ -61,6 +61,12 @@ etcdctl --endpoints=https://127.0.0.1:2379 --cacert=/etc/kubernetes/pki/etcd/ca.
 ## 风险提示
 
 > ⚠️ **LOW**: Read-only backup operation; safe to perform
+
+> ⚠️ **MEDIUM**: Ensure sufficient disk space for snapshot file
+
+## 最佳实践
+
+[[bp-etcdctl-snapshot-save|etcdctl snapshot save 生产环境最佳实践]]
 
 ## 所属维度
 

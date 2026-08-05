@@ -77,6 +77,10 @@ docker compose -f docker-compose.yaml -f docker-compose.middleware.yaml up -d
 
 - [https://dify.ai/](https://dify.ai/)
 
+## 最佳实践
+
+[[bp-dify|dify 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

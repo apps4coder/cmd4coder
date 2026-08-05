@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/more.yaml"
+  "source_file": "tools/cmd/data/ai/more.yaml"
 }
 ---
 
@@ -64,8 +64,21 @@ openai api models.list
 
 ## 关联命令
 
-- [[groq]]
-- [[anthropic]]
+- [[groq|groq]]
+- [[anthropic|anthropic]]
+
+## 风险提示
+
+> ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
+
+## 参考链接
+
+- [https://github.com/openai/openai-python](https://github.com/openai/openai-python)
+- [https://platform.openai.com/docs/](https://platform.openai.com/docs/)
+
+## 最佳实践
+
+[[bp-openai|openai 生产环境最佳实践]]
 
 ## 所属维度
 

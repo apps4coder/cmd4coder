@@ -903,3 +903,6 @@ commands:
   risks:
   - level: low
     description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://dottxt-ai.github.io/outlines/
+  - https://github.com/dottxt-ai/outlines

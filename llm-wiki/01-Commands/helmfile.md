@@ -71,6 +71,12 @@ helmfile -f helmfile.d/prod.yaml sync
 
 > ⚠️ **HIGH**: destroy 会删除所有定义 release，请确认环境与影响范围
 
+> ⚠️ **HIGH**: 批量部署或删除 Helm release 会影响多个服务，请确认目标命名空间和 values 配置。
+
+## 最佳实践
+
+[[bp-helmfile|helmfile 生产环境最佳实践]]
+
 ## 所属维度
 
 [[K8s开发工具-MOC|容器编排/K8s开发工具]]

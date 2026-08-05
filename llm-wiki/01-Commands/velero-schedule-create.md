@@ -62,6 +62,10 @@ velero schedule create hourly-backup --schedule '@hourly' --include-namespaces p
 
 > ⚠️ **LOW**: Creates scheduled task; actual backups are read-only
 
+## 最佳实践
+
+[[bp-velero-schedule-create|velero schedule create 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Backup  Recovery-MOC|Kubernetes Backup & Recovery]]

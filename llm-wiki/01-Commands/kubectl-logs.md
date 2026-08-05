@@ -83,6 +83,10 @@ kubectl logs mypod --previous
 
 > ⚠️ **LOW**: Read-only operation; no risks
 
+## 最佳实践
+
+[[bp-kubectl-logs|kubectl logs 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Container Orchestration-MOC|Container Orchestration]]

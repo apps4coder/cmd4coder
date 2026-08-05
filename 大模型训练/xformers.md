@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python -c "from xformers.ops import memory_efficient_attention; y = memory_effic
 
 ## 关联命令
 
-- [[flash-attn]]
-- [[lightning]]
+- [[flash-attn|flash-attn]]
+- [[lightning|lightning]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python -c "from xformers.ops import memory_efficient_attention; y = memory_effic
 ## 参考链接
 
 - [https://github.com/facebookresearch/xformers](https://github.com/facebookresearch/xformers)
+
+## 最佳实践
+
+[[bp-xformers|xformers 生产环境最佳实践]]
 
 ## 所属维度
 

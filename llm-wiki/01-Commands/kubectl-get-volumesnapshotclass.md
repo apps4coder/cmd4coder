@@ -56,6 +56,10 @@ kubectl describe volumesnapshotclass csi-hostpath-snapclass
 
 > ⚠️ **LOW**: Read-only operation; shows snapshot provisioners
 
+## 最佳实践
+
+[[bp-kubectl-get-volumesnapshotclass|kubectl get volumesnapshotclass 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Storage Management-MOC|Kubernetes Storage Management]]

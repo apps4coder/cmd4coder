@@ -71,6 +71,10 @@ java -jar jenkins-cli.jar -s http://jenkins:8080 build myjob
 
 > ⚠️ **MEDIUM**: jenkins-cli 可安装插件和重启 Jenkins，请保护好凭据
 
+## 最佳实践
+
+[[bp-jenkins-cli|jenkins-cli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|CI/CD/扩展工具]]

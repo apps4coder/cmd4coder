@@ -16,7 +16,7 @@
     "linux",
     "open-source"
   ],
-  "cmd_risk_level": "medium",
+  "cmd_risk_level": "high",
   "created": "2026-05-31",
   "source_file": "tools/cmd/data/container/k8s/k8s-config.yaml"
 }
@@ -68,6 +68,12 @@ ansible-pull -U https://github.com/user/playbooks.git --check
 ## 风险提示
 
 > ⚠️ **MEDIUM**: Pulls and executes remote playbooks
+
+> ⚠️ **HIGH**: Ensure repository is trusted
+
+## 最佳实践
+
+[[bp-ansible-pull|ansible-pull 生产环境最佳实践]]
 
 ## 所属维度
 

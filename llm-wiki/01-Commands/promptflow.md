@@ -85,6 +85,10 @@ pf run create --flow ./my_chatbot --data ./data.jsonl --column-mapping question=
 
 - [https://microsoft.github.io/promptflow/](https://microsoft.github.io/promptflow/)
 
+## 最佳实践
+
+[[bp-promptflow|promptflow 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI应用-MOC|AI基础设施/AI应用]]

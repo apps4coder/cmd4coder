@@ -66,6 +66,10 @@ sudo firewall-cmd --reload
 
 > ⚠️ **MEDIUM**: Opening ports may expose services to network
 
+## 最佳实践
+
+[[bp-firewall-cmd-add-port|firewall-cmd --add-port 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

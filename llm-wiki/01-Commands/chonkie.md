@@ -78,6 +78,10 @@ python -c "from chonkie import SemanticChunker; chunker = SemanticChunker(embedd
 
 - [https://github.com/chonkie-inc/chonkie](https://github.com/chonkie-inc/chonkie)
 
+## 最佳实践
+
+[[bp-chonkie|chonkie 生产环境最佳实践]]
+
 ## 所属维度
 
 [[RAG基础设施-MOC|AI基础设施/RAG基础设施]]

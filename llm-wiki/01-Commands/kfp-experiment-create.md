@@ -62,6 +62,10 @@ kfp experiment create prod-training -d 'Production training experiments'
 
 > ⚠️ **LOW**: Creates metadata only
 
+## 最佳实践
+
+[[bp-kfp-experiment-create|kfp experiment create 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes MLOps-MOC|Kubernetes MLOps]]

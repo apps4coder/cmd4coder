@@ -69,6 +69,10 @@ helm search repo database -l
 
 > ⚠️ **LOW**: Read-only search operation
 
+## 最佳实践
+
+[[bp-helm-search-repo|helm search repo 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

@@ -81,6 +81,10 @@ serve deploy config.yaml
 
 - [https://docs.ray.io/en/latest/serve/index.html](https://docs.ray.io/en/latest/serve/index.html)
 
+## 最佳实践
+
+[[bp-ray-serve|ray-serve 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

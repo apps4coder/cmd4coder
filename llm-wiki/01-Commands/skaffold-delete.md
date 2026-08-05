@@ -61,6 +61,12 @@ skaffold delete --namespace dev
 
 > ⚠️ **HIGH**: Deletes application resources from cluster
 
+> ⚠️ **HIGH**: 删除类操作会清理相关资源，建议先确认命名空间、标签选择器和依赖关系。
+
+## 最佳实践
+
+[[bp-skaffold-delete|skaffold delete 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Development-MOC|Kubernetes Development]]

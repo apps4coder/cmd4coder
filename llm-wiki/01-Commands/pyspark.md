@@ -72,6 +72,10 @@ pyspark --conf spark.sql.adaptive.enabled=true
 
 > ⚠️ **LOW**: 生产环境注意限制并发和资源占用
 
+## 最佳实践
+
+[[bp-pyspark|pyspark 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Spark计算-MOC|大数据/Spark计算]]

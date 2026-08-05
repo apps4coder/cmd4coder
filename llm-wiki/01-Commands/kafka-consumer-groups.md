@@ -87,6 +87,10 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 --describe --group my
 
 > ⚠️ **HIGH**: --reset-offsets --execute 导致消息重复消费或跳过
 
+## 最佳实践
+
+[[bp-kafka-consumer-groups|kafka-consumer-groups 生产环境最佳实践]]
+
 ## 所属维度
 
 [[流处理-MOC|大数据/流处理]]

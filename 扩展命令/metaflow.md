@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/more.yaml"
+  "source_file": "tools/cmd/data/ai/more.yaml"
 }
 ---
 
@@ -65,12 +65,21 @@ python flow.py card view
 
 ## 关联命令
 
-- [[airflow]]
-- [[mlflow]]
+- [[airflow|airflow]]
+- [[mlflow|mlflow]]
 
 ## 风险提示
 
 > ⚠️ **MEDIUM**: Metaflow 会访问云存储和计算资源，请确认配置
+
+## 参考链接
+
+- [https://metaflow.org/](https://metaflow.org/)
+- [https://github.com/Netflix/metaflow](https://github.com/Netflix/metaflow)
+
+## 最佳实践
+
+[[bp-metaflow|metaflow 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -63,6 +63,10 @@ kfp pipeline upload -p ml-training -d 'Training pipeline' train.yaml.tar.gz
 
 > ⚠️ **LOW**: Uploads pipeline definition only
 
+## 最佳实践
+
+[[bp-kfp-pipeline-upload|kfp pipeline upload 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes MLOps-MOC|Kubernetes MLOps]]

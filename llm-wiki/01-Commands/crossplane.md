@@ -71,6 +71,10 @@ crossplane trace resource mydb -n default
 
 > ⚠️ **MEDIUM**: Managed Resources 会创建真实云资源，请确认 provider 配置
 
+## 最佳实践
+
+[[bp-crossplane|crossplane 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

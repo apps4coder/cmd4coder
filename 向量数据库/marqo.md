@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/vector-db.yaml"
+  "source_file": "tools/cmd/data/ai/vector-db.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python -c "import marqo; mq = marqo.Client(url='http://localhost:8882'); mq.crea
 
 ## 关联命令
 
-- [[chroma]]
-- [[qdrant]]
+- [[chroma|chroma]]
+- [[qdrant|qdrant]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python -c "import marqo; mq = marqo.Client(url='http://localhost:8882'); mq.crea
 ## 参考链接
 
 - [https://www.marqo.ai/](https://www.marqo.ai/)
+
+## 最佳实践
+
+[[bp-marqo|marqo 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -11,7 +11,7 @@
   "cmd_level": "intermediate",
   "cmd_related": [
     "openai",
-    "claude"
+    "litellm"
   ],
   "cmd_tags": [
     "intermediate",
@@ -65,10 +65,20 @@ anthropic --model claude-3-opus --max-tokens 2048
 ## 关联命令
 
 - [[openai|openai]]
+- [[litellm|litellm]]
 
 ## 风险提示
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
+
+## 参考链接
+
+- [https://docs.anthropic.com/](https://docs.anthropic.com/)
+- [https://github.com/anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)
+
+## 最佳实践
+
+[[bp-anthropic|anthropic 生产环境最佳实践]]
 
 ## 所属维度
 

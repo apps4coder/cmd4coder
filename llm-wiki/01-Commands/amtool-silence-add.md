@@ -68,6 +68,10 @@ amtool silence add instance=server1 --duration=30m --comment='Upgrade'
 
 > ⚠️ **MEDIUM**: Silencing alerts may mask issues
 
+## 最佳实践
+
+[[bp-amtool-silence-add|amtool silence add 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

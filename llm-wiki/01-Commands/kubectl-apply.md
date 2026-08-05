@@ -76,6 +76,12 @@ kubectl apply -f deployment.yaml --dry-run=client
 
 > ⚠️ **HIGH**: Modifies cluster resources; can cause service disruption
 
+> ⚠️ **MEDIUM**: Always review YAML files before applying
+
+## 最佳实践
+
+[[bp-kubectl-apply|kubectl apply 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Container Orchestration-MOC|Container Orchestration]]

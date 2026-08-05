@@ -73,9 +73,15 @@ python -c "from pyrit.orchestrator import PromptSendingOrchestrator; orch.send_p
 
 > ⚠️ **HIGH**: 生成真实攻击载荷，仅限授权红队测试，禁止用于未授权系统
 
+> ⚠️ **MEDIUM**: 攻击编排器会调用目标LLM API产生费用，大规模红队测试前应设置速率与调用上限
+
 ## 参考链接
 
 - [https://github.com/Azure/PyRIT](https://github.com/Azure/PyRIT)
+
+## 最佳实践
+
+[[bp-pyrit|pyrit 生产环境最佳实践]]
 
 ## 所属维度
 

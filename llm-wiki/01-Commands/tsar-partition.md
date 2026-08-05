@@ -53,6 +53,10 @@ tsar --partition -l
 
 > ⚠️ **LOW**: Read-only monitoring; no risks
 
+## 最佳实践
+
+[[bp-tsar-partition|tsar --partition 生产环境最佳实践]]
+
 ## 所属维度
 
 [[System Diagnostic-MOC|System Diagnostic]]

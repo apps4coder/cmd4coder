@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/monitoring.yaml"
+  "source_file": "tools/cmd/data/ai/monitoring.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python track_prompts.py --track_all --score_function human_eval
 
 ## 关联命令
 
-- [[langsmith]]
-- [[langfuse]]
+- [[langsmith|langsmith]]
+- [[langfuse|langfuse]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python track_prompts.py --track_all --score_function human_eval
 ## 参考链接
 
 - [https://www.promptlayer.com/](https://www.promptlayer.com/)
+
+## 最佳实践
+
+[[bp-promptlayer|promptlayer 生产环境最佳实践]]
 
 ## 所属维度
 

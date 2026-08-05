@@ -70,6 +70,10 @@ cmctl status certificate mycert -n default
 
 > ⚠️ **MEDIUM**: 手动 renew 或删除证书可能导致服务 TLS 中断
 
+## 最佳实践
+
+[[bp-cert-manager|cert-manager 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

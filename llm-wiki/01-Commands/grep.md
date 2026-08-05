@@ -84,6 +84,10 @@ grep -E '192\.168\.[0-9]+\.[0-9]+' access.log
 
 - [https://www.gnu.org/software/grep/manual/](https://www.gnu.org/software/grep/manual/)
 
+## 最佳实践
+
+[[bp-grep|grep 生产环境最佳实践]]
+
 ## 所属维度
 
 [[通用Linux命令-MOC|操作系统/通用Linux命令]]

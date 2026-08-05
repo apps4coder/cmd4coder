@@ -71,6 +71,10 @@ bin/import-export.py -i metadata.json
 
 > ⚠️ **MEDIUM**: 导入导出元数据会影响数据目录，请确认内容
 
+## 最佳实践
+
+[[bp-atlas-admin|atlas-admin 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|大数据/扩展命令]]

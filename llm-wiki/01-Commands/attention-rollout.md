@@ -76,6 +76,10 @@ python rollout_viz.py --model vit-base --image cat.jpg --layer 11
 
 - [https://github.com/jacobgil/vit-explain](https://github.com/jacobgil/vit-explain)
 
+## 最佳实践
+
+[[bp-attention-rollout|attention-rollout 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型可解释性-MOC|AI基础设施/模型可解释性]]

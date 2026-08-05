@@ -76,6 +76,10 @@ python profile.py --model llama-7b --seq_len 2048 --batch_size 1
 
 - [https://github.com/MrYxJ/calculate-flops](https://github.com/MrYxJ/calculate-flops)
 
+## 最佳实践
+
+[[bp-calflops|calflops 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型架构-MOC|AI基础设施/模型架构]]

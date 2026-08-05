@@ -72,6 +72,15 @@ comet upload offline.zip
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 参考链接
+
+- [https://www.comet.com/docs/](https://www.comet.com/docs/)
+- [https://github.com/comet-ml](https://github.com/comet-ml)
+
+## 最佳实践
+
+[[bp-comet|comet 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|AI基础设施/扩展命令]]

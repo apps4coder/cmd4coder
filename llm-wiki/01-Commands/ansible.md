@@ -70,6 +70,10 @@ ansible k8s-nodes -i inventory.yml -m shell -a 'kubectl get nodes'
 
 > ⚠️ **MEDIUM**: Executes commands on remote hosts
 
+## 最佳实践
+
+[[bp-ansible|ansible 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

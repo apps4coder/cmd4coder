@@ -65,6 +65,10 @@ sudo iwconfig wlan0 essid MyWiFi key s:mypassword
 
 > ⚠️ **MEDIUM**: 命令行输入 WiFi 密钥会留在历史记录
 
+## 最佳实践
+
+[[bp-iwconfig|iwconfig 生产环境最佳实践]]
+
 ## 所属维度
 
 [[网络硬件-MOC|硬件/网络硬件]]

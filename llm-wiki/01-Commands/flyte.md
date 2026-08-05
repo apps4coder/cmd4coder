@@ -11,7 +11,7 @@
   "cmd_level": "advanced",
   "cmd_related": [
     "airflow",
-    "kubeflow"
+    "kfp"
   ],
   "cmd_tags": [
     "data",
@@ -66,10 +66,20 @@ pyflyte register workflow.py
 ## 关联命令
 
 - [[airflow|airflow]]
+- [[kfp|kfp]]
 
 ## 风险提示
 
 > ⚠️ **MEDIUM**: register 会部署到 Flyte 集群，请确认版本和依赖
+
+## 参考链接
+
+- [https://flyte.org/](https://flyte.org/)
+- [https://github.com/flyteorg/flyte](https://github.com/flyteorg/flyte)
+
+## 最佳实践
+
+[[bp-flyte|flyte 生产环境最佳实践]]
 
 ## 所属维度
 

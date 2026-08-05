@@ -61,6 +61,10 @@ etcdctl get /registry/namespaces/default
 
 > ⚠️ **LOW**: Read-only operation; retrieves data only
 
+## 最佳实践
+
+[[bp-etcdctl-get|etcdctl get 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cluster Management-MOC|Kubernetes Cluster Management]]

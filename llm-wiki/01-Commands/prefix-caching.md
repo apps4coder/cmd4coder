@@ -74,6 +74,10 @@ python benchmark.py --enable-prefix-caching --shared-prompt 'You are a helpful a
 
 - [https://docs.vllm.ai/en/latest/automatic_prefix_caching.html](https://docs.vllm.ai/en/latest/automatic_prefix_caching.html)
 
+## 最佳实践
+
+[[bp-prefix-caching|prefix-caching 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

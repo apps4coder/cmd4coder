@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ml-frameworks.yaml"
+  "source_file": "tools/cmd/data/ai/ml-frameworks.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ python train.py --devices=auto --strategy=deepspeed_stage_2
 
 ## 关联命令
 
-- [[torchrun]]
-- [[deepspeed]]
+- [[torchrun|torchrun]]
+- [[deepspeed|deepspeed]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ python train.py --devices=auto --strategy=deepspeed_stage_2
 ## 参考链接
 
 - [https://lightning.ai/docs/pytorch/](https://lightning.ai/docs/pytorch/)
+
+## 最佳实践
+
+[[bp-pytorch-lightning|pytorch-lightning 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -61,6 +61,10 @@ npm run lint
 
 > ⚠️ **MEDIUM**: Scripts can execute arbitrary commands
 
+## 最佳实践
+
+[[bp-npm-run|npm run 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Programming Language-MOC|Programming Language]]

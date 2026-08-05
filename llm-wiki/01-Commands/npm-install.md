@@ -76,6 +76,12 @@ npm install --production
 
 > ⚠️ **MEDIUM**: Installing packages from untrusted sources may introduce vulnerabilities
 
+> ⚠️ **LOW**: Global installations may conflict with other versions
+
+## 最佳实践
+
+[[bp-npm-install|npm install 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Programming Language-MOC|Programming Language]]

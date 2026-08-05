@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/rag-infra.yaml"
+  "source_file": "tools/cmd/data/ai/rag-infra.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python -c "import fitz; doc = fitz.open('file.pdf'); pix = doc[0].get_pixmap(); 
 
 ## 关联命令
 
-- [[marker]]
-- [[unstructured]]
+- [[marker|marker]]
+- [[unstructured|unstructured]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python -c "import fitz; doc = fitz.open('file.pdf'); pix = doc[0].get_pixmap(); 
 ## 参考链接
 
 - [https://github.com/pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF)
+
+## 最佳实践
+
+[[bp-pymupdf|pymupdf 生产环境最佳实践]]
 
 ## 所属维度
 

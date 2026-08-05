@@ -61,6 +61,10 @@ grafana-cli plugins update grafana-kubernetes-app
 
 > ⚠️ **MEDIUM**: Plugin updates may break dashboards
 
+## 最佳实践
+
+[[bp-grafana-cli-plugins-update|grafana-cli plugins update 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

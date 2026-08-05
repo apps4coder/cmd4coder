@@ -7,7 +7,7 @@ domain: "ai-infra"
 risk_level: "low"
 platforms: ["linux", "darwin", "windows"]
 tags: ["ai-infra", "risk-low", "linux", "darwin", "windows"]
-created: "2026-06-06"
+created: "2026-07-28"
 source_file: "ai/llm-inference.yaml"
 ---
 
@@ -31,6 +31,7 @@ source_file: "ai/llm-inference.yaml"
 
 ## 安全加固
 
+- **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 - 模型服务 API 接入认证（JWT/API Key），禁止匿名访问
 - 输入数据做长度和格式校验，防止 Prompt 注入
 
@@ -63,7 +64,8 @@ python -c "import outlines; model = outlines.models.transformers('gpt2')"
 
 ## 参考链接
 
-- (无外部参考)
+- [https://dottxt-ai.github.io/outlines/](https://dottxt-ai.github.io/outlines/)
+- [https://github.com/dottxt-ai/outlines](https://github.com/dottxt-ai/outlines)
 
 ## 关联命令最佳实践
 

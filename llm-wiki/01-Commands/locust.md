@@ -72,6 +72,12 @@ locust -f locustfile.py -u 100 -r 10 --run-time 60s --headless
 
 > ⚠️ **HIGH**: Locust 压测会消耗目标资源，请获得授权并配置限流
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-locust|locust 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|网络工具/扩展工具]]

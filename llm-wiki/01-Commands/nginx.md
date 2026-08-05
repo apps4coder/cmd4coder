@@ -67,6 +67,10 @@ sudo nginx -s reload
 
 > ⚠️ **MEDIUM**: reload 失败或配置错误会中断服务，请先在测试环境验证
 
+## 最佳实践
+
+[[bp-nginx|nginx 生产环境最佳实践]]
+
 ## 所属维度
 
 [[基础设施-MOC|网络工具/基础设施]]

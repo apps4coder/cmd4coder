@@ -75,6 +75,10 @@ torchrun --nproc_per_node=8 train.py --job.config_file train_configs/llama3_70b.
 
 - [https://github.com/pytorch/torchtitan](https://github.com/pytorch/torchtitan)
 
+## 最佳实践
+
+[[bp-torch-titan|torch-titan 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

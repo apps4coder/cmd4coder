@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -74,8 +74,8 @@ chainlit run app.py --host 0.0.0.0 --port 8000
 
 ## 关联命令
 
-- [[gradio]]
-- [[streamlit]]
+- [[gradio|gradio]]
+- [[streamlit|streamlit]]
 
 ## 风险提示
 
@@ -84,6 +84,10 @@ chainlit run app.py --host 0.0.0.0 --port 8000
 ## 参考链接
 
 - [https://github.com/Chainlit/chainlit](https://github.com/Chainlit/chainlit)
+
+## 最佳实践
+
+[[bp-chainlit|chainlit 生产环境最佳实践]]
 
 ## 所属维度
 

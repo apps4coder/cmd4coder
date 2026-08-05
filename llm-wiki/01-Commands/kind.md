@@ -73,6 +73,10 @@ kind load docker-image myapp:latest --name dev
 
 > ⚠️ **MEDIUM**: 创建多个集群会占用较多内存和 CPU，请确认本机资源
 
+## 最佳实践
+
+[[bp-kind|kind 生产环境最佳实践]]
+
 ## 所属维度
 
 [[本地K8s-MOC|容器编排/本地K8s]]

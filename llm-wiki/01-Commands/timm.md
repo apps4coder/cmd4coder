@@ -79,6 +79,10 @@ python -c "import timm; print(timm.list_models('*vit*'))"
 
 - [https://github.com/huggingface/pytorch-image-models](https://github.com/huggingface/pytorch-image-models)
 
+## 最佳实践
+
+[[bp-timm|timm 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型架构-MOC|AI基础设施/模型架构]]

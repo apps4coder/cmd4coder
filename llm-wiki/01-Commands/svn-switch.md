@@ -55,6 +55,10 @@ svn sw ^/trunk
 
 > ⚠️ **MEDIUM**: Changes working copy location; uncommitted changes may be lost
 
+## 最佳实践
+
+[[bp-svn-switch|svn switch 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Version Control-MOC|Version Control]]

@@ -77,6 +77,10 @@ python -c "import torch; m = torch.compile(model, mode='reduce-overhead')"
 
 - [https://pytorch.org/docs/stable/generated/torch.compile.html](https://pytorch.org/docs/stable/generated/torch.compile.html)
 
+## 最佳实践
+
+[[bp-torch-compile|torch-compile 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI编译器-MOC|AI基础设施/AI编译器]]

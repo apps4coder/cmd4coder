@@ -61,6 +61,12 @@ grafana-cli admin reset-admin-password --config=/etc/grafana/grafana.ini newpass
 
 > ⚠️ **HIGH**: Resets admin password; security-sensitive operation
 
+> ⚠️ **HIGH**: 修改管理员凭据可能导致当前会话失效，建议提前通知团队成员。
+
+## 最佳实践
+
+[[bp-grafana-cli-admin-reset-admin-password|grafana-cli admin reset-admin-password 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

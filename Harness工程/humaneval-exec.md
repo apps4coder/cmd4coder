@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "high",
   "created": "2026-05-31",
-  "source_file": "data/ai/harness-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/harness-engineering.yaml"
 }
 ---
 
@@ -65,16 +65,22 @@ python -m human_eval.evaluate --samples samples.jsonl --n_workers 4
 
 ## 关联命令
 
-- [[humaneval]]
-- [[mbpp]]
+- [[humaneval|humaneval]]
+- [[mbpp|mbpp]]
 
 ## 风险提示
 
 > ⚠️ **HIGH**: 执行生成的代码存在安全风险，需在隔离沙箱中运行
 
+> ⚠️ **HIGH**: 执行模型或 Agent 生成的代码存在安全风险，请在隔离环境（如容器/沙箱）中运行。
+
 ## 参考链接
 
 - [https://github.com/openai/human-eval](https://github.com/openai/human-eval)
+
+## 最佳实践
+
+[[bp-humaneval-exec|humaneval-exec 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/data-labeling.yaml"
+  "source_file": "tools/cmd/data/ai/data-labeling.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ great_expectations checkpoint run my_checkpoint
 
 ## 关联命令
 
-- [[dvc]]
-- [[cleanlab]]
+- [[dvc|dvc]]
+- [[cleanlab|cleanlab]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ great_expectations checkpoint run my_checkpoint
 ## 参考链接
 
 - [https://greatexpectations.io/](https://greatexpectations.io/)
+
+## 最佳实践
+
+[[bp-great-expectations|great-expectations 生产环境最佳实践]]
 
 ## 所属维度
 

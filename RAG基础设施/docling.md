@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/rag-infra.yaml"
+  "source_file": "tools/cmd/data/ai/rag-infra.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python -c "from docling.document_converter import DocumentConverter; help(Docume
 
 ## 关联命令
 
-- [[unstructured]]
-- [[marker]]
+- [[unstructured|unstructured]]
+- [[marker|marker]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python -c "from docling.document_converter import DocumentConverter; help(Docume
 ## 参考链接
 
 - [https://github.com/DS4SD/docling](https://github.com/DS4SD/docling)
+
+## 最佳实践
+
+[[bp-docling|docling 生产环境最佳实践]]
 
 ## 所属维度
 

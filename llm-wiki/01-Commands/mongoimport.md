@@ -72,6 +72,10 @@ mongoimport --db mydb --collection users --type=csv --headerline --file users.cs
 
 > ⚠️ **MEDIUM**: 导入会写入目标集合，可能覆盖现有数据
 
+## 最佳实践
+
+[[bp-mongoimport|mongoimport 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|数据库工具/扩展工具]]

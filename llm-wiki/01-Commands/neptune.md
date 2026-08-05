@@ -77,6 +77,10 @@ python train.py --use_neptune --api_token $NEPTUNE_API_TOKEN
 
 - [https://neptune.ai/](https://neptune.ai/)
 
+## 最佳实践
+
+[[bp-neptune|neptune 生产环境最佳实践]]
+
 ## 所属维度
 
 [[监控与评估-MOC|AI基础设施/监控与评估]]

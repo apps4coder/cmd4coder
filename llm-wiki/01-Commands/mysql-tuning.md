@@ -89,6 +89,10 @@ mysql -e "SELECT * FROM information_schema.INNODB_LOCK_WAITS;"
 
 > ⚠️ **LOW**: 查询操作风险低，KILL 终止查询需确认
 
+## 最佳实践
+
+[[bp-mysql-tuning|mysql (tuning) 生产环境最佳实践]]
+
 ## 所属维度
 
 [[运维操作-MOC|数据库工具/运维操作]]

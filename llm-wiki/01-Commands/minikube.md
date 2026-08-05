@@ -72,6 +72,10 @@ minikube service my-service --url
 
 > ⚠️ **MEDIUM**: minikube 会创建虚拟机/容器，请确保有足够磁盘和内存
 
+## 最佳实践
+
+[[bp-minikube|minikube 生产环境最佳实践]]
+
 ## 所属维度
 
 [[本地K8s-MOC|容器编排/本地K8s]]

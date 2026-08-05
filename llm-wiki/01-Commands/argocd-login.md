@@ -69,6 +69,10 @@ argocd login localhost:8080 --insecure
 
 > ⚠️ **LOW**: Authentication only; no cluster modifications
 
+## 最佳实践
+
+[[bp-argocd-login|argocd login 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CD-MOC|Kubernetes CI/CD]]

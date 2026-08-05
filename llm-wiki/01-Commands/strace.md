@@ -72,6 +72,10 @@ strace -e openat,read -o trace.log ./app
 
 > ⚠️ **LOW**: 只读/信息查询类操作，风险较低，但仍需确认目标对象与权限。
 
+## 最佳实践
+
+[[bp-strace|strace 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|系统诊断/扩展工具]]

@@ -93,6 +93,10 @@ make -n build
 
 > ⚠️ **MEDIUM**: make -j 可能导致构建输出交错
 
+## 最佳实践
+
+[[bp-make|make 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Make-MOC|构建工具/Make]]

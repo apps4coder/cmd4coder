@@ -76,6 +76,10 @@ python -c "from fireworks.client import Fireworks; fw=Fireworks(); r=fw.completi
 
 - [https://fireworks.ai/](https://fireworks.ai/)
 
+## 最佳实践
+
+[[bp-fireworks|fireworks 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

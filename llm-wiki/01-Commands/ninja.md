@@ -84,6 +84,10 @@ ninja -C build -t targets all
 
 > ⚠️ **LOW**: 构建操作风险低
 
+## 最佳实践
+
+[[bp-ninja|ninja 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CMake-MOC|构建工具/CMake]]

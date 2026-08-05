@@ -77,6 +77,10 @@ python zero_shot.py --model ViT-L/14 --classes 'cat,dog,bird,car' --image folder
 
 - [https://github.com/openai/CLIP](https://github.com/openai/CLIP)
 
+## 最佳实践
+
+[[bp-clip|clip 生产环境最佳实践]]
+
 ## 所属维度
 
 [[多模态-MOC|AI基础设施/多模态]]

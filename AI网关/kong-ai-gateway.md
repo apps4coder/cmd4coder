@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-gateway.yaml"
+  "source_file": "tools/cmd/data/ai/ai-gateway.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ curl http://localhost:8001/plugins -d name=ai-proxy -d config.route_type=llm/v1/
 
 ## 关联命令
 
-- [[helicone]]
-- [[portkey]]
+- [[helicone|helicone]]
+- [[portkey|portkey]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ curl http://localhost:8001/plugins -d name=ai-proxy -d config.route_type=llm/v1/
 ## 参考链接
 
 - [https://konghq.com/products/kong-ai-gateway](https://konghq.com/products/kong-ai-gateway)
+
+## 最佳实践
+
+[[bp-kong-ai-gateway|kong-ai-gateway 生产环境最佳实践]]
 
 ## 所属维度
 

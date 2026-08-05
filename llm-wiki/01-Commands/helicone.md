@@ -77,6 +77,10 @@ curl https://oai.hconeai.com/v1/chat/completions -H 'Helicone-Auth: Bearer hk-xx
 
 - [https://www.helicone.ai/](https://www.helicone.ai/)
 
+## 最佳实践
+
+[[bp-helicone|helicone 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI网关-MOC|AI基础设施/AI网关]]

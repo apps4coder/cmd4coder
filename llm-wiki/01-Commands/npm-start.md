@@ -55,6 +55,10 @@ npm start -- --port=3000
 
 > ⚠️ **MEDIUM**: Starts application server; may bind to network ports
 
+## 最佳实践
+
+[[bp-npm-start|npm start 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Programming Language-MOC|Programming Language]]

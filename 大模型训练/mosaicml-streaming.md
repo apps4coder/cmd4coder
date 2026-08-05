@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python train.py --dataset_path s3://my-bucket/mds-data
 
 ## 关联命令
 
-- [[webdataset]]
-- [[datasets-cli]]
+- [[webdataset|webdataset]]
+- [[datasets-cli|datasets-cli]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python train.py --dataset_path s3://my-bucket/mds-data
 ## 参考链接
 
 - [https://github.com/mosaicml/streaming](https://github.com/mosaicml/streaming)
+
+## 最佳实践
+
+[[bp-mosaicml-streaming|mosaicml-streaming 生产环境最佳实践]]
 
 ## 所属维度
 

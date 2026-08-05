@@ -65,6 +65,10 @@ gzip -dk file.txt.gz
 
 > ⚠️ **MEDIUM**: 默认会删除原文件，建议使用 -k 保留备份
 
+## 最佳实践
+
+[[bp-gzip|gzip 生产环境最佳实践]]
+
 ## 所属维度
 
 [[通用Linux命令-MOC|操作系统/通用Linux命令]]

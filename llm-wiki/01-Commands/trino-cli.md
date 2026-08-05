@@ -80,6 +80,10 @@ trino --server localhost:8080 --catalog postgres --schema public --execute "SHOW
 
 > ⚠️ **MEDIUM**: 可跨数据源执行写操作（取决于 connector 配置）
 
+## 最佳实践
+
+[[bp-trino-cli|trino-cli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[调度与转换-MOC|大数据/调度与转换]]

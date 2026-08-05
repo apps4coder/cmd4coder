@@ -67,6 +67,10 @@ kubectl cluster-info dump --output-directory=/tmp/cluster-dump
 
 > ⚠️ **LOW**: 只读集群信息；dump 可能包含敏感数据
 
+## 最佳实践
+
+[[bp-kubectl-cluster-info|kubectl cluster-info 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Troubleshooting-MOC|Kubernetes Troubleshooting]]

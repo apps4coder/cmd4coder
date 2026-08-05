@@ -18,7 +18,7 @@
     "advanced",
     "linux"
   ],
-  "cmd_risk_level": "medium",
+  "cmd_risk_level": "high",
   "created": "2026-05-31",
   "source_file": "tools/cmd/data/build-tools/maven.yaml"
 }
@@ -89,6 +89,12 @@ mvn archetype:generate -DgroupId=com.example -DartifactId=my-app
 ## 风险提示
 
 > ⚠️ **MEDIUM**: clean 会删除 target 目录，操作不可逆
+
+> ⚠️ **HIGH**: deploy 会发布到远程仓库，请确认目标仓库
+
+## 最佳实践
+
+[[bp-mvn|mvn 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -77,6 +77,10 @@ python app.py --trace_llm --trace_vectorstore --trace_framework
 
 - [https://langtrace.ai/](https://langtrace.ai/)
 
+## 最佳实践
+
+[[bp-langtrace|langtrace 生产环境最佳实践]]
+
 ## 所属维度
 
 [[监控与评估-MOC|AI基础设施/监控与评估]]

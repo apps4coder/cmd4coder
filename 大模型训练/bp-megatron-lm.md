@@ -7,7 +7,7 @@ domain: "ai-infra"
 risk_level: "high"
 platforms: ["linux"]
 tags: ["ai-infra", "risk-high", "linux"]
-created: "2026-06-06"
+created: "2026-07-28"
 source_file: "ai/llm-training.yaml"
 ---
 
@@ -33,6 +33,7 @@ source_file: "ai/llm-training.yaml"
 
 - ⚠️ 此命令风险等级为 **HIGH**，生产环境使用前必须经过变更审批
 - **HIGH**: 大规模并行训练配置复杂，需专业调优
+- **HIGH**: 大规模训练任务会占用大量计算资源，请确认集群配额、显存和成本预算。
 - 模型服务 API 接入认证（JWT/API Key），禁止匿名访问
 - 输入数据做长度和格式校验，防止 Prompt 注入
 - 操作前务必在 staging 环境验证，制定回滚方案

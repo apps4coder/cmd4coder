@@ -68,6 +68,10 @@ kubectl describe sc fast-ssd
 
 > ⚠️ **LOW**: Read-only operation; shows storage provisioners
 
+## 最佳实践
+
+[[bp-kubectl-get-storageclass|kubectl get storageclass 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Storage Management-MOC|Kubernetes Storage Management]]

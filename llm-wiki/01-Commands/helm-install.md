@@ -95,6 +95,12 @@ helm install nginx bitnami/nginx --wait --timeout 10m
 
 > ⚠️ **HIGH**: Deploys resources to cluster; may affect existing workloads
 
+> ⚠️ **MEDIUM**: Always review chart values before installation
+
+## 最佳实践
+
+[[bp-helm-install|helm install 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

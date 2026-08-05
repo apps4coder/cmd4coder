@@ -70,6 +70,10 @@ kustomize edit set image myapp=myapp:v2.0
 
 > ⚠️ **LOW**: kustomize build 为本地渲染，不会直接修改集群
 
+## 最佳实践
+
+[[bp-kustomize|kustomize 生产环境最佳实践]]
+
 ## 所属维度
 
 [[K8s开发工具-MOC|容器编排/K8s开发工具]]

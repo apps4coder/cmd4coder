@@ -70,6 +70,10 @@ sudo bpftrace -l 'tracepoint:syscalls:*'
 
 > ⚠️ **MEDIUM**: bpftrace 在内核运行，脚本错误可能影响性能
 
+## 最佳实践
+
+[[bp-bpftrace|bpftrace 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|系统诊断/扩展工具]]

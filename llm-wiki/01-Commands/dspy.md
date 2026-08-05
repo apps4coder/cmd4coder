@@ -78,6 +78,10 @@ python optimize.py --optimizer MIPRO --metric accuracy --trainset train.json
 
 - [https://dspy.ai/](https://dspy.ai/)
 
+## 最佳实践
+
+[[bp-dspy|dspy 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

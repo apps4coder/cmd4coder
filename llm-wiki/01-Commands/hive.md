@@ -71,6 +71,10 @@ hive -f query.hql --database mydb
 
 > ⚠️ **MEDIUM**: 全表扫描可能产生大 job，请确认分区过滤和 LIMIT
 
+## 最佳实践
+
+[[bp-hive|hive 生产环境最佳实践]]
+
 ## 所属维度
 
 [[查询引擎-MOC|大数据/查询引擎]]

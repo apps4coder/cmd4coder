@@ -1,24 +1,27 @@
 ---
 title: "生产环境最佳实践 — 总索引"
-created: "2026-06-06"
+created: "2026-07-29"
 tags: ["best-practices", "production", "MOC"]
 ---
 
 # 生产环境最佳实践 — 总索引
 
-> 共覆盖 **734** 个命令的生产环境最佳实践，按 **66** 个分类组织。
+> 共覆盖 **1261** 个命令的生产环境最佳实践，按 **127** 个分类组织。
 
 ---
 
 ## AI基础设施/AI安全
 
-共 5 个命令：
+共 8 个命令：
 
 - [[bp-garak|garak]] 🟠 高风险
 - [[bp-inspect-ai|inspect-ai]] 🟢 低风险
 - [[bp-llm-guard|llm-guard]] 🟢 低风险
 - [[bp-modelscan|modelscan]] 🟢 低风险
+- [[bp-nemo-guardrails|nemo-guardrails]] 🟡 中风险
 - [[bp-neuralsecure|neuralsecure]] 🟡 中风险
+- [[bp-pyrit|pyrit]] 🟠 高风险
+- [[bp-rebuff|rebuff]] 🟢 低风险
 
 ## AI基础设施/AI应用
 
@@ -28,45 +31,51 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-n8n|n8n]] 🟡 中风险
 - [[bp-neo4j-llm|neo4j-llm]] 🟡 中风险
 - [[bp-promptflow|promptflow]] 🟢 低风险
-- [[bp-runpod|runpod]] 🟢 低风险
+- [[bp-runpod|runpod]] 🟡 中风险
 - [[bp-text2sql|text2sql]] 🟠 高风险
 - [[bp-vanna|vanna]] 🟠 高风险
 
 ## AI基础设施/AI编程
 
-共 5 个命令：
+共 7 个命令：
 
 - [[bp-aider|aider]] 🟠 高风险
+- [[bp-cline|cline]] 🟠 高风险
 - [[bp-codeium|codeium]] 🟢 低风险
 - [[bp-continue-dev|continue-dev]] 🟢 低风险
+- [[bp-goose|goose]] 🟠 高风险
 - [[bp-openhands|openhands]] 🔴 严重风险
 - [[bp-swe-agent|swe-agent]] 🔴 严重风险
 
 ## AI基础设施/AI编译器
 
-共 6 个命令：
+共 8 个命令：
 
 - [[bp-iree-compile|iree-compile]] 🟡 中风险
 - [[bp-mlir-opt|mlir-opt]] 🟢 低风险
+- [[bp-olive|olive]] 🟡 中风险
 - [[bp-onnx-optimizer|onnx-optimizer]] 🟢 低风险
+- [[bp-torch-compile|torch-compile]] 🟢 低风险
 - [[bp-trtexec|trtexec]] 🟡 中风险
 - [[bp-tvmc|tvmc]] 🟡 中风险
 - [[bp-xla-compile|xla_compile]] 🟢 低风险
 
 ## AI基础设施/AI网关
 
-共 6 个命令：
+共 8 个命令：
 
+- [[bp-cloudflare-ai-gateway|cloudflare-ai-gateway]] 🟢 低风险
 - [[bp-helicone|helicone]] 🟢 低风险
 - [[bp-keywords-ai|keywords-ai]] 🟢 低风险
 - [[bp-kong-ai-gateway|kong-ai-gateway]] 🟡 中风险
 - [[bp-openrouter|openrouter]] 🟢 低风险
 - [[bp-portkey|portkey]] 🟢 低风险
 - [[bp-promptfoo|promptfoo]] 🟢 低风险
+- [[bp-requesty|requesty]] 🟢 低风险
 
 ## AI基础设施/Agent工程
 
-共 19 个命令：
+共 18 个命令：
 
 - [[bp-agno|agno]] 🟡 中风险
 - [[bp-autogen|autogen]] 🟠 高风险
@@ -77,7 +86,6 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-flowise|flowise]] 🟡 中风险
 - [[bp-guidance|guidance]] 🟢 低风险
 - [[bp-haystack|haystack]] 🟡 中风险
-- [[bp-instructor|instructor]] 🟢 低风险
 - [[bp-langchain|langchain]] 🟡 中风险
 - [[bp-langgraph|langgraph]] 🟡 中风险
 - [[bp-llama-index|llama-index]] 🟡 中风险
@@ -116,28 +124,36 @@ tags: ["best-practices", "production", "MOC"]
 
 ## AI基础设施/MLOps平台
 
-共 2 个命令：
+共 5 个命令：
 
+- [[bp-dagster|dagster]] 🟢 低风险
+- [[bp-kedro|kedro]] 🟢 低风险
 - [[bp-kfp|kfp]] 🟡 中风险
 - [[bp-mlflow|mlflow]] 🟡 中风险
+- [[bp-prefect|prefect]] 🟢 低风险
 
 ## AI基础设施/ML框架
 
-共 4 个命令：
+共 3 个命令：
 
-- [[bp-accelerate|accelerate]] 🟢 低风险
 - [[bp-pytorch-lightning|pytorch-lightning]] 🟢 低风险
 - [[bp-tensorboard|tensorboard]] 🟢 低风险
 - [[bp-torchrun|torchrun]] 🟢 低风险
 
 ## AI基础设施/RAG基础设施
 
-共 5 个命令：
+共 11 个命令：
 
+- [[bp-chonkie|chonkie]] 🟢 低风险
 - [[bp-docling|docling]] 🟢 低风险
+- [[bp-fastembed|fastembed]] 🟢 低风险
 - [[bp-llamaparse|llamaparse]] 🟢 低风险
 - [[bp-marker|marker]] 🟢 低风险
+- [[bp-mineru|mineru]] 🟡 中风险
 - [[bp-pymupdf|pymupdf]] 🟢 低风险
+- [[bp-ragas|ragas]] 🟡 中风险
+- [[bp-rerankers|rerankers]] 🟢 低风险
+- [[bp-sentence-transformers|sentence-transformers]] 🟢 低风险
 - [[bp-unstructured|unstructured]] 🟢 低风险
 
 ## AI基础设施/向量数据库
@@ -163,12 +179,14 @@ tags: ["best-practices", "production", "MOC"]
 
 ## AI基础设施/多模态
 
-共 6 个命令：
+共 8 个命令：
 
 - [[bp-clip|clip]] 🟢 低风险
 - [[bp-comfyui|comfyui]] 🟡 中风险
 - [[bp-faster-whisper|faster-whisper]] 🟢 低风险
 - [[bp-llava|llava]] 🟢 低风险
+- [[bp-qwen-vl|qwen-vl]] 🟢 低风险
+- [[bp-sam2|sam2]] 🟢 低风险
 - [[bp-stable-diffusion-cli|stable-diffusion-cli]] 🟡 中风险
 - [[bp-whisper|whisper]] 🟢 低风险
 
@@ -236,6 +254,31 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-unsloth|unsloth]] 🟢 低风险
 - [[bp-xformers|xformers]] 🟢 低风险
 
+## AI基础设施/扩展命令
+
+共 10 个命令：
+
+- [[bp-anthropic|anthropic]] 🟢 低风险
+- [[bp-cohere|cohere]] 🟢 低风险
+- [[bp-comet|comet]] 🟢 低风险
+- [[bp-flyte|flyte]] 🟡 中风险
+- [[bp-litellm|litellm]] 🟡 中风险
+- [[bp-metaflow|metaflow]] 🟡 中风险
+- [[bp-mistral|mistral]] 🟢 低风险
+- [[bp-openai|openai]] 🟢 低风险
+- [[bp-weave|weave]] 🟢 低风险
+- [[bp-zenml|zenml]] 🟡 中风险
+
+## AI基础设施/扩展工具
+
+共 5 个命令：
+
+- [[bp-anything-llm|anything-llm]] 🟡 中风险
+- [[bp-mcp|mcp]] 🟡 中风险
+- [[bp-open-webui|open-webui]] 🟡 中风险
+- [[bp-perplexity|perplexity]] 🟢 低风险
+- [[bp-sweep|sweep]] 🟠 高风险
+
 ## AI基础设施/数据与标注
 
 共 13 个命令：
@@ -256,10 +299,11 @@ tags: ["best-practices", "production", "MOC"]
 
 ## AI基础设施/模型可解释性
 
-共 5 个命令：
+共 6 个命令：
 
 - [[bp-attention-rollout|attention-rollout]] 🟢 低风险
 - [[bp-captum|captum]] 🟢 低风险
+- [[bp-interpretml|interpretml]] 🟢 低风险
 - [[bp-lime|lime]] 🟢 低风险
 - [[bp-shap|shap]] 🟢 低风险
 - [[bp-token-heatmap|token-heatmap]] 🟢 低风险
@@ -331,19 +375,22 @@ tags: ["best-practices", "production", "MOC"]
 
 ## AI基础设施/联邦学习
 
-共 4 个命令：
+共 6 个命令：
 
 - [[bp-crypten|crypten]] 🟡 中风险
+- [[bp-fedml|fedml]] 🟢 低风险
 - [[bp-flower|flower]] 🟡 中风险
+- [[bp-nvflare|nvflare]] 🟡 中风险
 - [[bp-opacus|opacus]] 🟡 中风险
 - [[bp-pyvertical|pyvertical]] 🟠 高风险
 
 ## AI基础设施/边缘AI
 
-共 4 个命令：
+共 5 个命令：
 
 - [[bp-executorch|executorch]] 🟢 低风险
 - [[bp-mediapipe|mediapipe]] 🟢 低风险
+- [[bp-ncnn|ncnn]] 🟢 低风险
 - [[bp-paddle-lite|paddle-lite]] 🟢 低风险
 - [[bp-tflite|tflite]] 🟢 低风险
 
@@ -357,6 +404,43 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-gh-run-cancel|gh run cancel]] 🟡 中风险
 - [[bp-gh-workflow|gh workflow]] 🟢 低风险
 
+## CI-CD/GitOps
+
+共 9 个命令：
+
+- [[bp-argocd|argocd]] 🟡 中风险
+- [[bp-argocd-app-rollback|argocd app rollback]] 🟠 高风险
+- [[bp-argocd-create|argocd create]] 🟡 中风险
+- [[bp-flux|flux]] 🟡 中风险
+- [[bp-flux-create-kustomization|flux create kustomization]] 🟡 中风险
+- [[bp-flux-create-source|flux create source]] 🟢 低风险
+- [[bp-flux-delete|flux delete]] 🟠 高风险
+- [[bp-flux-logs|flux logs]] 🟢 低风险
+- [[bp-flux-reconcile|flux reconcile]] 🟡 中风险
+
+## CI-CD/平台工具
+
+共 9 个命令：
+
+- [[bp-buildkite-agent|buildkite-agent]] 🟡 中风险
+- [[bp-dagger|dagger]] 🟡 中风险
+- [[bp-drone|drone]] 🟢 低风险
+- [[bp-glab|glab]] 🟡 中风险
+- [[bp-glab-ci|glab ci]] 🟢 低风险
+- [[bp-glab-mr|glab mr]] 🟡 中风险
+- [[bp-goreleaser|goreleaser]] 🟡 中风险
+- [[bp-tkn|tkn]] 🟢 低风险
+- [[bp-tkn-start|tkn start]] 🟡 中风险
+
+## CI/CD/扩展工具
+
+共 4 个命令：
+
+- [[bp-circleci|circleci]] 🟢 低风险
+- [[bp-gh|gh]] 🟢 低风险
+- [[bp-gitlab-runner|gitlab-runner]] 🟡 中风险
+- [[bp-jenkins-cli|jenkins-cli]] 🟡 中风险
+
 ## Shell脚本/Bash工具
 
 共 5 个命令：
@@ -366,6 +450,40 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-shfmt|shfmt]] 🟢 低风险
 - [[bp-source|source]] 🟡 中风险
 - [[bp-trap|trap]] 🟢 低风险
+
+## Shell脚本/文本处理
+
+共 5 个命令：
+
+- [[bp-cut|cut]] 🟢 低风险
+- [[bp-diff|diff]] 🟢 低风险
+- [[bp-parallel|parallel]] 🟠 高风险
+- [[bp-sort|sort]] 🟢 低风险
+- [[bp-uniq|uniq]] 🟢 低风险
+
+## Shell脚本/现代工具
+
+共 9 个命令：
+
+- [[bp-bat|bat]] 🟢 低风险
+- [[bp-direnv|direnv]] 🟡 中风险
+- [[bp-eza|eza]] 🟢 低风险
+- [[bp-fd|fd]] 🟠 高风险
+- [[bp-fzf|fzf]] 🟢 低风险
+- [[bp-http|http]] 🟡 中风险
+- [[bp-mise|mise]] 🟢 低风险
+- [[bp-rg|rg]] 🟢 低风险
+- [[bp-zoxide|zoxide]] 🟢 低风险
+
+## Shell脚本/终端复用
+
+共 5 个命令：
+
+- [[bp-byobu|byobu]] 🟢 低风险
+- [[bp-screen|screen]] 🟢 低风险
+- [[bp-tmux-new-window|tmux new-window]] 🟢 低风险
+- [[bp-tmux-send-keys|tmux send-keys]] 🟡 中风险
+- [[bp-tmux-split-window|tmux split-window]] 🟢 低风险
 
 ## 云平台/AWS CLI
 
@@ -378,32 +496,208 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-aws-s3|aws s3]] 🟠 高风险
 - [[bp-aws-sts|aws sts]] 🟢 低风险
 
+## 云平台/Azure CLI
+
+共 9 个命令：
+
+- [[bp-az-aks|az aks]] 🟠 高风险
+- [[bp-az-bicep|az bicep]] 🟠 高风险
+- [[bp-az-functionapp|az functionapp]] 🟡 中风险
+- [[bp-az-group|az group]] 🔴 严重风险
+- [[bp-az-keyvault|az keyvault]] 🟠 高风险
+- [[bp-az-network|az network]] 🟠 高风险
+- [[bp-az-storage|az storage]] 🟡 中风险
+- [[bp-az-vm|az vm]] 🟠 高风险
+- [[bp-az-webapp|az webapp]] 🟡 中风险
+
+## 云平台/GCP CLI
+
+共 9 个命令：
+
+- [[bp-gcloud-auth|gcloud auth]] 🟠 高风险
+- [[bp-gcloud-builds|gcloud builds]] 🟢 低风险
+- [[bp-gcloud-compute|gcloud compute]] 🟠 高风险
+- [[bp-gcloud-container|gcloud container]] 🟠 高风险
+- [[bp-gcloud-functions|gcloud functions]] 🟡 中风险
+- [[bp-gcloud-iam|gcloud iam]] 🟠 高风险
+- [[bp-gcloud-run|gcloud run]] 🟡 中风险
+- [[bp-gcloud-sql|gcloud sql]] 🟠 高风险
+- [[bp-gcloud-storage|gcloud storage]] 🟡 中风险
+
+## 云平台/Pulumi
+
+共 1 个命令：
+
+- [[bp-pulumi|pulumi]] 🟠 高风险
+
 ## 云平台/Terraform
 
 共 1 个命令：
 
 - [[bp-terraform|terraform]] 🟢 低风险
 
+## 云平台/多云CLI
+
+共 5 个命令：
+
+- [[bp-aws-vault|aws-vault]] 🟢 低风险
+- [[bp-az|az]] 🟡 中风险
+- [[bp-doctl|doctl]] 🟡 中风险
+- [[bp-gcloud|gcloud]] 🟡 中风险
+- [[bp-linode-cli|linode-cli]] 🟡 中风险
+
+## 云平台/配置管理
+
+共 5 个命令：
+
+- [[bp-ansible-playbook|ansible playbook]] 🟠 高风险
+- [[bp-ansible-galaxy|ansible-galaxy]] 🟢 低风险
+- [[bp-packer|packer]] 🟡 中风险
+- [[bp-terraform-state|terraform state]] 🟠 高风险
+- [[bp-vault-operator|vault operator]] 🔴 严重风险
+
+## 大数据/Flink流计算
+
+共 2 个命令：
+
+- [[bp-flink|flink]] 🟡 中风险
+- [[bp-sql-client-sh|sql-client.sh]] 🟡 中风险
+
+## 大数据/Hadoop生态
+
+共 3 个命令：
+
+- [[bp-hadoop|hadoop]] 🟠 高风险
+- [[bp-hdfs|hdfs]] 🟠 高风险
+- [[bp-yarn|yarn]] 🟡 中风险
+
+## 大数据/Kafka工具
+
+共 5 个命令：
+
+- [[bp-kafka-console-consumer|kafka-console-consumer]] 🟢 低风险
+- [[bp-kafka-console-producer|kafka-console-producer]] 🟢 低风险
+- [[bp-kafka-consumer-groups-sh|kafka-consumer-groups.sh]] 🟠 高风险
+- [[bp-kafka-topics-sh|kafka-topics.sh]] 🟡 中风险
+- [[bp-ksql|ksql]] 🟡 中风险
+
+## 大数据/Spark计算
+
+共 4 个命令：
+
+- [[bp-pyspark|pyspark]] 🟢 低风险
+- [[bp-spark-shell|spark-shell]] 🟢 低风险
+- [[bp-spark-sql|spark-sql]] 🟡 中风险
+- [[bp-spark-submit|spark-submit]] 🟡 中风险
+
+## 大数据/扩展命令
+
+共 16 个命令：
+
+- [[bp-airbyte|airbyte]] 🟡 中风险
+- [[bp-atlas-admin|atlas-admin]] 🟡 中风险
+- [[bp-dremio-admin|dremio-admin]] 🟠 高风险
+- [[bp-hbase-hbck|hbase hbck]] 🟠 高风险
+- [[bp-kafka-acls-sh|kafka-acls.sh]] 🟠 高风险
+- [[bp-kafka-mirror-maker|kafka-mirror-maker]] 🟠 高风险
+- [[bp-kafka-reassign-partitions-sh|kafka-reassign-partitions.sh]] 🟠 高风险
+- [[bp-meltano|meltano]] 🟡 中风险
+- [[bp-metabase|metabase]] 🟡 中风险
+- [[bp-nifi-toolkit|nifi-toolkit]] 🟠 高风险
+- [[bp-oozie|oozie]] 🟡 中风险
+- [[bp-pig|pig]] 🟡 中风险
+- [[bp-rabbitmqctl|rabbitmqctl]] 🟡 中风险
+- [[bp-superset|superset]] 🟡 中风险
+- [[bp-zeppelin|zeppelin]] 🟡 中风险
+- [[bp-zkcli-sh|zkCli.sh]] 🟡 中风险
+
+## 大数据/扩展工具
+
+共 10 个命令：
+
+- [[bp-hbase-shell|hbase shell]] 🟠 高风险
+- [[bp-kafka-configs-sh|kafka-configs.sh]] 🟠 高风险
+- [[bp-kafka-connect|kafka-connect]] 🟡 中风险
+- [[bp-kafka-consumer-perf-test|kafka-consumer-perf-test]] 🟡 中风险
+- [[bp-kafka-producer-perf-test|kafka-producer-perf-test]] 🟠 高风险
+- [[bp-livy-submit|livy-submit]] 🟡 中风险
+- [[bp-logstash|logstash]] 🟡 中风险
+- [[bp-mapred|mapred]] 🟡 中风险
+- [[bp-nifi|nifi]] 🟡 中风险
+- [[bp-zookeeper-shell|zookeeper-shell]] 🟡 中风险
+
+## 大数据/数据湖
+
+共 3 个命令：
+
+- [[bp-delta|delta]] 🟠 高风险
+- [[bp-hudi-cli|hudi-cli]] 🟠 高风险
+- [[bp-iceberg|iceberg]] 🟡 中风险
+
+## 大数据/数据集成与ETL
+
+共 5 个命令：
+
+- [[bp-airflow|airflow]] 🟡 中风险
+- [[bp-dbt|dbt]] 🟡 中风险
+- [[bp-debezium|debezium]] 🟠 高风险
+- [[bp-flume-ng|flume-ng]] 🟡 中风险
+- [[bp-sqoop|sqoop]] 🟠 高风险
+
+## 大数据/查询引擎
+
+共 5 个命令：
+
+- [[bp-beeline|beeline]] 🟢 低风险
+- [[bp-hive|hive]] 🟡 中风险
+- [[bp-impala-shell|impala-shell]] 🟡 中风险
+- [[bp-presto|presto]] 🟡 中风险
+- [[bp-trino|trino]] 🟡 中风险
+
+## 大数据/流处理
+
+共 4 个命令：
+
+- [[bp-flink-sql-client|flink sql-client]] 🟡 中风险
+- [[bp-kafka-consumer-groups|kafka-consumer-groups]] 🟠 高风险
+- [[bp-kafka-topics|kafka-topics]] 🟠 高风险
+- [[bp-yarn-hadoop|yarn (Hadoop)]] 🟠 高风险
+
+## 大数据/调度与转换
+
+共 3 个命令：
+
+- [[bp-airflow-dags|airflow dags]] 🟡 中风险
+- [[bp-dbt-debug|dbt debug]] 🟢 低风险
+- [[bp-trino-cli|trino-cli]] 🟡 中风险
+
 ## 容器编排/Docker命令
 
 共 16 个命令：
 
 - [[bp-docker-attach|docker attach]] 🟢 低风险
-- [[bp-docker-build|docker build]] 🟢 低风险
-- [[bp-docker-exec|docker exec]] 🟢 低风险
+- [[bp-docker-build|docker build]] 🟡 中风险
+- [[bp-docker-exec|docker exec]] 🟡 中风险
 - [[bp-docker-images|docker images]] 🟢 低风险
 - [[bp-docker-inspect|docker inspect]] 🟢 低风险
 - [[bp-docker-logs|docker logs]] 🟢 低风险
 - [[bp-docker-ps|docker ps]] 🟢 低风险
 - [[bp-docker-pull|docker pull]] 🟢 低风险
 - [[bp-docker-push|docker push]] 🟢 低风险
-- [[bp-docker-restart|docker restart]] 🟢 低风险
+- [[bp-docker-restart|docker restart]] 🟡 中风险
 - [[bp-docker-rm|docker rm]] 🟡 中风险
-- [[bp-docker-rmi|docker rmi]] 🟢 低风险
-- [[bp-docker-run|docker run]] 🟢 低风险
-- [[bp-docker-start|docker start]] 🟢 低风险
-- [[bp-docker-stop|docker stop]] 🟢 低风险
+- [[bp-docker-rmi|docker rmi]] 🟠 高风险
+- [[bp-docker-run|docker run]] 🟡 中风险
+- [[bp-docker-start|docker start]] 🟡 中风险
+- [[bp-docker-stop|docker stop]] 🟡 中风险
 - [[bp-docker-compose|docker-compose]] 🟢 低风险
+
+## 容器编排/Docker高级
+
+共 2 个命令：
+
+- [[bp-docker-build-multi-stage|docker build (multi-stage)]] 🟢 低风险
+- [[bp-docker-compose|docker compose]] 🟡 中风险
 
 ## 容器编排/K8s Helm包管理
 
@@ -458,12 +752,11 @@ tags: ["best-practices", "production", "MOC"]
 
 ## 容器编排/K8s存储增强
 
-共 17 个命令：
+共 16 个命令：
 
 - [[bp-kubectl-cp|kubectl cp]] 🟠 高风险
 - [[bp-kubectl-delete-pv|kubectl delete pv]] 🔴 严重风险
 - [[bp-kubectl-delete-pvc|kubectl delete pvc]] 🔴 严重风险
-- [[bp-kubectl-exec-it|kubectl exec -it]] 🟡 中风险
 - [[bp-kubectl-get-csidrivers|kubectl get csidrivers]] 🟢 低风险
 - [[bp-kubectl-get-csinodes|kubectl get csinodes]] 🟢 低风险
 - [[bp-kubectl-get-csistoragecapacities|kubectl get csistoragecapacities]] 🟢 低风险
@@ -477,19 +770,6 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-kubectl-get-volumesnapshotcontent|kubectl get volumesnapshotcontent]] 🟢 低风险
 - [[bp-kubectl-patch-storageclass|kubectl patch storageclass]] 🟠 高风险
 - [[bp-kubectl-top-pvc|kubectl top pvc]] 🟢 低风险
-
-## 容器编排/K8s存储管理
-
-共 8 个命令：
-
-- [[bp-helm-install|helm install]] 🟠 高风险
-- [[bp-helm-list|helm list]] 🟢 低风险
-- [[bp-helm-repo-add|helm repo add]] 🟢 低风险
-- [[bp-helm-repo-update|helm repo update]] 🟢 低风险
-- [[bp-helm-status|helm status]] 🟢 低风险
-- [[bp-helm-template|helm template]] 🟢 低风险
-- [[bp-helm-uninstall|helm uninstall]] 🔴 严重风险
-- [[bp-helm-upgrade|helm upgrade]] 🟠 高风险
 
 ## 容器编排/K8s安全工具
 
@@ -516,6 +796,16 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-trivy-image|trivy image]] 🟢 低风险
 - [[bp-trivy-k8s|trivy k8s]] 🟢 低风险
 
+## 容器编排/K8s安全扩展
+
+共 5 个命令：
+
+- [[bp-checkov|checkov]] 🟢 低风险
+- [[bp-cosign|cosign]] 🟡 中风险
+- [[bp-grype|grype]] 🟢 低风险
+- [[bp-kube-hunter|kube-hunter]] 🟠 高风险
+- [[bp-kubescape|kubescape]] 🟢 低风险
+
 ## 容器编排/K8s容器运行时
 
 共 9 个命令：
@@ -529,6 +819,14 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-ctr-containers-list|ctr containers list]] 🟢 低风险
 - [[bp-ctr-images-list|ctr images list]] 🟢 低风险
 - [[bp-systemctl-status-containerd|systemctl status containerd]] 🟠 高风险
+
+## 容器编排/K8s开发工具
+
+共 3 个命令：
+
+- [[bp-helmfile|helmfile]] 🟠 高风险
+- [[bp-krew|krew]] 🟡 中风险
+- [[bp-kustomize|kustomize]] 🟢 低风险
 
 ## 容器编排/K8s开发调试
 
@@ -561,23 +859,18 @@ tags: ["best-practices", "production", "MOC"]
 
 ## 容器编排/K8s故障排查
 
-共 15 个命令：
+共 10 个命令：
 
 - [[bp-kubectl-api-resources|kubectl api-resources]] 🟢 低风险
 - [[bp-kubectl-api-versions|kubectl api-versions]] 🟢 低风险
-- [[bp-kubectl-auth-can-i|kubectl auth can-i]] 🟢 低风险
 - [[bp-kubectl-cluster-info|kubectl cluster-info]] 🟢 低风险
 - [[bp-kubectl-config-current-context|kubectl config current-context]] 🟡 中风险
 - [[bp-kubectl-debug|kubectl debug]] 🟡 中风险
 - [[bp-kubectl-describe-pod|kubectl describe pod]] 🟢 低风险
-- [[bp-kubectl-exec-it|kubectl exec -it]] 🟡 中风险
 - [[bp-kubectl-get-componentstatuses|kubectl get componentstatuses]] 🟢 低风险
 - [[bp-kubectl-get-events|kubectl get events]] 🟢 低风险
 - [[bp-kubectl-get-limitrange|kubectl get limitrange]] 🟢 低风险
 - [[bp-kubectl-get-resourcequota|kubectl get resourcequota]] 🟢 低风险
-- [[bp-kubectl-logs|kubectl logs]] 🟢 低风险
-- [[bp-kubectl-port-forward|kubectl port-forward]] 🟡 中风险
-- [[bp-kubectl-top|kubectl top]] 🟢 低风险
 
 ## 容器编排/K8s机器学习运维
 
@@ -648,7 +941,7 @@ tags: ["best-practices", "production", "MOC"]
 
 ## 容器编排/K8s网络插件
 
-共 21 个命令：
+共 19 个命令：
 
 - [[bp-calicoctl-apply|calicoctl apply]] 🟠 高风险
 - [[bp-calicoctl-delete-networkpolicy|calicoctl delete networkpolicy]] 🔴 严重风险
@@ -661,7 +954,6 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-istioctl-proxy-config|istioctl proxy-config]] 🟢 低风险
 - [[bp-istioctl-proxy-status|istioctl proxy-status]] 🟢 低风险
 - [[bp-istioctl-version|istioctl version]] 🟢 低风险
-- [[bp-kubectl-exec-it|kubectl exec -it]] 🟡 中风险
 - [[bp-kubectl-get-ciliumclusterwidenetworkpolicies|kubectl get ciliumclusterwidenetworkpolicies]] 🟢 低风险
 - [[bp-kubectl-get-ciliumnetworkpolicies|kubectl get ciliumnetworkpolicies]] 🟢 低风险
 - [[bp-kubectl-get-endpointslices|kubectl get endpointslices]] 🟢 低风险
@@ -670,13 +962,15 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-kubectl-get-ingress|kubectl get ingress]] 🟢 低风险
 - [[bp-kubectl-get-ingressclasses|kubectl get ingressclasses]] 🟢 低风险
 - [[bp-kubectl-get-tlsroutes|kubectl get tlsroutes]] 🟢 低风险
-- [[bp-kubectl-port-forward|kubectl port-forward]] 🟡 中风险
 
 ## 容器编排/K8s辅助工具
 
-共 5 个命令：
+共 8 个命令：
 
 - [[bp-k9s|k9s]] 🟡 中风险
+- [[bp-kubectl-neat|kubectl-neat]] 🟢 低风险
+- [[bp-kubectl-tree|kubectl-tree]] 🟢 低风险
+- [[bp-kubectl-who-can|kubectl-who-can]] 🟢 低风险
 - [[bp-kubectx|kubectx]] 🟠 高风险
 - [[bp-kubens|kubens]] 🟡 中风险
 - [[bp-popeye|popeye]] 🟢 低风险
@@ -755,6 +1049,88 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-kubectl-scale|kubectl scale]] 🟠 高风险
 - [[bp-kubectl-top|kubectl top]] 🟢 低风险
 
+## 容器编排/云原生扩展
+
+共 29 个命令：
+
+- [[bp-atlantis|atlantis]] 🟠 高风险
+- [[bp-buildkit|buildkit]] 🟡 中风险
+- [[bp-cert-manager|cert-manager]] 🟡 中风险
+- [[bp-clusterctl|clusterctl]] 🟠 高风险
+- [[bp-consul|consul]] 🟡 中风险
+- [[bp-crossplane|crossplane]] 🟡 中风险
+- [[bp-docker-buildx|docker buildx]] 🟡 中风险
+- [[bp-docker-context|docker context]] 🟢 低风险
+- [[bp-docker-network|docker network]] 🟢 低风险
+- [[bp-docker-system|docker system]] 🟠 高风险
+- [[bp-docker-volume|docker volume]] 🟠 高风险
+- [[bp-envoy|envoy]] 🟡 中风险
+- [[bp-external-dns|external-dns]] 🟠 高风险
+- [[bp-img|img]] 🟡 中风险
+- [[bp-infracost|infracost]] 🟢 低风险
+- [[bp-jaeger-cli|jaeger-cli]] 🟢 低风险
+- [[bp-k0s|k0s]] 🟡 中风险
+- [[bp-k3s|k3s]] 🟡 中风险
+- [[bp-kaniko|kaniko]] 🟡 中风险
+- [[bp-linkerd|linkerd]] 🟡 中风险
+- [[bp-loki-cli|loki-cli]] 🟢 低风险
+- [[bp-microk8s|microk8s]] 🟡 中风险
+- [[bp-nomad|nomad]] 🟡 中风险
+- [[bp-oc|oc]] 🟡 中风险
+- [[bp-promtail|promtail]] 🟡 中风险
+- [[bp-snyk|snyk]] 🟢 低风险
+- [[bp-tempo-cli|tempo-cli]] 🟢 低风险
+- [[bp-tfsec|tfsec]] 🟢 低风险
+- [[bp-vault|vault]] 🔴 严重风险
+
+## 容器编排/云原生扩展二
+
+共 26 个命令：
+
+- [[bp-argo-rollouts|argo-rollouts]] 🟠 高风险
+- [[bp-backstage|backstage]] 🟢 低风险
+- [[bp-certbot|certbot]] 🟡 中风险
+- [[bp-containerd|containerd]] 🟡 中风险
+- [[bp-crictl|crictl]] 🟡 中风险
+- [[bp-ctr|ctr]] 🟡 中风险
+- [[bp-dapr|dapr]] 🟡 中风险
+- [[bp-devspace|devspace]] 🟡 中风险
+- [[bp-esoctl|esoctl]] 🟡 中风险
+- [[bp-firecracker|firecracker]] 🟡 中风险
+- [[bp-flagger|flagger]] 🟠 高风险
+- [[bp-hubble|hubble]] 🟢 低风险
+- [[bp-incus|incus]] 🟡 中风险
+- [[bp-kata-runtime|kata-runtime]] 🟡 中风险
+- [[bp-keptn|keptn]] 🟡 中风险
+- [[bp-kn|kn]] 🟡 中风险
+- [[bp-kubeseal|kubeseal]] 🟢 低风险
+- [[bp-longhornctl|longhornctl]] 🟠 高风险
+- [[bp-lxc|lxc]] 🟡 中风险
+- [[bp-lxd|lxd]] 🟡 中风险
+- [[bp-okteto|okteto]] 🟡 中风险
+- [[bp-rookctl|rookctl]] 🟠 高风险
+- [[bp-sops|sops]] 🟠 高风险
+- [[bp-subctl|subctl]] 🟠 高风险
+- [[bp-telepresence|telepresence]] 🟠 高风险
+- [[bp-vcluster|vcluster]] 🟡 中风险
+
+## 容器编排/容器替代方案
+
+共 4 个命令：
+
+- [[bp-buildah|buildah]] 🟢 低风险
+- [[bp-nerdctl|nerdctl]] 🟡 中风险
+- [[bp-podman|podman]] 🟡 中风险
+- [[bp-skopeo|skopeo]] 🟡 中风险
+
+## 容器编排/本地K8s
+
+共 3 个命令：
+
+- [[bp-k3d|k3d]] 🟡 中风险
+- [[bp-kind|kind]] 🟡 中风险
+- [[bp-minikube|minikube]] 🟡 中风险
+
 ## 容器编排/消息队列
 
 共 1 个命令：
@@ -781,6 +1157,101 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-yum-remove|yum remove]] 🟠 高风险
 - [[bp-yum-search|yum search]] 🟢 低风险
 - [[bp-yum-update|yum update]] 🟡 中风险
+
+## 操作系统/Linux扩展命令
+
+共 36 个命令：
+
+- [[bp-at|at]] 🟠 高风险
+- [[bp-blkid|blkid]] 🟢 低风险
+- [[bp-bzip2|bzip2]] 🟢 低风险
+- [[bp-chmod|chmod]] 🟠 高风险
+- [[bp-chown|chown]] 🟠 高风险
+- [[bp-date|date]] 🟡 中风险
+- [[bp-env|env]] 🟢 低风险
+- [[bp-fdisk|fdisk]] 🔴 严重风险
+- [[bp-groupadd|groupadd]] 🟡 中风险
+- [[bp-groupdel|groupdel]] 🟡 中风险
+- [[bp-hostnamectl|hostnamectl]] 🟢 低风险
+- [[bp-journalctl|journalctl]] 🟢 低风险
+- [[bp-ln|ln]] 🟡 中风险
+- [[bp-locale|locale]] 🟢 低风险
+- [[bp-lsblk|lsblk]] 🟢 低风险
+- [[bp-mkdir|mkdir]] 🟢 低风险
+- [[bp-mount|mount]] 🟠 高风险
+- [[bp-nice|nice]] 🟢 低风险
+- [[bp-parted|parted]] 🔴 严重风险
+- [[bp-passwd|passwd]] 🟠 高风险
+- [[bp-renice|renice]] 🟡 中风险
+- [[bp-su|su]] 🟡 中风险
+- [[bp-tar|tar]] 🟡 中风险
+- [[bp-timeout|timeout]] 🟢 低风险
+- [[bp-touch|touch]] 🟢 低风险
+- [[bp-ulimit|ulimit]] 🟡 中风险
+- [[bp-umask|umask]] 🟡 中风险
+- [[bp-umount|umount]] 🟠 高风险
+- [[bp-uname|uname]] 🟢 低风险
+- [[bp-unzip|unzip]] 🟡 中风险
+- [[bp-useradd|useradd]] 🟡 中风险
+- [[bp-userdel|userdel]] 🟠 高风险
+- [[bp-usermod|usermod]] 🟡 中风险
+- [[bp-visudo|visudo]] 🔴 严重风险
+- [[bp-xz|xz]] 🟢 低风险
+- [[bp-zip|zip]] 🟢 低风险
+
+## 操作系统/Linux核心
+
+共 37 个命令：
+
+- [[bp-anacron|anacron]] 🟡 中风险
+- [[bp-apropos|apropos]] 🟢 低风险
+- [[bp-bridge|bridge]] 🟡 中风险
+- [[bp-cryptsetup|cryptsetup]] 🔴 严重风险
+- [[bp-dmesg|dmesg]] 🟢 低风险
+- [[bp-dmidecode|dmidecode]] 🟢 低风险
+- [[bp-file|file]] 🟢 低风险
+- [[bp-fsck|fsck]] 🔴 严重风险
+- [[bp-getent|getent]] 🟢 低风险
+- [[bp-hdparm|hdparm]] 🟡 中风险
+- [[bp-iconv|iconv]] 🟢 低风险
+- [[bp-ip|ip]] 🟠 高风险
+- [[bp-ipset|ipset]] 🟡 中风险
+- [[bp-iptables|iptables]] 🟠 高风险
+- [[bp-lscpu|lscpu]] 🟢 低风险
+- [[bp-lsmem|lsmem]] 🟢 低风险
+- [[bp-lspci|lspci]] 🟢 低风险
+- [[bp-lsusb|lsusb]] 🟢 低风险
+- [[bp-lvcreate|lvcreate]] 🟠 高风险
+- [[bp-lvs|lvs]] 🟢 低风险
+- [[bp-man|man]] 🟢 低风险
+- [[bp-md5sum|md5sum]] 🟢 低风险
+- [[bp-mkfs|mkfs]] 🔴 严重风险
+- [[bp-netplan|netplan]] 🟠 高风险
+- [[bp-nftables|nftables]] 🟠 高风险
+- [[bp-nmcli|nmcli]] 🟡 中风险
+- [[bp-pvcreate|pvcreate]] 🔴 严重风险
+- [[bp-pvs|pvs]] 🟢 低风险
+- [[bp-resolvectl|resolvectl]] 🟢 低风险
+- [[bp-sha256sum|sha256sum]] 🟢 低风险
+- [[bp-sysctl|sysctl]] 🟠 高风险
+- [[bp-tc|tc]] 🟠 高风险
+- [[bp-tune2fs|tune2fs]] 🟠 高风险
+- [[bp-vgcreate|vgcreate]] 🟠 高风险
+- [[bp-vgs|vgs]] 🟢 低风险
+- [[bp-whatis|whatis]] 🟢 低风险
+- [[bp-xxd|xxd]] 🟢 低风险
+
+## 操作系统/Systemd服务管理
+
+共 7 个命令：
+
+- [[bp-loginctl|loginctl]] 🟡 中风险
+- [[bp-systemctl|systemctl]] 🟡 中风险
+- [[bp-systemctl-cat|systemctl cat]] 🟢 低风险
+- [[bp-systemctl-edit|systemctl edit]] 🟡 中风险
+- [[bp-systemctl-timer|systemctl timer]] 🟢 低风险
+- [[bp-systemd-analyze|systemd-analyze]] 🟢 低风险
+- [[bp-systemd-run|systemd-run]] 🟡 中风险
 
 ## 操作系统/Ubuntu系统命令
 
@@ -809,22 +1280,30 @@ tags: ["best-practices", "production", "MOC"]
 
 ## 操作系统/通用Linux命令
 
-共 28 个命令：
+共 44 个命令：
 
 - [[bp-awk|awk]] 🟢 低风险
 - [[bp-cat|cat]] 🟢 低风险
 - [[bp-cd|cd]] 🟢 低风险
 - [[bp-cp|cp]] 🟡 中风险
+- [[bp-crontab|crontab]] 🟠 高风险
+- [[bp-df|df]] 🟢 低风险
+- [[bp-du|du]] 🟢 低风险
 - [[bp-egrep|egrep]] 🟢 低风险
 - [[bp-export|export]] 🟢 低风险
 - [[bp-fgrep|fgrep]] 🟢 低风险
 - [[bp-find|find]] 🟠 高风险
+- [[bp-free|free]] 🟢 低风险
 - [[bp-grep|grep]] 🟢 低风险
+- [[bp-gzip|gzip]] 🟡 中风险
 - [[bp-head|head]] 🟢 低风险
-- [[bp-kill|kill]] 🟢 低风险
+- [[bp-htop|htop]] 🟢 低风险
+- [[bp-jq|jq]] 🟢 低风险
+- [[bp-kill|kill]] 🟠 高风险
 - [[bp-less|less]] 🟢 低风险
 - [[bp-locate|locate]] 🟢 低风险
 - [[bp-ls|ls]] 🟢 低风险
+- [[bp-lsof|lsof]] 🟢 低风险
 - [[bp-more|more]] 🟢 低风险
 - [[bp-mv|mv]] 🟡 中风险
 - [[bp-pwd|pwd]] 🟢 低风险
@@ -832,12 +1311,20 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-rm|rm]] 🔴 严重风险
 - [[bp-rmdir|rmdir]] 🟢 低风险
 - [[bp-rsync|rsync]] 🟢 低风险
+- [[bp-scp|scp]] 🟡 中风险
 - [[bp-sed|sed]] 🟢 低风险
 - [[bp-sh|sh]] 🟢 低风险
+- [[bp-ssh|ssh]] 🟡 中风险
+- [[bp-sudo|sudo]] 🟠 高风险
 - [[bp-tail|tail]] 🟢 低风险
+- [[bp-timedatectl|timedatectl]] 🟡 中风险
+- [[bp-tmux|tmux]] 🟢 低风险
 - [[bp-trash|trash]] 🟢 低风险
+- [[bp-uptime|uptime]] 🟢 低风险
 - [[bp-whereis|whereis]] 🟢 低风险
 - [[bp-which|which]] 🟢 低风险
+- [[bp-xargs|xargs]] 🟠 高风险
+- [[bp-yq|yq]] 🟠 高风险
 - [[bp-zsh|zsh]] 🟢 低风险
 
 ## 数据库工具/MySQL工具
@@ -852,6 +1339,17 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-mysqldump|mysqldump]] 🟡 中风险
 - [[bp-mysqlimport|mysqlimport]] 🟠 高风险
 - [[bp-mysqlshow|mysqlshow]] 🟢 低风险
+
+## 数据库工具/NoSQL
+
+共 6 个命令：
+
+- [[bp-cqlsh|cqlsh]] 🟡 中风险
+- [[bp-cypher-shell|cypher-shell]] 🟡 中风险
+- [[bp-mongodump|mongodump]] 🟡 中风险
+- [[bp-mongoexport|mongoexport]] 🟡 中风险
+- [[bp-mongosh|mongosh]] 🟡 中风险
+- [[bp-sqlite3|sqlite3]] 🟢 低风险
 
 ## 数据库工具/PostgreSQL工具
 
@@ -884,6 +1382,68 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-redis-sentinel|redis-sentinel]] 🟠 高风险
 - [[bp-redis-server|redis-server]] 🟠 高风险
 
+## 数据库工具/扩展命令
+
+共 15 个命令：
+
+- [[bp-arangosh|arangosh]] 🟡 中风险
+- [[bp-databricks|databricks]] 🟡 中风险
+- [[bp-db2|db2]] 🟡 中风险
+- [[bp-influxd|influxd]] 🟡 中风险
+- [[bp-memcached|memcached]] 🟡 中风险
+- [[bp-mydumper|mydumper]] 🟢 低风险
+- [[bp-myloader|myloader]] 🟠 高风险
+- [[bp-pt-query-digest|pt-query-digest]] 🟢 低风险
+- [[bp-rethinkdb|rethinkdb]] 🟡 中风险
+- [[bp-scylla|scylla]] 🟡 中风险
+- [[bp-snowsql|snowsql]] 🟢 低风险
+- [[bp-sqlcmd|sqlcmd]] 🟡 中风险
+- [[bp-sqlplus|sqlplus]] 🟠 高风险
+- [[bp-xtrabackup|xtrabackup]] 🟡 中风险
+- [[bp-yugabyted|yugabyted]] 🟠 高风险
+
+## 数据库工具/扩展工具
+
+共 12 个命令：
+
+- [[bp-cassandra-stress|cassandra-stress]] 🟠 高风险
+- [[bp-cockroach|cockroach]] 🟠 高风险
+- [[bp-mongoimport|mongoimport]] 🟡 中风险
+- [[bp-mongorestore|mongorestore]] 🟠 高风险
+- [[bp-mongostat|mongostat]] 🟢 低风险
+- [[bp-mongotop|mongotop]] 🟢 低风险
+- [[bp-mysqlslap|mysqlslap]] 🟠 高风险
+- [[bp-neo4j-admin|neo4j-admin]] 🟠 高风险
+- [[bp-pgbench|pgbench]] 🟠 高风险
+- [[bp-tidb-ctl|tidb-ctl]] 🟡 中风险
+- [[bp-ycqlsh|ycqlsh]] 🟢 低风险
+- [[bp-ysqlsh|ysqlsh]] 🟢 低风险
+
+## 数据库工具/时序与OLAP
+
+共 2 个命令：
+
+- [[bp-clickhouse-client|clickhouse-client]] 🟡 中风险
+- [[bp-influx|influx]] 🟡 中风险
+
+## 数据库工具/运维操作
+
+共 3 个命令：
+
+- [[bp-mysql-tuning|mysql (tuning)]] 🟢 低风险
+- [[bp-psql-operations|psql (operations)]] 🟡 中风险
+- [[bp-redis-cli-advanced|redis-cli (advanced)]] 🟠 高风险
+
+## 构建工具/CMake
+
+共 5 个命令：
+
+- [[bp-bazel|bazel]] 🟢 低风险
+- [[bp-conan|conan]] 🟢 低风险
+- [[bp-ctest|ctest]] 🟢 低风险
+- [[bp-just|just]] 🟡 中风险
+- [[bp-ninja|ninja]] 🟢 低风险
+
 ## 构建工具/Gradle
 
 共 3 个命令：
@@ -909,6 +1469,17 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-mvn-clean|mvn clean]] 🟠 高风险
 - [[bp-mvn-dependency|mvn dependency]] 🟢 低风险
 
+## 构建工具/包管理
+
+共 6 个命令：
+
+- [[bp-bun|bun]] 🟢 低风险
+- [[bp-npm|npm]] 🟢 低风险
+- [[bp-pnpm|pnpm]] 🟢 低风险
+- [[bp-poetry|poetry]] 🟢 低风险
+- [[bp-uv|uv]] 🟢 低风险
+- [[bp-uv-python|uv python]] 🟢 低风险
+
 ## 版本控制/Git命令
 
 共 17 个命令：
@@ -922,14 +1493,28 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-git-fetch|git fetch]] 🟢 低风险
 - [[bp-git-init|git init]] 🟢 低风险
 - [[bp-git-log|git log]] 🟢 低风险
-- [[bp-git-merge|git merge]] 🟢 低风险
+- [[bp-git-merge|git merge]] 🟡 中风险
 - [[bp-git-pull|git pull]] 🟢 低风险
 - [[bp-git-push|git push]] 🟠 高风险
-- [[bp-git-rebase|git rebase]] 🟢 低风险
+- [[bp-git-rebase|git rebase]] 🟡 中风险
 - [[bp-git-restore|git restore]] 🟢 低风险
 - [[bp-git-show|git show]] 🟢 低风险
 - [[bp-git-status|git status]] 🟢 低风险
 - [[bp-git-switch|git switch]] 🟢 低风险
+
+## 版本控制/Git高级操作
+
+共 9 个命令：
+
+- [[bp-gh-issue|gh issue]] 🟢 低风险
+- [[bp-gh-pr|gh pr]] 🟡 中风险
+- [[bp-gh-release|gh release]] 🟡 中风险
+- [[bp-git-bisect|git bisect]] 🟢 低风险
+- [[bp-git-cherry-pick|git cherry-pick]] 🟡 中风险
+- [[bp-git-reflog|git reflog]] 🟡 中风险
+- [[bp-git-stash|git stash]] 🟡 中风险
+- [[bp-git-submodule|git submodule]] 🟡 中风险
+- [[bp-git-worktree|git worktree]] 🟢 低风险
 
 ## 版本控制/SVN命令
 
@@ -950,6 +1535,125 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-svn-switch|svn switch]] 🟡 中风险
 - [[bp-svn-update|svn update]] 🟡 中风险
 
+## 硬件/GPU与加速器
+
+共 5 个命令：
+
+- [[bp-clinfo|clinfo]] 🟢 低风险
+- [[bp-intel-gpu-top|intel-gpu-top]] 🟢 低风险
+- [[bp-nvidia-smi|nvidia-smi]] 🟡 中风险
+- [[bp-radeontop|radeontop]] 🟢 低风险
+- [[bp-rocm-smi|rocm-smi]] 🟡 中风险
+
+## 硬件/传感器与电源
+
+共 6 个命令：
+
+- [[bp-hddtemp|hddtemp]] 🟢 低风险
+- [[bp-powertop|powertop]] 🟡 中风险
+- [[bp-sensors|sensors]] 🟢 低风险
+- [[bp-sensors-detect|sensors-detect]] 🟡 中风险
+- [[bp-thermald|thermald]] 🟡 中风险
+- [[bp-tlp|tlp]] 🟡 中风险
+
+## 硬件/固件与UEFI
+
+共 7 个命令：
+
+- [[bp-biosdecode|biosdecode]] 🟢 低风险
+- [[bp-efibootmgr|efibootmgr]] 🔴 严重风险
+- [[bp-efivar|efivar]] 🟠 高风险
+- [[bp-flashrom|flashrom]] 🔴 严重风险
+- [[bp-fwupd|fwupd]] 🟠 高风险
+- [[bp-mokutil|mokutil]] 🟠 高风险
+- [[bp-vpddecode|vpddecode]] 🟢 低风险
+
+## 硬件/存储与RAID
+
+共 8 个命令：
+
+- [[bp-bonnie|bonnie++]] 🟠 高风险
+- [[bp-fio|fio]] 🟠 高风险
+- [[bp-lsscsi|lsscsi]] 🟢 低风险
+- [[bp-mdadm|mdadm]] 🔴 严重风险
+- [[bp-nvme|nvme]] 🟠 高风险
+- [[bp-partprobe|partprobe]] 🟡 中风险
+- [[bp-sg-scan|sg_scan]] 🟢 低风险
+- [[bp-smartctl|smartctl]] 🟢 低风险
+
+## 硬件/嵌入式与IoT
+
+共 12 个命令：
+
+- [[bp-avrdude|avrdude]] 🟡 中风险
+- [[bp-dfu-util|dfu-util]] 🟡 中风险
+- [[bp-esptool|esptool]] 🟡 中风险
+- [[bp-gpio|gpio]] 🟡 中风险
+- [[bp-i2cdetect|i2cdetect]] 🟢 低风险
+- [[bp-i2cget|i2cget]] 🟢 低风险
+- [[bp-i2cset|i2cset]] 🟡 中风险
+- [[bp-minicom|minicom]] 🟢 低风险
+- [[bp-openocd|openocd]] 🟡 中风险
+- [[bp-picocom|picocom]] 🟢 低风险
+- [[bp-raspi-gpio|raspi-gpio]] 🟡 中风险
+- [[bp-st-flash|st-flash]] 🟡 中风险
+
+## 硬件/性能与调度
+
+共 11 个命令：
+
+- [[bp-cgexec|cgexec]] 🟡 中风险
+- [[bp-chrt|chrt]] 🟠 高风险
+- [[bp-cpupower|cpupower]] 🟡 中风险
+- [[bp-cset|cset]] 🟡 中风险
+- [[bp-ionice|ionice]] 🟢 低风险
+- [[bp-perf|perf]] 🟢 低风险
+- [[bp-s-tui|s-tui]] 🟡 中风险
+- [[bp-stress|stress]] 🟠 高风险
+- [[bp-stress-ng|stress-ng]] 🟠 高风险
+- [[bp-taskset|taskset]] 🟡 中风险
+- [[bp-turbostat|turbostat]] 🟢 低风险
+
+## 硬件/系统信息
+
+共 7 个命令：
+
+- [[bp-hardinfo|hardinfo]] 🟢 低风险
+- [[bp-hwloc|hwloc]] 🟢 低风险
+- [[bp-inxi|inxi]] 🟢 低风险
+- [[bp-lshw|lshw]] 🟢 低风险
+- [[bp-lstopo|lstopo]] 🟢 低风险
+- [[bp-numactl|numactl]] 🟡 中风险
+- [[bp-numastat|numastat]] 🟢 低风险
+
+## 硬件/网络硬件
+
+共 5 个命令：
+
+- [[bp-bluetoothctl|bluetoothctl]] 🟢 低风险
+- [[bp-ethtool|ethtool]] 🟡 中风险
+- [[bp-iw|iw]] 🟡 中风险
+- [[bp-iwconfig|iwconfig]] 🟡 中风险
+- [[bp-rfkill|rfkill]] 🟠 高风险
+
+## 硬件/远程带外管理
+
+共 3 个命令：
+
+- [[bp-ipmicfg|ipmicfg]] 🟠 高风险
+- [[bp-ipmitool|ipmitool]] 🟠 高风险
+- [[bp-redfish|redfish]] 🟡 中风险
+
+## 系统诊断/扩展工具
+
+共 5 个命令：
+
+- [[bp-bcc|bcc]] 🟡 中风险
+- [[bp-bpftrace|bpftrace]] 🟡 中风险
+- [[bp-ltrace|ltrace]] 🟢 低风险
+- [[bp-strace|strace]] 🟢 低风险
+- [[bp-sysdig|sysdig]] 🟡 中风险
+
 ## 编程语言/Go工具链
 
 共 8 个命令：
@@ -957,11 +1661,23 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-go-build|go build]] 🟡 中风险
 - [[bp-go-fmt|go fmt]] 🟡 中风险
 - [[bp-go-get|go get]] 🟡 中风险
-- [[bp-go-install|go install]] 🟢 低风险
+- [[bp-go-install|go install]] 🟡 中风险
 - [[bp-go-mod|go mod]] 🟡 中风险
 - [[bp-go-run|go run]] 🟢 低风险
 - [[bp-go-test|go test]] 🟢 低风险
 - [[bp-go-vet|go vet]] 🟢 低风险
+
+## 编程语言/Go工具链扩展
+
+共 7 个命令：
+
+- [[bp-dlv|dlv]] 🟢 低风险
+- [[bp-go-generate|go generate]] 🟡 中风险
+- [[bp-go-tool-pprof|go tool pprof]] 🟢 低风险
+- [[bp-golangci-lint|golangci-lint]] 🟢 低风险
+- [[bp-gopls|gopls]] 🟢 低风险
+- [[bp-mockgen|mockgen]] 🟢 低风险
+- [[bp-staticcheck|staticcheck]] 🟢 低风险
 
 ## 编程语言/Java工具链
 
@@ -1003,6 +1719,16 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-python|python]] 🟢 低风险
 - [[bp-virtualenv|virtualenv]] 🟡 中风险
 
+## 编程语言/Python工具链扩展
+
+共 5 个命令：
+
+- [[bp-bandit|bandit]] 🟢 低风险
+- [[bp-black|black]] 🟢 低风险
+- [[bp-mypy|mypy]] 🟢 低风险
+- [[bp-ruff|ruff]] 🟢 低风险
+- [[bp-tox|tox]] 🟢 低风险
+
 ## 编程语言/Rust工具链
 
 共 5 个命令：
@@ -1012,6 +1738,20 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-cargo-fmt|cargo fmt]] 🟢 低风险
 - [[bp-rustc|rustc]] 🟢 低风险
 - [[bp-rustup|rustup]] 🟡 中风险
+
+## 编程语言/扩展工具链
+
+共 9 个命令：
+
+- [[bp-bundle|bundle]] 🟢 低风险
+- [[bp-dotnet|dotnet]] 🟢 低风险
+- [[bp-gem|gem]] 🟢 低风险
+- [[bp-groovy|groovy]] 🟢 低风险
+- [[bp-kotlin|kotlin]] 🟢 低风险
+- [[bp-php|php]] 🟢 低风险
+- [[bp-ruby|ruby]] 🟢 低风险
+- [[bp-sbt|sbt]] 🟢 低风险
+- [[bp-scala|scala]] 🟢 低风险
 
 ## 网络工具/DNS工具
 
@@ -1030,6 +1770,89 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-postman|postman]] 🟢 低风险
 - [[bp-siege|siege]] 🟠 高风险
 - [[bp-wget|wget]] 🟡 中风险
+
+## 网络工具/基础设施
+
+共 14 个命令：
+
+- [[bp-caddy|caddy]] 🟡 中风险
+- [[bp-dnsmasq|dnsmasq]] 🟡 中风险
+- [[bp-haproxy|haproxy]] 🟡 中风险
+- [[bp-ifconfig|ifconfig]] 🟡 中风险
+- [[bp-named-checkconf|named-checkconf]] 🟢 低风险
+- [[bp-nginx|nginx]] 🟡 中风险
+- [[bp-nsupdate|nsupdate]] 🟠 高风险
+- [[bp-openvpn|openvpn]] 🟡 中风险
+- [[bp-rndc|rndc]] 🟡 中风险
+- [[bp-route|route]] 🟠 高风险
+- [[bp-sshuttle|sshuttle]] 🟡 中风险
+- [[bp-traefik|traefik]] 🟡 中风险
+- [[bp-unbound-control|unbound-control]] 🟡 中风险
+- [[bp-wg|wg]] 🟡 中风险
+
+## 网络工具/安全扫描
+
+共 5 个命令：
+
+- [[bp-age|age]] 🟠 高风险
+- [[bp-conftest|conftest]] 🟢 低风险
+- [[bp-opa|opa]] 🟢 低风险
+- [[bp-syft|syft]] 🟢 低风险
+- [[bp-trivy|trivy]] 🟢 低风险
+
+## 网络工具/性能压测
+
+共 7 个命令：
+
+- [[bp-iperf3|iperf3]] 🟡 中风险
+- [[bp-k6|k6]] 🟠 高风险
+- [[bp-mtr|mtr]] 🟢 低风险
+- [[bp-oha|oha]] 🟠 高风险
+- [[bp-vegeta|vegeta]] 🟠 高风险
+- [[bp-wrk|wrk]] 🟠 高风险
+- [[bp-wrk2|wrk2]] 🟠 高风险
+
+## 网络工具/扩展工具
+
+共 15 个命令：
+
+- [[bp-amass|amass]] 🟡 中风险
+- [[bp-artillery|artillery]] 🟠 高风险
+- [[bp-dnsrecon|dnsrecon]] 🟡 中风险
+- [[bp-dog|dog]] 🟢 低风险
+- [[bp-fortio|fortio]] 🟠 高风险
+- [[bp-hping3|hping3]] 🔴 严重风险
+- [[bp-iftop|iftop]] 🟢 低风险
+- [[bp-locust|locust]] 🟠 高风险
+- [[bp-ngrep|ngrep]] 🟠 高风险
+- [[bp-proxychains|proxychains]] 🟡 中风险
+- [[bp-socat|socat]] 🟡 中风险
+- [[bp-tcpflow|tcpflow]] 🟠 高风险
+- [[bp-telnet|telnet]] 🟡 中风险
+- [[bp-termshark|termshark]] 🟠 高风险
+- [[bp-tshark|tshark]] 🟠 高风险
+
+## 网络工具/服务网格
+
+共 5 个命令：
+
+- [[bp-istioctl|istioctl]] 🟠 高风险
+- [[bp-istioctl-dashboard|istioctl dashboard]] 🟢 低风险
+- [[bp-istioctl-experimental|istioctl experimental]] 🟡 中风险
+- [[bp-linkerd-diagnostics|linkerd diagnostics]] 🟢 低风险
+- [[bp-linkerd-viz|linkerd viz]] 🟢 低风险
+
+## 网络工具/网络安全
+
+共 7 个命令：
+
+- [[bp-httpx|httpx]] 🟡 中风险
+- [[bp-masscan|masscan]] 🔴 严重风险
+- [[bp-mitmproxy|mitmproxy]] 🟠 高风险
+- [[bp-nc|nc]] 🟡 中风险
+- [[bp-nmap|nmap]] 🟠 高风险
+- [[bp-nuclei|nuclei]] 🟠 高风险
+- [[bp-subfinder|subfinder]] 🟡 中风险
 
 ## 网络工具/网络诊断
 
@@ -1058,6 +1881,15 @@ tags: ["best-practices", "production", "MOC"]
 - [[bp-thread|thread]] 🟢 低风险
 - [[bp-trace|trace]] 🟡 中风险
 - [[bp-watch|watch]] 🟡 中风险
+
+## 诊断工具/性能分析
+
+共 4 个命令：
+
+- [[bp-async-profiler|async-profiler]] 🟢 低风险
+- [[bp-flamegraph|flamegraph]] 🟢 低风险
+- [[bp-perf-script|perf script]] 🟢 低风险
+- [[bp-py-spy|py-spy]] 🟢 低风险
 
 ## 诊断工具/系统诊断
 

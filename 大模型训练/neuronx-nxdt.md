@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -64,8 +64,8 @@ neuronx-nxdt --help
 
 ## 关联命令
 
-- [[deepspeed]]
-- [[megatron-lm]]
+- [[deepspeed|deepspeed]]
+- [[megatron-lm|megatron-lm]]
 
 ## 风险提示
 
@@ -74,6 +74,10 @@ neuronx-nxdt --help
 ## 参考链接
 
 - [https://aws.amazon.com/machine-learning/trainium/](https://aws.amazon.com/machine-learning/trainium/)
+
+## 最佳实践
+
+[[bp-neuronx-nxdt|neuronx-nxdt 生产环境最佳实践]]
 
 ## 所属维度
 

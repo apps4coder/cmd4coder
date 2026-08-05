@@ -77,6 +77,10 @@ python json_gen.py --schema schema.json --model gpt-4
 
 - [https://github.com/guidance-ai/guidance](https://github.com/guidance-ai/guidance)
 
+## 最佳实践
+
+[[bp-guidance|guidance 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

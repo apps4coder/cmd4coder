@@ -1,12 +1,12 @@
 ---
 title: "生产环境最佳实践 — 总索引"
-created: "2026-07-28"
+created: "2026-07-29"
 tags: ["best-practices", "production", "MOC"]
 ---
 
 # 生产环境最佳实践 — 总索引
 
-> 共覆盖 **1262** 个命令的生产环境最佳实践，按 **127** 个分类组织。
+> 共覆盖 **1261** 个命令的生产环境最佳实践，按 **127** 个分类组织。
 
 ---
 
@@ -1504,14 +1504,13 @@ tags: ["best-practices", "production", "MOC"]
 
 ## 版本控制/Git高级操作
 
-共 10 个命令：
+共 9 个命令：
 
 - [[bp-gh-issue|gh issue]] 🟢 低风险
 - [[bp-gh-pr|gh pr]] 🟡 中风险
 - [[bp-gh-release|gh release]] 🟡 中风险
 - [[bp-git-bisect|git bisect]] 🟢 低风险
 - [[bp-git-cherry-pick|git cherry-pick]] 🟡 中风险
-- [[bp-git-lfs|git lfs]] 🟡 中风险
 - [[bp-git-reflog|git reflog]] 🟡 中风险
 - [[bp-git-stash|git stash]] 🟡 中风险
 - [[bp-git-submodule|git submodule]] 🟡 中风险

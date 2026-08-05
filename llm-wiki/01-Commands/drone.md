@@ -87,6 +87,10 @@ drone exec --pipeline build
 
 > ⚠️ **LOW**: 查看操作无风险，restart 消耗资源
 
+## 最佳实践
+
+[[bp-drone|drone 生产环境最佳实践]]
+
 ## 所属维度
 
 [[平台工具-MOC|CI-CD/平台工具]]

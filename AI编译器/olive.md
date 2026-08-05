@@ -77,6 +77,10 @@ olive run --config quantize_config.json
 
 - [https://microsoft.github.io/Olive/](https://microsoft.github.io/Olive/)
 
+## 最佳实践
+
+[[bp-olive|olive 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI编译器-MOC|AI基础设施/AI编译器]]

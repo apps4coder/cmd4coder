@@ -70,6 +70,10 @@ sudo powertop --auto-tune
 
 > ⚠️ **MEDIUM**: --auto-tune 会修改设备省电设置，可能影响性能或外设
 
+## 最佳实践
+
+[[bp-powertop|powertop 生产环境最佳实践]]
+
 ## 所属维度
 
 [[传感器与电源-MOC|硬件/传感器与电源]]

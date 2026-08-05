@@ -84,6 +84,10 @@ kedro viz run
 
 - [https://docs.kedro.org/en/stable/development/commands_reference.html](https://docs.kedro.org/en/stable/development/commands_reference.html)
 
+## 最佳实践
+
+[[bp-kedro|kedro 生产环境最佳实践]]
+
 ## 所属维度
 
 [[MLOps平台-MOC|AI基础设施/MLOps平台]]

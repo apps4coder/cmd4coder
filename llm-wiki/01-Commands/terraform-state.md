@@ -82,6 +82,10 @@ terraform state rm aws_instance.orphan
 
 > ⚠️ **HIGH**: state rm 导致资源脱离管理，state mv 错误可能丢失追踪
 
+## 最佳实践
+
+[[bp-terraform-state|terraform state 生产环境最佳实践]]
+
 ## 所属维度
 
 [[配置管理-MOC|云平台/配置管理]]

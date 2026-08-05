@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/rag-infra.yaml"
+  "source_file": "tools/cmd/data/ai/rag-infra.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python -c "from llama_parse import LlamaParse; help(LlamaParse.load_data)"
 
 ## 关联命令
 
-- [[unstructured]]
-- [[docling]]
+- [[unstructured|unstructured]]
+- [[docling|docling]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python -c "from llama_parse import LlamaParse; help(LlamaParse.load_data)"
 ## 参考链接
 
 - [https://docs.cloud.llamaindex.ai/](https://docs.cloud.llamaindex.ai/)
+
+## 最佳实践
+
+[[bp-llamaparse|llamaparse 生产环境最佳实践]]
 
 ## 所属维度
 

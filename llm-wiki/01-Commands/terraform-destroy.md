@@ -68,6 +68,12 @@ terraform destroy -target=kubernetes_namespace.example
 
 > ⚠️ **CRITICAL**: Permanently deletes all managed infrastructure
 
+> ⚠️ **CRITICAL**: Cannot be undone; backup data before destroying
+
+## 最佳实践
+
+[[bp-terraform-destroy|terraform destroy 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

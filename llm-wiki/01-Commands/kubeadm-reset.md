@@ -60,6 +60,12 @@ kubeadm reset -f
 
 > ⚠️ **CRITICAL**: Removes all Kubernetes components and data from node
 
+> ⚠️ **CRITICAL**: Cannot be undone; ensure node is properly drained first
+
+## 最佳实践
+
+[[bp-kubeadm-reset|kubeadm reset 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cluster Management-MOC|Kubernetes Cluster Management]]

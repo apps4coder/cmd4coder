@@ -62,6 +62,10 @@ sudo timedatectl set-timezone Asia/Shanghai
 
 > ⚠️ **MEDIUM**: 修改时间可能影响日志顺序和定时任务，请谨慎操作
 
+## 最佳实践
+
+[[bp-timedatectl|timedatectl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[通用Linux命令-MOC|操作系统/通用Linux命令]]

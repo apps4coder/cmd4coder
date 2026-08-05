@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-07-28T15:04:02.020395",
+  "updated_at": "2026-07-29T16:34:52.866672",
   "sources": [
     {
       "file": "tools/cmd/data/database/more.yaml",
@@ -24,7 +24,7 @@
       "mocs_generated": [
         "数据库工具/扩展命令"
       ],
-      "timestamp": "2026-07-28T15:03:59.016569"
+      "timestamp": "2026-07-29T16:34:50.558761"
     },
     {
       "file": "tools/cmd/data/database/extra.yaml",
@@ -45,7 +45,7 @@
       "mocs_generated": [
         "数据库工具/扩展工具"
       ],
-      "timestamp": "2026-07-28T15:03:59.048105"
+      "timestamp": "2026-07-29T16:34:50.578593"
     },
     {
       "file": "tools/cmd/data/database/mysql.yaml",
@@ -62,7 +62,7 @@
       "mocs_generated": [
         "数据库工具/MySQL工具"
       ],
-      "timestamp": "2026-07-28T15:03:59.068029"
+      "timestamp": "2026-07-29T16:34:50.594007"
     },
     {
       "file": "tools/cmd/data/database/timeseries.yaml",
@@ -73,7 +73,7 @@
       "mocs_generated": [
         "数据库工具/时序与OLAP"
       ],
-      "timestamp": "2026-07-28T15:03:59.072687"
+      "timestamp": "2026-07-29T16:34:50.597823"
     },
     {
       "file": "tools/cmd/data/database/nosql.yaml",
@@ -88,7 +88,7 @@
       "mocs_generated": [
         "数据库工具/NoSQL"
       ],
-      "timestamp": "2026-07-28T15:03:59.085179"
+      "timestamp": "2026-07-29T16:34:50.609870"
     },
     {
       "file": "tools/cmd/data/database/operations.yaml",
@@ -100,7 +100,7 @@
       "mocs_generated": [
         "数据库工具/运维操作"
       ],
-      "timestamp": "2026-07-28T15:03:59.097004"
+      "timestamp": "2026-07-29T16:34:50.617566"
     },
     {
       "file": "tools/cmd/data/database/postgresql.yaml",
@@ -119,7 +119,7 @@
       "mocs_generated": [
         "数据库工具/PostgreSQL工具"
       ],
-      "timestamp": "2026-07-28T15:03:59.120936"
+      "timestamp": "2026-07-29T16:34:50.635741"
     },
     {
       "file": "tools/cmd/data/database/redis.yaml",
@@ -139,7 +139,7 @@
       "mocs_generated": [
         "数据库工具/Redis工具"
       ],
-      "timestamp": "2026-07-28T15:03:59.142774"
+      "timestamp": "2026-07-29T16:34:50.652963"
     },
     {
       "file": "tools/cmd/data/hardware/ipmi.yaml",
@@ -151,7 +151,7 @@
       "mocs_generated": [
         "硬件/远程带外管理"
       ],
-      "timestamp": "2026-07-28T15:03:59.153986"
+      "timestamp": "2026-07-29T16:34:50.658839"
     },
     {
       "file": "tools/cmd/data/hardware/embedded.yaml",
@@ -172,7 +172,7 @@
       "mocs_generated": [
         "硬件/嵌入式与IoT"
       ],
-      "timestamp": "2026-07-28T15:03:59.179209"
+      "timestamp": "2026-07-29T16:34:50.677172"
     },
     {
       "file": "tools/cmd/data/hardware/firmware.yaml",
@@ -188,7 +188,7 @@
       "mocs_generated": [
         "硬件/固件与UEFI"
       ],
-      "timestamp": "2026-07-28T15:03:59.192521"
+      "timestamp": "2026-07-29T16:34:50.691244"
     },
     {
       "file": "tools/cmd/data/hardware/sensors.yaml",
@@ -203,7 +203,7 @@
       "mocs_generated": [
         "硬件/传感器与电源"
       ],
-      "timestamp": "2026-07-28T15:03:59.203418"
+      "timestamp": "2026-07-29T16:34:50.702675"
     },
     {
       "file": "tools/cmd/data/hardware/info.yaml",
@@ -219,7 +219,7 @@
       "mocs_generated": [
         "硬件/系统信息"
       ],
-      "timestamp": "2026-07-28T15:03:59.221484"
+      "timestamp": "2026-07-29T16:34:50.713481"
     },
     {
       "file": "tools/cmd/data/hardware/network.yaml",
@@ -233,7 +233,7 @@
       "mocs_generated": [
         "硬件/网络硬件"
       ],
-      "timestamp": "2026-07-28T15:03:59.231279"
+      "timestamp": "2026-07-29T16:34:50.723194"
     },
     {
       "file": "tools/cmd/data/hardware/perf.yaml",
@@ -253,7 +253,7 @@
       "mocs_generated": [
         "硬件/性能与调度"
       ],
-      "timestamp": "2026-07-28T15:03:59.252385"
+      "timestamp": "2026-07-29T16:34:50.740764"
     },
     {
       "file": "tools/cmd/data/hardware/storage.yaml",
@@ -270,7 +270,7 @@
       "mocs_generated": [
         "硬件/存储与RAID"
       ],
-      "timestamp": "2026-07-28T15:03:59.277101"
+      "timestamp": "2026-07-29T16:34:50.754301"
     },
     {
       "file": "tools/cmd/data/hardware/gpu.yaml",
@@ -284,7 +284,7 @@
       "mocs_generated": [
         "硬件/GPU与加速器"
       ],
-      "timestamp": "2026-07-28T15:03:59.286682"
+      "timestamp": "2026-07-29T16:34:50.761508"
     },
     {
       "file": "tools/cmd/data/shell/tmux.yaml",
@@ -298,7 +298,7 @@
       "mocs_generated": [
         "Shell脚本/终端复用"
       ],
-      "timestamp": "2026-07-28T15:03:59.297930"
+      "timestamp": "2026-07-29T16:34:50.772093"
     },
     {
       "file": "tools/cmd/data/shell/text-processing.yaml",
@@ -312,7 +312,7 @@
       "mocs_generated": [
         "Shell脚本/文本处理"
       ],
-      "timestamp": "2026-07-28T15:03:59.310368"
+      "timestamp": "2026-07-29T16:34:50.784009"
     },
     {
       "file": "tools/cmd/data/shell/modern-tools.yaml",
@@ -330,7 +330,7 @@
       "mocs_generated": [
         "Shell脚本/现代工具"
       ],
-      "timestamp": "2026-07-28T15:03:59.335989"
+      "timestamp": "2026-07-29T16:34:50.801603"
     },
     {
       "file": "tools/cmd/data/shell/bash.yaml",
@@ -344,7 +344,7 @@
       "mocs_generated": [
         "Shell脚本/Bash工具"
       ],
-      "timestamp": "2026-07-28T15:03:59.345259"
+      "timestamp": "2026-07-29T16:34:50.812603"
     },
     {
       "file": "tools/cmd/data/diagnostic/arthas.yaml",
@@ -365,7 +365,7 @@
       "mocs_generated": [
         "诊断工具/Java诊断"
       ],
-      "timestamp": "2026-07-28T15:03:59.361662"
+      "timestamp": "2026-07-29T16:34:50.832120"
     },
     {
       "file": "tools/cmd/data/diagnostic/more.yaml",
@@ -379,7 +379,7 @@
       "mocs_generated": [
         "系统诊断/扩展工具"
       ],
-      "timestamp": "2026-07-28T15:03:59.377647"
+      "timestamp": "2026-07-29T16:34:50.840569"
     },
     {
       "file": "tools/cmd/data/diagnostic/tsar.yaml",
@@ -398,7 +398,7 @@
       "mocs_generated": [
         "诊断工具/系统诊断"
       ],
-      "timestamp": "2026-07-28T15:03:59.392635"
+      "timestamp": "2026-07-29T16:34:50.853860"
     },
     {
       "file": "tools/cmd/data/diagnostic/profiling.yaml",
@@ -411,7 +411,7 @@
       "mocs_generated": [
         "诊断工具/性能分析"
       ],
-      "timestamp": "2026-07-28T15:03:59.401429"
+      "timestamp": "2026-07-29T16:34:50.861026"
     },
     {
       "file": "tools/cmd/data/network/infra.yaml",
@@ -434,7 +434,7 @@
       "mocs_generated": [
         "网络工具/基础设施"
       ],
-      "timestamp": "2026-07-28T15:03:59.430578"
+      "timestamp": "2026-07-29T16:34:50.885834"
     },
     {
       "file": "tools/cmd/data/network/http.yaml",
@@ -448,7 +448,7 @@
       "mocs_generated": [
         "网络工具/HTTP工具"
       ],
-      "timestamp": "2026-07-28T15:03:59.440312"
+      "timestamp": "2026-07-29T16:34:50.894530"
     },
     {
       "file": "tools/cmd/data/network/security.yaml",
@@ -464,7 +464,7 @@
       "mocs_generated": [
         "网络工具/网络安全"
       ],
-      "timestamp": "2026-07-28T15:03:59.453099"
+      "timestamp": "2026-07-29T16:34:50.906041"
     },
     {
       "file": "tools/cmd/data/network/dns.yaml",
@@ -476,7 +476,7 @@
       "mocs_generated": [
         "网络工具/DNS工具"
       ],
-      "timestamp": "2026-07-28T15:03:59.458933"
+      "timestamp": "2026-07-29T16:34:50.910793"
     },
     {
       "file": "tools/cmd/data/network/service-mesh.yaml",
@@ -490,7 +490,7 @@
       "mocs_generated": [
         "网络工具/服务网格"
       ],
-      "timestamp": "2026-07-28T15:03:59.468099"
+      "timestamp": "2026-07-29T16:34:50.918839"
     },
     {
       "file": "tools/cmd/data/network/diagnostic.yaml",
@@ -505,7 +505,7 @@
       "mocs_generated": [
         "网络工具/网络诊断"
       ],
-      "timestamp": "2026-07-28T15:03:59.481895"
+      "timestamp": "2026-07-29T16:34:50.928038"
     },
     {
       "file": "tools/cmd/data/network/tools-extra.yaml",
@@ -529,7 +529,7 @@
       "mocs_generated": [
         "网络工具/扩展工具"
       ],
-      "timestamp": "2026-07-28T15:03:59.511621"
+      "timestamp": "2026-07-29T16:34:50.951436"
     },
     {
       "file": "tools/cmd/data/network/performance.yaml",
@@ -545,7 +545,7 @@
       "mocs_generated": [
         "网络工具/性能压测"
       ],
-      "timestamp": "2026-07-28T15:03:59.526448"
+      "timestamp": "2026-07-29T16:34:50.963459"
     },
     {
       "file": "tools/cmd/data/network/security-tools.yaml",
@@ -559,7 +559,7 @@
       "mocs_generated": [
         "网络工具/安全扫描"
       ],
-      "timestamp": "2026-07-28T15:03:59.541924"
+      "timestamp": "2026-07-29T16:34:50.973832"
     },
     {
       "file": "tools/cmd/data/cicd/more.yaml",
@@ -572,7 +572,7 @@
       "mocs_generated": [
         "CI/CD/扩展工具"
       ],
-      "timestamp": "2026-07-28T15:03:59.550209"
+      "timestamp": "2026-07-29T16:34:50.980020"
     },
     {
       "file": "tools/cmd/data/cicd/github-actions.yaml",
@@ -586,7 +586,7 @@
       "mocs_generated": [
         "CI-CD/GitHub Actions"
       ],
-      "timestamp": "2026-07-28T15:03:59.559925"
+      "timestamp": "2026-07-29T16:34:50.991506"
     },
     {
       "file": "tools/cmd/data/cicd/platforms.yaml",
@@ -604,7 +604,7 @@
       "mocs_generated": [
         "CI-CD/平台工具"
       ],
-      "timestamp": "2026-07-28T15:03:59.578169"
+      "timestamp": "2026-07-29T16:34:51.006940"
     },
     {
       "file": "tools/cmd/data/cicd/gitops.yaml",
@@ -622,7 +622,7 @@
       "mocs_generated": [
         "CI-CD/GitOps"
       ],
-      "timestamp": "2026-07-28T15:03:59.601522"
+      "timestamp": "2026-07-29T16:34:51.024109"
     },
     {
       "file": "tools/cmd/data/lang/more.yaml",
@@ -640,7 +640,7 @@
       "mocs_generated": [
         "编程语言/扩展工具链"
       ],
-      "timestamp": "2026-07-28T15:03:59.620164"
+      "timestamp": "2026-07-29T16:34:51.038354"
     },
     {
       "file": "tools/cmd/data/lang/java.yaml",
@@ -659,7 +659,7 @@
       "mocs_generated": [
         "编程语言/Java工具链"
       ],
-      "timestamp": "2026-07-28T15:03:59.647891"
+      "timestamp": "2026-07-29T16:34:51.053415"
     },
     {
       "file": "tools/cmd/data/lang/go-tooling.yaml",
@@ -675,7 +675,7 @@
       "mocs_generated": [
         "编程语言/Go工具链扩展"
       ],
-      "timestamp": "2026-07-28T15:03:59.664205"
+      "timestamp": "2026-07-29T16:34:51.065618"
     },
     {
       "file": "tools/cmd/data/lang/go.yaml",
@@ -692,7 +692,7 @@
       "mocs_generated": [
         "编程语言/Go工具链"
       ],
-      "timestamp": "2026-07-28T15:03:59.678739"
+      "timestamp": "2026-07-29T16:34:51.076865"
     },
     {
       "file": "tools/cmd/data/lang/rust.yaml",
@@ -706,7 +706,7 @@
       "mocs_generated": [
         "编程语言/Rust工具链"
       ],
-      "timestamp": "2026-07-28T15:03:59.689311"
+      "timestamp": "2026-07-29T16:34:51.086861"
     },
     {
       "file": "tools/cmd/data/lang/python-tooling.yaml",
@@ -720,7 +720,7 @@
       "mocs_generated": [
         "编程语言/Python工具链扩展"
       ],
-      "timestamp": "2026-07-28T15:03:59.700015"
+      "timestamp": "2026-07-29T16:34:51.096164"
     },
     {
       "file": "tools/cmd/data/lang/python.yaml",
@@ -734,7 +734,7 @@
       "mocs_generated": [
         "编程语言/Python工具链"
       ],
-      "timestamp": "2026-07-28T15:03:59.708499"
+      "timestamp": "2026-07-29T16:34:51.103803"
     },
     {
       "file": "tools/cmd/data/lang/nodejs.yaml",
@@ -753,7 +753,7 @@
       "mocs_generated": [
         "编程语言/Node.js工具链"
       ],
-      "timestamp": "2026-07-28T15:03:59.725789"
+      "timestamp": "2026-07-29T16:34:51.117061"
     },
     {
       "file": "tools/cmd/data/vcs/svn.yaml",
@@ -776,7 +776,7 @@
       "mocs_generated": [
         "版本控制/SVN命令"
       ],
-      "timestamp": "2026-07-28T15:03:59.749592"
+      "timestamp": "2026-07-29T16:34:51.136223"
     },
     {
       "file": "tools/cmd/data/vcs/git-advanced.yaml",
@@ -787,7 +787,6 @@
         "git stash",
         "git cherry-pick",
         "git submodule",
-        "git lfs",
         "gh pr",
         "gh issue",
         "gh release"
@@ -795,7 +794,7 @@
       "mocs_generated": [
         "版本控制/Git高级操作"
       ],
-      "timestamp": "2026-07-28T15:03:59.783797"
+      "timestamp": "2026-07-29T16:34:51.153023"
     },
     {
       "file": "tools/cmd/data/vcs/git.yaml",
@@ -821,7 +820,7 @@
       "mocs_generated": [
         "版本控制/Git命令"
       ],
-      "timestamp": "2026-07-28T15:03:59.819124"
+      "timestamp": "2026-07-29T16:34:51.181276"
     },
     {
       "file": "tools/cmd/data/ai/model-interpretability.yaml",
@@ -836,7 +835,7 @@
       "mocs_generated": [
         "AI基础设施/模型可解释性"
       ],
-      "timestamp": "2026-07-28T15:03:59.853281"
+      "timestamp": "2026-07-29T16:34:51.192278"
     },
     {
       "file": "tools/cmd/data/ai/multimodal.yaml",
@@ -853,7 +852,7 @@
       "mocs_generated": [
         "AI基础设施/多模态"
       ],
-      "timestamp": "2026-07-28T15:03:59.871395"
+      "timestamp": "2026-07-29T16:34:51.206147"
     },
     {
       "file": "tools/cmd/data/ai/ai-gateway.yaml",
@@ -870,7 +869,7 @@
       "mocs_generated": [
         "AI基础设施/AI网关"
       ],
-      "timestamp": "2026-07-28T15:03:59.887617"
+      "timestamp": "2026-07-29T16:34:51.220935"
     },
     {
       "file": "tools/cmd/data/ai/mlops.yaml",
@@ -884,7 +883,7 @@
       "mocs_generated": [
         "AI基础设施/MLOps平台"
       ],
-      "timestamp": "2026-07-28T15:03:59.906070"
+      "timestamp": "2026-07-29T16:34:51.232862"
     },
     {
       "file": "tools/cmd/data/ai/harness-engineering.yaml",
@@ -914,7 +913,7 @@
       "mocs_generated": [
         "AI基础设施/Harness工程"
       ],
-      "timestamp": "2026-07-28T15:03:59.949751"
+      "timestamp": "2026-07-29T16:34:51.265753"
     },
     {
       "file": "tools/cmd/data/ai/more.yaml",
@@ -933,7 +932,7 @@
       "mocs_generated": [
         "AI基础设施/扩展命令"
       ],
-      "timestamp": "2026-07-28T15:03:59.980026"
+      "timestamp": "2026-07-29T16:34:51.281349"
     },
     {
       "file": "tools/cmd/data/ai/ai-coding.yaml",
@@ -949,7 +948,7 @@
       "mocs_generated": [
         "AI基础设施/AI编程"
       ],
-      "timestamp": "2026-07-28T15:03:59.994894"
+      "timestamp": "2026-07-29T16:34:51.294026"
     },
     {
       "file": "tools/cmd/data/ai/model-serving.yaml",
@@ -962,7 +961,7 @@
       "mocs_generated": [
         "AI基础设施/模型服务"
       ],
-      "timestamp": "2026-07-28T15:04:00.005519"
+      "timestamp": "2026-07-29T16:34:51.303135"
     },
     {
       "file": "tools/cmd/data/ai/llm-training.yaml",
@@ -998,7 +997,7 @@
       "mocs_generated": [
         "AI基础设施/大模型训练"
       ],
-      "timestamp": "2026-07-28T15:04:00.078990"
+      "timestamp": "2026-07-29T16:34:51.375528"
     },
     {
       "file": "tools/cmd/data/ai/ai-safety.yaml",
@@ -1015,7 +1014,7 @@
       "mocs_generated": [
         "AI基础设施/AI安全"
       ],
-      "timestamp": "2026-07-28T15:04:00.106681"
+      "timestamp": "2026-07-29T16:34:51.396010"
     },
     {
       "file": "tools/cmd/data/ai/ai-compiler.yaml",
@@ -1032,7 +1031,7 @@
       "mocs_generated": [
         "AI基础设施/AI编译器"
       ],
-      "timestamp": "2026-07-28T15:04:00.124363"
+      "timestamp": "2026-07-29T16:34:51.412432"
     },
     {
       "file": "tools/cmd/data/ai/agent-engineering.yaml",
@@ -1059,7 +1058,7 @@
       "mocs_generated": [
         "AI基础设施/Agent工程"
       ],
-      "timestamp": "2026-07-28T15:04:00.179749"
+      "timestamp": "2026-07-29T16:34:51.443311"
     },
     {
       "file": "tools/cmd/data/ai/rag-infra.yaml",
@@ -1079,7 +1078,7 @@
       "mocs_generated": [
         "AI基础设施/RAG基础设施"
       ],
-      "timestamp": "2026-07-28T15:04:00.204876"
+      "timestamp": "2026-07-29T16:34:51.461937"
     },
     {
       "file": "tools/cmd/data/ai/ai-applications.yaml",
@@ -1095,7 +1094,7 @@
       "mocs_generated": [
         "AI基础设施/AI应用"
       ],
-      "timestamp": "2026-07-28T15:04:00.233045"
+      "timestamp": "2026-07-29T16:34:51.473937"
     },
     {
       "file": "tools/cmd/data/ai/data-labeling.yaml",
@@ -1117,7 +1116,7 @@
       "mocs_generated": [
         "AI基础设施/数据与标注"
       ],
-      "timestamp": "2026-07-28T15:04:00.263948"
+      "timestamp": "2026-07-29T16:34:51.494553"
     },
     {
       "file": "tools/cmd/data/ai/federated-learning.yaml",
@@ -1132,7 +1131,7 @@
       "mocs_generated": [
         "AI基础设施/联邦学习"
       ],
-      "timestamp": "2026-07-28T15:04:00.298173"
+      "timestamp": "2026-07-29T16:34:51.505218"
     },
     {
       "file": "tools/cmd/data/ai/model-architecture.yaml",
@@ -1150,7 +1149,7 @@
       "mocs_generated": [
         "AI基础设施/模型架构"
       ],
-      "timestamp": "2026-07-28T15:04:00.336846"
+      "timestamp": "2026-07-29T16:34:51.520727"
     },
     {
       "file": "tools/cmd/data/ai/edge-ai.yaml",
@@ -1164,7 +1163,7 @@
       "mocs_generated": [
         "AI基础设施/边缘AI"
       ],
-      "timestamp": "2026-07-28T15:04:00.353106"
+      "timestamp": "2026-07-29T16:34:51.528891"
     },
     {
       "file": "tools/cmd/data/ai/ml-frameworks.yaml",
@@ -1176,7 +1175,7 @@
       "mocs_generated": [
         "AI基础设施/ML框架"
       ],
-      "timestamp": "2026-07-28T15:04:00.374455"
+      "timestamp": "2026-07-29T16:34:51.534837"
     },
     {
       "file": "tools/cmd/data/ai/llm-extra.yaml",
@@ -1190,7 +1189,7 @@
       "mocs_generated": [
         "AI基础设施/扩展工具"
       ],
-      "timestamp": "2026-07-28T15:04:00.386424"
+      "timestamp": "2026-07-29T16:34:51.542607"
     },
     {
       "file": "tools/cmd/data/ai/llm-inference.yaml",
@@ -1226,7 +1225,7 @@
       "mocs_generated": [
         "AI基础设施/大模型推理"
       ],
-      "timestamp": "2026-07-28T15:04:00.461107"
+      "timestamp": "2026-07-29T16:34:51.586488"
     },
     {
       "file": "tools/cmd/data/ai/vector-db.yaml",
@@ -1251,7 +1250,7 @@
       "mocs_generated": [
         "AI基础设施/向量数据库"
       ],
-      "timestamp": "2026-07-28T15:04:00.507272"
+      "timestamp": "2026-07-29T16:34:51.610264"
     },
     {
       "file": "tools/cmd/data/ai/model-hub.yaml",
@@ -1276,7 +1275,7 @@
       "mocs_generated": [
         "AI基础设施/模型生态"
       ],
-      "timestamp": "2026-07-28T15:04:00.548727"
+      "timestamp": "2026-07-29T16:34:51.637769"
     },
     {
       "file": "tools/cmd/data/ai/monitoring.yaml",
@@ -1301,7 +1300,7 @@
       "mocs_generated": [
         "AI基础设施/监控与评估"
       ],
-      "timestamp": "2026-07-28T15:04:00.591581"
+      "timestamp": "2026-07-29T16:34:51.664030"
     },
     {
       "file": "tools/cmd/data/cloud/aws-cli.yaml",
@@ -1316,7 +1315,7 @@
       "mocs_generated": [
         "云平台/AWS CLI"
       ],
-      "timestamp": "2026-07-28T15:04:00.608720"
+      "timestamp": "2026-07-29T16:34:51.676992"
     },
     {
       "file": "tools/cmd/data/cloud/more.yaml",
@@ -1330,7 +1329,7 @@
       "mocs_generated": [
         "云平台/多云CLI"
       ],
-      "timestamp": "2026-07-28T15:04:00.624021"
+      "timestamp": "2026-07-29T16:34:51.687082"
     },
     {
       "file": "tools/cmd/data/cloud/config-mgmt.yaml",
@@ -1344,7 +1343,7 @@
       "mocs_generated": [
         "云平台/配置管理"
       ],
-      "timestamp": "2026-07-28T15:04:00.635953"
+      "timestamp": "2026-07-29T16:34:51.696819"
     },
     {
       "file": "tools/cmd/data/cloud/gcloud.yaml",
@@ -1362,7 +1361,7 @@
       "mocs_generated": [
         "云平台/GCP CLI"
       ],
-      "timestamp": "2026-07-28T15:04:00.665859"
+      "timestamp": "2026-07-29T16:34:51.713168"
     },
     {
       "file": "tools/cmd/data/cloud/terraform.yaml",
@@ -1372,7 +1371,7 @@
       "mocs_generated": [
         "云平台/Terraform"
       ],
-      "timestamp": "2026-07-28T15:04:00.669088"
+      "timestamp": "2026-07-29T16:34:51.715124"
     },
     {
       "file": "tools/cmd/data/cloud/azure.yaml",
@@ -1390,7 +1389,7 @@
       "mocs_generated": [
         "云平台/Azure CLI"
       ],
-      "timestamp": "2026-07-28T15:04:00.694840"
+      "timestamp": "2026-07-29T16:34:51.734413"
     },
     {
       "file": "tools/cmd/data/cloud/pulumi.yaml",
@@ -1400,7 +1399,7 @@
       "mocs_generated": [
         "云平台/Pulumi"
       ],
-      "timestamp": "2026-07-28T15:04:00.698110"
+      "timestamp": "2026-07-29T16:34:51.736330"
     },
     {
       "file": "tools/cmd/data/os/centos.yaml",
@@ -1425,7 +1424,7 @@
       "mocs_generated": [
         "操作系统/CentOS系统命令"
       ],
-      "timestamp": "2026-07-28T15:04:00.728173"
+      "timestamp": "2026-07-29T16:34:51.755159"
     },
     {
       "file": "tools/cmd/data/os/common.yaml",
@@ -1478,7 +1477,7 @@
       "mocs_generated": [
         "操作系统/通用Linux命令"
       ],
-      "timestamp": "2026-07-28T15:04:00.838240"
+      "timestamp": "2026-07-29T16:34:51.823254"
     },
     {
       "file": "tools/cmd/data/os/linux-extra.yaml",
@@ -1523,7 +1522,7 @@
       "mocs_generated": [
         "操作系统/Linux扩展命令"
       ],
-      "timestamp": "2026-07-28T15:04:00.919334"
+      "timestamp": "2026-07-29T16:34:51.870887"
     },
     {
       "file": "tools/cmd/data/os/ubuntu.yaml",
@@ -1552,7 +1551,7 @@
       "mocs_generated": [
         "操作系统/Ubuntu系统命令"
       ],
-      "timestamp": "2026-07-28T15:04:00.956908"
+      "timestamp": "2026-07-29T16:34:51.922015"
     },
     {
       "file": "tools/cmd/data/os/systemd.yaml",
@@ -1568,7 +1567,7 @@
       "mocs_generated": [
         "操作系统/Systemd服务管理"
       ],
-      "timestamp": "2026-07-28T15:04:00.971301"
+      "timestamp": "2026-07-29T16:34:51.937008"
     },
     {
       "file": "tools/cmd/data/os/linux-core.yaml",
@@ -1614,7 +1613,7 @@
       "mocs_generated": [
         "操作系统/Linux核心"
       ],
-      "timestamp": "2026-07-28T15:04:01.065310"
+      "timestamp": "2026-07-29T16:34:51.995322"
     },
     {
       "file": "tools/cmd/data/bigdata/query-engines.yaml",
@@ -1628,7 +1627,7 @@
       "mocs_generated": [
         "大数据/查询引擎"
       ],
-      "timestamp": "2026-07-28T15:04:01.083490"
+      "timestamp": "2026-07-29T16:34:52.003381"
     },
     {
       "file": "tools/cmd/data/bigdata/flink.yaml",
@@ -1639,7 +1638,7 @@
       "mocs_generated": [
         "大数据/Flink流计算"
       ],
-      "timestamp": "2026-07-28T15:04:01.087818"
+      "timestamp": "2026-07-29T16:34:52.006699"
     },
     {
       "file": "tools/cmd/data/bigdata/kafka.yaml",
@@ -1649,7 +1648,7 @@
       "mocs_generated": [
         "容器编排/消息队列"
       ],
-      "timestamp": "2026-07-28T15:04:01.090181"
+      "timestamp": "2026-07-29T16:34:52.008732"
     },
     {
       "file": "tools/cmd/data/bigdata/more.yaml",
@@ -1674,7 +1673,7 @@
       "mocs_generated": [
         "大数据/扩展命令"
       ],
-      "timestamp": "2026-07-28T15:04:01.119540"
+      "timestamp": "2026-07-29T16:34:52.034259"
     },
     {
       "file": "tools/cmd/data/bigdata/spark.yaml",
@@ -1687,7 +1686,7 @@
       "mocs_generated": [
         "大数据/Spark计算"
       ],
-      "timestamp": "2026-07-28T15:04:01.127383"
+      "timestamp": "2026-07-29T16:34:52.041720"
     },
     {
       "file": "tools/cmd/data/bigdata/extra.yaml",
@@ -1706,7 +1705,7 @@
       "mocs_generated": [
         "大数据/扩展工具"
       ],
-      "timestamp": "2026-07-28T15:04:01.155070"
+      "timestamp": "2026-07-29T16:34:52.060298"
     },
     {
       "file": "tools/cmd/data/bigdata/kafka-cli.yaml",
@@ -1720,7 +1719,7 @@
       "mocs_generated": [
         "大数据/Kafka工具"
       ],
-      "timestamp": "2026-07-28T15:04:01.170990"
+      "timestamp": "2026-07-29T16:34:52.070815"
     },
     {
       "file": "tools/cmd/data/bigdata/orchestration.yaml",
@@ -1732,7 +1731,7 @@
       "mocs_generated": [
         "大数据/调度与转换"
       ],
-      "timestamp": "2026-07-28T15:04:01.177991"
+      "timestamp": "2026-07-29T16:34:52.115207"
     },
     {
       "file": "tools/cmd/data/bigdata/streaming.yaml",
@@ -1745,7 +1744,7 @@
       "mocs_generated": [
         "大数据/流处理"
       ],
-      "timestamp": "2026-07-28T15:04:01.187982"
+      "timestamp": "2026-07-29T16:34:52.132081"
     },
     {
       "file": "tools/cmd/data/bigdata/hadoop.yaml",
@@ -1757,7 +1756,7 @@
       "mocs_generated": [
         "大数据/Hadoop生态"
       ],
-      "timestamp": "2026-07-28T15:04:01.193520"
+      "timestamp": "2026-07-29T16:34:52.139577"
     },
     {
       "file": "tools/cmd/data/bigdata/etl.yaml",
@@ -1771,7 +1770,7 @@
       "mocs_generated": [
         "大数据/数据集成与ETL"
       ],
-      "timestamp": "2026-07-28T15:04:01.213670"
+      "timestamp": "2026-07-29T16:34:52.150415"
     },
     {
       "file": "tools/cmd/data/bigdata/data-lake.yaml",
@@ -1783,7 +1782,7 @@
       "mocs_generated": [
         "大数据/数据湖"
       ],
-      "timestamp": "2026-07-28T15:04:01.220067"
+      "timestamp": "2026-07-29T16:34:52.155754"
     },
     {
       "file": "tools/cmd/data/build-tools/make.yaml",
@@ -1795,7 +1794,7 @@
       "mocs_generated": [
         "构建工具/Make"
       ],
-      "timestamp": "2026-07-28T15:04:01.225999"
+      "timestamp": "2026-07-29T16:34:52.161429"
     },
     {
       "file": "tools/cmd/data/build-tools/cmake.yaml",
@@ -1809,7 +1808,7 @@
       "mocs_generated": [
         "构建工具/CMake"
       ],
-      "timestamp": "2026-07-28T15:04:01.236438"
+      "timestamp": "2026-07-29T16:34:52.172752"
     },
     {
       "file": "tools/cmd/data/build-tools/maven.yaml",
@@ -1822,7 +1821,7 @@
       "mocs_generated": [
         "构建工具/Maven"
       ],
-      "timestamp": "2026-07-28T15:04:01.242732"
+      "timestamp": "2026-07-29T16:34:52.179671"
     },
     {
       "file": "tools/cmd/data/build-tools/pkg-mgmt.yaml",
@@ -1837,7 +1836,7 @@
       "mocs_generated": [
         "构建工具/包管理"
       ],
-      "timestamp": "2026-07-28T15:04:01.255900"
+      "timestamp": "2026-07-29T16:34:52.212441"
     },
     {
       "file": "tools/cmd/data/build-tools/gradle.yaml",
@@ -1849,7 +1848,7 @@
       "mocs_generated": [
         "构建工具/Gradle"
       ],
-      "timestamp": "2026-07-28T15:04:01.261539"
+      "timestamp": "2026-07-29T16:34:52.236318"
     },
     {
       "file": "tools/cmd/data/container/docker/docker-advanced.yaml",
@@ -1860,7 +1859,7 @@
       "mocs_generated": [
         "容器编排/Docker高级"
       ],
-      "timestamp": "2026-07-28T15:04:01.270979"
+      "timestamp": "2026-07-29T16:34:52.250155"
     },
     {
       "file": "tools/cmd/data/container/docker/container-alternatives.yaml",
@@ -1873,7 +1872,7 @@
       "mocs_generated": [
         "容器编排/容器替代方案"
       ],
-      "timestamp": "2026-07-28T15:04:01.280112"
+      "timestamp": "2026-07-29T16:34:52.257763"
     },
     {
       "file": "tools/cmd/data/container/docker/docker.yaml",
@@ -1898,7 +1897,7 @@
       "mocs_generated": [
         "容器编排/Docker命令"
       ],
-      "timestamp": "2026-07-28T15:04:01.308052"
+      "timestamp": "2026-07-29T16:34:52.284851"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-network.yaml",
@@ -1926,7 +1925,7 @@
       "mocs_generated": [
         "容器编排/K8s网络插件"
       ],
-      "timestamp": "2026-07-28T15:04:01.361129"
+      "timestamp": "2026-07-29T16:34:52.319154"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-backup.yaml",
@@ -1943,7 +1942,7 @@
       "mocs_generated": [
         "容器编排/K8s备份恢复"
       ],
-      "timestamp": "2026-07-28T15:04:01.377784"
+      "timestamp": "2026-07-29T16:34:52.334659"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-cluster.yaml",
@@ -1966,7 +1965,7 @@
       "mocs_generated": [
         "容器编排/K8s集群管理"
       ],
-      "timestamp": "2026-07-28T15:04:01.408676"
+      "timestamp": "2026-07-29T16:34:52.360225"
     },
     {
       "file": "tools/cmd/data/container/k8s/kubernetes.yaml",
@@ -1992,7 +1991,7 @@
       "mocs_generated": [
         "容器编排/Kubernetes命令"
       ],
-      "timestamp": "2026-07-28T15:04:01.458489"
+      "timestamp": "2026-07-29T16:34:52.395118"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-config.yaml",
@@ -2028,7 +2027,7 @@
       "mocs_generated": [
         "容器编排/K8s配置管理"
       ],
-      "timestamp": "2026-07-28T15:04:01.515195"
+      "timestamp": "2026-07-29T16:34:52.441603"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-security.yaml",
@@ -2057,7 +2056,7 @@
       "mocs_generated": [
         "容器编排/K8s安全工具"
       ],
-      "timestamp": "2026-07-28T15:04:01.558433"
+      "timestamp": "2026-07-29T16:34:52.477420"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-dev.yaml",
@@ -2074,7 +2073,7 @@
       "mocs_generated": [
         "容器编排/K8s开发调试"
       ],
-      "timestamp": "2026-07-28T15:04:01.574115"
+      "timestamp": "2026-07-29T16:34:52.491834"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-cicd.yaml",
@@ -2094,7 +2093,7 @@
       "mocs_generated": [
         "容器编排/K8s持续集成"
       ],
-      "timestamp": "2026-07-28T15:04:01.602888"
+      "timestamp": "2026-07-29T16:34:52.517694"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-monitor.yaml",
@@ -2142,7 +2141,7 @@
       "mocs_generated": [
         "容器编排/K8s监控日志"
       ],
-      "timestamp": "2026-07-28T15:04:01.681291"
+      "timestamp": "2026-07-29T16:34:52.585439"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-troubleshooting.yaml",
@@ -2161,7 +2160,7 @@
       "mocs_generated": [
         "容器编排/K8s故障排查"
       ],
-      "timestamp": "2026-07-28T15:04:01.700461"
+      "timestamp": "2026-07-29T16:34:52.602240"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-devtools.yaml",
@@ -2173,7 +2172,7 @@
       "mocs_generated": [
         "容器编排/K8s开发工具"
       ],
-      "timestamp": "2026-07-28T15:04:01.708118"
+      "timestamp": "2026-07-29T16:34:52.607796"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-security-extra.yaml",
@@ -2187,7 +2186,7 @@
       "mocs_generated": [
         "容器编排/K8s安全扩展"
       ],
-      "timestamp": "2026-07-28T15:04:01.725322"
+      "timestamp": "2026-07-29T16:34:52.616955"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-helm-enhanced.yaml",
@@ -2215,7 +2214,7 @@
       "mocs_generated": [
         "容器编排/K8s Helm包管理"
       ],
-      "timestamp": "2026-07-28T15:04:01.773781"
+      "timestamp": "2026-07-29T16:34:52.663817"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-mlops.yaml",
@@ -2242,7 +2241,7 @@
       "mocs_generated": [
         "容器编排/K8s机器学习运维"
       ],
-      "timestamp": "2026-07-28T15:04:01.814603"
+      "timestamp": "2026-07-29T16:34:52.692410"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-storage-management.yaml",
@@ -2267,7 +2266,7 @@
       "mocs_generated": [
         "容器编排/K8s存储增强"
       ],
-      "timestamp": "2026-07-28T15:04:01.840835"
+      "timestamp": "2026-07-29T16:34:52.716463"
     },
     {
       "file": "tools/cmd/data/container/k8s/local-k8s.yaml",
@@ -2279,7 +2278,7 @@
       "mocs_generated": [
         "容器编排/本地K8s"
       ],
-      "timestamp": "2026-07-28T15:04:01.847373"
+      "timestamp": "2026-07-29T16:34:52.722829"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-runtime.yaml",
@@ -2297,7 +2296,7 @@
       "mocs_generated": [
         "容器编排/K8s容器运行时"
       ],
-      "timestamp": "2026-07-28T15:04:01.869939"
+      "timestamp": "2026-07-29T16:34:52.738452"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-cloud.yaml",
@@ -2315,7 +2314,7 @@
       "mocs_generated": [
         "容器编排/K8s云平台工具"
       ],
-      "timestamp": "2026-07-28T15:04:01.888738"
+      "timestamp": "2026-07-29T16:34:52.759227"
     },
     {
       "file": "tools/cmd/data/container/k8s/k8s-utilities.yaml",
@@ -2332,7 +2331,7 @@
       "mocs_generated": [
         "容器编排/K8s辅助工具"
       ],
-      "timestamp": "2026-07-28T15:04:01.904135"
+      "timestamp": "2026-07-29T16:34:52.773067"
     },
     {
       "file": "tools/cmd/data/container/cloudnative/cloudnative-more.yaml",
@@ -2367,7 +2366,7 @@
       "mocs_generated": [
         "容器编排/云原生扩展二"
       ],
-      "timestamp": "2026-07-28T15:04:01.959829"
+      "timestamp": "2026-07-29T16:34:52.815644"
     },
     {
       "file": "tools/cmd/data/container/cloudnative/cloudnative-extra.yaml",
@@ -2405,9 +2404,9 @@
       "mocs_generated": [
         "容器编排/云原生扩展"
       ],
-      "timestamp": "2026-07-28T15:04:02.018821"
+      "timestamp": "2026-07-29T16:34:52.865441"
     }
   ],
-  "best_practices_count": 1262,
-  "best_practices_generated": "2026-07-28"
+  "best_practices_count": 1261,
+  "best_practices_generated": "2026-07-29"
 }

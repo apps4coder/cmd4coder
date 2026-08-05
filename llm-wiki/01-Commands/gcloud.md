@@ -72,6 +72,10 @@ gcloud compute instances list
 
 > ⚠️ **MEDIUM**: gcloud 会创建/删除云资源并计费，请确认项目和区域
 
+## 最佳实践
+
+[[bp-gcloud|gcloud 生产环境最佳实践]]
+
 ## 所属维度
 
 [[多云CLI-MOC|云平台/多云CLI]]

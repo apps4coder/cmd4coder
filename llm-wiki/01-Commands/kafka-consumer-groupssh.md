@@ -71,6 +71,12 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 --group mygroup --res
 
 > ⚠️ **HIGH**: 重置 offset 会导致消息跳过或重复消费，生产环境务必谨慎
 
+> ⚠️ **HIGH**: 位移或 Topic 变更会影响消费者进度，请提前通知下游并备份关键配置。
+
+## 最佳实践
+
+[[bp-kafka-consumer-groups-sh|kafka-consumer-groups.sh 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kafka工具-MOC|大数据/Kafka工具]]

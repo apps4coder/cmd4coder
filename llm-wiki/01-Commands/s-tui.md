@@ -72,6 +72,10 @@ s-tui --csv stress.csv --time 300
 
 > ⚠️ **MEDIUM**: 运行 stress 测试会提升温度和功耗，注意散热
 
+## 最佳实践
+
+[[bp-s-tui|s-tui 生产环境最佳实践]]
+
 ## 所属维度
 
 [[性能与调度-MOC|硬件/性能与调度]]

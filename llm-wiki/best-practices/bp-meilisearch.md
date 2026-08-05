@@ -64,7 +64,8 @@ meilisearch --master-key mykey
 
 ## 参考链接
 
-- (无外部参考)
+- [https://www.meilisearch.com/docs](https://www.meilisearch.com/docs)
+- [https://github.com/meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
 
 ## 关联命令最佳实践
 

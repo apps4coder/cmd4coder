@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-architecture.yaml"
+  "source_file": "tools/cmd/data/ai/model-architecture.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ python -c "import timm; print(timm.list_models('*vit*'))"
 
 ## 关联命令
 
-- [[transformers-cli]]
-- [[clip]]
+- [[transformers-cli|transformers-cli]]
+- [[clip|clip]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ python -c "import timm; print(timm.list_models('*vit*'))"
 ## 参考链接
 
 - [https://github.com/huggingface/pytorch-image-models](https://github.com/huggingface/pytorch-image-models)
+
+## 最佳实践
+
+[[bp-timm|timm 生产环境最佳实践]]
 
 ## 所属维度
 

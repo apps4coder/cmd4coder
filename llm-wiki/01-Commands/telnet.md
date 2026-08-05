@@ -70,6 +70,10 @@ telnet example.com 80
 
 > ⚠️ **MEDIUM**: telnet 明文传输，不建议用于生产认证，优先使用 ssh
 
+## 最佳实践
+
+[[bp-telnet|telnet 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|网络工具/扩展工具]]

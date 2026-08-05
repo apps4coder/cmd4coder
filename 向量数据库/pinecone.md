@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/vector-db.yaml"
+  "source_file": "tools/cmd/data/ai/vector-db.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ python -c "from pinecone import Pinecone; help(Pinecone.create_index)"
 
 ## 关联命令
 
-- [[chroma]]
-- [[qdrant]]
+- [[chroma|chroma]]
+- [[qdrant|qdrant]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ python -c "from pinecone import Pinecone; help(Pinecone.create_index)"
 ## 参考链接
 
 - [https://www.pinecone.io/](https://www.pinecone.io/)
+
+## 最佳实践
+
+[[bp-pinecone|pinecone 生产环境最佳实践]]
 
 ## 所属维度
 

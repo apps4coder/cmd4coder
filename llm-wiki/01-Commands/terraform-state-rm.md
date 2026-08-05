@@ -61,6 +61,12 @@ terraform state rm -dry-run kubernetes_deployment.app
 
 > ⚠️ **HIGH**: Removes from state; resource remains in infrastructure
 
+> ⚠️ **HIGH**: Backup state before removal
+
+## 最佳实践
+
+[[bp-terraform-state-rm|terraform state rm 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

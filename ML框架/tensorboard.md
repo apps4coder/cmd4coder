@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ml-frameworks.yaml"
+  "source_file": "tools/cmd/data/ai/ml-frameworks.yaml"
 }
 ---
 
@@ -65,7 +65,7 @@ tensorboard --logdir=runs --host=0.0.0.0 --port=6006
 
 ## 关联命令
 
-- [[torchrun]]
+- [[torchrun|torchrun]]
 
 ## 风险提示
 
@@ -74,6 +74,10 @@ tensorboard --logdir=runs --host=0.0.0.0 --port=6006
 ## 参考链接
 
 - [https://www.tensorflow.org/tensorboard](https://www.tensorflow.org/tensorboard)
+
+## 最佳实践
+
+[[bp-tensorboard|tensorboard 生产环境最佳实践]]
 
 ## 所属维度
 

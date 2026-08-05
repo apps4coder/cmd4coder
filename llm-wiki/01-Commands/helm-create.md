@@ -55,6 +55,10 @@ helm create myapp --starter default
 
 > ⚠️ **LOW**: Creates local chart files only
 
+## 最佳实践
+
+[[bp-helm-create|helm create 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

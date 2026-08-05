@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/vector-db.yaml"
+  "source_file": "tools/cmd/data/ai/vector-db.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ docker exec typesense curl http://localhost:8108/health
 
 ## 关联命令
 
-- [[meilisearch]]
-- [[opensearch]]
+- [[meilisearch|meilisearch]]
+- [[opensearch|opensearch]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ docker exec typesense curl http://localhost:8108/health
 ## 参考链接
 
 - [https://typesense.org/](https://typesense.org/)
+
+## 最佳实践
+
+[[bp-typesense|typesense 生产环境最佳实践]]
 
 ## 所属维度
 

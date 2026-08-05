@@ -64,6 +64,12 @@ argocd app create myapp --repo https://github.com/example/repo --path helm --des
 
 > ⚠️ **HIGH**: Creates application that will deploy resources to cluster
 
+> ⚠️ **MEDIUM**: Verify repository and path before creating
+
+## 最佳实践
+
+[[bp-argocd-app-create|argocd app create 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CD-MOC|Kubernetes CI/CD]]

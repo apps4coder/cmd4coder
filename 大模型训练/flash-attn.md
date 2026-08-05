@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -63,8 +63,8 @@ pip install flash-attn --no-build-isolation
 
 ## 关联命令
 
-- [[xformers]]
-- [[unsloth]]
+- [[xformers|xformers]]
+- [[unsloth|unsloth]]
 
 ## 风险提示
 
@@ -73,6 +73,10 @@ pip install flash-attn --no-build-isolation
 ## 参考链接
 
 - [https://github.com/Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)
+
+## 最佳实践
+
+[[bp-flash-attn|flash-attn 生产环境最佳实践]]
 
 ## 所属维度
 

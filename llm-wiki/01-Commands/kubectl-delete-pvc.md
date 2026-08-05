@@ -63,6 +63,12 @@ kubectl delete pvc --all -n test
 
 > ⚠️ **CRITICAL**: Deletes persistent data permanently
 
+> ⚠️ **HIGH**: Always backup data before deletion
+
+## 最佳实践
+
+[[bp-kubectl-delete-pvc|kubectl delete pvc 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Storage Management-MOC|Kubernetes Storage Management]]

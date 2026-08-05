@@ -70,6 +70,10 @@ istioctl x precheck
 
 > ⚠️ **MEDIUM**: 实验性功能 API 可能变更
 
+## 最佳实践
+
+[[bp-istioctl-experimental|istioctl experimental 生产环境最佳实践]]
+
 ## 所属维度
 
 [[服务网格-MOC|网络工具/服务网格]]

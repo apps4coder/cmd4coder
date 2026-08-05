@@ -13,7 +13,7 @@
     "advanced",
     "linux"
   ],
-  "cmd_risk_level": "low",
+  "cmd_risk_level": "high",
   "created": "2026-05-31",
   "source_file": "tools/cmd/data/container/k8s/k8s-runtime.yaml"
 }
@@ -64,6 +64,12 @@ systemctl restart containerd
 ## 风险提示
 
 > ⚠️ **LOW**: Read-only status check; no risks
+
+> ⚠️ **HIGH**: Restarting containerd affects all running containers
+
+## 最佳实践
+
+[[bp-systemctl-status-containerd|systemctl status containerd 生产环境最佳实践]]
 
 ## 所属维度
 

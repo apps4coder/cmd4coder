@@ -72,6 +72,12 @@ telepresence intercept myservice --port 8080:http
 
 > ⚠️ **HIGH**: intercept 会将生产流量引到本地，请确认目标环境和回滚策略
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-telepresence|telepresence 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

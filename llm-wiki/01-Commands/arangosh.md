@@ -71,6 +71,10 @@ arangosh --javascript.execute script.js
 
 > ⚠️ **MEDIUM**: JS 脚本可删除数据库，请确认脚本内容
 
+## 最佳实践
+
+[[bp-arangosh|arangosh 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|数据库工具/扩展命令]]

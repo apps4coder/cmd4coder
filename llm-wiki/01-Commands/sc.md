@@ -55,6 +55,10 @@ sc -d com.example.MyClass
 
 > ⚠️ **LOW**: Read-only class search; no risks
 
+## 最佳实践
+
+[[bp-sc|sc 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Java Diagnostic-MOC|Java Diagnostic]]

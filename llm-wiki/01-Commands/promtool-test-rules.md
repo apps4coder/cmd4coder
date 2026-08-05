@@ -61,6 +61,10 @@ promtool test rules --run=TestCPUAlert test.yml
 
 > ⚠️ **LOW**: Testing rules only; no changes made
 
+## 最佳实践
+
+[[bp-promtool-test-rules|promtool test rules 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

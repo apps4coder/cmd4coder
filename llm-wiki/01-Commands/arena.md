@@ -68,6 +68,10 @@ curl https://chat.lmsys.org/api/leaderboard | jq .
 
 - [https://chat.lmsys.org/](https://chat.lmsys.org/)
 
+## 最佳实践
+
+[[bp-arena|arena 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Harness工程-MOC|AI基础设施/Harness工程]]

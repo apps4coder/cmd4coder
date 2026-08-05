@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -75,8 +75,8 @@ accelerate launch --mixed_precision=fp16 train.py
 
 ## 关联命令
 
-- [[deepspeed]]
-- [[torchrun]]
+- [[deepspeed|deepspeed]]
+- [[torchrun|torchrun]]
 
 ## 风险提示
 
@@ -85,6 +85,10 @@ accelerate launch --mixed_precision=fp16 train.py
 ## 参考链接
 
 - [https://huggingface.co/docs/accelerate](https://huggingface.co/docs/accelerate)
+
+## 最佳实践
+
+[[bp-accelerate|accelerate 生产环境最佳实践]]
 
 ## 所属维度
 

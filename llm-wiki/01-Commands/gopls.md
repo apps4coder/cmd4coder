@@ -83,6 +83,10 @@ go install golang.org/x/tools/gopls@latest
 
 > ⚠️ **LOW**: 语言服务器操作，无风险
 
+## 最佳实践
+
+[[bp-gopls|gopls 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Go工具链扩展-MOC|编程语言/Go工具链扩展]]

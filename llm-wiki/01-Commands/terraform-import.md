@@ -61,6 +61,12 @@ terraform import -var-file=production.tfvars kubernetes_deployment.app app-deplo
 
 > ⚠️ **MEDIUM**: Adds existing resource to state
 
+> ⚠️ **MEDIUM**: Ensure resource configuration matches before import
+
+## 最佳实践
+
+[[bp-terraform-import|terraform import 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

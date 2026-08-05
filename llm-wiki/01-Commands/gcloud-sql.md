@@ -84,6 +84,10 @@ gcloud sql connect my-db --user=postgres
 
 > ⚠️ **HIGH**: 数据库实例产生持续费用，删除操作导致数据丢失
 
+## 最佳实践
+
+[[bp-gcloud-sql|gcloud sql 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GCP CLI-MOC|云平台/GCP CLI]]

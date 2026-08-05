@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python -c "from groq import Groq; g=Groq(); r=g.chat.completions.create(model='l
 
 ## 关联命令
 
-- [[together]]
-- [[fireworks]]
+- [[together|together]]
+- [[fireworks|fireworks]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python -c "from groq import Groq; g=Groq(); r=g.chat.completions.create(model='l
 ## 参考链接
 
 - [https://groq.com/](https://groq.com/)
+
+## 最佳实践
+
+[[bp-groq|groq 生产环境最佳实践]]
 
 ## 所属维度
 

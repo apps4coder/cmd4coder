@@ -72,6 +72,10 @@ vcluster connect my-vcluster
 
 > ⚠️ **MEDIUM**: vcluster 共享宿主机集群资源，请注意配额和权限
 
+## 最佳实践
+
+[[bp-vcluster|vcluster 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

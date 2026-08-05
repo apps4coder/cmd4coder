@@ -77,6 +77,10 @@ python track_prompts.py --track_all --score_function human_eval
 
 - [https://www.promptlayer.com/](https://www.promptlayer.com/)
 
+## 最佳实践
+
+[[bp-promptlayer|promptlayer 生产环境最佳实践]]
+
 ## 所属维度
 
 [[监控与评估-MOC|AI基础设施/监控与评估]]

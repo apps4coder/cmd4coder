@@ -69,6 +69,10 @@ trivy k8s all -n default
 
 > ⚠️ **LOW**: Read-only scanning; queries cluster via kubectl
 
+## 最佳实践
+
+[[bp-trivy-k8s|trivy k8s 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

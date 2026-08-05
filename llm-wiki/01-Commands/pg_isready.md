@@ -63,6 +63,10 @@ pg_isready -h localhost -p 5432
 
 > ⚠️ **LOW**: Read-only check; no risks
 
+## 最佳实践
+
+[[bp-pg-isready|pg_isready 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

@@ -72,6 +72,15 @@ litellm --proxy --model gpt-4
 
 > ⚠️ **MEDIUM**: 代理会转发 API key，请配置访问控制和日志脱敏
 
+## 参考链接
+
+- [https://docs.litellm.ai/](https://docs.litellm.ai/)
+- [https://github.com/BerriAI/litellm](https://github.com/BerriAI/litellm)
+
+## 最佳实践
+
+[[bp-litellm|litellm 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|AI基础设施/扩展命令]]

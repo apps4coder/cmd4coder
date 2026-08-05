@@ -78,6 +78,12 @@ psql -f script.sql
 
 > ⚠️ **HIGH**: Direct database access; can modify or delete data
 
+> ⚠️ **MEDIUM**: SQL injection risk if using dynamic queries
+
+## 最佳实践
+
+[[bp-psql|psql 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

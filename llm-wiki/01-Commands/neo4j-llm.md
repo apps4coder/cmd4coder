@@ -77,6 +77,10 @@ python kg_build.py --docs ./documents/ --schema schema.cypher
 
 - [https://neo4j.com/labs/genai-ecosystem/](https://neo4j.com/labs/genai-ecosystem/)
 
+## 最佳实践
+
+[[bp-neo4j-llm|neo4j-llm 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI应用-MOC|AI基础设施/AI应用]]

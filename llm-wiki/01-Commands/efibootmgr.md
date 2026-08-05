@@ -71,6 +71,12 @@ sudo efibootmgr -c -d /dev/sda -p 1 -l '\EFI\ubuntu\grubx64.efi' -L Ubuntu
 
 > ⚠️ **CRITICAL**: 删除或修改错误的启动项会导致系统无法启动
 
+> ⚠️ **CRITICAL**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-efibootmgr|efibootmgr 生产环境最佳实践]]
+
 ## 所属维度
 
 [[固件与UEFI-MOC|硬件/固件与UEFI]]

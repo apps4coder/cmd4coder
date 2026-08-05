@@ -71,6 +71,10 @@ rabbitmqctl add_user admin password && rabbitmqctl set_user_tags admin administr
 
 > ⚠️ **MEDIUM**: 修改用户/权限会影响消息队列访问，请确认策略
 
+## 最佳实践
+
+[[bp-rabbitmqctl|rabbitmqctl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|大数据/扩展命令]]

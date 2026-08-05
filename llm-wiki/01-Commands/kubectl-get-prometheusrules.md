@@ -68,6 +68,10 @@ kubectl describe prometheusrule k8s-alerts -n monitoring
 
 > ⚠️ **LOW**: Read-only operation; shows alert rules
 
+## 最佳实践
+
+[[bp-kubectl-get-prometheusrules|kubectl get prometheusrules 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

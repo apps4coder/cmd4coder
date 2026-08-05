@@ -70,6 +70,10 @@ kubectl describe pvc data-volume -n production
 
 > ⚠️ **LOW**: Read-only operation; shows volume claims
 
+## 最佳实践
+
+[[bp-kubectl-get-pvc|kubectl get pvc 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Storage Management-MOC|Kubernetes Storage Management]]

@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-serving.yaml"
+  "source_file": "tools/cmd/data/ai/model-serving.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ docker run --gpus all --rm -p 8000:8000 -p 8001:8001 -v $(pwd)/models:/models nv
 
 ## 关联命令
 
-- [[bentoml]]
-- [[torchserve]]
+- [[bentoml|bentoml]]
+- [[torchserve|torchserve]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ docker run --gpus all --rm -p 8000:8000 -p 8001:8001 -v $(pwd)/models:/models nv
 ## 参考链接
 
 - [https://github.com/triton-inference-server/server](https://github.com/triton-inference-server/server)
+
+## 最佳实践
+
+[[bp-tritonserver|tritonserver 生产环境最佳实践]]
 
 ## 所属维度
 

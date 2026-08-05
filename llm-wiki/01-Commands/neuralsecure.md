@@ -77,6 +77,10 @@ python audit.py --model ./model.pt --tests adversarial --output report.json --ve
 
 - [https://github.com/protectai/neuralsecure](https://github.com/protectai/neuralsecure)
 
+## 最佳实践
+
+[[bp-neuralsecure|neuralsecure 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI安全-MOC|AI基础设施/AI安全]]

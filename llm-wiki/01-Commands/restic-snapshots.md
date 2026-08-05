@@ -62,6 +62,10 @@ restic snapshots --repo s3:s3.amazonaws.com/bucket --tag production
 
 > ⚠️ **LOW**: Read-only operation; lists snapshots only
 
+## 最佳实践
+
+[[bp-restic-snapshots|restic snapshots 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Backup  Recovery-MOC|Kubernetes Backup & Recovery]]

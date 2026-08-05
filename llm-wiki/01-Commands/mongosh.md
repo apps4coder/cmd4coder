@@ -72,6 +72,10 @@ mongosh --eval "db.users.find().limit(5)"
 
 > ⚠️ **MEDIUM**: 连接字符串中明文密码会泄露，请使用环境变量或凭证文件
 
+## 最佳实践
+
+[[bp-mongosh|mongosh 生产环境最佳实践]]
+
 ## 所属维度
 
 [[NoSQL-MOC|数据库工具/NoSQL]]

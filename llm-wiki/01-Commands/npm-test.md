@@ -55,6 +55,10 @@ npm test -- --coverage
 
 > ⚠️ **LOW**: Tests may modify test databases or external resources
 
+## 最佳实践
+
+[[bp-npm-test|npm test 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Programming Language-MOC|Programming Language]]

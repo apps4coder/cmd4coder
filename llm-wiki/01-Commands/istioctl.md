@@ -87,6 +87,10 @@ istioctl upgrade -f istio-operator.yaml
 
 > ⚠️ **HIGH**: install/upgrade/uninstall 影响整个网格基础设施
 
+## 最佳实践
+
+[[bp-istioctl|istioctl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[服务网格-MOC|网络工具/服务网格]]

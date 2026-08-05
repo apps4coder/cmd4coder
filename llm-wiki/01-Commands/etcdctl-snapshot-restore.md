@@ -63,6 +63,12 @@ etcdctl snapshot restore snapshot.db --name=node1 --initial-cluster=node1=http:/
 
 > ⚠️ **CRITICAL**: Restoring snapshot replaces current cluster data; backup first
 
+> ⚠️ **CRITICAL**: All cluster members must be restored; requires cluster downtime
+
+## 最佳实践
+
+[[bp-etcdctl-snapshot-restore|etcdctl snapshot restore 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cluster Management-MOC|Kubernetes Cluster Management]]

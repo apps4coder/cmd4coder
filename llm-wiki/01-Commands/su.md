@@ -63,6 +63,10 @@ su -c 'whoami' alice
 
 > ⚠️ **MEDIUM**: 切换到 root 后操作具有全局影响，请注意命令范围
 
+## 最佳实践
+
+[[bp-su|su 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux扩展命令-MOC|操作系统/Linux扩展命令]]

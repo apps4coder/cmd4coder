@@ -72,6 +72,12 @@ docker rmi $(docker images -q -f dangling=true)
 
 > ⚠️ **HIGH**: 会删除容器、镜像或网络资源，生产环境请确认对象并评估依赖影响。
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-docker-rmi|docker rmi 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Docker命令-MOC|容器编排/Docker命令]]

@@ -77,6 +77,10 @@ python app.py --cache_enabled --retry_count=3 --fallback_models=gpt-4,gpt-3.5-tu
 
 - [https://portkey.ai/](https://portkey.ai/)
 
+## 最佳实践
+
+[[bp-portkey|portkey 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI网关-MOC|AI基础设施/AI网关]]

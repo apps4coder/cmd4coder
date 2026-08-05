@@ -12,8 +12,7 @@
   "cmd_level": "intermediate",
   "cmd_related": [
     "modal",
-    "sky-pilot",
-    "vast.ai"
+    "sky-pilot"
   ],
   "cmd_tags": [
     "training",
@@ -74,6 +73,15 @@ runpodctl create pod --gpu A100 --image pytorch/pytorch
 ## 风险提示
 
 > ⚠️ **MEDIUM**: 会修改系统或应用状态，建议在测试环境验证后再应用于生产。
+
+## 参考链接
+
+- [https://docs.runpod.io/](https://docs.runpod.io/)
+- [https://github.com/runpod/runpodctl](https://github.com/runpod/runpodctl)
+
+## 最佳实践
+
+[[bp-runpod|runpod 生产环境最佳实践]]
 
 ## 所属维度
 

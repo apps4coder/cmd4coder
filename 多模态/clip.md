@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/multimodal.yaml"
+  "source_file": "tools/cmd/data/ai/multimodal.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python zero_shot.py --model ViT-L/14 --classes 'cat,dog,bird,car' --image folder
 
 ## 关联命令
 
-- [[llava]]
-- [[transformers-pipeline]]
+- [[llava|llava]]
+- [[transformers-pipeline|transformers-pipeline]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python zero_shot.py --model ViT-L/14 --classes 'cat,dog,bird,car' --image folder
 ## 参考链接
 
 - [https://github.com/openai/CLIP](https://github.com/openai/CLIP)
+
+## 最佳实践
+
+[[bp-clip|clip 生产环境最佳实践]]
 
 ## 所属维度
 

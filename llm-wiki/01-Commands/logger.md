@@ -55,6 +55,10 @@ logger -n com.example --level debug
 
 > ⚠️ **MEDIUM**: Changing log levels affects application logging
 
+## 最佳实践
+
+[[bp-logger|logger 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Java Diagnostic-MOC|Java Diagnostic]]

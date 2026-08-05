@@ -69,6 +69,10 @@ terraform fmt -check
 
 > ⚠️ **LOW**: Only formats code; no functional changes
 
+## 最佳实践
+
+[[bp-terraform-fmt|terraform fmt 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

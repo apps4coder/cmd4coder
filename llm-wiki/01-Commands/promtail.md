@@ -70,6 +70,10 @@ promtail -config.file=promtail.yml -dry-run
 
 > ⚠️ **MEDIUM**: 错误的标签配置会导致日志无法查询或 cardinality 爆炸
 
+## 最佳实践
+
+[[bp-promtail|promtail 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

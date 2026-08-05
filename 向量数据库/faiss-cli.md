@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/vector-db.yaml"
+  "source_file": "tools/cmd/data/ai/vector-db.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ python build_index.py --dim 768 --index_type ivf --nlist 100 --gpu
 
 ## 关联命令
 
-- [[pgvector]]
-- [[milvus-cli]]
+- [[pgvector|pgvector]]
+- [[milvus-cli|milvus-cli]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ python build_index.py --dim 768 --index_type ivf --nlist 100 --gpu
 ## 参考链接
 
 - [https://github.com/facebookresearch/faiss](https://github.com/facebookresearch/faiss)
+
+## 最佳实践
+
+[[bp-faiss-cli|faiss-cli 生产环境最佳实践]]
 
 ## 所属维度
 

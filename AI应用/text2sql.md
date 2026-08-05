@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "high",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-applications.yaml"
+  "source_file": "tools/cmd/data/ai/ai-applications.yaml"
 }
 ---
 
@@ -67,16 +67,22 @@ python text2sql.py --schema schema.sql --dialect mysql --question 'What is the a
 
 ## 关联命令
 
-- [[langchain]]
-- [[dify]]
+- [[langchain|langchain]]
+- [[dify|dify]]
 
 ## 风险提示
 
 > ⚠️ **HIGH**: 生成的SQL可能包含DELETE/DROP，需审查和沙箱执行
 
+> ⚠️ **HIGH**: AI 生成的 SQL/代码需人工审查，避免对生产数据执行误删、误改操作。
+
 ## 参考链接
 
 - [https://github.com/eosphoros-ai/DB-GPT](https://github.com/eosphoros-ai/DB-GPT)
+
+## 最佳实践
+
+[[bp-text2sql|text2sql 生产环境最佳实践]]
 
 ## 所属维度
 

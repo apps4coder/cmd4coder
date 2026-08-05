@@ -72,9 +72,15 @@ python -c "from datasets import load_dataset; ds = load_dataset('mbpp')"
 
 > ⚠️ **HIGH**: 执行模型代码需在沙箱
 
+> ⚠️ **HIGH**: 执行模型或 Agent 生成的代码存在安全风险，请在隔离环境（如容器/沙箱）中运行。
+
 ## 参考链接
 
 - [https://github.com/google-research/google-research/tree/master/mbpp](https://github.com/google-research/google-research/tree/master/mbpp)
+
+## 最佳实践
+
+[[bp-mbpp|mbpp 生产环境最佳实践]]
 
 ## 所属维度
 

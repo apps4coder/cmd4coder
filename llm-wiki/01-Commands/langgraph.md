@@ -78,6 +78,10 @@ python agent_loop.py --checkpoint --interrupt human_approval
 
 - [https://langchain-ai.github.io/langgraph/](https://langchain-ai.github.io/langgraph/)
 
+## 最佳实践
+
+[[bp-langgraph|langgraph 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

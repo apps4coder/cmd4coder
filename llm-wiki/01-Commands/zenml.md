@@ -72,6 +72,15 @@ zenml stack set default
 
 > ⚠️ **MEDIUM**: zenml stack 涉及云凭据，请安全存储
 
+## 参考链接
+
+- [https://www.zenml.io/](https://www.zenml.io/)
+- [https://github.com/zenml-io/zenml](https://github.com/zenml-io/zenml)
+
+## 最佳实践
+
+[[bp-zenml|zenml 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|AI基础设施/扩展命令]]

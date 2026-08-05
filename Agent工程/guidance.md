@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/agent-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/agent-engineering.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python json_gen.py --schema schema.json --model gpt-4
 
 ## 关联命令
 
-- [[outlines]]
-- [[instructor]]
+- [[outlines|outlines]]
+- [[instructor|instructor]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python json_gen.py --schema schema.json --model gpt-4
 ## 参考链接
 
 - [https://github.com/guidance-ai/guidance](https://github.com/guidance-ai/guidance)
+
+## 最佳实践
+
+[[bp-guidance|guidance 生产环境最佳实践]]
 
 ## 所属维度
 

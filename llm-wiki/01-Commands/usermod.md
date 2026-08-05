@@ -64,6 +64,10 @@ sudo usermod -L alice
 
 > ⚠️ **MEDIUM**: 修改用户组或锁定账户可能导致无法登录，请谨慎操作
 
+## 最佳实践
+
+[[bp-usermod|usermod 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux扩展命令-MOC|操作系统/Linux扩展命令]]

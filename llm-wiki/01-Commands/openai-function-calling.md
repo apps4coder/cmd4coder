@@ -78,6 +78,10 @@ python function_calling.py --tools tools.json --conversation
 
 - [https://platform.openai.com/docs/guides/function-calling](https://platform.openai.com/docs/guides/function-calling)
 
+## 最佳实践
+
+[[bp-openai-function-calling|openai-function-calling 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

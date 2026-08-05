@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/rag-infra.yaml"
+  "source_file": "tools/cmd/data/ai/rag-infra.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ marker single paper.pdf ./output --langs English,Chinese
 
 ## 关联命令
 
-- [[pymupdf]]
-- [[unstructured]]
+- [[pymupdf|pymupdf]]
+- [[unstructured|unstructured]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ marker single paper.pdf ./output --langs English,Chinese
 ## 参考链接
 
 - [https://github.com/VikParuchuri/marker](https://github.com/VikParuchuri/marker)
+
+## 最佳实践
+
+[[bp-marker|marker 生产环境最佳实践]]
 
 ## 所属维度
 

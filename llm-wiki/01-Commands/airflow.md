@@ -72,6 +72,10 @@ airflow dags trigger my_dag -e "2024-01-01"
 
 > ⚠️ **MEDIUM**: 手动触发或回填 DAG 可能影响下游依赖和数据一致性
 
+## 最佳实践
+
+[[bp-airflow|airflow 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据集成与ETL-MOC|大数据/数据集成与ETL]]

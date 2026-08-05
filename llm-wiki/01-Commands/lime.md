@@ -78,6 +78,10 @@ python -c "from lime.lime_text import LimeTextExplainer; explainer = LimeTextExp
 
 - [https://github.com/marcotcr/lime](https://github.com/marcotcr/lime)
 
+## 最佳实践
+
+[[bp-lime|lime 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型可解释性-MOC|AI基础设施/模型可解释性]]

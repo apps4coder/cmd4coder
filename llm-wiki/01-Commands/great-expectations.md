@@ -78,6 +78,10 @@ great_expectations checkpoint run my_checkpoint
 
 - [https://greatexpectations.io/](https://greatexpectations.io/)
 
+## 最佳实践
+
+[[bp-great-expectations|great-expectations 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据与标注-MOC|AI基础设施/数据与标注]]

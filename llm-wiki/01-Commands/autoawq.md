@@ -77,6 +77,10 @@ python -c "from awq import AutoAWQForCausalLM; help(AutoAWQForCausalLM.from_quan
 
 - [https://github.com/casper-hansen/AutoAWQ](https://github.com/casper-hansen/AutoAWQ)
 
+## 最佳实践
+
+[[bp-autoawq|autoawq 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型生态-MOC|AI基础设施/模型生态]]

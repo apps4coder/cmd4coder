@@ -84,6 +84,10 @@ bazel run //tools:server
 
 > ⚠️ **LOW**: 构建和测试操作风险低
 
+## 最佳实践
+
+[[bp-bazel|bazel 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CMake-MOC|构建工具/CMake]]

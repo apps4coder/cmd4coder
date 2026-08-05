@@ -69,6 +69,10 @@ bin/zeppelin-daemon.sh stop
 
 > ⚠️ **MEDIUM**: Zeppelin 解释器可执行任意代码，请配置认证和权限
 
+## 最佳实践
+
+[[bp-zeppelin|zeppelin 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|大数据/扩展命令]]

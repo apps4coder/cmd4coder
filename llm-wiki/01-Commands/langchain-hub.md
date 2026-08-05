@@ -76,6 +76,10 @@ python -c "from langchain import hub; hub.push('my-repo/my-prompt', prompt)"
 
 - [https://github.com/hwchase17/langchain-hub](https://github.com/hwchase17/langchain-hub)
 
+## 最佳实践
+
+[[bp-langchain-hub|langchain-hub 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI应用-MOC|AI基础设施/AI应用]]

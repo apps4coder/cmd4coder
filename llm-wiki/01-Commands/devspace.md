@@ -72,6 +72,10 @@ devspace deploy
 
 > ⚠️ **MEDIUM**: devspace deploy 会修改集群，请确认 namespace 和 values
 
+## 最佳实践
+
+[[bp-devspace|devspace 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

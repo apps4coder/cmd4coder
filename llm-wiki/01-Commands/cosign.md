@@ -72,6 +72,10 @@ cosign verify --key cosign.pub registry.example.com/myapp:v1
 
 > ⚠️ **MEDIUM**: 私钥泄露会导致他人伪造签名，请使用 KMS 或安全存储
 
+## 最佳实践
+
+[[bp-cosign|cosign 生产环境最佳实践]]
+
 ## 所属维度
 
 [[K8s安全扩展-MOC|容器编排/K8s安全扩展]]

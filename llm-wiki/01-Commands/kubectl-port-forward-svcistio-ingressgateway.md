@@ -55,6 +55,10 @@ kubectl port-forward --address=0.0.0.0 svc/istio-ingressgateway 8080:80 -n istio
 
 > ⚠️ **LOW**: Local port forwarding only
 
+## 最佳实践
+
+[[bp-kubectl-port-forward-svc-istio-ingressgateway|kubectl port-forward svc/istio-ingressgateway 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes MLOps-MOC|Kubernetes MLOps]]

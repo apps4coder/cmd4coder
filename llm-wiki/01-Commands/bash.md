@@ -82,6 +82,10 @@ bash -c 'echo hello'
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 最佳实践
+
+[[bp-bash|bash 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Bash工具-MOC|Shell脚本/Bash工具]]

@@ -73,9 +73,15 @@ python prune.py --model vit-base --sparsity 0.3 --importance taylor
 
 > ⚠️ **HIGH**: 剪枝可能显著降低模型精度，需充分评估
 
+> ⚠️ **HIGH**: 模型裁剪、量化或格式转换可能改变精度或兼容性，请在验证集上充分测试。
+
 ## 参考链接
 
 - [https://github.com/VainF/Torch-Pruning](https://github.com/VainF/Torch-Pruning)
+
+## 最佳实践
+
+[[bp-model-pruner|model-pruner 生产环境最佳实践]]
 
 ## 所属维度
 

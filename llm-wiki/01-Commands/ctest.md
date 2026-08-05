@@ -84,6 +84,10 @@ ctest --test-dir build -V
 
 > ⚠️ **LOW**: 只读测试操作，无风险
 
+## 最佳实践
+
+[[bp-ctest|ctest 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CMake-MOC|构建工具/CMake]]

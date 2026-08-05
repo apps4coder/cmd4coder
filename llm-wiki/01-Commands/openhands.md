@@ -76,9 +76,15 @@ python -m openhands.core.main -t 'Implement a REST API for user authentication'
 
 > ⚠️ **CRITICAL**: AI自主执行命令需沙箱隔离，防止破坏系统
 
+> ⚠️ **CRITICAL**: AI 自动修改代码可能引入 Bug 或破坏构建，建议通过 Code Review 和 CI 后再合并。
+
 ## 参考链接
 
 - [https://github.com/All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)
+
+## 最佳实践
+
+[[bp-openhands|openhands 生产环境最佳实践]]
 
 ## 所属维度
 

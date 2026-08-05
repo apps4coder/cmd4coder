@@ -53,6 +53,10 @@ sudo systemctl start nginx.service
 
 > ⚠️ **MEDIUM**: Starting services may expose network ports
 
+## 最佳实践
+
+[[bp-systemctl-start|systemctl start 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

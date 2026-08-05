@@ -82,6 +82,10 @@ uv python find
 
 > ⚠️ **LOW**: 仅管理本地 Python 版本
 
+## 最佳实践
+
+[[bp-uv-python|uv python 生产环境最佳实践]]
+
 ## 所属维度
 
 [[包管理-MOC|构建工具/包管理]]

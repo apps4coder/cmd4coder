@@ -63,6 +63,19 @@ def safe_filename(name: str) -> str:
     return s or "unknown"
 
 
+_CREATED_RE = re.compile(r'^created: "([0-9-]+)"$', re.M)
+
+
+def preserve_created(fpath, page: str) -> str:
+    """页面已存在时保留原 created 日期，避免重生成产生无意义 diff。"""
+    if not fpath.exists():
+        return page
+    old = _CREATED_RE.search(fpath.read_text(encoding="utf-8"))
+    if old:
+        page = _CREATED_RE.sub(f'created: "{old.group(1)}"', page, count=1)
+    return page
+
+
 def get_domain(category: str) -> str:
     for prefix, domain in CATEGORY_DOMAIN.items():
         if category.startswith(prefix):
@@ -640,6 +653,7 @@ def main():
         fpath = BP_DIR / fname
 
         page = render_page(cmd, cat, source, known_cmds)
+        page = preserve_created(fpath, page)
         fpath.write_text(page, encoding="utf-8")
         generated += 1
 

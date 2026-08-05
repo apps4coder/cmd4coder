@@ -68,6 +68,10 @@ kubectl describe netpol allow-frontend -n production
 
 > ⚠️ **LOW**: Read-only operation; shows network restrictions
 
+## 最佳实践
+
+[[bp-kubectl-get-networkpolicies|kubectl get networkpolicies 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

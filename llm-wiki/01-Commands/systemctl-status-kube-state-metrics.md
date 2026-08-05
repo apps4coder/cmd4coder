@@ -59,6 +59,12 @@ systemctl restart kube-state-metrics
 
 > ⚠️ **LOW**: Read-only status check; no risks
 
+> ⚠️ **LOW**: Restarting causes brief metrics gap
+
+## 最佳实践
+
+[[bp-systemctl-status-kube-state-metrics|systemctl status kube-state-metrics 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

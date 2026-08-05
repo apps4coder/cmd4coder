@@ -53,6 +53,10 @@ sudo systemctl enable --now nginx
 
 > ⚠️ **MEDIUM**: Service will start automatically after reboot
 
+## 最佳实践
+
+[[bp-systemctl-enable|systemctl enable 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

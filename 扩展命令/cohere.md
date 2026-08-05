@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/more.yaml"
+  "source_file": "tools/cmd/data/ai/more.yaml"
 }
 ---
 
@@ -64,8 +64,21 @@ cohere embed --texts 'hello world'
 
 ## 关联命令
 
-- [[openai]]
-- [[mistral]]
+- [[openai|openai]]
+- [[mistral|mistral]]
+
+## 风险提示
+
+> ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
+
+## 参考链接
+
+- [https://docs.cohere.com/](https://docs.cohere.com/)
+- [https://github.com/cohere-ai/cohere-python](https://github.com/cohere-ai/cohere-python)
+
+## 最佳实践
+
+[[bp-cohere|cohere 生产环境最佳实践]]
 
 ## 所属维度
 

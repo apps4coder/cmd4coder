@@ -64,6 +64,10 @@ htop -u nginx
 
 > ⚠️ **LOW**: 只读命令，但注意 kill 快捷键会发送信号
 
+## 最佳实践
+
+[[bp-htop|htop 生产环境最佳实践]]
+
 ## 所属维度
 
 [[通用Linux命令-MOC|操作系统/通用Linux命令]]

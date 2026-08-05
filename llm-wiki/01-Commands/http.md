@@ -86,6 +86,10 @@ http --headers GET https://example.com
 
 > ⚠️ **MEDIUM**: POST/PUT/DELETE 修改远端数据
 
+## 最佳实践
+
+[[bp-http|http 生产环境最佳实践]]
+
 ## 所属维度
 
 [[现代工具-MOC|Shell脚本/现代工具]]

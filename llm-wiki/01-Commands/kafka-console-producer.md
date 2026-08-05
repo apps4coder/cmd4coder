@@ -70,6 +70,10 @@ echo "hello" | kafka-console-producer.sh --bootstrap-server localhost:9092 --top
 
 > ⚠️ **LOW**: 向生产 Topic 发送测试数据可能污染业务数据，请注意环境
 
+## 最佳实践
+
+[[bp-kafka-console-producer|kafka-console-producer 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kafka工具-MOC|大数据/Kafka工具]]

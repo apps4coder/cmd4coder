@@ -78,6 +78,10 @@ docker logs weaviate
 
 - [https://weaviate.io/](https://weaviate.io/)
 
+## 最佳实践
+
+[[bp-weaviate-cli|weaviate-cli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

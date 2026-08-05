@@ -61,6 +61,10 @@ promtool check config --syntax-only prometheus.yml
 
 > ⚠️ **LOW**: Read-only validation; no operational impact
 
+## 最佳实践
+
+[[bp-promtool-check-config|promtool check config 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

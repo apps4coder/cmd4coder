@@ -83,6 +83,10 @@ conan profile detect
 
 > ⚠️ **LOW**: 包管理操作风险低
 
+## 最佳实践
+
+[[bp-conan|conan 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CMake-MOC|构建工具/CMake]]

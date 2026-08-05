@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-hub.yaml"
+  "source_file": "tools/cmd/data/ai/model-hub.yaml"
 }
 ---
 
@@ -63,8 +63,8 @@ neuronx-cc --help
 
 ## 关联命令
 
-- [[optimum-cli]]
-- [[onnxruntime]]
+- [[optimum-cli|optimum-cli]]
+- [[onnxruntime|onnxruntime]]
 
 ## 风险提示
 
@@ -73,6 +73,10 @@ neuronx-cc --help
 ## 参考链接
 
 - [https://aws.amazon.com/machine-learning/neuron/](https://aws.amazon.com/machine-learning/neuron/)
+
+## 最佳实践
+
+[[bp-neuronx-cc|neuronx-cc 生产环境最佳实践]]
 
 ## 所属维度
 

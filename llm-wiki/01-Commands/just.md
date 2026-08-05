@@ -83,6 +83,10 @@ just --show test
 
 > ⚠️ **MEDIUM**: recipe 可执行任意命令，审查 justfile 内容
 
+## 最佳实践
+
+[[bp-just|just 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CMake-MOC|构建工具/CMake]]

@@ -62,6 +62,10 @@ kubectl get experiments.kubeflow.org -n kubeflow -o yaml
 
 > ⚠️ **LOW**: Read-only operation
 
+## 最佳实践
+
+[[bp-kubectl-get-experiments-kubeflow-org|kubectl get experiments.kubeflow.org 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes MLOps-MOC|Kubernetes MLOps]]

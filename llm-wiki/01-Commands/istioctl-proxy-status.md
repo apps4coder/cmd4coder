@@ -61,6 +61,10 @@ istioctl proxy-status --namespace production
 
 > ⚠️ **LOW**: Read-only status check; shows proxy health
 
+## 最佳实践
+
+[[bp-istioctl-proxy-status|istioctl proxy-status 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Networking-MOC|Kubernetes Networking]]

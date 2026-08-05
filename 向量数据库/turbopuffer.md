@@ -25,7 +25,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/vector-db.yaml"
+  "source_file": "tools/cmd/data/ai/vector-db.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ python -c "import turbopuffer as tp; help(tp.Namespace.query)"
 
 ## 关联命令
 
-- [[pinecone]]
-- [[qdrant]]
+- [[pinecone|pinecone]]
+- [[qdrant|qdrant]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ python -c "import turbopuffer as tp; help(tp.Namespace.query)"
 ## 参考链接
 
 - [https://turbopuffer.com/](https://turbopuffer.com/)
+
+## 最佳实践
+
+[[bp-turbopuffer|turbopuffer 生产环境最佳实践]]
 
 ## 所属维度
 

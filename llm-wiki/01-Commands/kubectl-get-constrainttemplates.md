@@ -55,6 +55,10 @@ kubectl describe constrainttemplate k8srequiredlabels
 
 > ⚠️ **LOW**: Read-only operation; shows policy templates
 
+## 最佳实践
+
+[[bp-kubectl-get-constrainttemplates|kubectl get constrainttemplates 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

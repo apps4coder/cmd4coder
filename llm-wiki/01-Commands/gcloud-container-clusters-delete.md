@@ -62,6 +62,12 @@ gcloud container clusters delete my-cluster --zone us-central1-a --quiet
 
 > ⚠️ **CRITICAL**: Permanently deletes cluster and all resources
 
+> ⚠️ **CRITICAL**: Cannot be undone; backup data before deleting
+
+## 最佳实践
+
+[[bp-gcloud-container-clusters-delete|gcloud container clusters delete 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cloud Platforms-MOC|Kubernetes Cloud Platforms]]

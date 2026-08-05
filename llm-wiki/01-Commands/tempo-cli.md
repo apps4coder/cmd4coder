@@ -69,6 +69,10 @@ tempo-cli --server http://tempo:3200 search 'name=GET /api'
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 最佳实践
+
+[[bp-tempo-cli|tempo-cli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

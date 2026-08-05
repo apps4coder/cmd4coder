@@ -71,6 +71,12 @@ pg_restore -c -d mydb mydb.dump
 
 > ⚠️ **HIGH**: Can overwrite existing data; backup before restoring
 
+> ⚠️ **MEDIUM**: Clean option drops all objects; use with caution
+
+## 最佳实践
+
+[[bp-pg-restore|pg_restore 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

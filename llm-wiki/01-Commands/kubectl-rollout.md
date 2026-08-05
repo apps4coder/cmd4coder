@@ -76,6 +76,12 @@ kubectl rollout restart deployment/nginx
 
 > ⚠️ **HIGH**: Rollback may cause temporary service disruption
 
+> ⚠️ **MEDIUM**: Restart recreates all pods; causes brief downtime
+
+## 最佳实践
+
+[[bp-kubectl-rollout|kubectl rollout 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Container Orchestration-MOC|Container Orchestration]]

@@ -76,6 +76,10 @@ paddle2onnx --help
 
 - [https://github.com/PaddlePaddle/Paddle2ONNX](https://github.com/PaddlePaddle/Paddle2ONNX)
 
+## 最佳实践
+
+[[bp-paddle2onnx|paddle2onnx 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型生态-MOC|AI基础设施/模型生态]]

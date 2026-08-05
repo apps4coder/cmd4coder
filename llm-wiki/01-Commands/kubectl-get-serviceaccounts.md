@@ -68,6 +68,10 @@ kubectl describe sa default -n production
 
 > ⚠️ **LOW**: Read-only operation; shows service account identities
 
+## 最佳实践
+
+[[bp-kubectl-get-serviceaccounts|kubectl get serviceaccounts 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

@@ -70,6 +70,10 @@ nomad status
 
 > ⚠️ **MEDIUM**: job stop 会停止工作负载，请确认影响范围
 
+## 最佳实践
+
+[[bp-nomad|nomad 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

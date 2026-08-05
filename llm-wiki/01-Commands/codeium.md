@@ -75,6 +75,10 @@ codeium --status
 
 - [https://codeium.com/](https://codeium.com/)
 
+## 最佳实践
+
+[[bp-codeium|codeium 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI编程-MOC|AI基础设施/AI编程]]

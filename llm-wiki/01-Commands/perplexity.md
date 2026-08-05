@@ -71,6 +71,14 @@ perplexity --model sonar-pro --stream 'Explain Kubernetes'
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 参考链接
+
+- [https://docs.perplexity.ai/](https://docs.perplexity.ai/)
+
+## 最佳实践
+
+[[bp-perplexity|perplexity 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|AI基础设施/扩展工具]]

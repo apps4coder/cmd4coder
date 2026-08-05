@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-architecture.yaml"
+  "source_file": "tools/cmd/data/ai/model-architecture.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ transformers-cli download meta-llama/Llama-2-7b-hf
 
 ## 关联命令
 
-- [[huggingface-cli]]
-- [[safetensors-convert]]
+- [[huggingface-cli|huggingface-cli]]
+- [[safetensors-convert|safetensors-convert]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ transformers-cli download meta-llama/Llama-2-7b-hf
 ## 参考链接
 
 - [https://huggingface.co/docs/transformers](https://huggingface.co/docs/transformers)
+
+## 最佳实践
+
+[[bp-transformers-cli|transformers-cli 生产环境最佳实践]]
 
 ## 所属维度
 

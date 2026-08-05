@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/harness-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/harness-engineering.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python evaluate.py --test_suite all --model llama-3-70b --output safety_report.j
 
 ## 关联命令
 
-- [[red-teaming]]
-- [[big-bench]]
+- [[red-teaming|red-teaming]]
+- [[big-bench|big-bench]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python evaluate.py --test_suite all --model llama-3-70b --output safety_report.j
 ## 参考链接
 
 - [https://github.com/mlcommons/ailuminate](https://github.com/mlcommons/ailuminate)
+
+## 最佳实践
+
+[[bp-safety-eval|safety-eval 生产环境最佳实践]]
 
 ## 所属维度
 

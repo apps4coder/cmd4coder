@@ -71,6 +71,12 @@ cassandra-stress read duration=5m -rate threads=50
 
 > ⚠️ **HIGH**: 压测会大量消耗 Cassandra 资源，请避开业务高峰并获授权
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-cassandra-stress|cassandra-stress 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|数据库工具/扩展工具]]

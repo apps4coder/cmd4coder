@@ -78,6 +78,10 @@ torchrun --nproc_per_node=2 --nnodes=1 train.py
 
 - [https://pytorch.org/docs/stable/distributed.html#launch-utility](https://pytorch.org/docs/stable/distributed.html#launch-utility)
 
+## 最佳实践
+
+[[bp-torchrun|torchrun 生产环境最佳实践]]
+
 ## 所属维度
 
 [[ML框架-MOC|AI基础设施/ML框架]]

@@ -68,6 +68,10 @@ linkerd diagnostics policy get deploy/myapp
 
 > ⚠️ **LOW**: 只读诊断操作
 
+## 最佳实践
+
+[[bp-linkerd-diagnostics|linkerd diagnostics 生产环境最佳实践]]
+
 ## 所属维度
 
 [[服务网格-MOC|网络工具/服务网格]]

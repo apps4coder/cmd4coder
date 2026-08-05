@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-architecture.yaml"
+  "source_file": "tools/cmd/data/ai/model-architecture.yaml"
 }
 ---
 
@@ -72,8 +72,8 @@ python -c "from einops import repeat; y = repeat(x, 'b c -> b c h w', h=32, w=32
 
 ## 关联命令
 
-- [[transformers-cli]]
-- [[calflops]]
+- [[transformers-cli|transformers-cli]]
+- [[calflops|calflops]]
 
 ## 风险提示
 
@@ -82,6 +82,10 @@ python -c "from einops import repeat; y = repeat(x, 'b c -> b c h w', h=32, w=32
 ## 参考链接
 
 - [https://github.com/arogozhnikov/einops](https://github.com/arogozhnikov/einops)
+
+## 最佳实践
+
+[[bp-einops|einops 生产环境最佳实践]]
 
 ## 所属维度
 

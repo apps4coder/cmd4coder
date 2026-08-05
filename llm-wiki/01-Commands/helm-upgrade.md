@@ -86,6 +86,12 @@ helm upgrade nginx bitnami/nginx --set image.tag=v2.0.0
 
 > ⚠️ **HIGH**: Modifies running applications; may cause service disruption
 
+> ⚠️ **MEDIUM**: Test in staging environment first
+
+## 最佳实践
+
+[[bp-helm-upgrade|helm upgrade 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

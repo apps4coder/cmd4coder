@@ -72,6 +72,10 @@ crictl logs <container-id>
 
 > ⚠️ **MEDIUM**: crictl 可直接删除运行中容器，生产环境请谨慎
 
+## 最佳实践
+
+[[bp-crictl|crictl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

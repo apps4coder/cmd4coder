@@ -76,6 +76,10 @@ python -c "from qwen_vl_utils import process_vision_info; image_inputs, video_in
 
 - [https://github.com/QwenLM/Qwen2-VL](https://github.com/QwenLM/Qwen2-VL)
 
+## 最佳实践
+
+[[bp-qwen-vl|qwen-vl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[多模态-MOC|AI基础设施/多模态]]

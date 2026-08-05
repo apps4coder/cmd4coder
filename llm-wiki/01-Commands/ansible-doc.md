@@ -62,6 +62,10 @@ ansible-doc -t connection ssh
 
 > ⚠️ **LOW**: Documentation display only
 
+## 最佳实践
+
+[[bp-ansible-doc|ansible-doc 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

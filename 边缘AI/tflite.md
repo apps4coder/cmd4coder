@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/edge-ai.yaml"
+  "source_file": "tools/cmd/data/ai/edge-ai.yaml"
 }
 ---
 
@@ -71,8 +71,8 @@ python -c "import tflite_runtime.interpreter as tflite; interpreter = tflite.Int
 
 ## 关联命令
 
-- [[executorch]]
-- [[coremltools]]
+- [[executorch|executorch]]
+- [[coremltools|coremltools]]
 
 ## 风险提示
 
@@ -81,6 +81,10 @@ python -c "import tflite_runtime.interpreter as tflite; interpreter = tflite.Int
 ## 参考链接
 
 - [https://www.tensorflow.org/lite](https://www.tensorflow.org/lite)
+
+## 最佳实践
+
+[[bp-tflite|tflite 生产环境最佳实践]]
 
 ## 所属维度
 

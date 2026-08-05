@@ -25,7 +25,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/vector-db.yaml"
+  "source_file": "tools/cmd/data/ai/vector-db.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ curl -X PUT localhost:9200/my-index -H 'Content-Type: application/json' -d '{"se
 
 ## 关联命令
 
-- [[elasticsearch]]
-- [[vespa-cli]]
+- [[elasticsearch|elasticsearch]]
+- [[vespa-cli|vespa-cli]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ curl -X PUT localhost:9200/my-index -H 'Content-Type: application/json' -d '{"se
 ## 参考链接
 
 - [https://opensearch.org/](https://opensearch.org/)
+
+## 最佳实践
+
+[[bp-opensearch|opensearch 生产环境最佳实践]]
 
 ## 所属维度
 

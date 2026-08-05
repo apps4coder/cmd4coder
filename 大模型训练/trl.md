@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ trl dpo --model_name_or_path model-sft --dataset_name anthropic/hh-rlhf
 
 ## 关联命令
 
-- [[axolotl]]
-- [[peft]]
+- [[axolotl|axolotl]]
+- [[peft|peft]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ trl dpo --model_name_or_path model-sft --dataset_name anthropic/hh-rlhf
 ## 参考链接
 
 - [https://huggingface.co/docs/trl](https://huggingface.co/docs/trl)
+
+## 最佳实践
+
+[[bp-trl|trl 生产环境最佳实践]]
 
 ## 所属维度
 

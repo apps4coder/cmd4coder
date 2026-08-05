@@ -62,6 +62,12 @@ kubeadm join 192.168.1.100:6443 --token abcdef.0123456789abcdef --discovery-toke
 
 > ⚠️ **HIGH**: Adds node to production cluster; verify token and endpoint carefully
 
+> ⚠️ **MEDIUM**: Incorrect token or CA hash causes join failure
+
+## 最佳实践
+
+[[bp-kubeadm-join|kubeadm join 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cluster Management-MOC|Kubernetes Cluster Management]]

@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python grpo_train.py --model_name Qwen2.5-7B --num_generations 8 --beta 0.04 --o
 
 ## 关联命令
 
-- [[trl]]
-- [[dpo]]
+- [[trl|trl]]
+- [[dpo|dpo]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python grpo_train.py --model_name Qwen2.5-7B --num_generations 8 --beta 0.04 --o
 ## 参考链接
 
 - [https://huggingface.co/docs/trl/grpo_trainer](https://huggingface.co/docs/trl/grpo_trainer)
+
+## 最佳实践
+
+[[bp-grpo|grpo 生产环境最佳实践]]
 
 ## 所属维度
 

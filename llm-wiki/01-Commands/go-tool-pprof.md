@@ -81,6 +81,10 @@ go tool pprof -list=HandlerFunc cpu.prof
 
 > ⚠️ **LOW**: 只读分析操作，采集 profile 有轻微开销
 
+## 最佳实践
+
+[[bp-go-tool-pprof|go tool pprof 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Go工具链扩展-MOC|编程语言/Go工具链扩展]]

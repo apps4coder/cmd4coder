@@ -78,6 +78,10 @@ python -c "from pydantic_ai import Agent; help(Agent.run_sync)"
 
 - [https://ai.pydantic.dev/](https://ai.pydantic.dev/)
 
+## 最佳实践
+
+[[bp-pydantic-ai|pydantic-ai 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

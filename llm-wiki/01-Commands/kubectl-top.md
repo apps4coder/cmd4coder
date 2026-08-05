@@ -75,6 +75,10 @@ kubectl top pods --containers
 
 > ⚠️ **LOW**: Read-only operation; requires metrics-server installed
 
+## 最佳实践
+
+[[bp-kubectl-top|kubectl top 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Container Orchestration-MOC|Container Orchestration]]

@@ -63,6 +63,10 @@ sudo openvpn --daemon --config server.conf
 
 > ⚠️ **MEDIUM**: VPN 配置错误会将流量导向错误网络，请确认路由和证书
 
+## 最佳实践
+
+[[bp-openvpn|openvpn 生产环境最佳实践]]
+
 ## 所属维度
 
 [[基础设施-MOC|网络工具/基础设施]]

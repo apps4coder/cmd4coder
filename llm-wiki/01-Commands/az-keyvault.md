@@ -83,6 +83,10 @@ az keyvault certificate create --vault-name my-vault --name my-cert --policy "$(
 
 > ⚠️ **HIGH**: 密钥和机密为敏感信息，操作需严格权限控制
 
+## 最佳实践
+
+[[bp-az-keyvault|az keyvault 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Azure CLI-MOC|云平台/Azure CLI]]

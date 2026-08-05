@@ -83,6 +83,10 @@ promptfoo eval --providers openai:gpt-4,anthropic:claude-3 --tests tests.csv
 
 - [https://www.promptfoo.dev/](https://www.promptfoo.dev/)
 
+## 最佳实践
+
+[[bp-promptfoo|promptfoo 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI网关-MOC|AI基础设施/AI网关]]

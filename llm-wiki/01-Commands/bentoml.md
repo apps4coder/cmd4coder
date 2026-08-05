@@ -89,6 +89,10 @@ bentoml containerize my_service:latest -t my_service_image:1.0
 
 - [https://docs.bentoml.com/en/latest/reference/cli.html](https://docs.bentoml.com/en/latest/reference/cli.html)
 
+## 最佳实践
+
+[[bp-bentoml|bentoml 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型服务-MOC|AI基础设施/模型服务]]

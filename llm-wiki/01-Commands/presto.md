@@ -72,6 +72,10 @@ presto --server localhost:8080 --execute "SELECT count(*) FROM hive.default.user
 
 > ⚠️ **MEDIUM**: 跨源查询可能扫描大量数据，请关注资源队列和成本
 
+## 最佳实践
+
+[[bp-presto|presto 生产环境最佳实践]]
+
 ## 所属维度
 
 [[查询引擎-MOC|大数据/查询引擎]]

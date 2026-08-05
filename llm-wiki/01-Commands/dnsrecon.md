@@ -70,6 +70,10 @@ dnsrecon -d example.com -t axfr
 
 > ⚠️ **MEDIUM**: 大量 DNS 查询可能被目标视为扫描，请控制速率
 
+## 最佳实践
+
+[[bp-dnsrecon|dnsrecon 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|网络工具/扩展工具]]

@@ -2154,10 +2154,10 @@
     "source_yaml": "vcs/git.yaml"
   },
   "git-lfs": {
-    "category": "版本控制/Git高级操作",
-    "cmd_name": "git lfs",
-    "domain_cn": "Git高级操作",
-    "source_yaml": "vcs/git-advanced.yaml"
+    "category": "AI基础设施/模型生态",
+    "cmd_name": "git-lfs",
+    "domain_cn": "模型生态",
+    "source_yaml": "ai/model-hub.yaml"
   },
   "git-log": {
     "category": "版本控制/Git命令",

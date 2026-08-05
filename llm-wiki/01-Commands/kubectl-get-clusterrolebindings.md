@@ -55,6 +55,10 @@ kubectl describe clusterrolebinding cluster-admin
 
 > ⚠️ **LOW**: Read-only operation; shows cluster access mappings
 
+## 最佳实践
+
+[[bp-kubectl-get-clusterrolebindings|kubectl get clusterrolebindings 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

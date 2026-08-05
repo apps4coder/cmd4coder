@@ -79,6 +79,10 @@ optimum-cli gptq --model meta-llama/Llama-2-7b-hf --dataset c4 --bits 4
 
 - [https://huggingface.co/docs/optimum](https://huggingface.co/docs/optimum)
 
+## 最佳实践
+
+[[bp-optimum-cli|optimum-cli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型生态-MOC|AI基础设施/模型生态]]

@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/data-labeling.yaml"
+  "source_file": "tools/cmd/data/ai/data-labeling.yaml"
 }
 ---
 
@@ -80,8 +80,8 @@ dvc remote add -d myremote s3://mybucket/dvcstore
 
 ## 关联命令
 
-- [[git-lfs]]
-- [[cleanlab]]
+- [[git-lfs|git-lfs]]
+- [[cleanlab|cleanlab]]
 
 ## 风险提示
 
@@ -90,6 +90,10 @@ dvc remote add -d myremote s3://mybucket/dvcstore
 ## 参考链接
 
 - [https://dvc.org/](https://dvc.org/)
+
+## 最佳实践
+
+[[bp-dvc|dvc 生产环境最佳实践]]
 
 ## 所属维度
 

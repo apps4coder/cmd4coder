@@ -71,6 +71,12 @@ kafka-mirror-maker.sh --whitelist 'topic1,topic2'
 
 > ⚠️ **HIGH**: 镜像会复制大量数据并可能覆盖目标集群，请确认白名单和 offset 策略
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-kafka-mirror-maker|kafka-mirror-maker 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|大数据/扩展命令]]

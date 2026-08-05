@@ -72,6 +72,10 @@ python -m redfish --rhost bmc --user admin --password pass Systems
 
 > ⚠️ **MEDIUM**: Redfish 可执行电源操作，请保护好凭据
 
+## 最佳实践
+
+[[bp-redfish|redfish 生产环境最佳实践]]
+
 ## 所属维度
 
 [[远程带外管理-MOC|硬件/远程带外管理]]

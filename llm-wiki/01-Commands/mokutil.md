@@ -71,6 +71,12 @@ sudo mokutil --import MOK.der
 
 > ⚠️ **HIGH**: 错误的 MOK 管理可能导致驱动无法加载或安全策略破坏
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-mokutil|mokutil 生产环境最佳实践]]
+
 ## 所属维度
 
 [[固件与UEFI-MOC|硬件/固件与UEFI]]

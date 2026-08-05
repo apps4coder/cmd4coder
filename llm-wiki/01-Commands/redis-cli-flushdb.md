@@ -61,6 +61,12 @@ redis-cli FLUSHALL
 
 > ⚠️ **CRITICAL**: Permanently deletes all data; cannot be undone
 
+> ⚠️ **HIGH**: FLUSHALL affects all databases on the server
+
+## 最佳实践
+
+[[bp-redis-cli-flushdb|redis-cli FLUSHDB 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

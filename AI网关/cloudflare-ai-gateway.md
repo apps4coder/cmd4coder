@@ -77,6 +77,10 @@ curl https://gateway.ai.cloudflare.com/v1/<acct>/<gw>/openai/chat/completions -H
 
 - [https://developers.cloudflare.com/ai-gateway/](https://developers.cloudflare.com/ai-gateway/)
 
+## 最佳实践
+
+[[bp-cloudflare-ai-gateway|cloudflare-ai-gateway 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI网关-MOC|AI基础设施/AI网关]]

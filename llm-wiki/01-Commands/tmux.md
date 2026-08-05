@@ -69,6 +69,10 @@ tmux attach -t mysession
 
 > ⚠️ **LOW**: 注意在 tmux 中启动的后台进程会在会话退出后继续运行
 
+## 最佳实践
+
+[[bp-tmux|tmux 生产环境最佳实践]]
+
 ## 所属维度
 
 [[通用Linux命令-MOC|操作系统/通用Linux命令]]

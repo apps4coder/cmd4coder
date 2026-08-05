@@ -7,7 +7,7 @@ domain: "ai-infra"
 risk_level: "critical"
 platforms: ["linux", "darwin"]
 tags: ["ai-infra", "risk-critical", "linux", "darwin"]
-created: "2026-06-06"
+created: "2026-07-28"
 source_file: "ai/ai-coding.yaml"
 ---
 
@@ -33,6 +33,7 @@ source_file: "ai/ai-coding.yaml"
 
 - ⚠️ 此命令风险等级为 **CRITICAL**，生产环境使用前必须经过变更审批
 - **CRITICAL**: 执行真实代码修改，需隔离环境
+- **CRITICAL**: AI 自动修改代码可能引入 Bug 或破坏构建，建议通过 Code Review 和 CI 后再合并。
 - 模型服务 API 接入认证（JWT/API Key），禁止匿名访问
 - 输入数据做长度和格式校验，防止 Prompt 注入
 - 操作前务必在 staging 环境验证，制定回滚方案

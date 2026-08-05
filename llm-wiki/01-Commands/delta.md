@@ -73,6 +73,12 @@ delta table-details --table /path/to/table
 
 > ⚠️ **HIGH**: VACUUM 或 RESTORE 操作会清理/回滚历史数据，请确认保留策略
 
+> ⚠️ **HIGH**: 数据湖表的版本回滚或清理操作不可逆，请先理解保留策略并备份元数据。
+
+## 最佳实践
+
+[[bp-delta|delta 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据湖-MOC|大数据/数据湖]]

@@ -86,6 +86,10 @@ accelerate launch --mixed_precision=fp16 train.py
 
 - [https://huggingface.co/docs/accelerate](https://huggingface.co/docs/accelerate)
 
+## 最佳实践
+
+[[bp-accelerate|accelerate 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

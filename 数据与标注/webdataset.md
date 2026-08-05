@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/data-labeling.yaml"
+  "source_file": "tools/cmd/data/ai/data-labeling.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python make_shards.py --input_dir ./images --output_pattern shards/data-%06d.tar
 
 ## 关联命令
 
-- [[datasets-cli]]
-- [[img2dataset]]
+- [[datasets-cli|datasets-cli]]
+- [[img2dataset|img2dataset]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python make_shards.py --input_dir ./images --output_pattern shards/data-%06d.tar
 ## 参考链接
 
 - [https://github.com/webdataset/webdataset](https://github.com/webdataset/webdataset)
+
+## 最佳实践
+
+[[bp-webdataset|webdataset 生产环境最佳实践]]
 
 ## 所属维度
 

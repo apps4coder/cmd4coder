@@ -61,6 +61,10 @@ terraform state show -no-color kubernetes_service.api
 
 > ⚠️ **LOW**: Read-only; displays resource details
 
+## 最佳实践
+
+[[bp-terraform-state-show|terraform state show 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

@@ -71,6 +71,10 @@ docker-compose down
 
 - [https://docs.docker.com/compose/](https://docs.docker.com/compose/)
 
+## 最佳实践
+
+[[bp-docker-compose|docker-compose 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Docker命令-MOC|容器编排/Docker命令]]

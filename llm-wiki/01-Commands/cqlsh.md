@@ -69,6 +69,10 @@ cqlsh -e "DESCRIBE KEYSPACES"
 
 > ⚠️ **MEDIUM**: 命令行传入密码会留在历史记录，建议使用 .cqlshrc 配置文件
 
+## 最佳实践
+
+[[bp-cqlsh|cqlsh 生产环境最佳实践]]
+
 ## 所属维度
 
 [[NoSQL-MOC|数据库工具/NoSQL]]

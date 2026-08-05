@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/agent-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/agent-engineering.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python agent.py --tools web_search,file_search --model gpt-4o
 
 ## 关联命令
 
-- [[langchain]]
-- [[autogen]]
+- [[langchain|langchain]]
+- [[autogen|autogen]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python agent.py --tools web_search,file_search --model gpt-4o
 ## 参考链接
 
 - [https://github.com/openai/openai-agents-python](https://github.com/openai/openai-agents-python)
+
+## 最佳实践
+
+[[bp-openai-agents|openai-agents 生产环境最佳实践]]
 
 ## 所属维度
 

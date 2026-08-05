@@ -75,6 +75,10 @@ perf script -F comm,pid,tid,cpu,time,period,event,ip,sym,dso,trace
 
 > ⚠️ **LOW**: 只读操作
 
+## 最佳实践
+
+[[bp-perf-script|perf script 生产环境最佳实践]]
+
 ## 所属维度
 
 [[性能分析-MOC|诊断工具/性能分析]]

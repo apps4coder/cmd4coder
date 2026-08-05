@@ -68,6 +68,10 @@ otelcol-contrib --config=config.yaml --set=receivers.prometheus.config.scrape_co
 
 > ⚠️ **MEDIUM**: Contrib version includes experimental features
 
+## 最佳实践
+
+[[bp-otelcol-contrib|otelcol-contrib 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

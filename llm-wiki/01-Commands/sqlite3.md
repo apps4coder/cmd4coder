@@ -72,6 +72,10 @@ sqlite3 mydb.db "SELECT * FROM users LIMIT 5"
 
 > ⚠️ **LOW**: SQLite 为文件级数据库，请确保有文件写权限并定期备份
 
+## 最佳实践
+
+[[bp-sqlite3|sqlite3 生产环境最佳实践]]
+
 ## 所属维度
 
 [[NoSQL-MOC|数据库工具/NoSQL]]

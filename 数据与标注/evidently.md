@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/data-labeling.yaml"
+  "source_file": "tools/cmd/data/ai/data-labeling.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python monitor_model.py --reference ref_data.csv --current cur_data.csv --output
 
 ## 关联命令
 
-- [[whylogs]]
-- [[cleanlab]]
+- [[whylogs|whylogs]]
+- [[cleanlab|cleanlab]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python monitor_model.py --reference ref_data.csv --current cur_data.csv --output
 ## 参考链接
 
 - [https://evidentlyai.com/](https://evidentlyai.com/)
+
+## 最佳实践
+
+[[bp-evidently|evidently 生产环境最佳实践]]
 
 ## 所属维度
 

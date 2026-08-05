@@ -79,6 +79,10 @@ python eval_math.py --dataset math --model llama-3-70b --n_shot 4
 
 - [https://github.com/huggingface/math-verify](https://github.com/huggingface/math-verify)
 
+## 最佳实践
+
+[[bp-math-eval|math-eval 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Harness工程-MOC|AI基础设施/Harness工程]]

@@ -61,6 +61,10 @@ terraform workspace new -state=path/to/state dev
 
 > ⚠️ **MEDIUM**: Creates new isolated state
 
+## 最佳实践
+
+[[bp-terraform-workspace-new|terraform workspace new 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

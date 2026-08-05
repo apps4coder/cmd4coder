@@ -76,6 +76,10 @@ python judge.py --judge prometheus --reference human_labels --compute_agreement
 
 - [https://github.com/hemingkx/LLM-as-Judge](https://github.com/hemingkx/LLM-as-Judge)
 
+## 最佳实践
+
+[[bp-llm-as-judge|llm-as-judge 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Harness工程-MOC|AI基础设施/Harness工程]]

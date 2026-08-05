@@ -81,6 +81,10 @@ mlflow models serve -m runs:/<run_id>/model -p 1234
 
 - [https://mlflow.org/docs/latest/cli.html](https://mlflow.org/docs/latest/cli.html)
 
+## 最佳实践
+
+[[bp-mlflow|mlflow 生产环境最佳实践]]
+
 ## 所属维度
 
 [[MLOps平台-MOC|AI基础设施/MLOps平台]]

@@ -81,6 +81,12 @@ mysqladmin -u root -p shutdown
 
 > ⚠️ **CRITICAL**: Can shutdown server or drop databases; use with extreme caution
 
+> ⚠️ **HIGH**: Administrative commands can affect all users and databases
+
+## 最佳实践
+
+[[bp-mysqladmin|mysqladmin 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

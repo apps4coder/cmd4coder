@@ -78,6 +78,10 @@ python export_onnx.py --model meta-llama/Llama-2-7b --output model.onnx
 
 - [https://onnxruntime.ai/](https://onnxruntime.ai/)
 
+## 最佳实践
+
+[[bp-onnxruntime|onnxruntime 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

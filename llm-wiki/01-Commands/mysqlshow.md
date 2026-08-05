@@ -76,6 +76,10 @@ mysqlshow -u root -p --status mydb
 
 > ⚠️ **LOW**: Read-only operation; no risks
 
+## 最佳实践
+
+[[bp-mysqlshow|mysqlshow 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python -c "import tensor_parallel as tp; help(tp.TensorParallelPreTrainedModel)"
 
 ## 关联命令
 
-- [[vllm]]
-- [[deepspeed]]
+- [[vllm|vllm]]
+- [[deepspeed|deepspeed]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python -c "import tensor_parallel as tp; help(tp.TensorParallelPreTrainedModel)"
 ## 参考链接
 
 - [https://github.com/BlackSamorez/tensor_parallel](https://github.com/BlackSamorez/tensor_parallel)
+
+## 最佳实践
+
+[[bp-tensor-parallel|tensor-parallel 生产环境最佳实践]]
 
 ## 所属维度
 

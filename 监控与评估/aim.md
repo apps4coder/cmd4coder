@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/monitoring.yaml"
+  "source_file": "tools/cmd/data/ai/monitoring.yaml"
 }
 ---
 
@@ -72,8 +72,8 @@ python train.py --use_aim --experiment bert-finetune
 
 ## 关联命令
 
-- [[wandb]]
-- [[tensorboard]]
+- [[wandb|wandb]]
+- [[tensorboard|tensorboard]]
 
 ## 风险提示
 
@@ -82,6 +82,10 @@ python train.py --use_aim --experiment bert-finetune
 ## 参考链接
 
 - [https://aimstack.io/](https://aimstack.io/)
+
+## 最佳实践
+
+[[bp-aim|aim 生产环境最佳实践]]
 
 ## 所属维度
 

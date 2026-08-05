@@ -48,6 +48,15 @@ def slugify(name: str) -> str:
     s = re.sub(r'[-\s]+', '-', s)
     return s.lower().strip('-')
 
+def bp_filename(name: str) -> str:
+    """与 generate_best_practices.safe_filename 保持一致，用于链接 bp 页。"""
+    s = name.lower().strip()
+    s = re.sub(r"[^a-z0-9\u4e00-\u9fff\-]", "-", s)
+    s = re.sub(r"-+", "-", s).strip("-")
+    return s or "unknown"
+
+RISK_LEVELS = ["low", "medium", "high", "critical"]
+
 def cmd_level(cmd: dict) -> str:
     """Determine beginner/intermediate/advanced from content"""
     desc = cmd.get("description", "").lower()
@@ -146,11 +155,12 @@ def generate_command_page(cmd: dict, yaml_file: str, all_cmd_names: set) -> str:
         if r_clean in all_cmd_names:
             related_links.append(f"[[{slugify(r_clean)}|{r_clean}]]")
     
+    # 风险等级取全部 risks 的最高级（与 bp 页 / 最佳实践 MOC 保持一致）
     risk_level = "low"
-    risk_desc = ""
-    if risks:
-        risk_level = risks[0].get("level", "low")
-        risk_desc = risks[0].get("description", "")
+    for r in risks:
+        lvl = r.get("level", "low")
+        if lvl in RISK_LEVELS and RISK_LEVELS.index(lvl) > RISK_LEVELS.index(risk_level):
+            risk_level = lvl
     
     # Build options table
     options_md = ""
@@ -225,14 +235,21 @@ def generate_command_page(cmd: dict, yaml_file: str, all_cmd_names: set) -> str:
             md += f"- {link}\n"
         md += "\n"
     
-    if risk_desc:
+    if risks:
         md += f"## 风险提示\n\n"
-        md += f"> ⚠️ **{risk_level.upper()}**: {risk_desc}\n\n"
+        # 逐条渲染全部风险，避免只展示第一条造成风险信息丢失
+        for r in risks:
+            lvl = r.get("level", "low")
+            desc = r.get("description", "")
+            md += f"> ⚠️ **{lvl.upper()}**: {desc}\n\n"
     
     if refs_md:
         md += "## 参考链接\n\n"
         md += refs_md + "\n"
     
+    # 双向链接：详情页 → 最佳实践页
+    md += "## 最佳实践\n\n"
+    md += f"[[bp-{bp_filename(name)}|{name} 生产环境最佳实践]]\n\n"
     # Add dimension link
     md += f"## 所属维度\n\n"
     md += f"[[{dimension}-MOC|{category}]]\n"

@@ -67,6 +67,10 @@ journalctl -u kubelet --since '10 minutes ago'
 
 > ⚠️ **LOW**: Read-only operation; views logs only
 
+## 最佳实践
+
+[[bp-journalctl-u-kubelet|journalctl -u kubelet 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cluster Management-MOC|Kubernetes Cluster Management]]

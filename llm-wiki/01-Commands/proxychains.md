@@ -69,6 +69,10 @@ proxychains -q nmap -sT target
 
 > ⚠️ **MEDIUM**: 代理配置错误会导致流量绕行或泄露，请确认代理安全
 
+## 最佳实践
+
+[[bp-proxychains|proxychains 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|网络工具/扩展工具]]

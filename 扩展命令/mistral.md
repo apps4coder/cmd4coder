@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/more.yaml"
+  "source_file": "tools/cmd/data/ai/more.yaml"
 }
 ---
 
@@ -63,8 +63,21 @@ mistral list-models
 
 ## 关联命令
 
-- [[openai]]
-- [[cohere]]
+- [[openai|openai]]
+- [[cohere|cohere]]
+
+## 风险提示
+
+> ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
+
+## 参考链接
+
+- [https://docs.mistral.ai/](https://docs.mistral.ai/)
+- [https://github.com/mistralai/client-python](https://github.com/mistralai/client-python)
+
+## 最佳实践
+
+[[bp-mistral|mistral 生产环境最佳实践]]
 
 ## 所属维度
 

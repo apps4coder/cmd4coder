@@ -72,6 +72,10 @@ huggingface-cli upload my-model ./model README.md
 
 - [https://huggingface.co/docs/hub/model-cards](https://huggingface.co/docs/hub/model-cards)
 
+## 最佳实践
+
+[[bp-model-card|model-card 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型生态-MOC|AI基础设施/模型生态]]

@@ -73,6 +73,10 @@ nvidia-smi dmon -s pucm
 
 > ⚠️ **MEDIUM**: 修改功耗/频率限制可能影响稳定性或硬件寿命
 
+## 最佳实践
+
+[[bp-nvidia-smi|nvidia-smi 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GPU与加速器-MOC|硬件/GPU与加速器]]

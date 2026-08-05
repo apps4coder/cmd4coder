@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-hub.yaml"
+  "source_file": "tools/cmd/data/ai/model-hub.yaml"
 }
 ---
 
@@ -63,8 +63,8 @@ python -c "import coremltools as ct; help(ct.convert)"
 
 ## 关联命令
 
-- [[onnxruntime]]
-- [[optimum-cli]]
+- [[onnxruntime|onnxruntime]]
+- [[optimum-cli|optimum-cli]]
 
 ## 风险提示
 
@@ -73,6 +73,10 @@ python -c "import coremltools as ct; help(ct.convert)"
 ## 参考链接
 
 - [https://coremltools.readme.io/](https://coremltools.readme.io/)
+
+## 最佳实践
+
+[[bp-coremltools|coremltools 生产环境最佳实践]]
 
 ## 所属维度
 

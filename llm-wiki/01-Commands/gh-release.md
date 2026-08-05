@@ -84,6 +84,10 @@ gh release download v1.8.0
 
 > ⚠️ **MEDIUM**: 发布后删除 Release 影响已分发的链接
 
+## 最佳实践
+
+[[bp-gh-release|gh release 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Git高级操作-MOC|版本控制/Git高级操作]]

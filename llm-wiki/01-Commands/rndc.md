@@ -65,6 +65,10 @@ sudo rndc status
 
 > ⚠️ **MEDIUM**: rndc stop/reload 会影响 DNS 服务，请在维护窗口执行
 
+## 最佳实践
+
+[[bp-rndc|rndc 生产环境最佳实践]]
+
 ## 所属维度
 
 [[基础设施-MOC|网络工具/基础设施]]

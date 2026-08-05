@@ -85,6 +85,10 @@ trtexec --onnx=model.onnx --saveEngine=model_int8.trt --int8 --calib=calibration
 
 - [https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html](https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html)
 
+## 最佳实践
+
+[[bp-trtexec|trtexec 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI编译器-MOC|AI基础设施/AI编译器]]

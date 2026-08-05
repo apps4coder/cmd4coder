@@ -55,6 +55,10 @@ watch com.example.Service * '{params,returnObj}' -x 2
 
 > ⚠️ **MEDIUM**: May impact performance if used on high-traffic methods
 
+## 最佳实践
+
+[[bp-watch|watch 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Java Diagnostic-MOC|Java Diagnostic]]

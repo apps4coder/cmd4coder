@@ -69,6 +69,10 @@ sudo /usr/share/bcc/tools/biolatency
 
 > ⚠️ **MEDIUM**: bcc 工具在内核运行，注意对生产系统的影响
 
+## 最佳实践
+
+[[bp-bcc|bcc 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|系统诊断/扩展工具]]

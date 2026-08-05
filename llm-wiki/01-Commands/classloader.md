@@ -55,6 +55,10 @@ classloader -t
 
 > ⚠️ **LOW**: Read-only information; no risks
 
+## 最佳实践
+
+[[bp-classloader|classloader 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Java Diagnostic-MOC|Java Diagnostic]]

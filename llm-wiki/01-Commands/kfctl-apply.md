@@ -63,6 +63,12 @@ kfctl apply -f kfctl_aws.yaml -V
 
 > ⚠️ **CRITICAL**: Deploys full Kubeflow stack; resource-intensive operation
 
+> ⚠️ **HIGH**: Creates many namespaces and resources
+
+## 最佳实践
+
+[[bp-kfctl-apply|kfctl apply 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes MLOps-MOC|Kubernetes MLOps]]

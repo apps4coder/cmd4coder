@@ -72,9 +72,15 @@ python tools/generate_samples_gpt.py --load checkpoint --num-samples 100
 
 > ⚠️ **HIGH**: 大规模并行训练配置复杂，需专业调优
 
+> ⚠️ **HIGH**: 大规模训练任务会占用大量计算资源，请确认集群配额、显存和成本预算。
+
 ## 参考链接
 
 - [https://github.com/NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
+
+## 最佳实践
+
+[[bp-megatron-lm|megatron-lm 生产环境最佳实践]]
 
 ## 所属维度
 

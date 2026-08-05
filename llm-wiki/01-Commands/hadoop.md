@@ -70,6 +70,12 @@ hadoop jar wordcount.jar WordCount /input /output
 
 > ⚠️ **HIGH**: 误删 HDFS 目录或覆盖输出路径会导致数据丢失，执行前请确认路径
 
+> ⚠️ **HIGH**: 分布式作业可能占用大量集群资源，请确认队列配额并在业务低峰期执行。
+
+## 最佳实践
+
+[[bp-hadoop|hadoop 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Hadoop生态-MOC|大数据/Hadoop生态]]

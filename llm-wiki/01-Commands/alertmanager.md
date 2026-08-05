@@ -69,6 +69,10 @@ alertmanager --config.file=alertmanager.yml --storage.path=/data/alertmanager
 
 > ⚠️ **MEDIUM**: Incorrect config affects alert routing
 
+## 最佳实践
+
+[[bp-alertmanager|alertmanager 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

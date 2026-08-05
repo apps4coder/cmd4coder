@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/agent-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/agent-engineering.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python crew.py --process hierarchical --manager gpt-4
 
 ## 关联命令
 
-- [[autogen]]
-- [[langgraph]]
+- [[autogen|autogen]]
+- [[langgraph|langgraph]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python crew.py --process hierarchical --manager gpt-4
 ## 参考链接
 
 - [https://www.crewai.com/](https://www.crewai.com/)
+
+## 最佳实践
+
+[[bp-crewai|crewai 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -17,14 +17,14 @@
 
 ## 命令列表
 
-- 🟡 [[iree-compile]] — Google IREE MLIR编译器，将深度学习模型编译为Vulkan/SPIR-V/Metal/WebGPU可执行代码
-- 🔴 [[mlir-opt]] — MLIR中间表示优化器，对计算图进行 lowering、融合、循环变换等编译优化
-- 🟡 [[olive]] — Olive (微软开源) 硬件感知模型优化工具链，自动搜索量化/转换/图优化组合，产出ONNX
-- 🟡 [[onnx-optimizer]] — ONNX模型图优化器，常量折叠、算子融合、死代码消除，跨平台推理前必备优化
-- 🟡 [[torch-compile]] — torch.compile PyTorch原生JIT编译器，基于TorchDynamo+Inductor自动图捕获与算子融合，一行提速
-- 🟡 [[trtexec]] — TensorRT引擎构建与性能测试工具，将ONNX/UFF转为TensorRT序列化引擎，极致NVIDIA GPU优化
-- 🟡 [[tvmc]] — TVM命令行编译器，将模型编译为高性能机器码，支持ARM/x86/GPU/FPGA多种后端
-- 🟡 [[xla_compile]] — TensorFlow XLA(Accelerated Linear Algebra)即时编译，将计算图编译为机器码，TPU训练推理加速
+- 🟡 [[iree-compile|iree-compile]] — Google IREE MLIR编译器，将深度学习模型编译为Vulkan/SPIR-V/Metal/WebGPU可执行代码
+- 🔴 [[mlir-opt|mlir-opt]] — MLIR中间表示优化器，对计算图进行 lowering、融合、循环变换等编译优化
+- 🟡 [[olive|olive]] — Olive (微软开源) 硬件感知模型优化工具链，自动搜索量化/转换/图优化组合，产出ONNX
+- 🟡 [[onnx-optimizer|onnx-optimizer]] — ONNX模型图优化器，常量折叠、算子融合、死代码消除，跨平台推理前必备优化
+- 🟡 [[torch-compile|torch-compile]] — torch.compile PyTorch原生JIT编译器，基于TorchDynamo+Inductor自动图捕获与算子融合，一行提速
+- 🟡 [[trtexec|trtexec]] — TensorRT引擎构建与性能测试工具，将ONNX/UFF转为TensorRT序列化引擎，极致NVIDIA GPU优化
+- 🟡 [[tvmc|tvmc]] — TVM命令行编译器，将模型编译为高性能机器码，支持ARM/x86/GPU/FPGA多种后端
+- 🟡 [[xla_compile|xla_compile]] — TensorFlow XLA(Accelerated Linear Algebra)即时编译，将计算图编译为机器码，TPU训练推理加速
 
 ## 统计
 

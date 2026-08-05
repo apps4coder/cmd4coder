@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-hub.yaml"
+  "source_file": "tools/cmd/data/ai/model-hub.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python -m tf2onnx.convert --keras model.h5 --output model.onnx
 
 ## 关联命令
 
-- [[onnxruntime]]
-- [[optimum-cli]]
+- [[onnxruntime|onnxruntime]]
+- [[optimum-cli|optimum-cli]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python -m tf2onnx.convert --keras model.h5 --output model.onnx
 ## 参考链接
 
 - [https://github.com/onnx/tensorflow-onnx](https://github.com/onnx/tensorflow-onnx)
+
+## 最佳实践
+
+[[bp-tf2onnx|tf2onnx 生产环境最佳实践]]
 
 ## 所属维度
 

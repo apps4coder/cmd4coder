@@ -77,6 +77,10 @@ go generate -x ./...
 
 > ⚠️ **MEDIUM**: 执行任意命令（由 //go:generate 定义），审查生成指令
 
+## 最佳实践
+
+[[bp-go-generate|go generate 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Go工具链扩展-MOC|编程语言/Go工具链扩展]]

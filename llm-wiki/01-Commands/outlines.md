@@ -67,6 +67,15 @@ python -c "import outlines; generator = outlines.generate.json(model, schema)"
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 参考链接
+
+- [https://dottxt-ai.github.io/outlines/](https://dottxt-ai.github.io/outlines/)
+- [https://github.com/dottxt-ai/outlines](https://github.com/dottxt-ai/outlines)
+
+## 最佳实践
+
+[[bp-outlines|outlines 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

@@ -86,6 +86,10 @@ python agent.py --tools search,calculator --model claude-3
 
 - [https://python.langchain.com/](https://python.langchain.com/)
 
+## 最佳实践
+
+[[bp-langchain|langchain 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

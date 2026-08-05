@@ -70,6 +70,10 @@ otel-cli span background --endpoint localhost:4317 --service myapp --name backgr
 
 > ⚠️ **LOW**: Sends telemetry data only
 
+## 最佳实践
+
+[[bp-otel-cli-span|otel-cli span 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

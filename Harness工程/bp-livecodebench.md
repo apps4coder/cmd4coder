@@ -7,7 +7,7 @@ domain: "ai-infra"
 risk_level: "high"
 platforms: ["linux", "darwin"]
 tags: ["ai-infra", "risk-high", "linux", "darwin"]
-created: "2026-06-06"
+created: "2026-07-28"
 source_file: "ai/harness-engineering.yaml"
 ---
 
@@ -33,6 +33,7 @@ source_file: "ai/harness-engineering.yaml"
 
 - ⚠️ 此命令风险等级为 **HIGH**，生产环境使用前必须经过变更审批
 - **HIGH**: 执行代码需在隔离环境
+- **HIGH**: 执行模型或 Agent 生成的代码存在安全风险，请在隔离环境（如容器/沙箱）中运行。
 - 模型服务 API 接入认证（JWT/API Key），禁止匿名访问
 - 输入数据做长度和格式校验，防止 Prompt 注入
 - 操作前务必在 staging 环境验证，制定回滚方案

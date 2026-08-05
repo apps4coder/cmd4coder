@@ -71,6 +71,12 @@ dremio-admin restore -f /backup/dremio.zip
 
 > ⚠️ **HIGH**: restore 会覆盖现有元数据，请确认备份来源
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-dremio-admin|dremio-admin 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|大数据/扩展命令]]

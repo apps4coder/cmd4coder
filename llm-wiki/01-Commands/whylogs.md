@@ -76,6 +76,10 @@ python drift_monitor.py --reference ref_profile.bin --target target_profile.bin
 
 - [https://whylabs.ai/whylogs](https://whylabs.ai/whylogs)
 
+## 最佳实践
+
+[[bp-whylogs|whylogs 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据与标注-MOC|AI基础设施/数据与标注]]

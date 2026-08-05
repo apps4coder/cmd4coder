@@ -17,12 +17,12 @@
 
 ## 命令列表
 
-- 🟡 [[crypten]] — CrypTen Facebook隐私计算库，基于MPC(安全多方计算)的加密机器学习，支持加密推理和训练
-- 🟡 [[fedml]] — FedML 跨设备联邦学习平台，支持端-边-云协同、多种拓扑与异构训练
-- 🟡 [[flower]] — Flower联邦学习框架，支持横向/纵向联邦、差分隐私、安全聚合，工业级跨设备联合训练
-- 🟡 [[nvflare]] — NVIDIA FLARE 企业级联邦学习SDK，支持横/纵向联邦、安全聚合与医疗/金融场景部署
-- 🟡 [[opacus]] — Opacus PyTorch差分隐私训练库，通过梯度裁剪和噪声注入实现(ε,δ)-差分隐私保证
-- 🔴 [[pyvertical]] — PyVertical垂直联邦学习框架，特征分片联合建模，适用于银行+电商等跨机构数据互补场景
+- 🟡 [[crypten|crypten]] — CrypTen Facebook隐私计算库，基于MPC(安全多方计算)的加密机器学习，支持加密推理和训练
+- 🟡 [[fedml|fedml]] — FedML 跨设备联邦学习平台，支持端-边-云协同、多种拓扑与异构训练
+- 🟡 [[flower|flower]] — Flower联邦学习框架，支持横向/纵向联邦、差分隐私、安全聚合，工业级跨设备联合训练
+- 🟡 [[nvflare|nvflare]] — NVIDIA FLARE 企业级联邦学习SDK，支持横/纵向联邦、安全聚合与医疗/金融场景部署
+- 🟡 [[opacus|opacus]] — Opacus PyTorch差分隐私训练库，通过梯度裁剪和噪声注入实现(ε,δ)-差分隐私保证
+- 🔴 [[pyvertical|pyvertical]] — PyVertical垂直联邦学习框架，特征分片联合建模，适用于银行+电商等跨机构数据互补场景
 
 ## 统计
 

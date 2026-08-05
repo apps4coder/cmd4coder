@@ -77,6 +77,10 @@ python -c "from modelcards import ModelCard; card = ModelCard.from_template(); c
 
 - [https://github.com/huggingface/modelcards](https://github.com/huggingface/modelcards)
 
+## 最佳实践
+
+[[bp-modelcards|modelcards 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型架构-MOC|AI基础设施/模型架构]]

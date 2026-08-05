@@ -85,6 +85,10 @@ sky show-gpus --cloud aws
 
 - [https://skypilot.readthedocs.io/](https://skypilot.readthedocs.io/)
 
+## 最佳实践
+
+[[bp-sky-pilot|sky-pilot 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

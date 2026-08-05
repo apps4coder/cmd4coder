@@ -65,6 +65,12 @@ mysqlimport -u root -p --local --replace mydb employees.txt
 
 > ⚠️ **HIGH**: Can overwrite or modify existing data
 
+> ⚠️ **MEDIUM**: Large imports may lock tables and affect performance
+
+## 最佳实践
+
+[[bp-mysqlimport|mysqlimport 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

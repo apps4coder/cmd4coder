@@ -68,6 +68,10 @@ kubectl label pods mypod env-
 
 > ⚠️ **MEDIUM**: Changing labels can affect service selectors and routing
 
+## 最佳实践
+
+[[bp-kubectl-label|kubectl label 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Container Orchestration-MOC|Container Orchestration]]

@@ -84,6 +84,10 @@ tar czf - dir/ | age -r age1... -o backup.tar.gz.age
 
 > ⚠️ **HIGH**: 私钥丢失将导致加密数据永久不可恢复
 
+## 最佳实践
+
+[[bp-age|age 生产环境最佳实践]]
+
 ## 所属维度
 
 [[安全扫描-MOC|网络工具/安全扫描]]

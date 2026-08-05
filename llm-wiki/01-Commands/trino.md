@@ -72,6 +72,10 @@ trino --server localhost:8080 --execute "SHOW CATALOGS"
 
 > ⚠️ **MEDIUM**: 复杂联邦查询可能产生高并发，请监控集群负载
 
+## 最佳实践
+
+[[bp-trino|trino 生产环境最佳实践]]
+
 ## 所属维度
 
 [[查询引擎-MOC|大数据/查询引擎]]

@@ -79,6 +79,10 @@ git submodule status
 
 > ⚠️ **MEDIUM**: 子模块版本锁定，更新不当导致依赖不一致
 
+## 最佳实践
+
+[[bp-git-submodule|git submodule 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Git高级操作-MOC|版本控制/Git高级操作]]

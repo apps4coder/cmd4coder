@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/agent-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/agent-engineering.yaml"
 }
 ---
 
@@ -69,8 +69,8 @@ python agent.py --index ./index --tools slack,notion --workflow event_driven
 
 ## 关联命令
 
-- [[langchain]]
-- [[haystack]]
+- [[langchain|langchain]]
+- [[haystack|haystack]]
 
 ## 风险提示
 
@@ -79,6 +79,10 @@ python agent.py --index ./index --tools slack,notion --workflow event_driven
 ## 参考链接
 
 - [https://www.llamaindex.ai/](https://www.llamaindex.ai/)
+
+## 最佳实践
+
+[[bp-llama-index|llama-index 生产环境最佳实践]]
 
 ## 所属维度
 

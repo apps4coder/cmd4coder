@@ -72,6 +72,10 @@ dapr run --app-id myapp --app-port 8080 -- python app.py
 
 > ⚠️ **MEDIUM**: dapr init 会部署控制平面，请确认 Kubernetes 上下文
 
+## 最佳实践
+
+[[bp-dapr|dapr 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

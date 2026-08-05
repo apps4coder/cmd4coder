@@ -84,6 +84,10 @@ praisonai chat --agents agents.yaml
 
 - [https://docs.praison.ai/](https://docs.praison.ai/)
 
+## 最佳实践
+
+[[bp-praisonai|praisonai 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

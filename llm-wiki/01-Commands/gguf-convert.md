@@ -76,6 +76,10 @@ python convert_hf_to_gguf.py --model Qwen/Qwen2-7B --outfile qwen2-7b.Q4_K_M.ggu
 
 - [https://github.com/ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)
 
+## 最佳实践
+
+[[bp-gguf-convert|gguf-convert 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型生态-MOC|AI基础设施/模型生态]]

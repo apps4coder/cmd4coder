@@ -69,6 +69,12 @@ argocd app sync myapp --dry-run
 
 > ⚠️ **HIGH**: Applies changes to cluster; may affect running services
 
+> ⚠️ **MEDIUM**: Prune option deletes resources not in Git
+
+## 最佳实践
+
+[[bp-argocd-app-sync|argocd app sync 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CD-MOC|Kubernetes CI/CD]]

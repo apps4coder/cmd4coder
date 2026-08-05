@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/agent-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/agent-engineering.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python optimize.py --optimizer MIPRO --metric accuracy --trainset train.json
 
 ## 关联命令
 
-- [[langchain]]
-- [[instructor]]
+- [[langchain|langchain]]
+- [[instructor|instructor]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python optimize.py --optimizer MIPRO --metric accuracy --trainset train.json
 ## 参考链接
 
 - [https://dspy.ai/](https://dspy.ai/)
+
+## 最佳实践
+
+[[bp-dspy|dspy 生产环境最佳实践]]
 
 ## 所属维度
 

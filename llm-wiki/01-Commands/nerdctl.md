@@ -70,6 +70,10 @@ nerdctl images
 
 > ⚠️ **MEDIUM**: nerdctl 直接操作 containerd，可能影响 Kubernetes 使用的容器
 
+## 最佳实践
+
+[[bp-nerdctl|nerdctl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[容器替代方案-MOC|容器编排/容器替代方案]]

@@ -79,6 +79,10 @@ python -c "from pinecone import Pinecone; help(Pinecone.create_index)"
 
 - [https://www.pinecone.io/](https://www.pinecone.io/)
 
+## 最佳实践
+
+[[bp-pinecone|pinecone 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

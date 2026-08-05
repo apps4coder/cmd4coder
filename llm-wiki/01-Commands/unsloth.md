@@ -77,6 +77,10 @@ python finetune.py --use_unsloth --max_seq_length=2048
 
 - [https://github.com/unslothai/unsloth](https://github.com/unslothai/unsloth)
 
+## 最佳实践
+
+[[bp-unsloth|unsloth 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

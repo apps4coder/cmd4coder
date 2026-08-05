@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/multimodal.yaml"
+  "source_file": "tools/cmd/data/ai/multimodal.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python -c "from faster_whisper import WhisperModel; help(WhisperModel.transcribe
 
 ## 关联命令
 
-- [[whisper]]
-- [[ctranslate2]]
+- [[whisper|whisper]]
+- [[ctranslate2|ctranslate2]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python -c "from faster_whisper import WhisperModel; help(WhisperModel.transcribe
 ## 参考链接
 
 - [https://github.com/SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper)
+
+## 最佳实践
+
+[[bp-faster-whisper|faster-whisper 生产环境最佳实践]]
 
 ## 所属维度
 

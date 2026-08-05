@@ -75,6 +75,10 @@ helm status nginx --show-resources
 
 > ⚠️ **LOW**: Read-only operation; displays status only
 
+## 最佳实践
+
+[[bp-helm-status|helm status 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

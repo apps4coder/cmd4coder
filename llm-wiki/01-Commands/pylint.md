@@ -64,6 +64,10 @@ pylint --disable=C0103 mymodule.py
 
 > ⚠️ **LOW**: 常规操作，无特殊风险
 
+## 最佳实践
+
+[[bp-pylint|pylint 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Python工具链-MOC|编程语言/Python工具链]]

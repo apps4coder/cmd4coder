@@ -73,6 +73,10 @@ dbt build --select tag:daily
 
 > ⚠️ **MEDIUM**: dbt run 会改写目标表，请在非生产环境或事务保护下测试
 
+## 最佳实践
+
+[[bp-dbt|dbt 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据集成与ETL-MOC|大数据/数据集成与ETL]]

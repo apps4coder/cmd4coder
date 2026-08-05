@@ -69,6 +69,10 @@ restic backup /var/lib/etcd --repo /backup/etcd-backup
 
 > ⚠️ **LOW**: Read-only backup operation; no data modification
 
+## 最佳实践
+
+[[bp-restic-backup|restic backup 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Backup  Recovery-MOC|Kubernetes Backup & Recovery]]

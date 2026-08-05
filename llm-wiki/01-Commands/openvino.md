@@ -82,6 +82,10 @@ benchmark_app -m model.xml -d CPU
 
 - [https://docs.openvino.ai/](https://docs.openvino.ai/)
 
+## 最佳实践
+
+[[bp-openvino|openvino 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

@@ -61,6 +61,10 @@ terraform workspace show
 
 > ⚠️ **LOW**: Read-only operation; lists workspaces
 
+## 最佳实践
+
+[[bp-terraform-workspace-list|terraform workspace list 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

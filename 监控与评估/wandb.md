@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/monitoring.yaml"
+  "source_file": "tools/cmd/data/ai/monitoring.yaml"
 }
 ---
 
@@ -74,8 +74,8 @@ wandb artifact put model.pt --name my-model --type model
 
 ## 关联命令
 
-- [[neptune]]
-- [[clearml]]
+- [[neptune|neptune]]
+- [[clearml|clearml]]
 
 ## 风险提示
 
@@ -84,6 +84,10 @@ wandb artifact put model.pt --name my-model --type model
 ## 参考链接
 
 - [https://wandb.ai/](https://wandb.ai/)
+
+## 最佳实践
+
+[[bp-wandb|wandb 生产环境最佳实践]]
 
 ## 所属维度
 

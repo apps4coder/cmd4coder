@@ -71,6 +71,10 @@ doctl compute droplet list
 
 > ⚠️ **MEDIUM**: droplet 操作会计费，请确认
 
+## 最佳实践
+
+[[bp-doctl|doctl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[多云CLI-MOC|云平台/多云CLI]]

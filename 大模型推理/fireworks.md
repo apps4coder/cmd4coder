@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python -c "from fireworks.client import Fireworks; fw=Fireworks(); r=fw.completi
 
 ## 关联命令
 
-- [[together]]
-- [[groq]]
+- [[together|together]]
+- [[groq|groq]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python -c "from fireworks.client import Fireworks; fw=Fireworks(); r=fw.completi
 ## 参考链接
 
 - [https://fireworks.ai/](https://fireworks.ai/)
+
+## 最佳实践
+
+[[bp-fireworks|fireworks 生产环境最佳实践]]
 
 ## 所属维度
 

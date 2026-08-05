@@ -83,6 +83,10 @@ goreleaser check
 
 > ⚠️ **MEDIUM**: release 会推送到 GitHub Releases，确认版本号正确
 
+## 最佳实践
+
+[[bp-goreleaser|goreleaser 生产环境最佳实践]]
+
 ## 所属维度
 
 [[平台工具-MOC|CI-CD/平台工具]]

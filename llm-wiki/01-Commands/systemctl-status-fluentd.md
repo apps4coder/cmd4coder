@@ -13,7 +13,7 @@
     "intermediate",
     "linux"
   ],
-  "cmd_risk_level": "low",
+  "cmd_risk_level": "medium",
   "created": "2026-05-31",
   "source_file": "tools/cmd/data/container/k8s/k8s-monitor.yaml"
 }
@@ -58,6 +58,12 @@ systemctl restart fluentd
 ## 风险提示
 
 > ⚠️ **LOW**: Read-only status check; no risks
+
+> ⚠️ **MEDIUM**: Restarting Fluentd causes log collection interruption
+
+## 最佳实践
+
+[[bp-systemctl-status-fluentd|systemctl status fluentd 生产环境最佳实践]]
 
 ## 所属维度
 

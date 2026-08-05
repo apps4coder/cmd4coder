@@ -7,7 +7,7 @@ domain: "ai-infra"
 risk_level: "medium"
 platforms: ["linux", "darwin"]
 tags: ["ai-infra", "risk-medium", "linux", "darwin"]
-created: "2026-06-06"
+created: "2026-07-28"
 source_file: "ai/harness-engineering.yaml"
 ---
 

@@ -71,6 +71,10 @@ sudo cpupower frequency-set -g performance
 
 > ⚠️ **MEDIUM**: 强制设置频率策略可能影响功耗和散热
 
+## 最佳实践
+
+[[bp-cpupower|cpupower 生产环境最佳实践]]
+
 ## 所属维度
 
 [[性能与调度-MOC|硬件/性能与调度]]

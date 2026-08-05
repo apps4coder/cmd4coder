@@ -75,6 +75,10 @@ python speculative.py --target llama-70b --draft tinyllama --speedup 2.5
 
 - [https://huggingface.co/blog/assisted-generation](https://huggingface.co/blog/assisted-generation)
 
+## 最佳实践
+
+[[bp-speculative-decoding|speculative-decoding 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

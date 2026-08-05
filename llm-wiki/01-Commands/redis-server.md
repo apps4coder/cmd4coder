@@ -77,6 +77,12 @@ redis-server --bind 127.0.0.1 --protected-mode yes
 
 > ⚠️ **HIGH**: Running without authentication exposes data to network
 
+> ⚠️ **MEDIUM**: Default configuration may not be suitable for production
+
+## 最佳实践
+
+[[bp-redis-server|redis-server 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

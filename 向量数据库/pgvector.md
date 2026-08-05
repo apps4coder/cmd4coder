@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/vector-db.yaml"
+  "source_file": "tools/cmd/data/ai/vector-db.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ psql -c "CREATE TABLE items (id bigserial PRIMARY KEY, embedding vector(768)); C
 
 ## 关联命令
 
-- [[milvus-cli]]
-- [[chroma]]
+- [[milvus-cli|milvus-cli]]
+- [[chroma|chroma]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ psql -c "CREATE TABLE items (id bigserial PRIMARY KEY, embedding vector(768)); C
 ## 参考链接
 
 - [https://github.com/pgvector/pgvector](https://github.com/pgvector/pgvector)
+
+## 最佳实践
+
+[[bp-pgvector|pgvector 生产环境最佳实践]]
 
 ## 所属维度
 

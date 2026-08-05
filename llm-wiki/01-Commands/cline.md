@@ -74,9 +74,15 @@ code --install-extension saoudrizwan.claude-dev
 
 > ⚠️ **HIGH**: 可自主执行shell命令与写文件，需开启命令确认，避免在生产仓库直接auto-approve
 
+> ⚠️ **MEDIUM**: 通过MCP连接第三方工具时，代码与上下文会发送至外部LLM，敏感仓库需评估数据外泄与合规风险
+
 ## 参考链接
 
 - [https://github.com/cline/cline](https://github.com/cline/cline)
+
+## 最佳实践
+
+[[bp-cline|cline 生产环境最佳实践]]
 
 ## 所属维度
 

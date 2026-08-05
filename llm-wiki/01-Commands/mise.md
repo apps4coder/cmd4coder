@@ -78,6 +78,10 @@ mise exec -- node --version
 
 > ⚠️ **LOW**: 仅管理本地运行时版本，无风险
 
+## 最佳实践
+
+[[bp-mise|mise 生产环境最佳实践]]
+
 ## 所属维度
 
 [[现代工具-MOC|Shell脚本/现代工具]]

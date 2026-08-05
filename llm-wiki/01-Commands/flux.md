@@ -83,6 +83,10 @@ flux install
 
 > ⚠️ **MEDIUM**: 操作影响集群中的 GitOps 流水线
 
+## 最佳实践
+
+[[bp-flux|flux 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GitOps-MOC|CI-CD/GitOps]]

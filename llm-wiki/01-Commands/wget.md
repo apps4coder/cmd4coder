@@ -77,6 +77,12 @@ wget --limit-rate=200k https://example.com/file.zip
 
 > ⚠️ **MEDIUM**: Downloading from untrusted sources may introduce malware
 
+> ⚠️ **LOW**: Recursive downloads may consume significant disk space
+
+## 最佳实践
+
+[[bp-wget|wget 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Network Tools-MOC|Network Tools]]

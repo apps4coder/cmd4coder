@@ -56,6 +56,10 @@ kubectl describe csinode worker-node-1
 
 > ⚠️ **LOW**: Read-only operation; shows node storage info
 
+## 最佳实践
+
+[[bp-kubectl-get-csinodes|kubectl get csinodes 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Storage Management-MOC|Kubernetes Storage Management]]

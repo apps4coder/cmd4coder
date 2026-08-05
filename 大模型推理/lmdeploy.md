@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -73,8 +73,8 @@ lmdeploy chat internlm/internlm2_5-7b-chat
 
 ## 关联命令
 
-- [[vllm]]
-- [[sglang]]
+- [[vllm|vllm]]
+- [[sglang|sglang]]
 
 ## 风险提示
 
@@ -83,6 +83,10 @@ lmdeploy chat internlm/internlm2_5-7b-chat
 ## 参考链接
 
 - [https://github.com/InternLM/lmdeploy](https://github.com/InternLM/lmdeploy)
+
+## 最佳实践
+
+[[bp-lmdeploy|lmdeploy 生产环境最佳实践]]
 
 ## 所属维度
 

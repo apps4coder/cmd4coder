@@ -73,9 +73,15 @@ python -c "from pyrit.orchestrator import PromptSendingOrchestrator; o = PromptS
 
 > ⚠️ **HIGH**: 红队测试可能触发安全机制，需授权环境
 
+> ⚠️ **HIGH**: 执行模型或 Agent 生成的代码存在安全风险，请在隔离环境（如容器/沙箱）中运行。
+
 ## 参考链接
 
 - [https://github.com/Azure/PyRIT](https://github.com/Azure/PyRIT)
+
+## 最佳实践
+
+[[bp-red-teaming|red-teaming 生产环境最佳实践]]
 
 ## 所属维度
 

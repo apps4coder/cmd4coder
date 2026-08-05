@@ -71,6 +71,10 @@ incus launch images:ubuntu/22.04 c1
 
 > ⚠️ **MEDIUM**: 同 LXD，需注意存储和网络配置
 
+## 最佳实践
+
+[[bp-incus|incus 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

@@ -79,6 +79,10 @@ vespa query 'select * from sources * where {targetHits:10}nearestNeighbor(embedd
 
 - [https://vespa.ai/](https://vespa.ai/)
 
+## 最佳实践
+
+[[bp-vespa-cli|vespa-cli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

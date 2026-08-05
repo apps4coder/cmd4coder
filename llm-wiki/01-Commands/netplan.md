@@ -65,6 +65,12 @@ sudo netplan apply
 
 > ⚠️ **HIGH**: netplan apply 会立即修改网络，远程服务器请先用 netplan try
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-netplan|netplan 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux核心-MOC|操作系统/Linux核心]]

@@ -25,7 +25,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -69,8 +69,8 @@ python inference.py --load_in_8bit --device_map=auto
 
 ## 关联命令
 
-- [[peft]]
-- [[unsloth]]
+- [[peft|peft]]
+- [[unsloth|unsloth]]
 
 ## 风险提示
 
@@ -79,6 +79,10 @@ python inference.py --load_in_8bit --device_map=auto
 ## 参考链接
 
 - [https://github.com/TimDettmers/bitsandbytes](https://github.com/TimDettmers/bitsandbytes)
+
+## 最佳实践
+
+[[bp-bitsandbytes|bitsandbytes 生产环境最佳实践]]
 
 ## 所属维度
 

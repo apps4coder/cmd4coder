@@ -61,6 +61,10 @@ kubectl taint nodes worker-node-1 key:NoSchedule-
 
 > ⚠️ **MEDIUM**: Affects pod scheduling; may cause service disruption
 
+## 最佳实践
+
+[[bp-kubectl-taint-nodes|kubectl taint nodes 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cluster Management-MOC|Kubernetes Cluster Management]]

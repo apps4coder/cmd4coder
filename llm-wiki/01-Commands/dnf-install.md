@@ -59,6 +59,10 @@ sudo dnf install -y vim git
 
 > ⚠️ **MEDIUM**: Installing from untrusted sources may introduce risks
 
+## 最佳实践
+
+[[bp-dnf-install|dnf install 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

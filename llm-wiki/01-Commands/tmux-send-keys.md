@@ -76,6 +76,10 @@ tmux new-session -d -s ci && tmux send-keys -t ci "make test" C-m
 
 > ⚠️ **MEDIUM**: 自动发送命令可能在错误窗格执行危险操作
 
+## 最佳实践
+
+[[bp-tmux-send-keys|tmux send-keys 生产环境最佳实践]]
+
 ## 所属维度
 
 [[终端复用-MOC|Shell脚本/终端复用]]

@@ -70,6 +70,10 @@ connect-distributed.sh connect-distributed.properties
 
 > ⚠️ **MEDIUM**: 连接器配置错误会导致数据重复或丢失，请验证 topic 与 schema
 
+## 最佳实践
+
+[[bp-kafka-connect|kafka-connect 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|大数据/扩展工具]]

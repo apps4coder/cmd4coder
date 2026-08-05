@@ -76,6 +76,10 @@ python -c "from together import Together; c=Together(); r=c.chat.completions.cre
 
 - [https://www.together.ai/](https://www.together.ai/)
 
+## 最佳实践
+
+[[bp-together|together 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

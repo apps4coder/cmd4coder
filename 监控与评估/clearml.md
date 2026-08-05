@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/monitoring.yaml"
+  "source_file": "tools/cmd/data/ai/monitoring.yaml"
 }
 ---
 
@@ -77,8 +77,8 @@ clearml-agent execute --id <task_id>
 
 ## 关联命令
 
-- [[wandb]]
-- [[neptune]]
+- [[wandb|wandb]]
+- [[neptune|neptune]]
 
 ## 风险提示
 
@@ -87,6 +87,10 @@ clearml-agent execute --id <task_id>
 ## 参考链接
 
 - [https://clear.ml/](https://clear.ml/)
+
+## 最佳实践
+
+[[bp-clearml|clearml 生产环境最佳实践]]
 
 ## 所属维度
 

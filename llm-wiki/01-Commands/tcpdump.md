@@ -69,6 +69,10 @@ tcpdump -i eth0 -w capture.pcap
 
 > ⚠️ **MEDIUM**: 可能捕获敏感信息，注意数据安全
 
+## 最佳实践
+
+[[bp-tcpdump|tcpdump 生产环境最佳实践]]
+
 ## 所属维度
 
 [[网络诊断-MOC|网络工具/网络诊断]]

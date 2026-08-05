@@ -76,9 +76,15 @@ find . -type f -size +100M
 
 > ⚠️ **HIGH**: 使用-delete选项可能误删重要文件，建议先用-print预览
 
+> ⚠️ **MEDIUM**: 在大目录树中搜索可能消耗大量系统资源
+
 ## 参考链接
 
 - [https://man7.org/linux/man-pages/man1/find.1.html](https://man7.org/linux/man-pages/man1/find.1.html)
+
+## 最佳实践
+
+[[bp-find|find 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -67,6 +67,10 @@ fgrep -f patterns.txt log.txt
 
 > ⚠️ **LOW**: 只读/信息查询类命令，风险较低，但仍需确认目标对象。
 
+## 最佳实践
+
+[[bp-fgrep|fgrep 生产环境最佳实践]]
+
 ## 所属维度
 
 [[通用Linux命令-MOC|操作系统/通用Linux命令]]

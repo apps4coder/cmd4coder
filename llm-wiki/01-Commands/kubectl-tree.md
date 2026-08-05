@@ -70,6 +70,10 @@ kubectl tree namespace default
 
 > ⚠️ **LOW**: 只读命令
 
+## 最佳实践
+
+[[bp-kubectl-tree|kubectl-tree 生产环境最佳实践]]
+
 ## 所属维度
 
 [[K8s辅助工具-MOC|容器编排/K8s辅助工具]]

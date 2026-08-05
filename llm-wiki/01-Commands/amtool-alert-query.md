@@ -61,6 +61,10 @@ amtool alert query --alertmanager.url=http://localhost:9093 severity=critical
 
 > ⚠️ **LOW**: Read-only query operation
 
+## 最佳实践
+
+[[bp-amtool-alert-query|amtool alert query 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

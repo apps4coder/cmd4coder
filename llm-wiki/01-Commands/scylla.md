@@ -71,6 +71,10 @@ sudo systemctl start scylla-server
 
 > ⚠️ **MEDIUM**: Scylla 是系统级服务，启动前请确认资源配置
 
+## 最佳实践
+
+[[bp-scylla|scylla 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|数据库工具/扩展命令]]

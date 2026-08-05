@@ -64,6 +64,10 @@ sshuttle -r user@jump 0/0 --dns
 
 > ⚠️ **MEDIUM**: sshuttle 会改变系统路由，请确认目标子网和 DNS 配置
 
+## 最佳实践
+
+[[bp-sshuttle|sshuttle 生产环境最佳实践]]
+
 ## 所属维度
 
 [[基础设施-MOC|网络工具/基础设施]]

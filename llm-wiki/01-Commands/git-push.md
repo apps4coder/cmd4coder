@@ -71,6 +71,12 @@ git push -u origin feature
 
 > ⚠️ **HIGH**: 使用--force可能覆盖他人的提交，务必谨慎
 
+> ⚠️ **HIGH**: 涉及重写历史或删除的操作不可逆，建议先备份分支或创建保护规则。
+
+## 最佳实践
+
+[[bp-git-push|git push 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Git命令-MOC|版本控制/Git命令]]

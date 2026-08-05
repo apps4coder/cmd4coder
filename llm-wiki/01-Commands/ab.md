@@ -64,6 +64,12 @@ ab -t 30 -c 50 http://example.com/
 
 > ⚠️ **HIGH**: High load testing may overwhelm target server
 
+> ⚠️ **MEDIUM**: Only use on servers you have permission to test
+
+## 最佳实践
+
+[[bp-ab|ab 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Network Tools-MOC|Network Tools]]

@@ -70,6 +70,10 @@ kubectl get events --field-selector type=Warning
 
 > ⚠️ **LOW**: 只读操作；显示事件日志
 
+## 最佳实践
+
+[[bp-kubectl-get-events|kubectl get events 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Troubleshooting-MOC|Kubernetes Troubleshooting]]

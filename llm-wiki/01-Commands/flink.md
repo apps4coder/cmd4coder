@@ -69,6 +69,10 @@ flink list
 
 > ⚠️ **MEDIUM**: 取消作业会中断数据流，请先确认Checkpoint状态
 
+## 最佳实践
+
+[[bp-flink|flink 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Flink流计算-MOC|大数据/Flink流计算]]

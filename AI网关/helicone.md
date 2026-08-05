@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-gateway.yaml"
+  "source_file": "tools/cmd/data/ai/ai-gateway.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ curl https://oai.hconeai.com/v1/chat/completions -H 'Helicone-Auth: Bearer hk-xx
 
 ## 关联命令
 
-- [[portkey]]
-- [[openrouter]]
+- [[portkey|portkey]]
+- [[openrouter|openrouter]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ curl https://oai.hconeai.com/v1/chat/completions -H 'Helicone-Auth: Bearer hk-xx
 ## 参考链接
 
 - [https://www.helicone.ai/](https://www.helicone.ai/)
+
+## 最佳实践
+
+[[bp-helicone|helicone 生产环境最佳实践]]
 
 ## 所属维度
 

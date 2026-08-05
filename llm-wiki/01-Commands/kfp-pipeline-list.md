@@ -62,6 +62,10 @@ kfp pipeline list --page-size 50
 
 > ⚠️ **LOW**: Read-only operation
 
+## 最佳实践
+
+[[bp-kfp-pipeline-list|kfp pipeline list 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes MLOps-MOC|Kubernetes MLOps]]

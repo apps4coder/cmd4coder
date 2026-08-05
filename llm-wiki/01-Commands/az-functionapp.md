@@ -84,6 +84,10 @@ az functionapp keys list --resource-group my-rg --name my-func
 
 > ⚠️ **MEDIUM**: 密钥泄露可导致函数被未授权调用
 
+## 最佳实践
+
+[[bp-az-functionapp|az functionapp 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Azure CLI-MOC|云平台/Azure CLI]]

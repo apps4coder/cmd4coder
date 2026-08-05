@@ -61,6 +61,10 @@ gradlew.bat [任务] (Windows)
 
 > ⚠️ **MEDIUM**: 会修改本地环境或依赖
 
+## 最佳实践
+
+[[bp-gradlew|gradlew 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Gradle-MOC|构建工具/Gradle]]

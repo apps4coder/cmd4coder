@@ -79,6 +79,10 @@ python generate_synthetic.py --task instruction_following --model gpt-4 --num_sa
 
 - [https://github.com/argilla-io/distilabel](https://github.com/argilla-io/distilabel)
 
+## 最佳实践
+
+[[bp-distilabel|distilabel 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

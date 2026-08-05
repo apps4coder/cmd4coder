@@ -69,6 +69,10 @@ impala-shell -i localhost:21000 -q "SELECT * FROM users LIMIT 10"
 
 > ⚠️ **MEDIUM**: Impala 适合交互式查询，避免执行超大表的全表扫描
 
+## 最佳实践
+
+[[bp-impala-shell|impala-shell 生产环境最佳实践]]
+
 ## 所属维度
 
 [[查询引擎-MOC|大数据/查询引擎]]

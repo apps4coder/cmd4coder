@@ -55,6 +55,10 @@ trace com.example.Service doSomething '#cost > 100'
 
 > ⚠️ **MEDIUM**: May impact performance on traced methods
 
+## 最佳实践
+
+[[bp-trace|trace 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Java Diagnostic-MOC|Java Diagnostic]]

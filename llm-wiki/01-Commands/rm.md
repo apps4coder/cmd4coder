@@ -74,9 +74,17 @@ rm -i *.log
 
 > ⚠️ **CRITICAL**: rm -rf可能导致数据永久丢失，使用前必须仔细确认路径
 
+> ⚠️ **CRITICAL**: 绝对不要执行'rm -rf /'命令，会删除整个系统
+
+> ⚠️ **HIGH**: 使用通配符时要格外小心，可能匹配到不想删除的文件
+
 ## 参考链接
 
 - [https://man7.org/linux/man-pages/man1/rm.1.html](https://man7.org/linux/man-pages/man1/rm.1.html)
+
+## 最佳实践
+
+[[bp-rm|rm 生产环境最佳实践]]
 
 ## 所属维度
 

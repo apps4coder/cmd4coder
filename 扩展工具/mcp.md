@@ -19,7 +19,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-extra.yaml"
+  "source_file": "tools/cmd/data/ai/llm-extra.yaml"
 }
 ---
 
@@ -63,12 +63,21 @@ uvx mcp-server-sqlite --db path/to/db.sqlite
 
 ## 关联命令
 
-- [[openai-agents]]
-- [[langchain]]
+- [[openai-agents|openai-agents]]
+- [[langchain|langchain]]
 
 ## 风险提示
 
 > ⚠️ **MEDIUM**: MCP 服务器可能拥有文件/网络访问权限，请审查权限并隔离运行
+
+## 参考链接
+
+- [https://modelcontextprotocol.io/](https://modelcontextprotocol.io/)
+- [https://github.com/modelcontextprotocol](https://github.com/modelcontextprotocol)
+
+## 最佳实践
+
+[[bp-mcp|mcp 生产环境最佳实践]]
 
 ## 所属维度
 

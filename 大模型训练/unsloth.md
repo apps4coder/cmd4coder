@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python finetune.py --use_unsloth --max_seq_length=2048
 
 ## 关联命令
 
-- [[axolotl]]
-- [[trl]]
+- [[axolotl|axolotl]]
+- [[trl|trl]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python finetune.py --use_unsloth --max_seq_length=2048
 ## 参考链接
 
 - [https://github.com/unslothai/unsloth](https://github.com/unslothai/unsloth)
+
+## 最佳实践
+
+[[bp-unsloth|unsloth 生产环境最佳实践]]
 
 ## 所属维度
 

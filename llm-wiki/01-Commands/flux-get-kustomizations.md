@@ -68,6 +68,10 @@ flux get kustomizations --watch
 
 > ⚠️ **LOW**: Read-only operation; lists resources only
 
+## 最佳实践
+
+[[bp-flux-get-kustomizations|flux get kustomizations 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CD-MOC|Kubernetes CI/CD]]

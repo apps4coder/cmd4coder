@@ -63,6 +63,10 @@ sudo groupadd -g 1001 ops
 
 > ⚠️ **MEDIUM**: 会修改系统用户组配置，请确认 GID 不与现有组冲突。
 
+## 最佳实践
+
+[[bp-groupadd|groupadd 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux扩展命令-MOC|操作系统/Linux扩展命令]]

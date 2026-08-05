@@ -71,6 +71,10 @@ docker rm -f my-container
 
 > ⚠️ **MEDIUM**: 删除容器会丢失容器内的数据(除非使用卷)
 
+## 最佳实践
+
+[[bp-docker-rm|docker rm 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Docker命令-MOC|容器编排/Docker命令]]

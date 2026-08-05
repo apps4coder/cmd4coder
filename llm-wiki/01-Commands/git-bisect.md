@@ -80,6 +80,10 @@ git bisect reset
 
 > ⚠️ **LOW**: 只读操作，reset 恢复正常状态
 
+## 最佳实践
+
+[[bp-git-bisect|git bisect 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Git高级操作-MOC|版本控制/Git高级操作]]

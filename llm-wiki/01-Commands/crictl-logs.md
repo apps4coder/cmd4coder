@@ -67,6 +67,10 @@ crictl logs --tail=100 <container-id>
 
 > ⚠️ **LOW**: Read-only operation; views logs only
 
+## 最佳实践
+
+[[bp-crictl-logs|crictl logs 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Container Runtime-MOC|Kubernetes Container Runtime]]

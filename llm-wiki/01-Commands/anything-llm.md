@@ -69,6 +69,15 @@ docker pull mintplexlabs/anythingllm && docker run -d -p 3001:3001 mintplexlabs/
 
 > ⚠️ **MEDIUM**: 上传文档可能包含敏感信息，请做好访问控制和数据隔离
 
+## 参考链接
+
+- [https://anythingllm.com/](https://anythingllm.com/)
+- [https://github.com/Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)
+
+## 最佳实践
+
+[[bp-anything-llm|anything-llm 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|AI基础设施/扩展工具]]

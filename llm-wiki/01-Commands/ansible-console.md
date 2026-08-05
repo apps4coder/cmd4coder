@@ -62,6 +62,10 @@ ansible-console -i inventory.yml webservers
 
 > ⚠️ **MEDIUM**: Interactive command execution on hosts
 
+## 最佳实践
+
+[[bp-ansible-console|ansible-console 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

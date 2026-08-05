@@ -71,6 +71,10 @@ clickhouse-client --host ch.example.com --query "SELECT count() FROM events"
 
 > ⚠️ **MEDIUM**: ClickHouse 查询可能扫描亿级数据，请关注内存和 IO 消耗
 
+## 最佳实践
+
+[[bp-clickhouse-client|clickhouse-client 生产环境最佳实践]]
+
 ## 所属维度
 
 [[时序与OLAP-MOC|数据库工具/时序与OLAP]]

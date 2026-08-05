@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/monitoring.yaml"
+  "source_file": "tools/cmd/data/ai/monitoring.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ litellm --model gpt-4 --port 8000
 
 ## 关联命令
 
-- [[vllm]]
-- [[langfuse]]
+- [[vllm|vllm]]
+- [[langfuse|langfuse]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ litellm --model gpt-4 --port 8000
 ## 参考链接
 
 - [https://docs.litellm.ai/docs/simple_proxy](https://docs.litellm.ai/docs/simple_proxy)
+
+## 最佳实践
+
+[[bp-litellm-proxy|litellm-proxy 生产环境最佳实践]]
 
 ## 所属维度
 

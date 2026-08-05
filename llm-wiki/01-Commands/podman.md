@@ -71,6 +71,10 @@ podman build -t myapp .
 
 > ⚠️ **MEDIUM**: rootless 模式虽好，但仍需注意镜像来源和端口暴露范围
 
+## 最佳实践
+
+[[bp-podman|podman 生产环境最佳实践]]
+
 ## 所属维度
 
 [[容器替代方案-MOC|容器编排/容器替代方案]]

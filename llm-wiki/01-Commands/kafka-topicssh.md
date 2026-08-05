@@ -71,6 +71,10 @@ kafka-topics.sh --bootstrap-server localhost:9092 --create --topic mytopic --par
 
 > ⚠️ **MEDIUM**: 删除 Topic 会丢失数据，请确认 retention 和备份策略
 
+## 最佳实践
+
+[[bp-kafka-topics-sh|kafka-topics.sh 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kafka工具-MOC|大数据/Kafka工具]]

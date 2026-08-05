@@ -59,6 +59,10 @@ systemctl cat docker.service
 
 > ⚠️ **LOW**: 只读操作，无风险
 
+## 最佳实践
+
+[[bp-systemctl-cat|systemctl cat 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Systemd服务管理-MOC|操作系统/Systemd服务管理]]

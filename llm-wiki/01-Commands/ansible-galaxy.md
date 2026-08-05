@@ -81,6 +81,10 @@ ansible-galaxy role list
 
 > ⚠️ **LOW**: 仅安装第三方代码，需审查来源可信度
 
+## 最佳实践
+
+[[bp-ansible-galaxy|ansible-galaxy 生产环境最佳实践]]
+
 ## 所属维度
 
 [[配置管理-MOC|云平台/配置管理]]

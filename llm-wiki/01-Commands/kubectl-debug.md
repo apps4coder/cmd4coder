@@ -69,6 +69,10 @@ kubectl debug node/mynode -it --image=ubuntu
 
 > ⚠️ **MEDIUM**: 创建额外容器；注意资源消耗
 
+## 最佳实践
+
+[[bp-kubectl-debug|kubectl debug 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Troubleshooting-MOC|Kubernetes Troubleshooting]]

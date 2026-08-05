@@ -85,6 +85,10 @@ wandb artifact put model.pt --name my-model --type model
 
 - [https://wandb.ai/](https://wandb.ai/)
 
+## 最佳实践
+
+[[bp-wandb|wandb 生产环境最佳实践]]
+
 ## 所属维度
 
 [[监控与评估-MOC|AI基础设施/监控与评估]]

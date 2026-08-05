@@ -71,6 +71,10 @@ subfinder -d example.com -o subs.txt
 
 > ⚠️ **MEDIUM**: 子域名枚举应仅针对自己拥有或授权评估的域名
 
+## 最佳实践
+
+[[bp-subfinder|subfinder 生产环境最佳实践]]
+
 ## 所属维度
 
 [[网络安全-MOC|网络工具/网络安全]]

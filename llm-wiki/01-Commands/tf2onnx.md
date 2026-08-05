@@ -77,6 +77,10 @@ python -m tf2onnx.convert --keras model.h5 --output model.onnx
 
 - [https://github.com/onnx/tensorflow-onnx](https://github.com/onnx/tensorflow-onnx)
 
+## 最佳实践
+
+[[bp-tf2onnx|tf2onnx 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型生态-MOC|AI基础设施/模型生态]]

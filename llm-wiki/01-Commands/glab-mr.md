@@ -84,6 +84,10 @@ glab mr approve 42
 
 > ⚠️ **MEDIUM**: merge 操作不可逆，确认代码已审查
 
+## 最佳实践
+
+[[bp-glab-mr|glab mr 生产环境最佳实践]]
+
 ## 所属维度
 
 [[平台工具-MOC|CI-CD/平台工具]]

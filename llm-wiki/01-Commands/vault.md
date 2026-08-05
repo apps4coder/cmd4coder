@@ -71,6 +71,12 @@ vault kv get secret/myapp
 
 > ⚠️ **CRITICAL**: Vault 管理敏感凭据，错误策略或 root token 泄露会造成严重安全事故
 
+> ⚠️ **CRITICAL**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-vault|vault 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

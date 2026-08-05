@@ -7,7 +7,7 @@ domain: "ai-infra"
 risk_level: "low"
 platforms: ["linux", "darwin", "windows"]
 tags: ["ai-infra", "risk-low", "linux", "darwin", "windows"]
-created: "2026-06-06"
+created: "2026-07-28"
 source_file: "ai/data-labeling.yaml"
 ---
 

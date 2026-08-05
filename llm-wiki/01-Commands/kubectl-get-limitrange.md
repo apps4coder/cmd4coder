@@ -61,6 +61,10 @@ kubectl describe limitrange mem-limit-range -n production
 
 > ⚠️ **LOW**: 只读限制信息；帮助识别资源约束问题
 
+## 最佳实践
+
+[[bp-kubectl-get-limitrange|kubectl get limitrange 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Troubleshooting-MOC|Kubernetes Troubleshooting]]

@@ -71,6 +71,16 @@ sweep --issue 'Fix memory leak in worker' --repo myorg/myrepo
 
 > ⚠️ **HIGH**: AI 自动修改代码可能引入 Bug，请严格审查生成的 PR 并通过 CI
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 参考链接
+
+- [https://github.com/sweepai/sweep](https://github.com/sweepai/sweep)
+
+## 最佳实践
+
+[[bp-sweep|sweep 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|AI基础设施/扩展工具]]

@@ -71,6 +71,10 @@ rethinkdb --join host:29015 --directory ./data
 
 > ⚠️ **MEDIUM**: 默认无认证，请勿直接暴露公网
 
+## 最佳实践
+
+[[bp-rethinkdb|rethinkdb 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|数据库工具/扩展命令]]

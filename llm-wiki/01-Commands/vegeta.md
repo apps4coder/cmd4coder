@@ -71,6 +71,12 @@ vegeta attack -targets=targets.txt -rate=500 -duration=1m | tee results.bin | ve
 
 > ⚠️ **HIGH**: 定向压测可能导致目标服务不可用，请仅在授权范围内使用
 
+> ⚠️ **HIGH**: 压测会占用目标资源和网络带宽，请设置熔断/限流并提前与相关方确认。
+
+## 最佳实践
+
+[[bp-vegeta|vegeta 生产环境最佳实践]]
+
 ## 所属维度
 
 [[性能压测-MOC|网络工具/性能压测]]

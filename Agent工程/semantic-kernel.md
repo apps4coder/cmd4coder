@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/agent-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/agent-engineering.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python planner.py --planner HandlebarsPlanner --plugins search,math
 
 ## 关联命令
 
-- [[langchain]]
-- [[autogen]]
+- [[langchain|langchain]]
+- [[autogen|autogen]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python planner.py --planner HandlebarsPlanner --plugins search,math
 ## 参考链接
 
 - [https://github.com/microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)
+
+## 最佳实践
+
+[[bp-semantic-kernel|semantic-kernel 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -75,6 +75,12 @@ terraform apply tfplan
 
 > ⚠️ **CRITICAL**: Creates, modifies, or deletes infrastructure resources
 
+> ⚠️ **HIGH**: Always review plan before applying to production
+
+## 最佳实践
+
+[[bp-terraform-apply|terraform apply 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

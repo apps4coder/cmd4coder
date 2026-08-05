@@ -86,6 +86,10 @@ python server.py --min_available_clients=3 --strategy FedAvg
 
 - [https://flower.ai/](https://flower.ai/)
 
+## 最佳实践
+
+[[bp-flower|flower 生产环境最佳实践]]
+
 ## 所属维度
 
 [[联邦学习-MOC|AI基础设施/联邦学习]]

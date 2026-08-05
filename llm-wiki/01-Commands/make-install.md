@@ -58,6 +58,12 @@ sudo make install
 
 > ⚠️ **HIGH**: 需要 root 权限，可能覆盖系统文件
 
+> ⚠️ **HIGH**: 安装到系统目录可能覆盖系统文件，建议检查 DESTDIR/PREFIX 配置。
+
+## 最佳实践
+
+[[bp-make-install|make install 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Make-MOC|构建工具/Make]]

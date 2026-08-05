@@ -77,6 +77,10 @@ python -m examples.portable.scripts.export --model_name=add
 
 - [https://pytorch.org/executorch/](https://pytorch.org/executorch/)
 
+## 最佳实践
+
+[[bp-executorch|executorch 生产环境最佳实践]]
+
 ## 所属维度
 
 [[边缘AI-MOC|AI基础设施/边缘AI]]

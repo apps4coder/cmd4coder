@@ -80,6 +80,10 @@ python generate.py --prompt 'cyberpunk city' --lora ./lora_weights --seed 42
 
 - [https://github.com/Stability-AI/stablediffusion](https://github.com/Stability-AI/stablediffusion)
 
+## 最佳实践
+
+[[bp-stable-diffusion-cli|stable-diffusion-cli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[多模态-MOC|AI基础设施/多模态]]

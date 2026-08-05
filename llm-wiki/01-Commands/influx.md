@@ -70,6 +70,10 @@ influx bucket list
 
 > ⚠️ **MEDIUM**: 删除 bucket 或大量数据不可恢复，请确认保留策略
 
+## 最佳实践
+
+[[bp-influx|influx 生产环境最佳实践]]
+
 ## 所属维度
 
 [[时序与OLAP-MOC|数据库工具/时序与OLAP]]

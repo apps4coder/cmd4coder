@@ -65,6 +65,10 @@ sudo unbound-control flush example.com
 
 > ⚠️ **MEDIUM**: 重载或 flush 会影响 DNS 解析，请确认影响范围
 
+## 最佳实践
+
+[[bp-unbound-control|unbound-control 生产环境最佳实践]]
+
 ## 所属维度
 
 [[基础设施-MOC|网络工具/基础设施]]

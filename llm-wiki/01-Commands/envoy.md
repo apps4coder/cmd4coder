@@ -70,6 +70,10 @@ envoy --mode validate -c envoy.yaml
 
 > ⚠️ **MEDIUM**: Envoy 作为数据平面，配置错误会中断流量
 
+## 最佳实践
+
+[[bp-envoy|envoy 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

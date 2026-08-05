@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-compiler.yaml"
+  "source_file": "tools/cmd/data/ai/ai-compiler.yaml"
 }
 ---
 
@@ -74,8 +74,8 @@ trtexec --onnx=model.onnx --saveEngine=model_int8.trt --int8 --calib=calibration
 
 ## 关联命令
 
-- [[tensorrt-llm]]
-- [[onnx-optimizer]]
+- [[tensorrt-llm|tensorrt-llm]]
+- [[onnx-optimizer|onnx-optimizer]]
 
 ## 风险提示
 
@@ -84,6 +84,10 @@ trtexec --onnx=model.onnx --saveEngine=model_int8.trt --int8 --calib=calibration
 ## 参考链接
 
 - [https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html](https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html)
+
+## 最佳实践
+
+[[bp-trtexec|trtexec 生产环境最佳实践]]
 
 ## 所属维度
 

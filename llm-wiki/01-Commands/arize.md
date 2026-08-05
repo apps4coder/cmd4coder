@@ -76,6 +76,10 @@ python -c "from arize.api import Client; help(Client.log)"
 
 - [https://arize.com/](https://arize.com/)
 
+## 最佳实践
+
+[[bp-arize|arize 生产环境最佳实践]]
+
 ## 所属维度
 
 [[监控与评估-MOC|AI基础设施/监控与评估]]

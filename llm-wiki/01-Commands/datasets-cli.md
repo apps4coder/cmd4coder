@@ -77,6 +77,10 @@ python -c "from datasets import load_dataset; ds = load_dataset('c4', 'en', stre
 
 - [https://huggingface.co/docs/datasets](https://huggingface.co/docs/datasets)
 
+## 最佳实践
+
+[[bp-datasets-cli|datasets-cli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据与标注-MOC|AI基础设施/数据与标注]]

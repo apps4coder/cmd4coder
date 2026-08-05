@@ -71,6 +71,10 @@ consul kv get -recurse config/
 
 > ⚠️ **MEDIUM**: Consul 为控制平面，配置错误会影响服务发现
 
+## 最佳实践
+
+[[bp-consul|consul 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

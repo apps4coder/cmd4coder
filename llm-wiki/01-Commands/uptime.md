@@ -51,6 +51,10 @@ uptime -p
 
 > ⚠️ **LOW**: 只读命令
 
+## 最佳实践
+
+[[bp-uptime|uptime 生产环境最佳实践]]
+
 ## 所属维度
 
 [[通用Linux命令-MOC|操作系统/通用Linux命令]]

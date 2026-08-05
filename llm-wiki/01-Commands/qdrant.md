@@ -84,6 +84,10 @@ python -c "from qdrant_client import QdrantClient; client = QdrantClient('localh
 
 - [https://qdrant.tech/](https://qdrant.tech/)
 
+## 最佳实践
+
+[[bp-qdrant|qdrant 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

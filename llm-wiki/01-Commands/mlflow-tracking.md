@@ -81,6 +81,10 @@ mlflow server --backend-store-uri postgresql://mlflow@localhost/mlflow --default
 
 - [https://mlflow.org/docs/latest/tracking.html](https://mlflow.org/docs/latest/tracking.html)
 
+## 最佳实践
+
+[[bp-mlflow-tracking|mlflow-tracking 生产环境最佳实践]]
+
 ## 所属维度
 
 [[监控与评估-MOC|AI基础设施/监控与评估]]

@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-hub.yaml"
+  "source_file": "tools/cmd/data/ai/model-hub.yaml"
 }
 ---
 
@@ -73,8 +73,8 @@ python -c "import ctranslate2 as ct2; t = ct2.Translator('./m2m100_ct2'); print(
 
 ## 关联命令
 
-- [[optimum-cli]]
-- [[onnxruntime]]
+- [[optimum-cli|optimum-cli]]
+- [[onnxruntime|onnxruntime]]
 
 ## 风险提示
 
@@ -83,6 +83,10 @@ python -c "import ctranslate2 as ct2; t = ct2.Translator('./m2m100_ct2'); print(
 ## 参考链接
 
 - [https://github.com/OpenNMT/CTranslate2](https://github.com/OpenNMT/CTranslate2)
+
+## 最佳实践
+
+[[bp-ctranslate2|ctranslate2 生产环境最佳实践]]
 
 ## 所属维度
 

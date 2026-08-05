@@ -87,6 +87,10 @@ gcloud builds log read --limit=5
 
 > ⚠️ **LOW**: 构建操作风险较低，但会产生 Cloud Build 费用
 
+## 最佳实践
+
+[[bp-gcloud-builds|gcloud builds 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GCP CLI-MOC|云平台/GCP CLI]]

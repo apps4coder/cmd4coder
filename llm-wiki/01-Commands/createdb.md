@@ -70,6 +70,10 @@ createdb -E UTF8 mydb
 
 > ⚠️ **MEDIUM**: Creates new database; requires appropriate privileges
 
+## 最佳实践
+
+[[bp-createdb|createdb 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

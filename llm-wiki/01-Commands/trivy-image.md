@@ -75,6 +75,10 @@ trivy image --exit-code 1 myapp:v1.0
 
 > ⚠️ **LOW**: Read-only scanning; no modifications to images
 
+## 最佳实践
+
+[[bp-trivy-image|trivy image 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

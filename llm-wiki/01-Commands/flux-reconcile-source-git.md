@@ -61,6 +61,10 @@ flux reconcile source git myapp -n production
 
 > ⚠️ **MEDIUM**: Triggers immediate sync from Git; may deploy changes
 
+## 最佳实践
+
+[[bp-flux-reconcile-source-git|flux reconcile source git 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CD-MOC|Kubernetes CI/CD]]

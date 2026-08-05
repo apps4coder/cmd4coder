@@ -71,6 +71,10 @@ influxd --http-bind-address=:8086
 
 > ⚠️ **MEDIUM**: influxd 会监听网络端口，请配置认证和防火墙
 
+## 最佳实践
+
+[[bp-influxd|influxd 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|数据库工具/扩展命令]]

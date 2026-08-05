@@ -64,6 +64,10 @@ sudo named-checkconf -z
 
 > ⚠️ **LOW**: 只读/信息查询类命令，风险较低，但仍需确认目标对象。
 
+## 最佳实践
+
+[[bp-named-checkconf|named-checkconf 生产环境最佳实践]]
+
 ## 所属维度
 
 [[基础设施-MOC|网络工具/基础设施]]

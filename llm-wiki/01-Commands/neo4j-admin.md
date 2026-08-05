@@ -71,6 +71,12 @@ neo4j-admin database load neo4j --from-path=/backup
 
 > ⚠️ **HIGH**: dump/load 会操作数据库文件，操作前请停止服务并备份
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-neo4j-admin|neo4j-admin 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|数据库工具/扩展工具]]

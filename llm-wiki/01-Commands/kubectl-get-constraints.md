@@ -55,6 +55,10 @@ kubectl describe k8srequiredlabels require-namespace-labels
 
 > ⚠️ **LOW**: Read-only operation; shows enforced policies
 
+## 最佳实践
+
+[[bp-kubectl-get-constraints|kubectl get constraints 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

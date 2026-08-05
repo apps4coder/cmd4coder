@@ -65,6 +65,10 @@ go install ./cmd/myapp
 
 > ⚠️ **MEDIUM**: 会修改系统或应用状态，建议在测试环境验证后再应用于生产。
 
+## 最佳实践
+
+[[bp-go-install|go install 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Go工具链-MOC|编程语言/Go工具链]]

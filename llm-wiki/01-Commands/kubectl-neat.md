@@ -63,6 +63,10 @@ kubectl neat -f deploy.yaml -o yaml
 
 > ⚠️ **LOW**: 只读/格式化工具，不会修改集群
 
+## 最佳实践
+
+[[bp-kubectl-neat|kubectl-neat 生产环境最佳实践]]
+
 ## 所属维度
 
 [[K8s辅助工具-MOC|容器编排/K8s辅助工具]]

@@ -72,6 +72,10 @@ pip freeze > requirements.txt
 
 > ⚠️ **MEDIUM**: 会修改本地环境或依赖
 
+## 最佳实践
+
+[[bp-pip|pip 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Python工具链-MOC|编程语言/Python工具链]]

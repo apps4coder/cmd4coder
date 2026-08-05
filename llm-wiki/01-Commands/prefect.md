@@ -92,6 +92,10 @@ prefect deployment run 'train-flow/nightly-train'
 
 - [https://docs.prefect.io/latest/api-ref/cli/](https://docs.prefect.io/latest/api-ref/cli/)
 
+## 最佳实践
+
+[[bp-prefect|prefect 生产环境最佳实践]]
+
 ## 所属维度
 
 [[MLOps平台-MOC|AI基础设施/MLOps平台]]

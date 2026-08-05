@@ -55,6 +55,10 @@ restic init --repo s3:s3.amazonaws.com/my-backup-bucket
 
 > ⚠️ **LOW**: Creates empty repository; no data operations
 
+## 最佳实践
+
+[[bp-restic-init|restic init 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Backup  Recovery-MOC|Kubernetes Backup & Recovery]]

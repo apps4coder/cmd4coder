@@ -66,6 +66,10 @@ crictl stats --no-stream
 
 > ⚠️ **LOW**: Read-only operation; displays resource metrics only
 
+## 最佳实践
+
+[[bp-crictl-stats|crictl stats 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Container Runtime-MOC|Kubernetes Container Runtime]]

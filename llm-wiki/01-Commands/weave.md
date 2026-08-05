@@ -71,6 +71,15 @@ weave trace my_function()
 
 > ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 
+## 参考链接
+
+- [https://weave-docs.wandb.ai/](https://weave-docs.wandb.ai/)
+- [https://github.com/wandb/weave](https://github.com/wandb/weave)
+
+## 最佳实践
+
+[[bp-weave|weave 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|AI基础设施/扩展命令]]

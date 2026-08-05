@@ -92,6 +92,10 @@ act -W .github/workflows/ci.yml
 
 > ⚠️ **MEDIUM**: 本地执行可能暴露 secrets，注意 .secrets 文件
 
+## 最佳实践
+
+[[bp-act|act 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GitHub Actions-MOC|CI-CD/GitHub Actions]]

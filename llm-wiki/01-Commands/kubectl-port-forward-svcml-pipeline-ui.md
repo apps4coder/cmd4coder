@@ -55,6 +55,10 @@ kubectl port-forward svc/ml-pipeline-ui 3000:80 -n kubeflow &
 
 > ⚠️ **LOW**: Local port forwarding only
 
+## 最佳实践
+
+[[bp-kubectl-port-forward-svc-ml-pipeline-ui|kubectl port-forward svc/ml-pipeline-ui 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes MLOps-MOC|Kubernetes MLOps]]

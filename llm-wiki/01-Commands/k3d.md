@@ -72,6 +72,10 @@ k3d image import myapp:latest -c mycluster
 
 > ⚠️ **MEDIUM**: 多个本地集群会占用大量资源，请及时清理不再使用的集群
 
+## 最佳实践
+
+[[bp-k3d|k3d 生产环境最佳实践]]
+
 ## 所属维度
 
 [[本地K8s-MOC|容器编排/本地K8s]]

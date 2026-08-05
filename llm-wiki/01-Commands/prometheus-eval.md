@@ -76,6 +76,10 @@ python evaluate.py --model prometheus-eval/prometheus-7b-v2.0 --data eval_set.js
 
 - [https://github.com/prometheus-eval/prometheus-eval](https://github.com/prometheus-eval/prometheus-eval)
 
+## 最佳实践
+
+[[bp-prometheus-eval|prometheus-eval 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Harness工程-MOC|AI基础设施/Harness工程]]

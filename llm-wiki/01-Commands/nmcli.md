@@ -65,6 +65,10 @@ nmcli connection up 'Wired connection 1'
 
 > ⚠️ **MEDIUM**: 关闭或切换连接会中断网络，远程操作需谨慎
 
+## 最佳实践
+
+[[bp-nmcli|nmcli 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux核心-MOC|操作系统/Linux核心]]

@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -59,9 +59,22 @@ python -c "import outlines; generator = outlines.generate.json(model, schema)"
 
 ## 关联命令
 
-- [[instructor]]
-- [[guidance]]
-- [[langchain]]
+- [[instructor|instructor]]
+- [[guidance|guidance]]
+- [[langchain|langchain]]
+
+## 风险提示
+
+> ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
+
+## 参考链接
+
+- [https://dottxt-ai.github.io/outlines/](https://dottxt-ai.github.io/outlines/)
+- [https://github.com/dottxt-ai/outlines](https://github.com/dottxt-ai/outlines)
+
+## 最佳实践
+
+[[bp-outlines|outlines 生产环境最佳实践]]
 
 ## 所属维度
 

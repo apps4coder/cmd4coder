@@ -80,6 +80,10 @@ mineru -p scan.pdf -o ./output -m ocr -l ch
 
 - [https://github.com/opendatalab/MinerU](https://github.com/opendatalab/MinerU)
 
+## 最佳实践
+
+[[bp-mineru|mineru 生产环境最佳实践]]
+
 ## 所属维度
 
 [[RAG基础设施-MOC|AI基础设施/RAG基础设施]]

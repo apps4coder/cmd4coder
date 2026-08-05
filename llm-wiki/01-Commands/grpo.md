@@ -78,6 +78,10 @@ python grpo_train.py --model_name Qwen2.5-7B --num_generations 8 --beta 0.04 --o
 
 - [https://huggingface.co/docs/trl/grpo_trainer](https://huggingface.co/docs/trl/grpo_trainer)
 
+## 最佳实践
+
+[[bp-grpo|grpo 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

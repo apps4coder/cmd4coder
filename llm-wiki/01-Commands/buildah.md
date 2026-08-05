@@ -69,6 +69,10 @@ buildah from alpine:latest
 
 > ⚠️ **LOW**: 构建时避免在镜像层中遗留密钥等敏感文件
 
+## 最佳实践
+
+[[bp-buildah|buildah 生产环境最佳实践]]
+
 ## 所属维度
 
 [[容器替代方案-MOC|容器编排/容器替代方案]]

@@ -53,6 +53,12 @@ sudo dpkg -r --purge nginx
 
 > ⚠️ **HIGH**: May leave configuration files; use apt remove instead
 
+> ⚠️ **HIGH**: 操作前建议确认目标对象，并在非生产环境验证后再执行。
+
+## 最佳实践
+
+[[bp-dpkg-r|dpkg -r 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

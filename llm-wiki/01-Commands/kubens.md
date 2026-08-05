@@ -68,6 +68,12 @@ kubens default
 
 > ⚠️ **MEDIUM**: Changes default namespace for subsequent commands
 
+> ⚠️ **LOW**: Verify namespace before executing destructive operations
+
+## 最佳实践
+
+[[bp-kubens|kubens 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Utilities-MOC|Kubernetes Utilities]]

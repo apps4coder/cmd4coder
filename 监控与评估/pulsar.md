@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/monitoring.yaml"
+  "source_file": "tools/cmd/data/ai/monitoring.yaml"
 }
 ---
 
@@ -72,8 +72,8 @@ pulsar-client produce ml-events --messages '{"model":"v1","latency":120}'
 
 ## 关联命令
 
-- [[kafka]]
-- [[redis]]
+- [[kafka|kafka]]
+- [[redis|redis]]
 
 ## 风险提示
 
@@ -82,6 +82,10 @@ pulsar-client produce ml-events --messages '{"model":"v1","latency":120}'
 ## 参考链接
 
 - [https://pulsar.apache.org/](https://pulsar.apache.org/)
+
+## 最佳实践
+
+[[bp-pulsar|pulsar 生产环境最佳实践]]
 
 ## 所属维度
 

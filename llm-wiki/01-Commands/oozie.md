@@ -70,6 +70,10 @@ oozie validate workflow.xml
 
 > ⚠️ **MEDIUM**: Oozie 作业会调度 MapReduce/Hive 等，请确认依赖和资源
 
+## 最佳实践
+
+[[bp-oozie|oozie 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|大数据/扩展命令]]

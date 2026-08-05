@@ -77,6 +77,10 @@ python agent.py --tools web_search,file_search --model gpt-4o
 
 - [https://github.com/openai/openai-agents-python](https://github.com/openai/openai-agents-python)
 
+## 最佳实践
+
+[[bp-openai-agents|openai-agents 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

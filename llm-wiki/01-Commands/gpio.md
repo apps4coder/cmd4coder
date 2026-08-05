@@ -71,6 +71,10 @@ gpioset gpiochip0 25=1
 
 > ⚠️ **MEDIUM**: GPIO 控制硬件，错误电平可能损坏外设
 
+## 最佳实践
+
+[[bp-gpio|gpio 生产环境最佳实践]]
+
 ## 所属维度
 
 [[嵌入式与IoT-MOC|硬件/嵌入式与IoT]]

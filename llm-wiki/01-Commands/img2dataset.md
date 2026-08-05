@@ -80,6 +80,10 @@ img2dataset --url_list laion.parquet --output_folder laion_shards --shard_size 1
 
 - [https://github.com/rom1504/img2dataset](https://github.com/rom1504/img2dataset)
 
+## 最佳实践
+
+[[bp-img2dataset|img2dataset 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据与标注-MOC|AI基础设施/数据与标注]]

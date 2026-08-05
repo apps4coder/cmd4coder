@@ -61,6 +61,10 @@ kubectl port-forward svc/thanos-query 9090:9090 -n monitoring
 
 > ⚠️ **MEDIUM**: Exposes monitoring interface; may contain sensitive metrics
 
+## 最佳实践
+
+[[bp-kubectl-port-forward-svc-prometheus-operated|kubectl port-forward svc/prometheus-operated 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

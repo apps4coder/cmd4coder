@@ -68,6 +68,12 @@ terraform output -json
 
 > ⚠️ **LOW**: Read-only operation; displays values only
 
+> ⚠️ **LOW**: May contain sensitive data like passwords
+
+## 最佳实践
+
+[[bp-terraform-output|terraform output 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

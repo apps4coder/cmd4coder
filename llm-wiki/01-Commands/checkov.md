@@ -73,6 +73,10 @@ checkov -f main.tf --framework terraform
 
 > ⚠️ **LOW**: 静态扫描不会修改基础设施，但可能产生大量告警，请结合优先级处理
 
+## 最佳实践
+
+[[bp-checkov|checkov 生产环境最佳实践]]
+
 ## 所属维度
 
 [[K8s安全扩展-MOC|容器编排/K8s安全扩展]]

@@ -69,6 +69,12 @@ skaffold dev --namespace dev
 
 > ⚠️ **MEDIUM**: Deploys to cluster; automatically rebuilds on code changes
 
+> ⚠️ **LOW**: Intended for development environments only
+
+## 最佳实践
+
+[[bp-skaffold-dev|skaffold dev 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Development-MOC|Kubernetes Development]]

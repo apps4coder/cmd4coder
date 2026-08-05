@@ -68,6 +68,10 @@ istioctl version --short
 
 > ⚠️ **LOW**: Read-only version check
 
+## 最佳实践
+
+[[bp-istioctl-version|istioctl version 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Networking-MOC|Kubernetes Networking]]

@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-hub.yaml"
+  "source_file": "tools/cmd/data/ai/model-hub.yaml"
 }
 ---
 
@@ -80,8 +80,8 @@ huggingface-cli scan-cache --verbose
 
 ## 关联命令
 
-- [[modelscope]]
-- [[git-lfs]]
+- [[modelscope|modelscope]]
+- [[git-lfs|git-lfs]]
 
 ## 风险提示
 
@@ -90,6 +90,10 @@ huggingface-cli scan-cache --verbose
 ## 参考链接
 
 - [https://huggingface.co/docs/huggingface_hub](https://huggingface.co/docs/huggingface_hub)
+
+## 最佳实践
+
+[[bp-huggingface-cli|huggingface-cli 生产环境最佳实践]]
 
 ## 所属维度
 

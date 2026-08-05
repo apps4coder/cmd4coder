@@ -61,6 +61,10 @@ kubectl config use-context production
 
 > ⚠️ **MEDIUM**: 上下文切换影响命令目标集群
 
+## 最佳实践
+
+[[bp-kubectl-config-current-context|kubectl config current-context 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Troubleshooting-MOC|Kubernetes Troubleshooting]]

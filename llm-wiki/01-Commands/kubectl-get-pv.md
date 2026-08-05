@@ -75,6 +75,10 @@ kubectl describe pv my-pv
 
 > ⚠️ **LOW**: Read-only operation; shows storage volumes
 
+## 最佳实践
+
+[[bp-kubectl-get-pv|kubectl get pv 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Storage Management-MOC|Kubernetes Storage Management]]

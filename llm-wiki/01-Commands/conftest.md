@@ -85,6 +85,10 @@ conftest test -p policies/ k8s/ --all-namespaces
 
 > ⚠️ **LOW**: 只读测试操作，无风险
 
+## 最佳实践
+
+[[bp-conftest|conftest 生产环境最佳实践]]
+
 ## 所属维度
 
 [[安全扫描-MOC|网络工具/安全扫描]]

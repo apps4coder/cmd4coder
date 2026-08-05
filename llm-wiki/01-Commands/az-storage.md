@@ -85,6 +85,10 @@ az storage blob list --account-name mystorage --container-name my-container --ou
 
 > ⚠️ **MEDIUM**: 密钥泄露可导致数据被访问，delete 操作不可逆
 
+## 最佳实践
+
+[[bp-az-storage|az storage 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Azure CLI-MOC|云平台/Azure CLI]]

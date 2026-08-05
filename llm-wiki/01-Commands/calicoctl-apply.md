@@ -61,6 +61,12 @@ calicoctl apply -f policies/
 
 > ⚠️ **HIGH**: Modifies network policies; can affect pod connectivity
 
+> ⚠️ **MEDIUM**: Incorrect policy may block legitimate traffic
+
+## 最佳实践
+
+[[bp-calicoctl-apply|calicoctl apply 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Networking-MOC|Kubernetes Networking]]

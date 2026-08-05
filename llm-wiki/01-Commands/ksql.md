@@ -67,6 +67,10 @@ ksql http://localhost:8088 --execute "SHOW TOPICS;"
 
 > ⚠️ **MEDIUM**: CREATE STREAM/TABLE 会持久化到 Kafka Topic，请确认配置
 
+## 最佳实践
+
+[[bp-ksql|ksql 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kafka工具-MOC|大数据/Kafka工具]]

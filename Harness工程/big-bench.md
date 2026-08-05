@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/harness-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/harness-engineering.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python bigbench/evaluate_task.py --task simple_arithmetic --models gpt-4 --max_e
 
 ## 关联命令
 
-- [[lm-eval]]
-- [[opencompass]]
+- [[lm-eval|lm-eval]]
+- [[opencompass|opencompass]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python bigbench/evaluate_task.py --task simple_arithmetic --models gpt-4 --max_e
 ## 参考链接
 
 - [https://github.com/google/BIG-bench](https://github.com/google/BIG-bench)
+
+## 最佳实践
+
+[[bp-big-bench|big-bench 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/harness-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/harness-engineering.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python -m swebench.harness.run_evaluation --predictions_path preds.json --swe_be
 
 ## 关联命令
 
-- [[humaneval]]
-- [[agent-bench]]
+- [[humaneval|humaneval]]
+- [[agent-bench|agent-bench]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python -m swebench.harness.run_evaluation --predictions_path preds.json --swe_be
 ## 参考链接
 
 - [https://www.swebench.com/](https://www.swebench.com/)
+
+## 最佳实践
+
+[[bp-swe-bench|swe-bench 生产环境最佳实践]]
 
 ## 所属维度
 

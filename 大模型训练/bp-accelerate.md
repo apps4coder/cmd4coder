@@ -1,14 +1,14 @@
 ---
 title: "accelerate 生产环境最佳实践"
 cmd_name: "accelerate"
-cmd_category: "AI基础设施/ML框架"
+cmd_category: "AI基础设施/大模型训练"
 source_page: "[[accelerate]]"
 domain: "ai-infra"
 risk_level: "low"
 platforms: ["linux", "darwin", "windows"]
 tags: ["ai-infra", "risk-low", "linux", "darwin", "windows"]
-created: "2026-06-06"
-source_file: "ai/ml-frameworks.yaml"
+created: "2026-07-28"
+source_file: "ai/llm-training.yaml"
 ---
 
 # accelerate — 生产环境最佳实践

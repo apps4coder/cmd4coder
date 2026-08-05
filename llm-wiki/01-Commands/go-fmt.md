@@ -63,6 +63,10 @@ gofmt -w -s main.go
 
 > ⚠️ **MEDIUM**: 会修改本地环境或依赖
 
+## 最佳实践
+
+[[bp-go-fmt|go fmt 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Go工具链-MOC|编程语言/Go工具链]]

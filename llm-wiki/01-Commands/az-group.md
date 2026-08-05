@@ -83,6 +83,10 @@ az group delete --name my-rg --yes
 
 > ⚠️ **CRITICAL**: group delete 会删除资源组内所有资源，操作不可逆
 
+## 最佳实践
+
+[[bp-az-group|az group 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Azure CLI-MOC|云平台/Azure CLI]]

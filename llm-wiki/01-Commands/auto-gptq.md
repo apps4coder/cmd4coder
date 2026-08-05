@@ -79,6 +79,10 @@ python quantize.py --model Qwen/Qwen2-72B --bits 4 --desc_act
 
 - [https://github.com/PanQiWei/AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ)
 
+## 最佳实践
+
+[[bp-auto-gptq|auto-gptq 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型生态-MOC|AI基础设施/模型生态]]

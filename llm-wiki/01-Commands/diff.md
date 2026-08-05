@@ -77,6 +77,10 @@ diff <(sort file1) <(sort file2)
 
 > ⚠️ **LOW**: 只读操作，无风险
 
+## 最佳实践
+
+[[bp-diff|diff 生产环境最佳实践]]
+
 ## 所属维度
 
 [[文本处理-MOC|Shell脚本/文本处理]]

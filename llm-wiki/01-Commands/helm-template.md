@@ -76,6 +76,10 @@ helm template nginx bitnami/nginx --show-only templates/deployment.yaml
 
 > ⚠️ **LOW**: Local rendering only; no cluster changes
 
+## 最佳实践
+
+[[bp-helm-template|helm template 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

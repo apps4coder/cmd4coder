@@ -78,6 +78,10 @@ python make_shards.py --input_dir ./images --output_pattern shards/data-%06d.tar
 
 - [https://github.com/webdataset/webdataset](https://github.com/webdataset/webdataset)
 
+## 最佳实践
+
+[[bp-webdataset|webdataset 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据与标注-MOC|AI基础设施/数据与标注]]

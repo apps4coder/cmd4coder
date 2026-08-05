@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/more.yaml"
+  "source_file": "tools/cmd/data/ai/more.yaml"
 }
 ---
 
@@ -65,8 +65,21 @@ comet upload offline.zip
 
 ## 关联命令
 
-- [[wandb]]
-- [[neptune]]
+- [[wandb|wandb]]
+- [[neptune|neptune]]
+
+## 风险提示
+
+> ⚠️ **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
+
+## 参考链接
+
+- [https://www.comet.com/docs/](https://www.comet.com/docs/)
+- [https://github.com/comet-ml](https://github.com/comet-ml)
+
+## 最佳实践
+
+[[bp-comet|comet 生产环境最佳实践]]
 
 ## 所属维度
 

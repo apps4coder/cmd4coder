@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/agent-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/agent-engineering.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ python app.py --add youtube,notion,slack --query 'Summarize'
 
 ## 关联命令
 
-- [[langchain]]
-- [[llama-index]]
+- [[langchain|langchain]]
+- [[llama-index|llama-index]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ python app.py --add youtube,notion,slack --query 'Summarize'
 ## 参考链接
 
 - [https://docs.embedchain.ai/](https://docs.embedchain.ai/)
+
+## 最佳实践
+
+[[bp-embedchain|embedchain 生产环境最佳实践]]
 
 ## 所属维度
 

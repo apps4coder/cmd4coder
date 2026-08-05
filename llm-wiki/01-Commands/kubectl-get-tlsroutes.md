@@ -61,6 +61,10 @@ kubectl describe tlsroute secure-api -n production
 
 > ⚠️ **LOW**: Read-only operation; shows TLS routing rules
 
+## 最佳实践
+
+[[bp-kubectl-get-tlsroutes|kubectl get tlsroutes 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Networking-MOC|Kubernetes Networking]]

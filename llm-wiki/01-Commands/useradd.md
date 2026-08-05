@@ -64,6 +64,10 @@ sudo useradd -G sudo,adm bob
 
 > ⚠️ **MEDIUM**: 创建系统用户可能影响权限策略，请确认 UID/GID 范围
 
+## 最佳实践
+
+[[bp-useradd|useradd 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux扩展命令-MOC|操作系统/Linux扩展命令]]

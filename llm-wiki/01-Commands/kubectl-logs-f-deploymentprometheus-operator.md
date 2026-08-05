@@ -69,6 +69,10 @@ kubectl logs deployment/prometheus-operator -n monitoring --tail=100
 
 > ⚠️ **LOW**: Read-only log viewing; may contain sensitive information
 
+## 最佳实践
+
+[[bp-kubectl-logs-f-deployment-prometheus-operator|kubectl logs -f deployment/prometheus-operator 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

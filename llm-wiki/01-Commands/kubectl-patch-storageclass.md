@@ -16,7 +16,7 @@
     "advanced",
     "linux"
   ],
-  "cmd_risk_level": "medium",
+  "cmd_risk_level": "high",
   "created": "2026-05-31",
   "source_file": "tools/cmd/data/container/k8s/k8s-storage-management.yaml"
 }
@@ -55,6 +55,12 @@ kubectl patch sc fast-ssd -p '{"metadata":{"annotations":{"storageclass.kubernet
 ## 风险提示
 
 > ⚠️ **MEDIUM**: Changes storage provisioning behavior
+
+> ⚠️ **HIGH**: Setting wrong default may affect new PVCs
+
+## 最佳实践
+
+[[bp-kubectl-patch-storageclass|kubectl patch storageclass 生产环境最佳实践]]
 
 ## 所属维度
 

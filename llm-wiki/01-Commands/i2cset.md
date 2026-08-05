@@ -69,6 +69,10 @@ sudo i2cset -y -m 0x0F 1 0x50 0x00 0x05
 
 > ⚠️ **MEDIUM**: 错误写入可能损坏 I2C 设备配置
 
+## 最佳实践
+
+[[bp-i2cset|i2cset 生产环境最佳实践]]
+
 ## 所属维度
 
 [[嵌入式与IoT-MOC|硬件/嵌入式与IoT]]

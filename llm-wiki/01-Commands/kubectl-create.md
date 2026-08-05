@@ -68,6 +68,10 @@ kubectl create deployment nginx --image=nginx
 
 > ⚠️ **MEDIUM**: Creates new resources in cluster
 
+## 最佳实践
+
+[[bp-kubectl-create|kubectl create 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Container Orchestration-MOC|Container Orchestration]]

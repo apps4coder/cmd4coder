@@ -66,6 +66,10 @@ ssh -i ~/.ssh/id_rsa -p 2222 user@host
 
 > ⚠️ **MEDIUM**: 请确认主机指纹和私钥安全，避免连接到被篡改的服务器
 
+## 最佳实践
+
+[[bp-ssh|ssh 生产环境最佳实践]]
+
 ## 所属维度
 
 [[通用Linux命令-MOC|操作系统/通用Linux命令]]

@@ -76,6 +76,10 @@ python -c "from xformers.ops import memory_efficient_attention; y = memory_effic
 
 - [https://github.com/facebookresearch/xformers](https://github.com/facebookresearch/xformers)
 
+## 最佳实践
+
+[[bp-xformers|xformers 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

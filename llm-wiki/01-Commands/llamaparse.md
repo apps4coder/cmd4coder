@@ -77,6 +77,10 @@ python -c "from llama_parse import LlamaParse; help(LlamaParse.load_data)"
 
 - [https://docs.cloud.llamaindex.ai/](https://docs.cloud.llamaindex.ai/)
 
+## 最佳实践
+
+[[bp-llamaparse|llamaparse 生产环境最佳实践]]
+
 ## 所属维度
 
 [[RAG基础设施-MOC|AI基础设施/RAG基础设施]]

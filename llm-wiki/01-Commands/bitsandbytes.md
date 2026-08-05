@@ -80,6 +80,10 @@ python inference.py --load_in_8bit --device_map=auto
 
 - [https://github.com/TimDettmers/bitsandbytes](https://github.com/TimDettmers/bitsandbytes)
 
+## 最佳实践
+
+[[bp-bitsandbytes|bitsandbytes 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

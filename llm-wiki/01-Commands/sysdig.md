@@ -72,6 +72,10 @@ sudo sysdig -c topprocs_cpu
 
 > ⚠️ **MEDIUM**: sysdig 会捕获系统调用，注意敏感数据
 
+## 最佳实践
+
+[[bp-sysdig|sysdig 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展工具-MOC|系统诊断/扩展工具]]

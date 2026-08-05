@@ -67,6 +67,10 @@ terraform validate -no-color
 
 > ⚠️ **LOW**: Read-only validation; no infrastructure changes
 
+## 最佳实践
+
+[[bp-terraform-validate|terraform validate 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

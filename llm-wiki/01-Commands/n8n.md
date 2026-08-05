@@ -85,6 +85,10 @@ n8n execute --file workflow.json
 
 - [https://n8n.io/](https://n8n.io/)
 
+## 最佳实践
+
+[[bp-n8n|n8n 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI应用-MOC|AI基础设施/AI应用]]

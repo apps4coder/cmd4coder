@@ -76,6 +76,10 @@ python ruler_eval.py --model claude-3-opus --tasks retrieval,association --max_l
 
 - [https://github.com/gkamradt/LLMTest_NeedleInAHaystack](https://github.com/gkamradt/LLMTest_NeedleInAHaystack)
 
+## 最佳实践
+
+[[bp-long-context-eval|long-context-eval 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Harness工程-MOC|AI基础设施/Harness工程]]

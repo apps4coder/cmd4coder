@@ -66,6 +66,12 @@ sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 
 > ⚠️ **HIGH**: 错误的规则会阻断合法流量或放行攻击，修改前请保存并测试
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-iptables|iptables 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux核心-MOC|操作系统/Linux核心]]

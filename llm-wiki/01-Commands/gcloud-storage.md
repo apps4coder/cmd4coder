@@ -87,6 +87,10 @@ gsutil -m cp -r ./dist gs://my-bucket/
 
 > ⚠️ **MEDIUM**: rsync 和 rm -r 操作可能覆盖或删除远端数据
 
+## 最佳实践
+
+[[bp-gcloud-storage|gcloud storage 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GCP CLI-MOC|云平台/GCP CLI]]

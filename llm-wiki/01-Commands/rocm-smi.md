@@ -72,6 +72,10 @@ rocm-smi --showproductname
 
 > ⚠️ **MEDIUM**: 修改风扇或性能等级需谨慎
 
+## 最佳实践
+
+[[bp-rocm-smi|rocm-smi 生产环境最佳实践]]
+
 ## 所属维度
 
 [[GPU与加速器-MOC|硬件/GPU与加速器]]

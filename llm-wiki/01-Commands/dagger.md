@@ -81,6 +81,10 @@ dagger call deploy --image=registry/app:v1
 
 > ⚠️ **MEDIUM**: Pipeline 中可能执行部署操作
 
+## 最佳实践
+
+[[bp-dagger|dagger 生产环境最佳实践]]
+
 ## 所属维度
 
 [[平台工具-MOC|CI-CD/平台工具]]

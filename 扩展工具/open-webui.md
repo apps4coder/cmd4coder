@@ -20,7 +20,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-extra.yaml"
+  "source_file": "tools/cmd/data/ai/llm-extra.yaml"
 }
 ---
 
@@ -64,12 +64,21 @@ docker run -d -p 3000:8080 --gpus all -v ollama:/root/.ollama -v open-webui:/app
 
 ## 关联命令
 
-- [[ollama]]
-- [[llamacpp]]
+- [[ollama|ollama]]
+- [[llamacpp|llama.cpp]]
 
 ## 风险提示
 
 > ⚠️ **MEDIUM**: WebUI 会暴露模型接口，请配置认证和网络访问控制
+
+## 参考链接
+
+- [https://docs.openwebui.com/](https://docs.openwebui.com/)
+- [https://github.com/open-webui/open-webui](https://github.com/open-webui/open-webui)
+
+## 最佳实践
+
+[[bp-open-webui|open-webui 生产环境最佳实践]]
 
 ## 所属维度
 

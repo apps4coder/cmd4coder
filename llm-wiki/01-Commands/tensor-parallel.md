@@ -76,6 +76,10 @@ python -c "import tensor_parallel as tp; help(tp.TensorParallelPreTrainedModel)"
 
 - [https://github.com/BlackSamorez/tensor_parallel](https://github.com/BlackSamorez/tensor_parallel)
 
+## 最佳实践
+
+[[bp-tensor-parallel|tensor-parallel 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

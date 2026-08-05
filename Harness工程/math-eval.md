@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/harness-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/harness-engineering.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ python eval_math.py --dataset math --model llama-3-70b --n_shot 4
 
 ## 关联命令
 
-- [[lm-eval]]
-- [[inspect-ai]]
+- [[lm-eval|lm-eval]]
+- [[inspect-ai|inspect-ai]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ python eval_math.py --dataset math --model llama-3-70b --n_shot 4
 ## 参考链接
 
 - [https://github.com/huggingface/math-verify](https://github.com/huggingface/math-verify)
+
+## 最佳实践
+
+[[bp-math-eval|math-eval 生产环境最佳实践]]
 
 ## 所属维度
 

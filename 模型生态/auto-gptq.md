@@ -25,7 +25,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-hub.yaml"
+  "source_file": "tools/cmd/data/ai/model-hub.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ python quantize.py --model Qwen/Qwen2-72B --bits 4 --desc_act
 
 ## 关联命令
 
-- [[optimum-cli]]
-- [[autoawq]]
+- [[optimum-cli|optimum-cli]]
+- [[autoawq|autoawq]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ python quantize.py --model Qwen/Qwen2-72B --bits 4 --desc_act
 ## 参考链接
 
 - [https://github.com/PanQiWei/AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ)
+
+## 最佳实践
+
+[[bp-auto-gptq|auto-gptq 生产环境最佳实践]]
 
 ## 所属维度
 

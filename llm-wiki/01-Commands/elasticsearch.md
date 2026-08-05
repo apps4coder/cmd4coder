@@ -78,6 +78,10 @@ curl http://localhost:9200/_cluster/health
 
 - [https://www.elastic.co/](https://www.elastic.co/)
 
+## 最佳实践
+
+[[bp-elasticsearch|elasticsearch 生产环境最佳实践]]
+
 ## 所属维度
 
 [[向量数据库-MOC|AI基础设施/向量数据库]]

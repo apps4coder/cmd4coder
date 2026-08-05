@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/data-labeling.yaml"
+  "source_file": "tools/cmd/data/ai/data-labeling.yaml"
 }
 ---
 
@@ -69,8 +69,8 @@ img2dataset --url_list laion.parquet --output_folder laion_shards --shard_size 1
 
 ## 关联命令
 
-- [[webdataset]]
-- [[datasets-cli]]
+- [[webdataset|webdataset]]
+- [[datasets-cli|datasets-cli]]
 
 ## 风险提示
 
@@ -79,6 +79,10 @@ img2dataset --url_list laion.parquet --output_folder laion_shards --shard_size 1
 ## 参考链接
 
 - [https://github.com/rom1504/img2dataset](https://github.com/rom1504/img2dataset)
+
+## 最佳实践
+
+[[bp-img2dataset|img2dataset 生产环境最佳实践]]
 
 ## 所属维度
 

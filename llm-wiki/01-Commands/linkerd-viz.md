@@ -83,6 +83,10 @@ linkerd viz edges deploy
 
 > ⚠️ **LOW**: 只读可观测性操作
 
+## 最佳实践
+
+[[bp-linkerd-viz|linkerd viz 生产环境最佳实践]]
+
 ## 所属维度
 
 [[服务网格-MOC|网络工具/服务网格]]

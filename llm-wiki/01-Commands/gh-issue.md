@@ -85,6 +85,10 @@ gh issue view 42 --comments
 
 > ⚠️ **LOW**: Issue 操作风险低，close 可重新打开
 
+## 最佳实践
+
+[[bp-gh-issue|gh issue 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Git高级操作-MOC|版本控制/Git高级操作]]

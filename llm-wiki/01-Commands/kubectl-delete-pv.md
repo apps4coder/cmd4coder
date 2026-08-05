@@ -56,6 +56,12 @@ kubectl delete pv --all
 
 > ⚠️ **CRITICAL**: Permanently deletes storage volumes
 
+> ⚠️ **HIGH**: Ensure no PVCs are bound before deletion
+
+## 最佳实践
+
+[[bp-kubectl-delete-pv|kubectl delete pv 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Storage Management-MOC|Kubernetes Storage Management]]

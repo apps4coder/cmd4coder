@@ -68,6 +68,12 @@ argocd app delete myapp --cascade
 
 > ⚠️ **CRITICAL**: Cascade deletion removes all application resources from cluster
 
+> ⚠️ **HIGH**: Causes service downtime; backup before deleting
+
+## 最佳实践
+
+[[bp-argocd-app-delete|argocd app delete 生产环境最佳实践]]
+
 ## 所属维度
 
 [[CD-MOC|Kubernetes CI/CD]]

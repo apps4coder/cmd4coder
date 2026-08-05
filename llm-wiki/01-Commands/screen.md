@@ -82,6 +82,10 @@ screen -d -r build
 
 > ⚠️ **LOW**: kill 会话终止其中进程
 
+## 最佳实践
+
+[[bp-screen|screen 生产环境最佳实践]]
+
 ## 所属维度
 
 [[终端复用-MOC|Shell脚本/终端复用]]

@@ -77,6 +77,10 @@ python -m colossalai.cli.launch --nproc_per_node=4 train.py
 
 - [https://colossalai.org/](https://colossalai.org/)
 
+## 最佳实践
+
+[[bp-colossal-ai|colossal-ai 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

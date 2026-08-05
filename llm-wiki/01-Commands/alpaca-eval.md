@@ -77,6 +77,10 @@ alpaca_eval --model_outputs my_model.json --annotators_config=weighted_alpaca_ev
 
 - [https://github.com/tatsu-lab/alpaca_eval](https://github.com/tatsu-lab/alpaca_eval)
 
+## 最佳实践
+
+[[bp-alpaca-eval|alpaca-eval 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

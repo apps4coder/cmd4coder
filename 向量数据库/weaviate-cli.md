@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/vector-db.yaml"
+  "source_file": "tools/cmd/data/ai/vector-db.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ docker logs weaviate
 
 ## 关联命令
 
-- [[qdrant]]
-- [[chroma]]
+- [[qdrant|qdrant]]
+- [[chroma|chroma]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ docker logs weaviate
 ## 参考链接
 
 - [https://weaviate.io/](https://weaviate.io/)
+
+## 最佳实践
+
+[[bp-weaviate-cli|weaviate-cli 生产环境最佳实践]]
 
 ## 所属维度
 

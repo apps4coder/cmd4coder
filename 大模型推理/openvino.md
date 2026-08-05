@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -71,8 +71,8 @@ benchmark_app -m model.xml -d CPU
 
 ## 关联命令
 
-- [[onnxruntime]]
-- [[optimum-cli]]
+- [[onnxruntime|onnxruntime]]
+- [[optimum-cli|optimum-cli]]
 
 ## 风险提示
 
@@ -81,6 +81,10 @@ benchmark_app -m model.xml -d CPU
 ## 参考链接
 
 - [https://docs.openvino.ai/](https://docs.openvino.ai/)
+
+## 最佳实践
+
+[[bp-openvino|openvino 生产环境最佳实践]]
 
 ## 所属维度
 

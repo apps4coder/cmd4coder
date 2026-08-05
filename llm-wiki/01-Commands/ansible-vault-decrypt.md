@@ -16,7 +16,7 @@
     "linux",
     "open-source"
   ],
-  "cmd_risk_level": "medium",
+  "cmd_risk_level": "high",
   "created": "2026-05-31",
   "source_file": "tools/cmd/data/container/k8s/k8s-config.yaml"
 }
@@ -61,6 +61,12 @@ ansible-vault decrypt --vault-password-file=.vault_pass secrets.yml
 ## 风险提示
 
 > ⚠️ **MEDIUM**: Exposes encrypted data
+
+> ⚠️ **HIGH**: Ensure decrypted files are secured
+
+## 最佳实践
+
+[[bp-ansible-vault-decrypt|ansible-vault decrypt 生产环境最佳实践]]
 
 ## 所属维度
 

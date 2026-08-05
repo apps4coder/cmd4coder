@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/rag-infra.yaml"
+  "source_file": "tools/cmd/data/ai/rag-infra.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python -c "from unstructured.partition.auto import partition; elements = partiti
 
 ## 关联命令
 
-- [[llamaparse]]
-- [[marker]]
+- [[llamaparse|llamaparse]]
+- [[marker|marker]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python -c "from unstructured.partition.auto import partition; elements = partiti
 ## 参考链接
 
 - [https://unstructured.io/](https://unstructured.io/)
+
+## 最佳实践
+
+[[bp-unstructured|unstructured 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -56,6 +56,10 @@ kubectl get componentstatuses -o wide
 
 > ⚠️ **LOW**: 只读健康检查；无修改风险
 
+## 最佳实践
+
+[[bp-kubectl-get-componentstatuses|kubectl get componentstatuses 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Troubleshooting-MOC|Kubernetes Troubleshooting]]

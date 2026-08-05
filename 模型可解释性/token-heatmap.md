@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-interpretability.yaml"
+  "source_file": "tools/cmd/data/ai/model-interpretability.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python token_heatmap.py --model bert-base-uncased --text 'This movie is terrible
 
 ## 关联命令
 
-- [[bertviz]]
-- [[captum]]
+- [[bertviz|bertviz]]
+- [[captum|captum]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python token_heatmap.py --model bert-base-uncased --text 'This movie is terrible
 ## 参考链接
 
 - [https://github.com/cdpierse/transformers-interpret](https://github.com/cdpierse/transformers-interpret)
+
+## 最佳实践
+
+[[bp-token-heatmap|token-heatmap 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -70,6 +70,12 @@ sqoop export --connect jdbc:mysql://localhost/db --table users --export-dir /dat
 
 > ⚠️ **HIGH**: 导入/导出涉及生产数据库，可能影响业务库性能，请避开高峰期
 
+> ⚠️ **HIGH**: 数据集成作业涉及生产数据库或消息队列，请确认连接信息、权限和运行窗口。
+
+## 最佳实践
+
+[[bp-sqoop|sqoop 生产环境最佳实践]]
+
 ## 所属维度
 
 [[数据集成与ETL-MOC|大数据/数据集成与ETL]]

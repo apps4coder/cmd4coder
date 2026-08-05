@@ -74,6 +74,10 @@ python -c "import coremltools as ct; help(ct.convert)"
 
 - [https://coremltools.readme.io/](https://coremltools.readme.io/)
 
+## 最佳实践
+
+[[bp-coremltools|coremltools 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型生态-MOC|AI基础设施/模型生态]]

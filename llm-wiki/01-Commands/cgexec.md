@@ -69,6 +69,10 @@ sudo cgexec -g cpuset:db python server.py
 
 > ⚠️ **MEDIUM**: cgroup 限制过严会导致 OOM 或 CPU 饥饿
 
+## 最佳实践
+
+[[bp-cgexec|cgexec 生产环境最佳实践]]
+
 ## 所属维度
 
 [[性能与调度-MOC|硬件/性能与调度]]

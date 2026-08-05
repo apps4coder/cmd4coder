@@ -63,6 +63,12 @@ sudo vgcreate -s 16M vg1 /dev/sdd
 
 > ⚠️ **HIGH**: 创建卷组会占用物理卷，请确认目标设备
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-vgcreate|vgcreate 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux核心-MOC|操作系统/Linux核心]]

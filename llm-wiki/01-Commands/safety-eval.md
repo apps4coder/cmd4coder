@@ -77,6 +77,10 @@ python evaluate.py --test_suite all --model llama-3-70b --output safety_report.j
 
 - [https://github.com/mlcommons/ailuminate](https://github.com/mlcommons/ailuminate)
 
+## 最佳实践
+
+[[bp-safety-eval|safety-eval 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Harness工程-MOC|AI基础设施/Harness工程]]

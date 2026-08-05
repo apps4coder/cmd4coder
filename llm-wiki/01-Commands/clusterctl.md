@@ -69,6 +69,12 @@ clusterctl generate cluster my-cluster --kubernetes-version v1.28.0 > cluster.ya
 
 > ⚠️ **HIGH**: clusterctl 管理 Kubernetes 集群生命周期，误操作可能影响管理平面
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-clusterctl|clusterctl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

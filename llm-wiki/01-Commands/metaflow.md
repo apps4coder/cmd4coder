@@ -72,6 +72,15 @@ python flow.py card view
 
 > ⚠️ **MEDIUM**: Metaflow 会访问云存储和计算资源，请确认配置
 
+## 参考链接
+
+- [https://metaflow.org/](https://metaflow.org/)
+- [https://github.com/Netflix/metaflow](https://github.com/Netflix/metaflow)
+
+## 最佳实践
+
+[[bp-metaflow|metaflow 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|AI基础设施/扩展命令]]

@@ -72,6 +72,10 @@ mongodump --db mydb --collection users
 
 > ⚠️ **MEDIUM**: 备份大量数据会影响数据库性能，建议在业务低峰期执行
 
+## 最佳实践
+
+[[bp-mongodump|mongodump 生产环境最佳实践]]
+
 ## 所属维度
 
 [[NoSQL-MOC|数据库工具/NoSQL]]

@@ -74,6 +74,10 @@ kfp run submit -e my-experiment -p my-pipeline
 
 - [https://www.kubeflow.org/docs/components/pipelines/sdk/sdk-overview/](https://www.kubeflow.org/docs/components/pipelines/sdk/sdk-overview/)
 
+## 最佳实践
+
+[[bp-kfp|kfp 生产环境最佳实践]]
+
 ## 所属维度
 
 [[MLOps平台-MOC|AI基础设施/MLOps平台]]

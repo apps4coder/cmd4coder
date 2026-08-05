@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -73,8 +73,8 @@ axolotl train config.yml --prepare-dataset
 
 ## 关联命令
 
-- [[unsloth]]
-- [[llm-factory]]
+- [[unsloth|unsloth]]
+- [[llm-factory|llm-factory]]
 
 ## 风险提示
 
@@ -83,6 +83,10 @@ axolotl train config.yml --prepare-dataset
 ## 参考链接
 
 - [https://github.com/axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl)
+
+## 最佳实践
+
+[[bp-axolotl|axolotl 生产环境最佳实践]]
 
 ## 所属维度
 

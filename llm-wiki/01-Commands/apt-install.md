@@ -59,6 +59,10 @@ sudo apt install vim git curl -y
 
 > ⚠️ **MEDIUM**: Installing from untrusted repositories may introduce security risks
 
+## 最佳实践
+
+[[bp-apt-install|apt install 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

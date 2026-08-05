@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/agent-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/agent-engineering.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ npx flowise start --PORT=3000 --FLOWISE_USERNAME=admin --FLOWISE_PASSWORD=admin
 
 ## 关联命令
 
-- [[dify]]
-- [[langchain]]
+- [[dify|dify]]
+- [[langchain|langchain]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ npx flowise start --PORT=3000 --FLOWISE_USERNAME=admin --FLOWISE_PASSWORD=admin
 ## 参考链接
 
 - [https://flowiseai.com/](https://flowiseai.com/)
+
+## 最佳实践
+
+[[bp-flowise|flowise 生产环境最佳实践]]
 
 ## 所属维度
 

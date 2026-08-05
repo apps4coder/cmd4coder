@@ -87,6 +87,10 @@ z query proj
 
 > ⚠️ **LOW**: 仅切换目录，无风险
 
+## 最佳实践
+
+[[bp-zoxide|zoxide 生产环境最佳实践]]
+
 ## 所属维度
 
 [[现代工具-MOC|Shell脚本/现代工具]]

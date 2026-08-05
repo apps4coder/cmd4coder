@@ -83,6 +83,10 @@ git lfs ls-files --size
 
 - [https://git-lfs.com/](https://git-lfs.com/)
 
+## 最佳实践
+
+[[bp-git-lfs|git-lfs 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型生态-MOC|AI基础设施/模型生态]]

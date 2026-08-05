@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/federated-learning.yaml"
+  "source_file": "tools/cmd/data/ai/federated-learning.yaml"
 }
 ---
 
@@ -75,8 +75,8 @@ python server.py --min_available_clients=3 --strategy FedAvg
 
 ## 关联命令
 
-- [[opacus]]
-- [[pyvertical]]
+- [[opacus|opacus]]
+- [[pyvertical|pyvertical]]
 
 ## 风险提示
 
@@ -85,6 +85,10 @@ python server.py --min_available_clients=3 --strategy FedAvg
 ## 参考链接
 
 - [https://flower.ai/](https://flower.ai/)
+
+## 最佳实践
+
+[[bp-flower|flower 生产环境最佳实践]]
 
 ## 所属维度
 

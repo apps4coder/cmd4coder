@@ -64,6 +64,10 @@ caddy reverse-proxy --from :80 --to localhost:8080
 
 > ⚠️ **MEDIUM**: Caddy 会自动申请证书，请确认域名解析和防火墙
 
+## 最佳实践
+
+[[bp-caddy|caddy 生产环境最佳实践]]
+
 ## 所属维度
 
 [[基础设施-MOC|网络工具/基础设施]]

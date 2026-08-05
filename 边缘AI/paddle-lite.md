@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/edge-ai.yaml"
+  "source_file": "tools/cmd/data/ai/edge-ai.yaml"
 }
 ---
 
@@ -69,8 +69,8 @@ paddle_lite_opt --model_file=model.pdmodel --param_file=model.pdiparams --optimi
 
 ## 关联命令
 
-- [[tflite]]
-- [[executorch]]
+- [[tflite|tflite]]
+- [[executorch|executorch]]
 
 ## 风险提示
 
@@ -79,6 +79,10 @@ paddle_lite_opt --model_file=model.pdmodel --param_file=model.pdiparams --optimi
 ## 参考链接
 
 - [https://paddle-lite.readthedocs.io/](https://paddle-lite.readthedocs.io/)
+
+## 最佳实践
+
+[[bp-paddle-lite|paddle-lite 生产环境最佳实践]]
 
 ## 所属维度
 

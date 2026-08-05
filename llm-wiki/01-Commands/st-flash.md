@@ -71,6 +71,10 @@ st-flash erase
 
 > ⚠️ **MEDIUM**: 擦除会清空 Flash
 
+## 最佳实践
+
+[[bp-st-flash|st-flash 生产环境最佳实践]]
+
 ## 所属维度
 
 [[嵌入式与IoT-MOC|硬件/嵌入式与IoT]]

@@ -70,6 +70,10 @@ sudo cset proc --move --pid=1234 --set=user
 
 > ⚠️ **MEDIUM**: cpuset 隔离错误会限制进程可用资源
 
+## 最佳实践
+
+[[bp-cset|cset 生产环境最佳实践]]
+
 ## 所属维度
 
 [[性能与调度-MOC|硬件/性能与调度]]

@@ -81,6 +81,10 @@ glab ci run
 
 > ⚠️ **MEDIUM**: ci run 消耗 Runner 配额，mr merge 合并代码
 
+## 最佳实践
+
+[[bp-glab|glab 生产环境最佳实践]]
+
 ## 所属维度
 
 [[平台工具-MOC|CI-CD/平台工具]]

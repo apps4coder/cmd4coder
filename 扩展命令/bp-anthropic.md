@@ -1,26 +1,26 @@
 ---
-title: "git-lfs 生产环境最佳实践"
-cmd_name: "git-lfs"
-cmd_category: "AI基础设施/模型生态"
-source_page: "[[git-lfs]]"
+title: "anthropic 生产环境最佳实践"
+cmd_name: "anthropic"
+cmd_category: "AI基础设施/扩展命令"
+source_page: "[[anthropic]]"
 domain: "ai-infra"
-risk_level: "medium"
-platforms: ["linux", "darwin", "windows"]
-tags: ["ai-infra", "risk-medium", "linux", "darwin", "windows"]
-created: "2026-06-06"
-source_file: "ai/model-hub.yaml"
+risk_level: "low"
+platforms: ["linux", "darwin"]
+tags: ["ai-infra", "risk-low", "linux", "darwin"]
+created: "2026-07-28"
+source_file: "ai/more.yaml"
 ---
 
-# git-lfs — 生产环境最佳实践
+# anthropic — 生产环境最佳实践
 
-> Git Large File Storage，管理大模型权重文件(GB级)的版本控制
+> Anthropic Claude CLI
 
 | 属性 | 值 |
 |------|------|
-| 风险等级 | 🟡 中风险 |
+| 风险等级 | 🟢 低风险 |
 | 领域 | `ai-infra` |
-| 平台 | `linux`, `darwin`, `windows` |
-| 安装 | git lfs install |
+| 平台 | `linux`, `darwin` |
+| 安装 | npm install -g @anthropic-ai/claude-cli 或参考官方 |
 
 ---
 
@@ -31,7 +31,7 @@ source_file: "ai/model-hub.yaml"
 
 ## 安全加固
 
-- **MEDIUM**: LFS文件占用大量存储空间，push/pull可能耗时
+- **LOW**: 命令风险较低，执行前请阅读文档并确认参数。
 - 模型服务 API 接入认证（JWT/API Key），禁止匿名访问
 - 输入数据做长度和格式校验，防止 Prompt 注入
 
@@ -57,25 +57,26 @@ source_file: "ai/model-hub.yaml"
 
 ## 生产示例
 
-**追踪模型权重文件**:
+**向 Claude 提问**:
 ```bash
-git lfs track '*.bin' '*.safetensors' '*.gguf'
+anthropic 'Explain transformers'
 ```
 
 ## 参考链接
 
-- [https://git-lfs.com/](https://git-lfs.com/)
+- [https://docs.anthropic.com/](https://docs.anthropic.com/)
+- [https://github.com/anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)
 
 ## 关联命令最佳实践
 
-- [[bp-huggingface-cli|huggingface-cli]]
-- [[bp-safetensors-convert|safetensors-convert]]
+- [[bp-openai|openai]]
+- [[bp-litellm|litellm]]
 
 ---
 
 ## 运维 Checklist
 
-- [ ] 命令风险等级：🟡 中风险
+- [ ] 命令风险等级：🟢 低风险
 - [ ] 已在 staging 环境验证命令效果
 - [ ] 已确认操作范围不会影响其他服务
 - [ ] 已确认备份/快照是最新的
@@ -84,4 +85,4 @@ git lfs track '*.bin' '*.safetensors' '*.gguf'
 
 ---
 
-[[git-lfs|命令详情]] | [[best-practices-MOC|最佳实践总索引]]
+[[anthropic|命令详情]] | [[best-practices-MOC|最佳实践总索引]]

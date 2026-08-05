@@ -62,6 +62,12 @@ kfctl delete -f kfctl_aws.yaml --delete_storage
 
 > ⚠️ **CRITICAL**: Deletes entire Kubeflow installation
 
+> ⚠️ **HIGH**: May cause data loss if storage is deleted
+
+## 最佳实践
+
+[[bp-kfctl-delete|kfctl delete 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes MLOps-MOC|Kubernetes MLOps]]

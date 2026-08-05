@@ -67,6 +67,10 @@ crictl pods -q
 
 > ⚠️ **LOW**: Read-only operation; lists pods only
 
+## 最佳实践
+
+[[bp-crictl-pods|crictl pods 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Container Runtime-MOC|Kubernetes Container Runtime]]

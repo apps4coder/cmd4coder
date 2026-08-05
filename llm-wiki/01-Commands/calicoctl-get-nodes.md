@@ -67,6 +67,10 @@ calicoctl get nodes -o yaml
 
 > ⚠️ **LOW**: Read-only operation; lists nodes only
 
+## 最佳实践
+
+[[bp-calicoctl-get-nodes|calicoctl get nodes 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Networking-MOC|Kubernetes Networking]]

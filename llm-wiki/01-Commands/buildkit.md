@@ -70,6 +70,10 @@ buildctl du
 
 > ⚠️ **MEDIUM**: 构建会执行 Dockerfile 中的指令，请审查基础镜像和命令
 
+## 最佳实践
+
+[[bp-buildkit|buildkit 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

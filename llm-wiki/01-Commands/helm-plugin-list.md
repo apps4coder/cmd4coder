@@ -61,6 +61,10 @@ helm plugin uninstall 2to3
 
 > ⚠️ **LOW**: Plugin management only
 
+## 最佳实践
+
+[[bp-helm-plugin-list|helm plugin list 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Helm Package Management-MOC|Kubernetes Helm Package Management]]

@@ -80,9 +80,15 @@ goose run -t 'add unit tests for utils.py'
 
 > ⚠️ **HIGH**: Agent可执行本地命令与修改文件，建议在隔离目录或容器中运行
 
+> ⚠️ **MEDIUM**: 非交互式 goose run 会自动批准操作，误用可能删改重要文件，生产环境须限制工作目录与权限
+
 ## 参考链接
 
 - [https://block.github.io/goose/](https://block.github.io/goose/)
+
+## 最佳实践
+
+[[bp-goose|goose 生产环境最佳实践]]
 
 ## 所属维度
 

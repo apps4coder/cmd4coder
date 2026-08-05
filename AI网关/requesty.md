@@ -75,6 +75,10 @@ curl https://router.requesty.ai/v1/chat/completions -H 'Authorization: Bearer $R
 
 - [https://requesty.ai/](https://requesty.ai/)
 
+## 最佳实践
+
+[[bp-requesty|requesty 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI网关-MOC|AI基础设施/AI网关]]

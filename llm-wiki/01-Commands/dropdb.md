@@ -63,6 +63,12 @@ dropdb -i mydb
 
 > ⚠️ **CRITICAL**: Permanently deletes database; cannot be undone
 
+> ⚠️ **HIGH**: Always backup before dropping database
+
+## 最佳实践
+
+[[bp-dropdb|dropdb 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

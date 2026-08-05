@@ -73,6 +73,10 @@ databricks jobs run-now --job-id 1
 
 > ⚠️ **MEDIUM**: databricks 操作会产生云费用并影响作业，请确认参数
 
+## 最佳实践
+
+[[bp-databricks|databricks 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|数据库工具/扩展命令]]

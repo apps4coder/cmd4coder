@@ -53,6 +53,10 @@ sudo ufw deny from 192.168.1.100 to any port 22
 
 > ⚠️ **MEDIUM**: May block legitimate traffic
 
+## 最佳实践
+
+[[bp-ufw-deny|ufw deny 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

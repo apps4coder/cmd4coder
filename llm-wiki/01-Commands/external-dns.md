@@ -71,6 +71,12 @@ external-dns --provider aws --source service
 
 > ⚠️ **HIGH**: external-dns 会修改公共 DNS 记录，dry-run 验证后再执行
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-external-dns|external-dns 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

@@ -86,6 +86,10 @@ az aks scale --resource-group my-rg --name my-cluster --node-count 5
 
 > ⚠️ **HIGH**: 集群操作涉及费用，scale/delete 影响运行中的工作负载
 
+## 最佳实践
+
+[[bp-az-aks|az aks 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Azure CLI-MOC|云平台/Azure CLI]]

@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-hub.yaml"
+  "source_file": "tools/cmd/data/ai/model-hub.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ mlc_llm chat ./dist/Llama-3-8B-q4f16_1
 
 ## 关联命令
 
-- [[llamacpp]]
-- [[gguf-convert]]
+- [[llamacpp|llama.cpp]]
+- [[gguf-convert|gguf-convert]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ mlc_llm chat ./dist/Llama-3-8B-q4f16_1
 ## 参考链接
 
 - [https://llm.mlc.ai/](https://llm.mlc.ai/)
+
+## 最佳实践
+
+[[bp-mlc-llm|mlc-llm 生产环境最佳实践]]
 
 ## 所属维度
 

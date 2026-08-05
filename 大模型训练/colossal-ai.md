@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python -m colossalai.cli.launch --nproc_per_node=4 train.py
 
 ## 关联命令
 
-- [[deepspeed]]
-- [[accelerate]]
+- [[deepspeed|deepspeed]]
+- [[accelerate|accelerate]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python -m colossalai.cli.launch --nproc_per_node=4 train.py
 ## 参考链接
 
 - [https://colossalai.org/](https://colossalai.org/)
+
+## 最佳实践
+
+[[bp-colossal-ai|colossal-ai 生产环境最佳实践]]
 
 ## 所属维度
 

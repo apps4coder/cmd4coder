@@ -84,6 +84,10 @@ tsar -d 20241214
 
 > ⚠️ **LOW**: Read-only monitoring tool; no risks
 
+## 最佳实践
+
+[[bp-tsar|tsar 生产环境最佳实践]]
+
 ## 所属维度
 
 [[System Diagnostic-MOC|System Diagnostic]]

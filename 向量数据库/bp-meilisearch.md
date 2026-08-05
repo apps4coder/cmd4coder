@@ -7,7 +7,7 @@ domain: "ai-infra"
 risk_level: "low"
 platforms: ["linux", "darwin", "windows"]
 tags: ["ai-infra", "risk-low", "linux", "darwin", "windows"]
-created: "2026-06-06"
+created: "2026-07-28"
 source_file: "ai/vector-db.yaml"
 ---
 
@@ -31,6 +31,7 @@ source_file: "ai/vector-db.yaml"
 
 ## 安全加固
 
+- **LOW**: 只读/信息查询类命令，风险较低，但仍需确认目标对象。
 - 模型服务 API 接入认证（JWT/API Key），禁止匿名访问
 - 输入数据做长度和格式校验，防止 Prompt 注入
 
@@ -63,7 +64,8 @@ meilisearch --master-key mykey
 
 ## 参考链接
 
-- (无外部参考)
+- [https://www.meilisearch.com/docs](https://www.meilisearch.com/docs)
+- [https://github.com/meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
 
 ## 关联命令最佳实践
 

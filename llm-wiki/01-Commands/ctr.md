@@ -71,6 +71,10 @@ ctr run docker.io/library/nginx:latest nginx
 
 > ⚠️ **MEDIUM**: ctr 直接操作 containerd，可能影响 Kubernetes 容器
 
+## 最佳实践
+
+[[bp-ctr|ctr 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

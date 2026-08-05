@@ -80,6 +80,10 @@ opencompass run --models llama3_8b qwen2_7b --datasets all
 
 - [https://github.com/open-compass/opencompass](https://github.com/open-compass/opencompass)
 
+## 最佳实践
+
+[[bp-opencompass|opencompass 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

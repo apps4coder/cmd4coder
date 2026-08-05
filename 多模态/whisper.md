@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/multimodal.yaml"
+  "source_file": "tools/cmd/data/ai/multimodal.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ whisper audio.mp3 --model medium --task translate --output_format srt
 
 ## 关联命令
 
-- [[faster-whisper]]
-- [[transformers-pipeline]]
+- [[faster-whisper|faster-whisper]]
+- [[transformers-pipeline|transformers-pipeline]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ whisper audio.mp3 --model medium --task translate --output_format srt
 ## 参考链接
 
 - [https://github.com/openai/whisper](https://github.com/openai/whisper)
+
+## 最佳实践
+
+[[bp-whisper|whisper 生产环境最佳实践]]
 
 ## 所属维度
 

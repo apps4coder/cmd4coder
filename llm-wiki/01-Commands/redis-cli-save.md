@@ -55,6 +55,12 @@ redis-cli BGSAVE
 
 > ⚠️ **HIGH**: SAVE blocks server until complete; use BGSAVE for production
 
+> ⚠️ **MEDIUM**: BGSAVE requires sufficient memory for fork operation
+
+## 最佳实践
+
+[[bp-redis-cli-save|redis-cli SAVE 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

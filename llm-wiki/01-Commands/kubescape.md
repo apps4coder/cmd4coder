@@ -71,6 +71,10 @@ kubescape scan *.yaml
 
 > ⚠️ **LOW**: 扫描为只读操作，但会访问 K8s API，请使用最小权限 ServiceAccount
 
+## 最佳实践
+
+[[bp-kubescape|kubescape 生产环境最佳实践]]
+
 ## 所属维度
 
 [[K8s安全扩展-MOC|容器编排/K8s安全扩展]]

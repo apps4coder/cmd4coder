@@ -85,6 +85,10 @@ streamlit run app.py --theme.base dark
 
 - [https://streamlit.io/](https://streamlit.io/)
 
+## 最佳实践
+
+[[bp-streamlit|streamlit 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型推理-MOC|AI基础设施/大模型推理]]

@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-hub.yaml"
+  "source_file": "tools/cmd/data/ai/model-hub.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python convert_hf_to_gguf.py --model Qwen/Qwen2-7B --outfile qwen2-7b.Q4_K_M.ggu
 
 ## 关联命令
 
-- [[llamacpp]]
-- [[ollama]]
+- [[llamacpp|llama.cpp]]
+- [[ollama|ollama]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python convert_hf_to_gguf.py --model Qwen/Qwen2-7B --outfile qwen2-7b.Q4_K_M.ggu
 ## 参考链接
 
 - [https://github.com/ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)
+
+## 最佳实践
+
+[[bp-gguf-convert|gguf-convert 生产环境最佳实践]]
 
 ## 所属维度
 

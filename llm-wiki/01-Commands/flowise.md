@@ -77,6 +77,10 @@ npx flowise start --PORT=3000 --FLOWISE_USERNAME=admin --FLOWISE_PASSWORD=admin
 
 - [https://flowiseai.com/](https://flowiseai.com/)
 
+## 最佳实践
+
+[[bp-flowise|flowise 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

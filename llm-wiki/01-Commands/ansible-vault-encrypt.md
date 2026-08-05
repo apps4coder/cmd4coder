@@ -62,6 +62,10 @@ ansible-vault encrypt --vault-id prod@prompt secrets.yml
 
 > ⚠️ **MEDIUM**: Encrypts sensitive data; keep vault password safe
 
+## 最佳实践
+
+[[bp-ansible-vault-encrypt|ansible-vault encrypt 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

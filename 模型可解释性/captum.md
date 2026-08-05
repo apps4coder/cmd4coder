@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-interpretability.yaml"
+  "source_file": "tools/cmd/data/ai/model-interpretability.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ python -c "from captum.attr import LayerConductance; lc = LayerConductance(model
 
 ## 关联命令
 
-- [[shap]]
-- [[lime]]
+- [[shap|shap]]
+- [[lime|lime]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ python -c "from captum.attr import LayerConductance; lc = LayerConductance(model
 ## 参考链接
 
 - [https://captum.ai/](https://captum.ai/)
+
+## 最佳实践
+
+[[bp-captum|captum 生产环境最佳实践]]
 
 ## 所属维度
 

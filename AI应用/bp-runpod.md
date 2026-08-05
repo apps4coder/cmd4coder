@@ -4,10 +4,10 @@ cmd_name: "runpod"
 cmd_category: "AI基础设施/AI应用"
 source_page: "[[runpod]]"
 domain: "ai-infra"
-risk_level: "low"
+risk_level: "medium"
 platforms: ["linux", "darwin", "windows"]
-tags: ["ai-infra", "risk-low", "linux", "darwin", "windows"]
-created: "2026-06-06"
+tags: ["ai-infra", "risk-medium", "linux", "darwin", "windows"]
+created: "2026-07-28"
 source_file: "ai/ai-applications.yaml"
 ---
 
@@ -17,7 +17,7 @@ source_file: "ai/ai-applications.yaml"
 
 | 属性 | 值 |
 |------|------|
-| 风险等级 | 🟢 低风险 |
+| 风险等级 | 🟡 中风险 |
 | 领域 | `ai-infra` |
 | 平台 | `linux`, `darwin`, `windows` |
 | 安装 | pip install runpod |
@@ -31,6 +31,7 @@ source_file: "ai/ai-applications.yaml"
 
 ## 安全加固
 
+- **MEDIUM**: 会修改系统或应用状态，建议在测试环境验证后再应用于生产。
 - 模型服务 API 接入认证（JWT/API Key），禁止匿名访问
 - 输入数据做长度和格式校验，防止 Prompt 注入
 
@@ -63,19 +64,19 @@ runpodctl config --apiKey YOUR_API_KEY
 
 ## 参考链接
 
-- (无外部参考)
+- [https://docs.runpod.io/](https://docs.runpod.io/)
+- [https://github.com/runpod/runpodctl](https://github.com/runpod/runpodctl)
 
 ## 关联命令最佳实践
 
 - [[bp-modal|modal]]
 - [[bp-sky-pilot|sky-pilot]]
-- vast.ai
 
 ---
 
 ## 运维 Checklist
 
-- [ ] 命令风险等级：🟢 低风险
+- [ ] 命令风险等级：🟡 中风险
 - [ ] 已在 staging 环境验证命令效果
 - [ ] 已确认操作范围不会影响其他服务
 - [ ] 已确认备份/快照是最新的

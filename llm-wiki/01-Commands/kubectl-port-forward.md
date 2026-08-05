@@ -68,6 +68,10 @@ kubectl port-forward mypod 8080:80 --address=0.0.0.0
 
 > ⚠️ **MEDIUM**: Exposes pod ports to local machine; ensure proper security
 
+## 最佳实践
+
+[[bp-kubectl-port-forward|kubectl port-forward 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Container Orchestration-MOC|Container Orchestration]]

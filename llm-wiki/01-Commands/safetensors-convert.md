@@ -75,6 +75,10 @@ python convert.py --src model.bin --dst model.safetensors
 
 - [https://github.com/huggingface/safetensors](https://github.com/huggingface/safetensors)
 
+## 最佳实践
+
+[[bp-safetensors-convert|safetensors-convert 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型生态-MOC|AI基础设施/模型生态]]

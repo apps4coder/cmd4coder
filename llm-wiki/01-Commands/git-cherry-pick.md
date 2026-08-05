@@ -79,6 +79,10 @@ git cherry-pick --abort
 
 > ⚠️ **MEDIUM**: 可能产生冲突，重复 cherry-pick 导致重复变更
 
+## 最佳实践
+
+[[bp-git-cherry-pick|git cherry-pick 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Git高级操作-MOC|版本控制/Git高级操作]]

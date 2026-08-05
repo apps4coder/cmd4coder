@@ -68,6 +68,10 @@ npx -p @angular/cli ng new myapp
 
 > ⚠️ **MEDIUM**: Downloads and executes code from npm registry
 
+## 最佳实践
+
+[[bp-npx|npx 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Programming Language-MOC|Programming Language]]

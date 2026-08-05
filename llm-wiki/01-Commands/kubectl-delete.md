@@ -77,6 +77,12 @@ kubectl delete pod mypod --force --grace-period=0
 
 > ⚠️ **CRITICAL**: Permanently deletes resources; can cause service outages
 
+> ⚠️ **HIGH**: Force deletion may leave resources in inconsistent state
+
+## 最佳实践
+
+[[bp-kubectl-delete|kubectl delete 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Container Orchestration-MOC|Container Orchestration]]

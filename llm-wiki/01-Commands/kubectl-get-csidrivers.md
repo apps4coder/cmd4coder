@@ -56,6 +56,10 @@ kubectl describe csidriver hostpath.csi.k8s.io
 
 > ⚠️ **LOW**: Read-only operation; shows storage drivers
 
+## 最佳实践
+
+[[bp-kubectl-get-csidrivers|kubectl get csidrivers 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Storage Management-MOC|Kubernetes Storage Management]]

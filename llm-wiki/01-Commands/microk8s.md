@@ -71,6 +71,10 @@ microk8s enable dns ingress
 
 > ⚠️ **MEDIUM**: snap 安装会修改系统，生产环境请先评估
 
+## 最佳实践
+
+[[bp-microk8s|microk8s 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展-MOC|容器编排/云原生扩展]]

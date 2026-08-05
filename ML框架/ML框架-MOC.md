@@ -17,9 +17,9 @@
 
 ## 命令列表
 
-- 🔴 [[pytorch-lightning]] — PyTorch Lightning高级训练框架，简化分布式训练、混合精度、Checkpoint管理
-- 🟡 [[tensorboard]] — TensorFlow和PyTorch的训练可视化工具
-- 🔴 [[torchrun]] — PyTorch分布式训练启动器
+- 🔴 [[pytorch-lightning|pytorch-lightning]] — PyTorch Lightning高级训练框架，简化分布式训练、混合精度、Checkpoint管理
+- 🟡 [[tensorboard|tensorboard]] — TensorFlow和PyTorch的训练可视化工具
+- 🔴 [[torchrun|torchrun]] — PyTorch分布式训练启动器
 
 ## 统计
 

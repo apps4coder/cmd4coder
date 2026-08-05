@@ -76,6 +76,10 @@ python -c "from faster_whisper import WhisperModel; help(WhisperModel.transcribe
 
 - [https://github.com/SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper)
 
+## 最佳实践
+
+[[bp-faster-whisper|faster-whisper 生产环境最佳实践]]
+
 ## 所属维度
 
 [[多模态-MOC|AI基础设施/多模态]]

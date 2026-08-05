@@ -72,6 +72,10 @@ airbyte status
 
 > ⚠️ **MEDIUM**: 连接源和目标会涉及凭据，请使用 Secret 管理
 
+## 最佳实践
+
+[[bp-airbyte|airbyte 生产环境最佳实践]]
+
 ## 所属维度
 
 [[扩展命令-MOC|大数据/扩展命令]]

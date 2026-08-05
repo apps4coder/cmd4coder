@@ -64,6 +64,10 @@ docker logs -f --tail 100 my-container
 
 > ⚠️ **LOW**: Docker 信息查询类操作，风险较低。
 
+## 最佳实践
+
+[[bp-docker-logs|docker logs 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Docker命令-MOC|容器编排/Docker命令]]

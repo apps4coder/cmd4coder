@@ -61,6 +61,10 @@ kubectl describe limitrange mem-limit-range -n production
 
 > ⚠️ **LOW**: Read-only operation; shows resource constraints
 
+## 最佳实践
+
+[[bp-kubectl-get-limitranges|kubectl get limitranges 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Security-MOC|Kubernetes Security]]

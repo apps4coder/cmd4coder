@@ -63,6 +63,10 @@ sudo partprobe /dev/sdb
 
 > ⚠️ **MEDIUM**: 分区表变更可能影响已挂载文件系统，请确认无冲突
 
+## 最佳实践
+
+[[bp-partprobe|partprobe 生产环境最佳实践]]
+
 ## 所属维度
 
 [[存储与RAID-MOC|硬件/存储与RAID]]

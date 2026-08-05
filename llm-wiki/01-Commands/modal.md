@@ -78,6 +78,10 @@ modal serve inference.py
 
 - [https://modal.com/](https://modal.com/)
 
+## 最佳实践
+
+[[bp-modal|modal 生产环境最佳实践]]
+
 ## 所属维度
 
 [[大模型训练-MOC|AI基础设施/大模型训练]]

@@ -77,6 +77,10 @@ stern --since 15m nginx
 
 > ⚠️ **LOW**: Read-only operation; tails logs only
 
+## 最佳实践
+
+[[bp-stern|stern 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Utilities-MOC|Kubernetes Utilities]]

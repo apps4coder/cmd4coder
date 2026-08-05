@@ -76,6 +76,10 @@ python -c "from sam2.build_sam import build_sam2_video_predictor; predictor = bu
 
 - [https://github.com/facebookresearch/sam2](https://github.com/facebookresearch/sam2)
 
+## 最佳实践
+
+[[bp-sam2|sam2 生产环境最佳实践]]
+
 ## 所属维度
 
 [[多模态-MOC|AI基础设施/多模态]]

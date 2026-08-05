@@ -69,6 +69,10 @@ fluentd -c fluent.conf -vv
 
 > ⚠️ **MEDIUM**: Incorrect config may cause log loss or performance issues
 
+## 最佳实践
+
+[[bp-fluentd-c|fluentd -c 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Monitoring  Logging-MOC|Kubernetes Monitoring & Logging]]

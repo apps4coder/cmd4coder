@@ -78,6 +78,10 @@ mlc_llm chat ./dist/Llama-3-8B-q4f16_1
 
 - [https://llm.mlc.ai/](https://llm.mlc.ai/)
 
+## 最佳实践
+
+[[bp-mlc-llm|mlc-llm 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型生态-MOC|AI基础设施/模型生态]]

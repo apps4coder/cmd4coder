@@ -78,6 +78,10 @@ nvflare provision -p project.yml
 
 - [https://nvflare.readthedocs.io/](https://nvflare.readthedocs.io/)
 
+## 最佳实践
+
+[[bp-nvflare|nvflare 生产环境最佳实践]]
+
 ## 所属维度
 
 [[联邦学习-MOC|AI基础设施/联邦学习]]

@@ -67,6 +67,10 @@ svn up file.txt
 
 > ⚠️ **MEDIUM**: May overwrite local uncommitted changes
 
+## 最佳实践
+
+[[bp-svn-update|svn update 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Version Control-MOC|Version Control]]

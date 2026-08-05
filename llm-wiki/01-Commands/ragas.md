@@ -80,6 +80,10 @@ python -c "from ragas.testset import TestsetGenerator; testset = TestsetGenerato
 
 - [https://docs.ragas.io/](https://docs.ragas.io/)
 
+## 最佳实践
+
+[[bp-ragas|ragas 生产环境最佳实践]]
+
 ## 所属维度
 
 [[RAG基础设施-MOC|AI基础设施/RAG基础设施]]

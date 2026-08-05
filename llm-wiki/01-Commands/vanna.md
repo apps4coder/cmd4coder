@@ -75,9 +75,15 @@ python train_vanna.py --ddl schema.sql --questions questions.csv
 
 > ⚠️ **HIGH**: SQL生成需审查，防止数据泄露和误操作
 
+> ⚠️ **HIGH**: AI 生成的 SQL/代码需人工审查，避免对生产数据执行误删、误改操作。
+
 ## 参考链接
 
 - [https://github.com/vanna-ai/vanna](https://github.com/vanna-ai/vanna)
+
+## 最佳实践
+
+[[bp-vanna|vanna 生产环境最佳实践]]
 
 ## 所属维度
 

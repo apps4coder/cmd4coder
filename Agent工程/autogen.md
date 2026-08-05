@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "high",
   "created": "2026-05-31",
-  "source_file": "data/ai/agent-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/agent-engineering.yaml"
 }
 ---
 
@@ -67,16 +67,22 @@ python -c "from autogen import ConversableAgent; assistant = ConversableAgent('a
 
 ## 关联命令
 
-- [[crewai]]
-- [[langgraph]]
+- [[crewai|crewai]]
+- [[langgraph|langgraph]]
 
 ## 风险提示
 
 > ⚠️ **HIGH**: 代码执行Agent可能执行危险代码，需沙箱隔离
 
+> ⚠️ **HIGH**: Agent 可能执行代码或访问外部资源，请在隔离沙箱中运行并审查工具权限。
+
 ## 参考链接
 
 - [https://microsoft.github.io/autogen/](https://microsoft.github.io/autogen/)
+
+## 最佳实践
+
+[[bp-autogen|autogen 生产环境最佳实践]]
 
 ## 所属维度
 

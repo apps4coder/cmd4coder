@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-safety.yaml"
+  "source_file": "tools/cmd/data/ai/ai-safety.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ inspect eval math_eval.py --model anthropic/claude-3-sonnet --epochs 3
 
 ## 关联命令
 
-- [[lm-eval]]
-- [[safety-eval]]
+- [[lm-eval|lm-eval]]
+- [[safety-eval|safety-eval]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ inspect eval math_eval.py --model anthropic/claude-3-sonnet --epochs 3
 ## 参考链接
 
 - [https://github.com/UKGovernmentBEIS/inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai)
+
+## 最佳实践
+
+[[bp-inspect-ai|inspect-ai 生产环境最佳实践]]
 
 ## 所属维度
 

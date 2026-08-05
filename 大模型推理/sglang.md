@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -67,8 +67,8 @@ python -m sglang.launch_server --model-path Qwen/Qwen2-VL-7B-Instruct
 
 ## 关联命令
 
-- [[vllm]]
-- [[lmdeploy]]
+- [[vllm|vllm]]
+- [[lmdeploy|lmdeploy]]
 
 ## 风险提示
 
@@ -77,6 +77,10 @@ python -m sglang.launch_server --model-path Qwen/Qwen2-VL-7B-Instruct
 ## 参考链接
 
 - [https://github.com/sgl-project/sglang](https://github.com/sgl-project/sglang)
+
+## 最佳实践
+
+[[bp-sglang|sglang 生产环境最佳实践]]
 
 ## 所属维度
 

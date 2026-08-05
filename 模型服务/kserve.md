@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-serving.yaml"
+  "source_file": "tools/cmd/data/ai/model-serving.yaml"
 }
 ---
 
@@ -71,8 +71,8 @@ kubectl get inferenceservices
 
 ## 关联命令
 
-- [[bentoml]]
-- [[tritonserver]]
+- [[bentoml|bentoml]]
+- [[tritonserver|tritonserver]]
 
 ## 风险提示
 
@@ -81,6 +81,10 @@ kubectl get inferenceservices
 ## 参考链接
 
 - [https://kserve.github.io/website/](https://kserve.github.io/website/)
+
+## 最佳实践
+
+[[bp-kserve|kserve 生产环境最佳实践]]
 
 ## 所属维度
 

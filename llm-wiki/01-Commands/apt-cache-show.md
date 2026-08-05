@@ -53,6 +53,10 @@ apt-cache depends nginx
 
 > ⚠️ **LOW**: Read-only operation; no risks
 
+## 最佳实践
+
+[[bp-apt-cache-show|apt-cache show 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Operating System-MOC|Operating System]]

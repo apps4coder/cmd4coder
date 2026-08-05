@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/data-labeling.yaml"
+  "source_file": "tools/cmd/data/ai/data-labeling.yaml"
 }
 ---
 
@@ -65,8 +65,8 @@ python drift_monitor.py --reference ref_profile.bin --target target_profile.bin
 
 ## 关联命令
 
-- [[cleanlab]]
-- [[evidently]]
+- [[cleanlab|cleanlab]]
+- [[evidently|evidently]]
 
 ## 风险提示
 
@@ -75,6 +75,10 @@ python drift_monitor.py --reference ref_profile.bin --target target_profile.bin
 ## 参考链接
 
 - [https://whylabs.ai/whylogs](https://whylabs.ai/whylogs)
+
+## 最佳实践
+
+[[bp-whylogs|whylogs 生产环境最佳实践]]
 
 ## 所属维度
 

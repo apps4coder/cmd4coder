@@ -78,6 +78,10 @@ git worktree add -b feature/new ../feature-new main
 
 > ⚠️ **LOW**: 工作树操作风险低，remove 前确认无未提交变更
 
+## 最佳实践
+
+[[bp-git-worktree|git worktree 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Git高级操作-MOC|版本控制/Git高级操作]]

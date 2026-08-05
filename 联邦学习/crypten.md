@@ -24,7 +24,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/federated-learning.yaml"
+  "source_file": "tools/cmd/data/ai/federated-learning.yaml"
 }
 ---
 
@@ -68,8 +68,8 @@ python secure_inference.py --model model.pth --input data.csv --world_size 2
 
 ## 关联命令
 
-- [[flower]]
-- [[opacus]]
+- [[flower|flower]]
+- [[opacus|opacus]]
 
 ## 风险提示
 
@@ -78,6 +78,10 @@ python secure_inference.py --model model.pth --input data.csv --world_size 2
 ## 参考链接
 
 - [https://github.com/facebookresearch/CrypTen](https://github.com/facebookresearch/CrypTen)
+
+## 最佳实践
+
+[[bp-crypten|crypten 生产环境最佳实践]]
 
 ## 所属维度
 

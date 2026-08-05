@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "medium",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-inference.yaml"
+  "source_file": "tools/cmd/data/ai/llm-inference.yaml"
 }
 ---
 
@@ -71,8 +71,8 @@ python run.py --engine_dir=./trt_engines --max_output_len=512
 
 ## 关联命令
 
-- [[vllm]]
-- [[onnxruntime]]
+- [[vllm|vllm]]
+- [[onnxruntime|onnxruntime]]
 
 ## 风险提示
 
@@ -81,6 +81,10 @@ python run.py --engine_dir=./trt_engines --max_output_len=512
 ## 参考链接
 
 - [https://github.com/NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
+
+## 最佳实践
+
+[[bp-tensorrt-llm|tensorrt-llm 生产环境最佳实践]]
 
 ## 所属维度
 

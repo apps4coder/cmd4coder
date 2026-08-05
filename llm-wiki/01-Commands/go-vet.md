@@ -63,6 +63,10 @@ go vet -tags=integration ./...
 
 > ⚠️ **LOW**: 常规操作，无特殊风险
 
+## 最佳实践
+
+[[bp-go-vet|go vet 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Go工具链-MOC|编程语言/Go工具链]]

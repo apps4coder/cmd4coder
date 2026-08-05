@@ -69,6 +69,12 @@ eksctl delete cluster --name my-cluster --wait
 
 > ⚠️ **CRITICAL**: Permanently deletes cluster and all resources
 
+> ⚠️ **CRITICAL**: Cannot be undone; backup data before deleting
+
+## 最佳实践
+
+[[bp-eksctl-delete-cluster|eksctl delete cluster 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cloud Platforms-MOC|Kubernetes Cloud Platforms]]

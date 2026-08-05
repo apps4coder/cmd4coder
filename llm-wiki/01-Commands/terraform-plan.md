@@ -69,6 +69,10 @@ terraform plan -var-file=production.tfvars
 
 > ⚠️ **LOW**: Read-only operation; previews changes only
 
+## 最佳实践
+
+[[bp-terraform-plan|terraform plan 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

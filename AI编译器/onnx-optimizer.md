@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-compiler.yaml"
+  "source_file": "tools/cmd/data/ai/ai-compiler.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python -c "import onnxoptimizer; passes = ['fuse_bn_into_conv', 'fuse_pad_into_c
 
 ## 关联命令
 
-- [[trtexec]]
-- [[iree-compile]]
+- [[trtexec|trtexec]]
+- [[iree-compile|iree-compile]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python -c "import onnxoptimizer; passes = ['fuse_bn_into_conv', 'fuse_pad_into_c
 ## 参考链接
 
 - [https://github.com/onnx/optimizer](https://github.com/onnx/optimizer)
+
+## 最佳实践
+
+[[bp-onnx-optimizer|onnx-optimizer 生产环境最佳实践]]
 
 ## 所属维度
 

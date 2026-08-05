@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/llm-training.yaml"
+  "source_file": "tools/cmd/data/ai/llm-training.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ composer train.py --algorithms BlurPool SAM LabelSmoothing
 
 ## 关联命令
 
-- [[lightning]]
-- [[deepspeed]]
+- [[lightning|lightning]]
+- [[deepspeed|deepspeed]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ composer train.py --algorithms BlurPool SAM LabelSmoothing
 ## 参考链接
 
 - [https://www.mosaicml.com/](https://www.mosaicml.com/)
+
+## 最佳实践
+
+[[bp-composer|composer 生产环境最佳实践]]
 
 ## 所属维度
 

@@ -77,6 +77,12 @@ ansible-playbook cluster.yml -i inventory/mycluster/hosts.yaml
 
 > ⚠️ **HIGH**: Executes configuration changes on target hosts
 
+> ⚠️ **MEDIUM**: Always test in staging environment first
+
+## 最佳实践
+
+[[bp-ansible-playbook|ansible-playbook 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

@@ -76,6 +76,10 @@ tkn pipeline start test -s pipeline-sa --showlog
 
 > ⚠️ **MEDIUM**: 启动 Pipeline 消耗集群资源
 
+## 最佳实践
+
+[[bp-tkn-start|tkn start 生产环境最佳实践]]
+
 ## 所属维度
 
 [[平台工具-MOC|CI-CD/平台工具]]

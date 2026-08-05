@@ -77,6 +77,10 @@ mlir-opt input.mlir --pass-pipeline='builtin.module(func.func(convert-linalg-to-
 
 - [https://mlir.llvm.org/](https://mlir.llvm.org/)
 
+## 最佳实践
+
+[[bp-mlir-opt|mlir-opt 生产环境最佳实践]]
+
 ## 所属维度
 
 [[AI编译器-MOC|AI基础设施/AI编译器]]

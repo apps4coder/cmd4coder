@@ -59,6 +59,10 @@ hubble observe --namespace default
 
 > ⚠️ **LOW**: Read-only observation; no operational impact
 
+## 最佳实践
+
+[[bp-cilium-hubble-status|cilium hubble status 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Networking-MOC|Kubernetes Networking]]

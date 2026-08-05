@@ -78,6 +78,10 @@ python crew.py --process hierarchical --manager gpt-4
 
 - [https://www.crewai.com/](https://www.crewai.com/)
 
+## 最佳实践
+
+[[bp-crewai|crewai 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Agent工程-MOC|AI基础设施/Agent工程]]

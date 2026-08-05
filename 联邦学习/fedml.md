@@ -77,6 +77,10 @@ fedml launch job.yaml
 
 - [https://doc.fedml.ai/](https://doc.fedml.ai/)
 
+## 最佳实践
+
+[[bp-fedml|fedml 生产环境最佳实践]]
+
 ## 所属维度
 
 [[联邦学习-MOC|AI基础设施/联邦学习]]

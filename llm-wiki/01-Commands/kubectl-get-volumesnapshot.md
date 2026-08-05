@@ -69,6 +69,10 @@ kubectl describe volumesnapshot db-backup-20260204 -n production
 
 > ⚠️ **LOW**: Read-only operation; shows backup snapshots
 
+## 最佳实践
+
+[[bp-kubectl-get-volumesnapshot|kubectl get volumesnapshot 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Storage Management-MOC|Kubernetes Storage Management]]

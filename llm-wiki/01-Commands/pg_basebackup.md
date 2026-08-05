@@ -65,6 +65,10 @@ pg_basebackup -D /backup/pg -Ft -z
 
 > ⚠️ **MEDIUM**: Requires replication privileges; backup may be large
 
+## 最佳实践
+
+[[bp-pg-basebackup|pg_basebackup 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Database-MOC|Database]]

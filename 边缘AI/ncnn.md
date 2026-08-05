@@ -77,6 +77,10 @@ ncnnoptimize model.param model.bin opt.param opt.bin 65536
 
 - [https://github.com/Tencent/ncnn](https://github.com/Tencent/ncnn)
 
+## 最佳实践
+
+[[bp-ncnn|ncnn 生产环境最佳实践]]
+
 ## 所属维度
 
 [[边缘AI-MOC|AI基础设施/边缘AI]]

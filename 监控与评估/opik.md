@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/monitoring.yaml"
+  "source_file": "tools/cmd/data/ai/monitoring.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python -c "import opik; opik.configure(use_local=True)"
 
 ## 关联命令
 
-- [[phoenix]]
-- [[langsmith]]
+- [[phoenix|phoenix]]
+- [[langsmith|langsmith]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python -c "import opik; opik.configure(use_local=True)"
 ## 参考链接
 
 - [https://www.comet.com/site/products/opik/](https://www.comet.com/site/products/opik/)
+
+## 最佳实践
+
+[[bp-opik|opik 生产环境最佳实践]]
 
 ## 所属维度
 

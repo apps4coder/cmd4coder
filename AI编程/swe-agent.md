@@ -21,7 +21,7 @@
   ],
   "cmd_risk_level": "critical",
   "created": "2026-05-31",
-  "source_file": "data/ai/ai-coding.yaml"
+  "source_file": "tools/cmd/data/ai/ai-coding.yaml"
 }
 ---
 
@@ -65,16 +65,22 @@ python run.py --model claude-3-5-sonnet --per_instance_cost_limit 2.00
 
 ## 关联命令
 
-- [[aider]]
-- [[openhands]]
+- [[aider|aider]]
+- [[openhands|openhands]]
 
 ## 风险提示
 
 > ⚠️ **CRITICAL**: 执行真实代码修改，需隔离环境
 
+> ⚠️ **CRITICAL**: AI 自动修改代码可能引入 Bug 或破坏构建，建议通过 Code Review 和 CI 后再合并。
+
 ## 参考链接
 
 - [https://github.com/princeton-nlp/SWE-agent](https://github.com/princeton-nlp/SWE-agent)
+
+## 最佳实践
+
+[[bp-swe-agent|swe-agent 生产环境最佳实践]]
 
 ## 所属维度
 

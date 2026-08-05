@@ -70,6 +70,12 @@ subctl join --kubeconfig cluster2.kubeconfig broker-info.subm
 
 > ⚠️ **HIGH**: 跨集群网络会打通多个集群，请确认 CIDR 不冲突
 
+> ⚠️ **HIGH**: 操作前请仔细阅读文档并确认参数，建议在测试环境或非生产数据上先行验证。
+
+## 最佳实践
+
+[[bp-subctl|subctl 生产环境最佳实践]]
+
 ## 所属维度
 
 [[云原生扩展二-MOC|容器编排/云原生扩展二]]

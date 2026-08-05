@@ -23,7 +23,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/agent-engineering.yaml"
+  "source_file": "tools/cmd/data/ai/agent-engineering.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python assistant.py --storage postgres --model claude-3-sonnet
 
 ## 关联命令
 
-- [[agno]]
-- [[langchain]]
+- [[agno|agno]]
+- [[langchain|langchain]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python assistant.py --storage postgres --model claude-3-sonnet
 ## 参考链接
 
 - [https://docs.phidata.com/](https://docs.phidata.com/)
+
+## 最佳实践
+
+[[bp-phidata|phidata 生产环境最佳实践]]
 
 ## 所属维度
 

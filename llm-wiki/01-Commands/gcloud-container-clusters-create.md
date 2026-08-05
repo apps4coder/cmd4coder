@@ -70,6 +70,12 @@ gcloud container clusters create dev-cluster --zone us-west1-b --enable-autoscal
 
 > ⚠️ **CRITICAL**: Creates billable GCP resources; incurs costs
 
+> ⚠️ **HIGH**: Cluster creation takes 10-15 minutes
+
+## 最佳实践
+
+[[bp-gcloud-container-clusters-create|gcloud container clusters create 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Cloud Platforms-MOC|Kubernetes Cloud Platforms]]

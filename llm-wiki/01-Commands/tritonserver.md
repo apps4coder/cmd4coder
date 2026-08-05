@@ -77,6 +77,10 @@ docker run --gpus all --rm -p 8000:8000 -p 8001:8001 -v $(pwd)/models:/models nv
 
 - [https://github.com/triton-inference-server/server](https://github.com/triton-inference-server/server)
 
+## 最佳实践
+
+[[bp-tritonserver|tritonserver 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型服务-MOC|AI基础设施/模型服务]]

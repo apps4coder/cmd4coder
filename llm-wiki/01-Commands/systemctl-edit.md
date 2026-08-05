@@ -71,6 +71,10 @@ systemctl edit --force myapp.service
 
 > ⚠️ **MEDIUM**: 错误配置可能导致服务无法启动
 
+## 最佳实践
+
+[[bp-systemctl-edit|systemctl edit 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Systemd服务管理-MOC|操作系统/Systemd服务管理]]

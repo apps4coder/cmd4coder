@@ -64,6 +64,12 @@ kubectl drain node-1 --ignore-daemonsets --delete-emptydir-data
 
 > ⚠️ **CRITICAL**: Evicts all pods from node; can cause service disruption if not properly planned
 
+> ⚠️ **HIGH**: May delete data from emptyDir volumes permanently
+
+## 最佳实践
+
+[[bp-kubectl-drain|kubectl drain 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Container Orchestration-MOC|Container Orchestration]]

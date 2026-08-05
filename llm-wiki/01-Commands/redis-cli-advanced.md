@@ -91,6 +91,10 @@ redis-cli INFO memory
 
 > ⚠️ **HIGH**: reshard 影响集群数据分布，FLUSHALL 清空所有数据
 
+## 最佳实践
+
+[[bp-redis-cli-advanced|redis-cli (advanced) 生产环境最佳实践]]
+
 ## 所属维度
 
 [[运维操作-MOC|数据库工具/运维操作]]

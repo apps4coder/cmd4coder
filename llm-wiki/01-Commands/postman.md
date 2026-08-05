@@ -56,6 +56,10 @@ newman run collection.json -e environment.json
 
 > ⚠️ **LOW**: API calls may modify data on target system
 
+## 最佳实践
+
+[[bp-postman|postman 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Network Tools-MOC|Network Tools]]

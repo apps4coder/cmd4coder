@@ -68,6 +68,10 @@ terraform init -backend-config=backend.hcl
 
 > ⚠️ **LOW**: Local initialization only; no infrastructure changes
 
+## 最佳实践
+
+[[bp-terraform-init|terraform init 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Config Management-MOC|Kubernetes Config Management]]

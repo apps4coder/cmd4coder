@@ -69,6 +69,10 @@ istioctl analyze -A --output json
 
 > ⚠️ **LOW**: Read-only analysis; identifies configuration issues
 
+## 最佳实践
+
+[[bp-istioctl-analyze|istioctl analyze 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Kubernetes Networking-MOC|Kubernetes Networking]]

@@ -86,6 +86,10 @@ accelerate launch --config_file config.yaml train.py
 
 - [https://huggingface.co/docs/accelerate](https://huggingface.co/docs/accelerate)
 
+## 最佳实践
+
+[[bp-accelerate-config|accelerate-config 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型架构-MOC|AI基础设施/模型架构]]

@@ -64,6 +64,10 @@ bridge fdb show
 
 > ⚠️ **MEDIUM**: 桥接配置错误会导致二层网络异常
 
+## 最佳实践
+
+[[bp-bridge|bridge 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Linux核心-MOC|操作系统/Linux核心]]

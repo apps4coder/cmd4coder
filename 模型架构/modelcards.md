@@ -22,7 +22,7 @@
   ],
   "cmd_risk_level": "low",
   "created": "2026-05-31",
-  "source_file": "data/ai/model-architecture.yaml"
+  "source_file": "tools/cmd/data/ai/model-architecture.yaml"
 }
 ---
 
@@ -66,8 +66,8 @@ python -c "from modelcards import ModelCard; card = ModelCard.from_template(); c
 
 ## 关联命令
 
-- [[huggingface-cli]]
-- [[transformers-cli]]
+- [[huggingface-cli|huggingface-cli]]
+- [[transformers-cli|transformers-cli]]
 
 ## 风险提示
 
@@ -76,6 +76,10 @@ python -c "from modelcards import ModelCard; card = ModelCard.from_template(); c
 ## 参考链接
 
 - [https://github.com/huggingface/modelcards](https://github.com/huggingface/modelcards)
+
+## 最佳实践
+
+[[bp-modelcards|modelcards 生产环境最佳实践]]
 
 ## 所属维度
 

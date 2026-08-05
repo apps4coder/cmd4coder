@@ -64,6 +64,10 @@ sudo haproxy -f /etc/haproxy/haproxy.cfg
 
 > ⚠️ **MEDIUM**: 负载均衡配置错误会导致流量异常，修改后请检查
 
+## 最佳实践
+
+[[bp-haproxy|haproxy 生产环境最佳实践]]
+
 ## 所属维度
 
 [[基础设施-MOC|网络工具/基础设施]]

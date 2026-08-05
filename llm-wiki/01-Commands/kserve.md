@@ -82,6 +82,10 @@ kubectl get inferenceservices
 
 - [https://kserve.github.io/website/](https://kserve.github.io/website/)
 
+## 最佳实践
+
+[[bp-kserve|kserve 生产环境最佳实践]]
+
 ## 所属维度
 
 [[模型服务-MOC|AI基础设施/模型服务]]

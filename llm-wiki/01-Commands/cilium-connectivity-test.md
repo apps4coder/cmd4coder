@@ -13,7 +13,7 @@
     "intermediate",
     "linux"
   ],
-  "cmd_risk_level": "low",
+  "cmd_risk_level": "medium",
   "created": "2026-05-31",
   "source_file": "tools/cmd/data/container/k8s/k8s-network.yaml"
 }
@@ -58,6 +58,12 @@ cilium connectivity test --namespace test
 ## 风险提示
 
 > ⚠️ **LOW**: Creates temporary test pods; cleaned up after test
+
+> ⚠️ **MEDIUM**: May consume cluster resources during test
+
+## 最佳实践
+
+[[bp-cilium-connectivity-test|cilium connectivity test 生产环境最佳实践]]
 
 ## 所属维度
 

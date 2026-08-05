@@ -87,6 +87,10 @@ java -Dspring.profiles.active=prod -jar app.jar
 
 - [https://docs.oracle.com/en/java/javase/](https://docs.oracle.com/en/java/javase/)
 
+## 最佳实践
+
+[[bp-java|java 生产环境最佳实践]]
+
 ## 所属维度
 
 [[Java工具链-MOC|编程语言/Java工具链]]

@@ -519,3 +519,6 @@ commands:
   risks:
   - level: low
     description: 只读/信息查询类命令，风险较低，但仍需确认目标对象。
+  references:
+  - https://www.meilisearch.com/docs
+  - https://github.com/meilisearch/meilisearch
