@@ -1,6 +1,6 @@
 version: "1.9.0"
-updated_at: "2026-07-19"
-description: "cmd4coder 命令行工具大全数据文件 - 覆盖 123 个分类, 1238 命令"
+updated_at: "2026-08-28"
+description: "cmd4coder 命令行工具大全数据文件 - 覆盖 128 个分类, 1278 命令"
 
 categories:
   os_ubuntu:
@@ -183,6 +183,12 @@ categories:
     description: "Helm 包管理增强命令"
     parent: ""
     order: 57
+  container_k8s_ai_inference:
+    id: container_k8s_ai_inference
+    name: "容器编排/K8s推理调度"
+    description: "LLM推理场景的K8s调度与基础设施组件（Volcano、Kueue、GPU Operator、Knative、KEDA）"
+    parent: ""
+    order: 58
   database_mysql:
     id: database_mysql
     name: "数据库工具/MySQL工具"
@@ -824,6 +830,7 @@ data_files:
 - container/docker/container-alternatives.yaml
 - container/docker/docker-advanced.yaml
 - container/docker/docker.yaml
+- container/k8s/k8s-ai-inference.yaml
 - container/k8s/k8s-backup.yaml
 - container/k8s/k8s-cicd.yaml
 - container/k8s/k8s-cloud.yaml

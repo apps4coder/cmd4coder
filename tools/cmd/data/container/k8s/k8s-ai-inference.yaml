@@ -1,0 +1,464 @@
+category: 容器编排/K8s推理调度
+description: LLM 推理场景的 Kubernetes 调度与基础设施组件（批调度、队列配额、GPU 运维、Serverless 底座、弹性伸缩）
+commands:
+- name: vcctl job list
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: Volcano 批调度系统作业列表，查看 gang scheduling 作业状态
+  usage:
+  - vcctl job list [flags]
+  options:
+  - flag: --namespace
+    description: 指定命名空间
+  - flag: -o, --output
+    description: 输出格式
+  examples:
+  - command: vcctl job list
+    description: 列出当前命名空间的 Volcano 作业
+  - command: vcctl job list --namespace training
+    description: 查看 training 命名空间的作业
+  platforms:
+  - linux
+  - darwin
+  related_commands:
+  - vcctl job run
+  - kubectl get pytorchjobs
+  install_method: 参考 https://volcano.sh 安装 vcctl，或 helm install volcano-system volcengine/volcano
+  risks:
+  - level: low
+    description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://volcano.sh/en/docs/
+  - https://github.com/volcano-sh/volcano
+  version_check: vcctl --version
+
+- name: vcctl job run
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: 提交并启动 Volcano 作业，支持 gang scheduling 整组调度与队列配额
+  usage:
+  - vcctl job run --name <job> --min-available <n> --replicas <n> --image <image> -- <cmd>
+  options:
+  - flag: --min-available
+    description: 整组调度的最小可用副本数（gang scheduling 关键参数）
+  - flag: --replicas
+    description: 任务副本数
+  - flag: --scheduling-policy
+    description: 调度策略，如 gang、proportion
+  examples:
+  - command: vcctl job run --name vllm-serve --min-available 2 --replicas 2 --image vllm/vllm-openai -- sh -c "bash /vllm-workspace/start.sh"
+    description: 以 gang scheduling 提交 2 副本 vLLM 推理作业
+  platforms:
+  - linux
+  - darwin
+  related_commands:
+  - vcctl job list
+  - kubectl get pytorchjobs
+  install_method: 参考 https://volcano.sh 安装 vcctl
+  risks:
+  - level: medium
+    description: 会修改系统或应用状态，建议在测试环境验证后再应用于生产。
+  references:
+  - https://volcano.sh/en/docs/job.html
+  - https://github.com/volcano-sh/volcano
+
+- name: kubectl get clusterqueue
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: Kueue 集群队列查询，查看 GPU/算力资源池配额与借用关系
+  usage:
+  - kubectl get clusterqueue [flags]
+  options:
+  - flag: -o wide
+    description: 显示 cohorts 与配额明细
+  - flag: -o yaml
+    description: 输出完整队列定义
+  examples:
+  - command: kubectl get clusterqueue
+    description: 列出全部集群队列
+  - command: kubectl get clusterqueue gpu-pool -o yaml
+    description: 查看 GPU 资源池的配额定义
+  platforms:
+  - linux
+  - darwin
+  related_commands:
+  - kubectl get localqueue
+  - kubectl get workloads
+  install_method: kubectl apply -f https://github.com/kubernetes-sigs/kueue/releases/latest/download/manifests.yaml
+  risks:
+  - level: low
+    description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://kueue.sigs.k8s.io/docs/
+  - https://github.com/kubernetes-sigs/kueue
+  version_check: kubectl api-resources | grep kueue
+
+- name: kubectl get localqueue
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: Kueue 命名空间队列查询，查看团队/命名空间可用的算力额度
+  usage:
+  - kubectl get localqueue [flags]
+  examples:
+  - command: kubectl get localqueue -n training
+    description: 查看 training 命名空间的队列与已用额度
+  platforms:
+  - linux
+  - darwin
+  related_commands:
+  - kubectl get clusterqueue
+  - kubectl get workloads
+  install_method: 需要 Kueue CRDs 已安装
+  risks:
+  - level: low
+    description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://kueue.sigs.k8s.io/docs/tasks/
+  version_check: kubectl api-resources | grep localqueue
+
+- name: kubectl get workloads
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: Kueue Workload 查询，查看作业排队、准入（admission）与抢占状态
+  usage:
+  - kubectl get workloads [flags]
+  options:
+  - flag: -l kueue.x-k8s.io/queue-name=<q>
+    description: 按队列过滤
+  examples:
+  - command: kubectl get workloads -n training
+    description: 查看命名空间内作业的排队与准入状态
+  - command: kubectl describe workload <name>
+    description: 查看作业为何处于 Pending/Admitted 状态
+  platforms:
+  - linux
+  - darwin
+  related_commands:
+  - kubectl get clusterqueue
+  - kubectl get localqueue
+  install_method: 需要 Kueue CRDs 已安装
+  risks:
+  - level: low
+    description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://kueue.sigs.k8s.io/docs/concepts/workload/
+  version_check: kubectl api-resources | grep workload
+
+- name: helm install gpu-operator
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: 部署 NVIDIA GPU Operator，自动管理节点驱动、k8s-device-plugin、DCGM Exporter 与 GPU 特性发现
+  usage:
+  - helm install <release> nvidia/gpu-operator -n gpu-operator --create-namespace [flags]
+  options:
+  - flag: --set driver.enabled=true
+    description: 由 Operator 托管节点驱动安装
+  - flag: --set toolkit.enabled=true
+    description: 启用 NVIDIA Container Toolkit
+  - flag: --set dcgmExporter.enabled=true
+    description: 启用 DCGM 监控指标导出
+  examples:
+  - command: helm install gpu-operator nvidia/gpu-operator -n gpu-operator --create-namespace --set driver.enabled=true
+    description: 完整部署 GPU Operator 并托管驱动
+  - command: helm upgrade gpu-operator nvidia/gpu-operator -n gpu-operator --reuse-values
+    description: 升级 GPU Operator 配置
+  platforms:
+  - linux
+  - darwin
+  related_commands:
+  - kubectl get pods -n gpu-operator
+  - dcgm-exporter
+  - nvidia-device-plugin
+  install_method: helm repo add nvidia https://nvidia.github.io/gpu-operator && helm repo update
+  risks:
+  - level: medium
+    description: 会修改系统或应用状态，建议在测试环境验证后再应用于生产。
+  references:
+  - https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/latest/
+  - https://github.com/NVIDIA/gpu-operator
+  version_check: helm list -n gpu-operator
+
+- name: kubectl get pods -n gpu-operator
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: 查看 GPU Operator 组件运行状态（驱动 DaemonSet、device-plugin、DCGM Exporter）
+  usage:
+  - kubectl get pods -n gpu-operator [flags]
+  examples:
+  - command: kubectl get pods -n gpu-operator
+    description: 确认 GPU Operator 全部组件 Ready
+  - command: kubectl logs -n gpu-operator -l app=nvidia-device-plugin-daemonset --tail=100
+    description: 排查 device-plugin 注册失败问题
+  platforms:
+  - linux
+  - darwin
+  related_commands:
+  - helm install gpu-operator
+  - kubectl describe node
+  install_method: 需要 GPU Operator 已部署
+  risks:
+  - level: low
+    description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/latest/troubleshooting.html
+
+- name: kubectl describe node
+  category: 容器编排/K8s推理调度
+  install_required: false
+  description: 检查节点 GPU 资源上报，确认 Allocatable 中 nvidia.com/gpu 数量
+  usage:
+  - kubectl describe node <node-name> [flags]
+  examples:
+  - command: kubectl describe node gpu-node-1 | grep -A 5 "nvidia.com/gpu"
+    description: 确认节点 GPU 资源已注册且未被超卖
+  - command: kubectl get nodes '-o' 'custom-columns=NAME:.metadata.name,GPU:.status.allocatable.nvidia\.com/gpu'
+    description: 批量查看各节点可分配 GPU 数
+  platforms:
+  - linux
+  - darwin
+  related_commands:
+  - kubectl get pods -n gpu-operator
+  - nvidia-smi
+  install_method: kubectl 自带
+  risks:
+  - level: low
+    description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://kubernetes.io/docs/reference/kubectl/generated/kubectl_describe/
+
+- name: nvidia-device-plugin
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: NVIDIA k8s-device-plugin，将节点 GPU 以 nvidia.com/gpu 资源暴露给调度器，支持时间分片与 MIG
+  usage:
+  - kubectl apply -f nvidia-device-plugin.yml
+  - helm install nvdp nvdp/nvidia-device-plugin
+  options:
+  - flag: compatWithCPUManager=true
+    description: 与 CPU Manager 共存模式
+  examples:
+  - command: kubectl apply -f https://raw.githubusercontent.com/NVIDIA/k8s-device-plugin/v0.16.2/deployments/static/nvidia-device-plugin.yml
+    description: 静态 DaemonSet 方式部署 device-plugin
+  - command: kubectl get pods -A | grep nvidia-device-plugin
+    description: 确认各 GPU 节点插件 Pod 运行正常
+  platforms:
+  - linux
+  related_commands:
+  - helm install gpu-operator
+  - kubectl describe node
+  install_method: kubectl apply 静态清单或 helm repo add nvdp https://nvidia.github.io/k8s-device-plugin
+  risks:
+  - level: medium
+    description: 会修改系统或应用状态，建议在测试环境验证后再应用于生产。
+  references:
+  - https://github.com/NVIDIA/k8s-device-plugin
+  version_check: kubectl get ds -A | grep nvidia-device-plugin
+
+- name: dcgm-exporter
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: NVIDIA DCGM GPU 指标导出器，输出利用率、显存、温度、XID 错误等 Prometheus 指标
+  usage:
+  - helm install dcgm-exporter nvidia/dcgm-exporter -n gpu-operator [flags]
+  - kubectl port-forward svc/<release>-dcgm-exporter 9400:9400
+  examples:
+  - command: kubectl port-forward svc/dcgm-exporter 9400:9400 && curl -s localhost:9400/metrics | grep DCGM_FI_DEV_GPU_UTIL
+    description: 本地验证 GPU 利用率指标输出
+  - command: helm install dcgm-exporter nvidia/dcgm-exporter --set serviceMonitor.enabled=true
+    description: 部署并创建 ServiceMonitor 接入 Prometheus
+  platforms:
+  - linux
+  related_commands:
+  - helm install gpu-operator
+  - prometheus
+  install_method: helm repo add nvidia https://nvidia.github.io/dcgm-exporter/helm-charts 或随 GPU Operator 启用
+  risks:
+  - level: medium
+    description: 会修改系统或应用状态，建议在测试环境验证后再应用于生产。
+  references:
+  - https://github.com/NVIDIA/dcgm-exporter
+  - https://docs.nvidia.com/datacenter/dcgm/latest/user-guide/command-line-ref.html
+
+- name: helm install knative-serving
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: 部署 Knative Serving，KServe serverless 模式的底层依赖（自动扩缩容 KPA、Revision、流量灰度）
+  usage:
+  - helm install knative-serving knative-serving/serving -n knative-serving --create-namespace
+  - kubectl apply -f https://github.com/knative/serving/releases/latest/download/serving-crds.yaml
+  examples:
+  - command: kubectl apply -f serving-crds.yaml && kubectl apply -f serving-core.yaml
+    description: 以官方 YAML 安装 Knative Serving 核心
+  - command: kubectl get pods -n knative-serving
+    description: 确认 controller、activator、autoscaler 组件就绪
+  platforms:
+  - linux
+  - darwin
+  related_commands:
+  - kn service create
+  - kserve
+  install_method: knative operator 或官方 YAML，参见 https://knative.dev/docs/install/
+  risks:
+  - level: medium
+    description: 会修改系统或应用状态，建议在测试环境验证后再应用于生产。
+  references:
+  - https://knative.dev/docs/serving/
+  - https://kserve.github.io/website/latest/admin/serverless/
+
+- name: kn service create
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: Knative CLI 创建 Serverless 服务，按请求自动扩缩容至零，适合低频推理服务
+  usage:
+  - kn service create <name> --image <image> [flags]
+  options:
+  - flag: --scale-min / --scale-max
+    description: 最小/最大副本数，支持缩容到 0
+  - flag: --concurrency-target
+    description: 单副本并发目标，触发弹性伸缩
+  examples:
+  - command: kn service create llm-api --image ghcr.io/example/llm-server:latest --scale-min 1 --scale-max 5 --port 8000
+    description: 创建带弹性伸缩的推理服务
+  platforms:
+  - linux
+  - darwin
+  related_commands:
+  - kn service list
+  - helm install knative-serving
+  install_method: brew install knative/client/kn
+  risks:
+  - level: medium
+    description: 会修改系统或应用状态，建议在测试环境验证后再应用于生产。
+  references:
+  - https://knative.dev/docs/client/kn-commands/
+  version_check: kn version
+
+- name: kn service list
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: 列出 Knative 服务及其访问 URL、就绪状态与流量配置
+  usage:
+  - kn service list [flags]
+  examples:
+  - command: kn service list
+    description: 查看全部 Serverless 服务的 URL 与状态
+  - command: kn revision list -s llm-api
+    description: 查看服务的 Revision 历史与流量分配
+  platforms:
+  - linux
+  - darwin
+  related_commands:
+  - kn service create
+  install_method: brew install knative/client/kn
+  risks:
+  - level: low
+    description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://knative.dev/docs/client/kn-basic-commands/
+
+- name: helm install keda
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: 部署 KEDA 事件驱动自动伸缩器，支持按 Kafka 堆积、队列长度等指标伸缩推理负载
+  usage:
+  - helm install keda kedacore/keda -n keda --create-namespace
+  examples:
+  - command: helm repo add kedacore https://kedacore.github.io/charts && helm install keda kedacore/keda -n keda --create-namespace
+    description: 安装 KEDA 操作器与指标适配器
+  - command: kubectl get pods -n keda
+    description: 确认 operator 与 metrics-apiserver 就绪
+  platforms:
+  - linux
+  - darwin
+  related_commands:
+  - kubectl get scaledobjects
+  install_method: helm repo add kedacore https://kedacore.github.io/charts
+  risks:
+  - level: medium
+    description: 会修改系统或应用状态，建议在测试环境验证后再应用于生产。
+  references:
+  - https://keda.sh/docs/latest/deploy/
+  version_check: kubectl get pods -n keda
+
+- name: kubectl get scaledobjects
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: 查看 KEDA ScaledObject 弹性伸缩配置，确认触发器类型、目标副本与当前激活状态
+  usage:
+  - kubectl get scaledobjects [flags]
+  - kubectl get so [flags]
+  examples:
+  - command: kubectl get so
+    description: 列出全部弹性伸缩对象
+  - command: kubectl describe so vllm-scaler
+    description: 查看触发器指标与伸缩策略细节
+  platforms:
+  - linux
+  - darwin
+  related_commands:
+  - helm install keda
+  install_method: 需要 KEDA CRDs 已安装
+  risks:
+  - level: low
+    description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://keda.sh/docs/latest/concepts/scaling-deployments/
+
+- name: kubectl get lws
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: LeaderWorkerSet 拓扑查询，管理 vLLM 多副本 Leader-Worker 分组部署（如 PD 分离、张量并行组）
+  usage:
+  - kubectl get lws [flags]
+  - kubectl get lws <name> -o yaml
+  examples:
+  - command: kubectl get lws -n inference
+    description: 查看 Leader-Worker 分组的副本就绪状态
+  - command: kubectl get pods -l lws.aibrix.ai/name=<lws-name>
+    description: 列出某 LWS 分组下的 Leader 与 Worker Pod
+  platforms:
+  - linux
+  - darwin
+  related_commands:
+  - vllm
+  - kubectl get inferenceservices
+  install_method: kubectl apply --server-side -f https://github.com/kubernetes-sigs/lws/releases/latest/download/manifests.yaml
+  risks:
+  - level: low
+    description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://lws.sigs.k8s.io/
+  - https://github.com/kubernetes-sigs/lws
+  version_check: kubectl api-resources | grep leaderworker
+
+- name: aigw
+  category: 容器编排/K8s推理调度
+  install_required: true
+  description: Envoy AI Gateway CLI，为 LLM 推理流量提供网关路由、鉴权与 token 级限流控制面
+  usage:
+  - aigw run [flags]
+  - aigw check <config> [flags]
+  options:
+  - flag: run
+    description: 本地启动 AI Gateway 控制面（调试模式）
+  - flag: check
+    description: 校验 AIGatewayRoute/ AIService 等配置文件
+  examples:
+  - command: aigw check gateway.yaml
+    description: 校验 AI Gateway 路由配置
+  - command: aigw run
+    description: 本地运行控制面联调 OpenAI 兼容路由
+  platforms:
+  - linux
+  - darwin
+  related_commands:
+  - kubectl get gateway
+  - istioctl
+  install_method: 参考 https://aigateway.envoyproxy.io 安装 aigw CLI 与 Envoy Gateway
+  risks:
+  - level: low
+    description: 命令风险较低，执行前请阅读文档并确认参数。
+  references:
+  - https://aigateway.envoyproxy.io/
+  - https://github.com/envoyproxy/ai-gateway
+  version_check: aigw version
