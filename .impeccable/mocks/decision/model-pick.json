@@ -1,0 +1,7 @@
+{
+  "file": "model-pick.png",
+  "tool": "harness-native ImageGen",
+  "role": "decision-comp",
+  "approved": false,
+  "promptFile": "model-pick-prompt.txt"
+}

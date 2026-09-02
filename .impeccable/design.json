@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-31T15:05:00+08:00",
+  "title": "Design System: 命令行语料数据库 · 语料星座图谱",
+  "extensions": {
+    "colorMeta": {
+      "amber": { "role": "primary", "displayName": "琥珀金", "canonical": "#d09b43", "tonalRamp": ["#2a1e0d", "#4a3517", "#6b4d21", "#8c652b", "#ad7d35", "#d09b43", "#e2b76e", "#f3d8a8"] },
+      "amber-bright": { "role": "primary", "displayName": "亮琥珀", "canonical": "#e8b96a", "tonalRamp": ["#3a2c14", "#5c4520", "#7e5e2d", "#a0773a", "#c49150", "#e8b96a", "#f0cd93", "#f9e3bf"] },
+      "ink-0": { "role": "neutral", "displayName": "深墨零", "canonical": "#050d1c", "tonalRamp": ["#050d1c", "#0a1424", "#101d33", "#1a2a45", "#28395a", "#3c507a", "#5a709c", "#8296b8"] },
+      "cream": { "role": "neutral", "displayName": "米纸", "canonical": "#eddfc5", "tonalRamp": ["#3d3526", "#5c5138", "#7c6d4d", "#9c8a64", "#bda87c", "#d6c5a1", "#eddfc5", "#f7eedd"] },
+      "ink-on-cream": { "role": "neutral", "displayName": "墨字", "canonical": "#071322", "tonalRamp": ["#071322", "#16263c", "#2a3c55", "#3d4a5c", "#5a6a80", "#7d8ba0", "#a5b0c0", "#d0d7e0"] },
+      "text-2": { "role": "neutral", "displayName": "暖沙", "canonical": "#cbb391", "tonalRamp": ["#332c1e", "#4d4330", "#685b43", "#84745a", "#a39070", "#cbb391", "#ddcbab", "#efe3cd"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "纸卡上的命令名（Spectral 承拉丁，Noto Serif SC 承中文）。" },
+      "numeral": { "displayName": "Numeral", "purpose": "统计带大数字，永远 tabular-nums + 琥珀。" },
+      "label": { "displayName": "Label", "purpose": "图例、单位、步骤注释，宽字距小号。" }
+    },
+    "shadows": [
+      { "name": "amber-ambient", "value": "0 6px 24px -8px rgba(208, 155, 67, 0.55)", "purpose": "主按钮唯一的环境光晕；全站不允许第二种阴影。" },
+      { "name": "node-glow", "value": "drop-shadow(0 0 5px rgba(232, 185, 106, 0.9))", "purpose": "SVG 星宿节点与命中态的辉光，仅存在于星图内部。" }
+    ],
+    "motion": [
+      { "name": "ease-out-expo", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "入场、按钮、状态过渡的统一缓动。" },
+      { "name": "drift", "value": "translate(-4px,2px)→(5px,-4px) 90s linear infinite alternate", "purpose": "星图整体慢漂；prefers-reduced-motion 下关闭。" },
+      { "name": "search-dim", "value": "opacity .45s", "purpose": "搜索即点亮的压暗/复明过渡。" }
+    ],
+    "breakpoints": [
+      { "name": "stack", "value": "1080px" },
+      { "name": "compact", "value": "720px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "琥珀胶囊主按钮：克隆语料库等主动作。",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\"><svg viewBox=\"0 0 24 24\"><path d=\"M6 3h8l4 4v14H6Z\"/></svg>克隆语料库</a>",
+      "css": ".ds-btn-primary { display:inline-flex; align-items:center; gap:10px; background:#d09b43; color:#050d1c; font:500 15.5px/1 'Noto Sans SC','PingFang SC',sans-serif; letter-spacing:.06em; text-decoration:none; border-radius:999px; padding:13px 28px; box-shadow:0 6px 24px -8px rgba(208,155,67,.55); transition:transform .25s cubic-bezier(.16,1,.3,1), background .25s; } .ds-btn-primary:hover { background:#e8b96a; transform:translateY(-1px); } .ds-btn-primary svg { width:18px; height:18px; fill:currentColor; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "发丝线描边次按钮：命令搜索等次动作。",
+      "html": "<a class=\"ds-btn-ghost\" href=\"#\">命令搜索 <svg viewBox=\"0 0 20 20\"><circle cx=\"9\" cy=\"9\" r=\"5.5\"/><path d=\"m13.2 13.2 3.8 3.8\"/></svg></a>",
+      "css": ".ds-btn-ghost { display:inline-flex; align-items:center; gap:10px; background:transparent; color:#eddfc5; font:400 15.5px/1 'Noto Sans SC','PingFang SC',sans-serif; letter-spacing:.06em; text-decoration:none; border:1px solid rgba(233,200,138,.16); border-radius:999px; padding:13px 28px; transition:border-color .25s,color .25s; } .ds-btn-ghost:hover { border-color:#d09b43; color:#e8b96a; } .ds-btn-ghost svg { width:16px; height:16px; fill:none; stroke:currentColor; stroke-width:1.6; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "description": "星图检索框：发丝线胶囊 + 线稿放大镜，等宽占位。",
+      "html": "<label class=\"ds-search\"><svg viewBox=\"0 0 20 20\"><circle cx=\"9\" cy=\"9\" r=\"5.5\"/><path d=\"m13.2 13.2 3.8 3.8\"/></svg><input placeholder=\"搜索命令：deepspeed…\"></label>",
+      "css": ".ds-search { display:flex; align-items:center; gap:10px; background:rgba(16,29,51,.72); border:1px solid rgba(233,200,138,.16); border-radius:999px; padding:10px 16px; } .ds-search svg { width:16px; height:16px; fill:none; stroke:#d09b43; stroke-width:1.5; flex:none; } .ds-search input { background:none; border:0; outline:0; color:#eddfc5; font:400 14px 'JetBrains Mono',Menlo,monospace; width:100%; } .ds-search input::placeholder { color:#cbb391; } .ds-search:focus-within { border-color:#d09b43; }"
+    },
+    {
+      "name": "Code Chip",
+      "kind": "custom",
+      "description": "行内命令/路径标记：等宽 + 琥珀 + 半透明琥珀底。",
+      "html": "<code class=\"ds-code\">cmd4coder build</code>",
+      "css": ".ds-code { font-family:'JetBrains Mono',Menlo,monospace; font-size:.86em; color:#e8b96a; background:rgba(208,155,67,.16); padding:.1em .4em; border-radius:3px; }"
+    },
+    {
+      "name": "Folio Stamp",
+      "kind": "custom",
+      "description": "米纸卡骑缝章：1.6px 圆环 + 手绘 SVG 图形，微旋。",
+      "html": "<span class=\"ds-stamp\"><svg viewBox=\"0 0 24 24\"><path d=\"M12 3 2.5 20h19Z\"/></svg></span>",
+      "css": ".ds-stamp { display:grid; place-items:center; width:52px; height:52px; flex:none; border:1.6px solid currentColor; border-radius:50%; color:#a2591f; transform:rotate(-8deg); } .ds-stamp svg { width:24px; height:24px; fill:none; stroke:currentColor; stroke-width:1.5; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "语料星座图谱",
+    "overview": "页面本身是语料库的活星图：深墨蓝星野承载真实数据的星座，琥珀金是光，米纸索引卡是档案馆的温度。左图谱证规模，右米纸卡证质量，并置构成双重证词。深色不是氛围滤镜而是天文台，浅色不是留白而是档案纸。",
+    "keyCharacteristics": [
+      "深墨星野上只允许琥珀色发光",
+      "米纸索引卡承载实物隐喻：打孔边、回形针、圆形骑缝章",
+      "1px 琥珀发丝线是唯一结构线语言",
+      "数据永远等宽 + tabular-nums",
+      "单一作者动效：搜索即点亮"
+    ],
+    "rules": [
+      { "name": "The Hairline Rule", "body": "所有结构线恒为 1px、恒带琥珀色温，永不使用纯灰或超过 1px 的分隔线。", "section": "colors" },
+      { "name": "The No-Gray Rule", "body": "次级文字从主色调出（深底 #cbb391、纸上 #3d4a5c），禁止引入无彩灰。", "section": "colors" },
+      { "name": "The Tabular Amber Rule", "body": "一切数字与等宽数据使用 JetBrains Mono + tabular-nums，大数字以琥珀呈现。", "section": "colors" },
+      { "name": "The Mono-for-Data Rule", "body": "等宽字体只用于代码、命令、路径与测量数字，绝不作为技术感戏服。", "section": "typography" }
+    ],
+    "dos": [
+      "Do 用 1px 琥珀发丝线画一切结构线。",
+      "Do 让数据永远是 JetBrains Mono + tabular-nums，大数字用琥珀。",
+      "Do 每一条对外数字、命令名、引文都取自真实语料文件。"
+    ],
+    "donts": [
+      "Don't 引入无彩灰或第二色相。",
+      "Don't 用超过 1px 的分隔线、彩色左边条、零偏移光晕或硬偏移块影。",
+      "Don't 在标题上方加 kicker/eyebrow 小标签。",
+      "Don't 用 emoji 或 Unicode 字形充当图标。",
+      "Don't 编造数据：星图与纸卡上的每个数字都必须能指回真实文件。"
+    ]
+  }
+}

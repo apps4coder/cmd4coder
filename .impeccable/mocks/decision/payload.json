@@ -1,0 +1,43 @@
+{
+  "title": "GTM 落地页 · 选择视觉世界",
+  "question": "这一轮骰子发牌（降级轮，无挑战者）。保留发牌方向、选备选、或重新发牌。",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "生产排障运行手册",
+      "kicker": "THE ROLL",
+      "lineage": "航空与 SRE 塑封检查单、高危警示色系统",
+      "thesis": "把语料库放进它真正的用武之地：一页可执行的生产排障运行手册，每条命令卡都带着它的风险章和最佳实践章。",
+      "palette": ["#f4f1e8", "#16181d", "#e8530e", "#1f7a3d", "#b3261e"],
+      "materials": ["塑封卡纸纹理", "DIN 风压缩无衬线", "印章式状态章", "2px 硬分栏线"],
+      "viewport": "全幅一页运行手册：顶部排障单头（场景 + 状态章），中部四步检查清单每步嵌一条真实命令卡（含风险等级章），右栏语料库存计数，底部「克隆语料库」主动作。",
+      "risk": "运行手册气质偏工具页，说服性要靠真实场景文案扛住；风险色用多会显嘈杂。",
+      "comp": ".impeccable/mocks/decision/assigned.png"
+    },
+    {
+      "id": "model-pick",
+      "label": "语料星座图谱",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Obsidian 图谱视图 + 深空星图制图",
+      "thesis": "页面本身就是语料库的活图谱：100 个领域星座与双向连线全屏展开，搜索即点亮路径。",
+      "palette": ["#0d1330", "#e8b44a", "#f5ead0", "#3d4a8c"],
+      "materials": ["深墨底", "琥珀金节点", "发丝连线", "小字距领域标签"],
+      "viewport": "全屏星座图：100 领域节点簇，「大模型训练」簇正在聚焦展开（deepspeed / accelerate / torchrun 带 bp 卫星标签），左上搜索框，右侧统计栏，左下主行动。",
+      "risk": "深底+金色接近常见暗色霓虹俗套，节点数据必须来自真实语料否则是空壳演示；本类项目最常见的落点之一。",
+      "comp": ".impeccable/mocks/decision/model-pick.png"
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "buildPath": { "value": "comp", "toggle": true },
+  "canon": true,
+  "canonCard": {
+    "label": "品类标准：开发者落地页",
+    "thesis": "深色英雄区 + 居中标题 + 双按钮 + 代码块 + 特性卡片网格，开发者工具类落地页的经典排布，以最高工艺执行。",
+    "palette": ["#0b0f19", "#111827", "#2563eb", "#ffffff"],
+    "materials": ["干净网格", "渐变光晕", "代码截图"],
+    "viewport": "居中英雄区：H1「命令行语料数据库」，副标题，GitHub / 开始使用双按钮，下方终端代码块，特性三卡。",
+    "risk": "与同类产品页在视觉上没有差别；这是安全的地板，也是天花板。",
+    "comp": ".impeccable/mocks/decision/canon.png"
+  },
+  "steer": true
+}

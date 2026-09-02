@@ -1,0 +1,9 @@
+{
+  "file": "comp-c.png",
+  "tool": "harness-native ImageGen",
+  "role": "approved-comp",
+  "approved": true,
+  "approvedAt": "2026-08-31",
+  "approval": "构图三 · 图谱×语料卡双栏（structured-question re-presentation after decision-page exit 4）",
+  "promptFile": "comp-c-prompt.txt"
+}
