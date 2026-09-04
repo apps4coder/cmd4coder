@@ -51,5 +51,8 @@ tools/cmd/coverage_reports/
 scripts/__pycache__/
 tools/cmd/scripts/__pycache__/
 
+# Meoo per-directory project binding
+GTM/.env
+
 # Obsidian Wiki local repo
 .obsidian-wiki-repo/
